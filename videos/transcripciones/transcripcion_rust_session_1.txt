@@ -1,0 +1,1769 @@
+# Transcripción: Session 1 - Rust Basics #1
+
+URL: https://www.youtube.com/watch?v=xeeDlL8thPw
+
+
+[0:00:08] Jim Jim.
+[0:00:19] All right.
+[0:00:22] So.
+[0:00:27] Ah, could you hear me well? All good?
+[0:00:29] Yes, hi.
+[0:00:32] Feel free to put where are you coming
+[0:00:34] from?
+[0:01:08] Nice.
+[0:01:12] So.
+[0:01:13] I'm just going to talk like
+[0:01:16] 5 minutes in English and then after
+[0:01:18] everything is in Spanish. No worries.
+[0:01:21] [risas]
+[0:01:23] [resoplido]
+[0:01:23] I know.
+[0:01:25] What's the right word? Yeah.
+[0:01:27] It's too much.
+[0:01:30] Um, so yeah, we going to wait just like
+[0:01:33] 2 minutes.
+[0:01:38] Who is the teacher today? Fabián or
+[0:01:40] Santiago?
+[0:01:42] Eh, Santiago.
+[0:01:42] Santi.
+[0:01:44] Yeah.
+[0:01:45] All right.
+[0:01:48] I think like around 50 people register
+[0:01:51] for the boot camp in Spanish.
+[0:01:54] Yes.
+[0:01:59] Tuk tuk tuk.
+[0:02:07] Have you received like oh no, I need let
+[0:02:10] me check one thing.
+[0:02:12] Can
+[0:02:13] check here.
+[0:02:17] Yes, you received an email.
+[0:02:22] Okay, all good. All right, so let me
+[0:02:24] share my screen. Um
+[0:02:27] briefly briefly uh just present the boot
+[0:02:30] camp um
+[0:02:33] the goals and everything.
+[0:02:35] Tac tac tac. So
+[0:02:39] ah boom.
+[0:02:42] Tu parles français aussi.
+[0:02:46] Si besoin.
+[0:02:48] Um
+[0:02:51] Okay.
+[0:02:52] So
+[0:02:53] ah basically
+[0:02:55] the boot camp
+[0:02:57] is coming before
+[0:03:01] the hackathon. So at the end of the boot
+[0:03:03] camp you will have a hackathon um that
+[0:03:05] you can participate into. Ah we set up
+[0:03:08] local
+[0:03:09] track ah for
+[0:03:12] basically all countries
+[0:03:13] [risas]
+[0:03:14] in Latin America. So pretty nice um and
+[0:03:19] um it's in Spanish so no worries. It's
+[0:03:21] just I will talk briefly in in English
+[0:03:24] to explain you how things will go. But
+[0:03:26] yeah, you have starting with the boot
+[0:03:28] camp, then the hackathon and then the
+[0:03:29] accelerator. So the top two per country
+[0:03:33] um are directly entering into the
+[0:03:36] accelerator um which is like if you want
+[0:03:39] to really ah turn your project into a
+[0:03:41] real startup.
+[0:03:43] Um so regarding the boot camp.
+[0:03:46] So you can see here the members. Ah so
+[0:03:49] you are like 48 ah into the cohort. Um
+[0:03:54] and
+[0:03:55] all sessions are recorded. So if you
+[0:03:56] have any question like
+[0:03:59] are there live sessions? Yes. Um are
+[0:04:03] sessions recorded? Yes.
+[0:04:06] Ah, so you will get your certificate,
+[0:04:09] ah, I will explain who, ah, after, but
+[0:04:13] you can see all the workshop there. Ah,
+[0:04:16] and when the recording will be
+[0:04:17] available, you will have like a button
+[0:04:19] there, recording, so you just have to to
+[0:04:22] click on it, basically.
+[0:04:23] Ah.
+[0:04:25] Environment setup, ah, wait, just let
+[0:04:27] me, yeah, environment setup. Ah, it's
+[0:04:30] what you will have to do, ah, to make
+[0:04:32] sure you can like follow exercise and
+[0:04:34] everything, ah, to learn Rust,
+[0:04:36] basically. Ah.
+[0:04:39] And Solana, so, ah, just check on your
+[0:04:42] hand that, ah, but I think at the moment
+[0:04:45] they will, ah, do like a quick demo.
+[0:04:48] [risas]
+[0:04:49] Ah, of the process.
+[0:04:51] Homework, so the homework tab, ah,
+[0:04:53] actually there's three parts. The first
+[0:04:56] one is about, ah, Rust practice, so
+[0:04:58] which is like exercise test, ah, that
+[0:05:02] you can, ah.
+[0:05:04] Ah, do.
+[0:05:05] It's representing 30% ah, of.
+[0:05:09] Ah, of everything, so, ah, it's.
+[0:05:13] That's basically, ah, it's just for the
+[0:05:16] two first sessions, Rust Basic one and
+[0:05:18] Rust Basic two, and then after you will
+[0:05:21] have quizzes, you will have seven
+[0:05:23] quizzes, ah, that will appear there, so
+[0:05:25] you will be able to directly jump into
+[0:05:28] and and reply to to them.
+[0:05:31] And the last thing which is not part of
+[0:05:33] the percentage is to deploy a Solana
+[0:05:35] program, ah, so you will see that, ah,
+[0:05:39] at week three, ah, so step by step, no
+[0:05:42] worries, ah, and here, when you will
+[0:05:45] reach 40%, you will be eligible to get a
+[0:05:49] certification.
+[0:05:50] If you also deploy.
+[0:05:52] A Solana program.
+[0:05:54] So just to let you know.
+[0:05:56] All the resources, the slides and
+[0:05:58] everything, ah, are there.
+[0:06:01] Ah.
+[0:06:02] Leaderboard is just like to to follow
+[0:06:04] who is doing exercise.
+[0:06:06] Ah, but in such.
+[0:06:33] [risas]
+[0:07:23] Déjame buscar eso en el material del
+[0:07:24] curso.
+[0:07:27] Las diapositivas de Rust Basics están en
+[0:07:29] la página de materiales del Rust
+[0:07:31] Bootcamp dentro de la semana 1 Rust para
+[0:07:34] Solana. Son dos, Rust Basics 1, Rust
+[0:07:37] Basics 2. Ahí también encontrarás las de
+[0:07:40] Blockchain Basics y CLI y RPC. ¿Quieres
+[0:07:44] que te explique algún tema de esas
+[0:07:45] diapositivas?
+[0:08:46] Hola, hola, ¿me escucháis?
+[0:08:50] Sí.
+[0:08:52] [resoplido]
+[0:08:53] Eh, bueno, mucho gusto a todos, yo soy
+[0:08:54] Santiago Villareal.
+[0:08:56] Eh, yo aproximadamente ya dos años en el
+[0:08:58] ecosistema blockchain.
+[0:09:00] Eh, Fabi, bueno, Fabi y yo trabajamos
+[0:09:02] juntos en muchísimas cosas y bueno, ya
+[0:09:04] llevamos igual un año y medio trabajando
+[0:09:06] juntos, haciendo smart contracts.
+[0:09:08] Eh, no solo en Solana, pero bueno,
+[0:09:10] también hemos dedicado bastante a a Rust
+[0:09:13] y a y bueno, hacer programas también en
+[0:09:16] en Solana. Y bueno, la la idea con con
+[0:09:19] este bootcamp es que puedan aprender
+[0:09:21] desde lo más básico de Rust, que es el
+[0:09:22] lenguaje que se usa para programar en
+[0:09:23] Solana,
+[0:09:24] hasta
+[0:09:27] de deployar todo tipo de smart contracts
+[0:09:28] en Solana, que lo cual, pues en
+[0:09:30] resumidas de cuentas es la idea para que
+[0:09:32] ustedes en el hackathon
+[0:09:33] eh, lleguen literalmente sabiendo cómo
+[0:09:35] hacer todo y que el código no sea un
+[0:09:36] problema. Realmente, a nivel de la
+[0:09:38] hackathon casi siempre no se termina el
+[0:09:40] código, pero la idea es que ustedes
+[0:09:41] salgan
+[0:09:42] eh, sabiendo cómo desarrollar al menos
+[0:09:44] un un MVP eh, y y entendiendo qué es
+[0:09:47] cada elemento dentro del ecosistema, que
+[0:09:49] se puede volver un poco tedioso, pero
+[0:09:50] vamos a hacerlo de la manera más
+[0:09:52] sencilla para que cada uno eh, pueda
+[0:09:54] entender
+[0:09:55] eh, qué qué están haciendo y bueno, no
+[0:09:58] dejar todo a manos de de la IA, que
+[0:10:00] bueno, es una herramienta buenísima y
+[0:10:02] bueno, ahorita de hecho nosotros estamos
+[0:10:03] usando la otra herramienta, la cual se
+[0:10:05] le pueden hacer más preguntas, que está
+[0:10:06] también buenísima,
+[0:10:07] pero también hay que entender qué
+[0:10:08] estamos haciendo. Entonces, por eso, eh
+[0:10:11] eh para eso es el bootcamp, para que
+[0:10:12] ustedes también eh entiendan un poco la
+[0:10:15] parte de atrás de de
+[0:10:17] de las visiones de ingeniería y todos
+[0:10:19] todos esos temas eh a la hora de
+[0:10:20] construir
+[0:10:21] en Solana. No sé si Fai te quieres
+[0:10:23] presentar igual ahí.
+[0:10:25] Eh sí, claro. Bueno, pues buenos días o
+[0:10:28] buenas tardes, depende de dónde estén.
+[0:10:30] Nosotros estamos en Costa Rica.
+[0:10:32] Eh mucho gusto. Yo soy Fai Sánchez. Como
+[0:10:35] bueno, ya Santi lo explicó, llevamos ya
+[0:10:36] bastante tiempo trabajando en en
+[0:10:38] blockchain y también juntos. Tenemos una
+[0:10:40] startup y pues
+[0:10:42] sí, bastante
+[0:10:44] bastante feliz de dar el bootcamp.
+[0:10:45] Siento que van a aprender un montón. Eh
+[0:10:47] todas las herramientas que tienen de
+[0:10:49] Defripack, ahí si tienen alguna duda
+[0:10:50] pueden escribirnos. Eh pueden escribirle
+[0:10:53] a nuestros mentores, que son Ias, los
+[0:10:55] que ahora enseñó Solen.
+[0:10:57] Y en fin, ahí en en la página web de
+[0:11:00] Defripack, que creo que ahorita Santi la
+[0:11:02] va a mencionar, ahí pueden ver todo el
+[0:11:04] contenido del del curso, pueden ver
+[0:11:06] todos los links necesarios, recordings,
+[0:11:07] todo ese tipo de cosas. Entonces, eh ah
+[0:11:10] bueno, ahí justo lo que estaba enseñando
+[0:11:12] Solen. Ahí pueden ver
+[0:11:15] pues los workshops, las semanas que
+[0:11:17] vamos a ver, cómo lo vamos a ver. En
+[0:11:19] resources pueden ver eso, en homework
+[0:11:21] pues las tareas y todo ese tipo de
+[0:11:22] cosas. Entonces, em
+[0:11:26] sí, para que lo tengan en cuenta y sí,
+[0:11:28] eso es todo.
+[0:11:29] Ahí Santi ya ya puede comenzar.
+[0:11:34] Es buenísimo, Fai.
+[0:11:35] Eh bueno, yo también quisiera como
+[0:11:39] como retarlos en este bootcamp para que
+[0:11:41] no solo se queden con lo que vean en las
+[0:11:42] clases, sino que también sean muy
+[0:11:44] curiosos con qué se está haciendo, por
+[0:11:46] qué eh o sea, ahorita con con cualquier
+[0:11:49] herramienta de inteligencias muy
+[0:11:51] sencillo hacer lo que vamos a ver en
+[0:11:52] clase.
+[0:11:53] Eh posiblemente lo terminen superrápido.
+[0:11:55] Entonces, la idea es que no solo eh no
+[0:11:58] que no solo lo hagan con IA, pero
+[0:12:00] también aprendan un poco más. Ya ya que
+[0:12:02] está la facilidad de la IA, entonces
+[0:12:03] aprovechen que se hace se dura menos
+[0:12:05] haciendo eh un smart contract por
+[0:12:07] ejemplo. Entonces, si dura menos,
+[0:12:09] aprendan un poco más eh sobre otros
+[0:12:11] temas de smart contracts.
+[0:12:13] Porque bueno, o sea, realmente por un
+[0:12:14] bootcamp no da eh todo el ecosistema de
+[0:12:17] Smart Contracts que es gra- es
+[0:12:18] grandísimo, hay temas de seguridad eh
+[0:12:21] que podemos durar meses eh aprendiendo.
+[0:12:24] Pero la idea es ir más allá, porque al
+[0:12:26] final de cuentas el bootcamp es esa
+[0:12:28] herramienta que ustedes tienen para
+[0:12:29] empezar a generar conocimiento, pero el
+[0:12:31] conocimiento también eh y más que todo
+[0:12:34] también programación que me imagino la
+[0:12:36] mayoría lo sabe,
+[0:12:38] se necesita siempre como tener esa esa
+[0:12:40] curiosidad por saber más, realmente en
+[0:12:42] ningún lado nadie va a explicarle
+[0:12:44] completamente
+[0:12:45] eh cómo son las cosas, siempre hay algo
+[0:12:47] extra, siempre hay algo más para
+[0:12:49] aprender y bueno, todos los días se está
+[0:12:50] renovando el área, entonces puede que lo
+[0:12:52] que hoy yo les enseñe en un par de meses
+[0:12:54] tal vez cambie porque se actualizó
+[0:12:57] alguna SDK de Solana, se actualizó la
+[0:12:59] manera en que lo hacen o o bueno, puede
+[0:13:02] seguir siendo igual, depende mucho.
+[0:13:03] Pero siempre es importante estar al día
+[0:13:05] y y e ir adquiriendo nuevo conocimiento
+[0:13:07] porque eso es lo que más vale.
+[0:13:09] Eh, vale muchísimo más que saber todo,
+[0:13:11] sino
+[0:13:13] tener la curiosidad es una una habilidad
+[0:13:15] que que poca o sea, que que no se ve
+[0:13:17] tanto y realmente es la más valiosa de
+[0:13:20] todas para mí porque sin curiosidad
+[0:13:21] realmente uno no termina de aprender eh
+[0:13:23] y así es como Fabi y yo eh tío,
+[0:13:25] aprendimos un montón sobre los Smart
+[0:13:26] Contracts, sobre sobre cómo construir un
+[0:13:29] blockchain, eh arquitectura de
+[0:13:31] blockchain y bueno, todos esos temas que
+[0:13:33] que realmente son pocos los programas
+[0:13:35] por porque por ejemplo, está este,
+[0:13:37] pero antes de esto pocos programas le
+[0:13:40] estructu- estructuraban sílabo y decían
+[0:13:41] como esto es lo que vamos a aprender y
+[0:13:43] se hacía de una manera académica. Casi
+[0:13:44] que todo estaba en documentación y leer
+[0:13:47] documentación no es nada
+[0:13:49] no no es tan
+[0:13:51] tan interactivo y cuesta más aprender, o
+[0:13:53] al menos a mí me parece un poco más solo
+[0:13:54] leer documentación, entonces estas
+[0:13:56] oportunidades son buenísimas y también
+[0:13:58] idealmente aprovecharlas.
+[0:14:00] Eh, dicho esto, voy a presentarles la
+[0:14:03] presentación que traía para hoy. Eh,
+[0:14:05] vamos a estar eh hoy es Rust Basics, no
+[0:14:09] nos vamos a entrar mucho en Solana
+[0:14:10] todavía, vamos a aprender un poco el
+[0:14:13] lenguaje que está detrás eh
+[0:14:15] que bueno, es Rust, es un lenguaje
+[0:14:17] superbueno
+[0:14:18] y fuera de solo Solana también se
+[0:14:21] utiliza muchísimo en la en la industria
+[0:14:23] por las capacidades que tiene a nivel de
+[0:14:25] de eficiencia. Eh,
+[0:14:27] buscar aquí la presentación.
+[0:15:08] Eh, ahí me confirman si se puede.
+[0:15:12] Sí se ve.
+[0:15:13] Sí se ve, okay.
+[0:15:19] Okay.
+[0:15:20] Bueno, como les decíamos, estamos viendo
+[0:15:21] el Rust Basics 1. Eh,
+[0:15:24] esto es como lo lo más inicial de Rust
+[0:15:26] que vamos a ver.
+[0:15:28] Eh, cómo instalarlo y y esos y esos
+[0:15:30] temas realmente vienen dentro del del
+[0:15:33] repo, entonces nada más es eh correr un
+[0:15:35] comando que es como eh, o sea,
+[0:15:37] dependiendo del ecosistema eh del, sí,
+[0:15:39] de la computadora que estén utilizando,
+[0:15:40] si es Windows, Linux o Linux o Mac, pero
+[0:15:43] dentro de la de la de la aplicación de
+[0:15:46] Prepack tienen como la instalación
+[0:15:47] dependiendo de cuál usen, entonces
+[0:15:49] eh, ahí nada más es explorar eso y ya
+[0:15:51] están listos para para hacer cualquiera
+[0:15:53] de esos. Igual dentro del repositorio
+[0:15:55] vienen como todas las instrucciones,
+[0:15:56] entonces
+[0:15:57] eh, el tema de instalación de eh, si
+[0:16:00] quieren ahorita también podemos verles
+[0:16:01] un poco cómo es, pero no vamos a abarcar
+[0:16:02] mucho dentro de eso porque no hay mucho
+[0:16:04] que ver.
+[0:16:06] Eh, y
+[0:16:07] en es en el Bootcamp no vamos a a ver
+[0:16:10] todo Rust como tal porque también es un
+[0:16:12] lenguaje super eh complejo, tiene
+[0:16:14] muchísimas este herramientas, SDKs
+[0:16:18] eh, y muchos eh casos de uso, pero en
+[0:16:20] este caso, el Rust que vamos a aprender
+[0:16:22] es para Solana, entonces vamos a
+[0:16:23] aprender lo más básico porque
+[0:16:25] necesitamos como como esa base para
+[0:16:26] poder programar en Solana.
+[0:16:28] Em
+[0:16:30] Que igualmente esta base sirve para para
+[0:16:33] Rust en cualquier en cualquier área,
+[0:16:34] nada más que no nos vamos a sobrepasar
+[0:16:36] de eso porque si no duraríamos un
+[0:16:37] montón.
+[0:16:38] Eh, pero bueno.
+[0:16:41] Em
+[0:16:43] Los temas que vamos a dar hoy es un poco
+[0:16:45] el ownership, el borrowing y los cargo,
+[0:16:47] bueno, el cargo y los test que tiene
+[0:16:49] cada eh
+[0:16:51] Este código en Rust.
+[0:16:53] Entonces
+[0:16:54] Vamos a empezar entendiendo
+[0:16:56] Por qué se usa Rust en Solana.
+[0:17:00] Eh, a donde dice si alguno tiene una
+[0:17:03] duda o lo que sea, eh, nada más abren el
+[0:17:05] micrófono sin pena y y lo vamos viendo,
+[0:17:07] pues igual la idea no es que solo la
+[0:17:09] clase solo sea Eh, yo hablando la hora
+[0:17:11] completa sino que también si alguien
+[0:17:12] quiere Eh
+[0:17:14] Interactuar y y hacerlo más eh llevadero
+[0:17:17] también,
+[0:17:18] eh, eso es es la idea de la clase.
+[0:17:20] Eh, pero bueno, entonces, un programa de
+[0:17:22] Solana es una función que recibe
+[0:17:24] cuentas, valida reglas y las modifica o
+[0:17:26] devuelve un error. Entonces, básicamente
+[0:17:28] Los programas
+[0:17:30] Son, o sea, la es la manera de modificar
+[0:17:32] el ledger, el ledger, bueno
+[0:17:34] Esto es más como
+[0:17:36] Eh, un tema de blockchain como tal, pero
+[0:17:39] el ledger es donde se escriben todas las
+[0:17:40] transacciones, entonces el programa el
+[0:17:41] programa es la manera en la cual
+[0:17:43] nosotros
+[0:17:45] Tenemos para añadir el programa del
+[0:17:47] ledger, es decir, la manera en que yo
+[0:17:48] puedo
+[0:17:50] Poner reglas para
+[0:17:52] hacer transacciones, escribirlas,
+[0:17:54] sobreescribirlas o cambiarlas.
+[0:17:56] Entonces, cada programa Valida Y
+[0:17:59] modifica el ledger o devuelve un error,
+[0:18:01] es decir
+[0:18:02] Puede que el resultado final sea que
+[0:18:04] terminemos modificando el ledger, que
+[0:18:06] significa que estamos cambiando la
+[0:18:07] blockchain O que el programa nos
+[0:18:09] devuelve un error, esto porque estamos
+[0:18:10] haciendo algo que eh no es debido o por
+[0:18:13] la lógica del programa no se va a
+[0:18:15] ejecutar.
+[0:18:16] Eh, realmente nosotros podemos
+[0:18:19] Hasta programar nuestros propios propios
+[0:18:20] errores dentro del programa para que yo
+[0:18:23] pueda decir como por ejemplo si se está
+[0:18:25] haciendo algo que mi programa no quiere
+[0:18:27] que salga, entonces le especifico al
+[0:18:28] usuario eh usted no puede hacer esto y y
+[0:18:31] el programa no se lo va a permitir
+[0:18:32] porque está eh ya así programado.
+[0:18:36] Entonces eh tenemos estos dos posibles
+[0:18:38] resultados que es una cuenta modificada,
+[0:18:40] sea un balance, sea
+[0:18:42] eh algo relacionado con el NFT, sea
+[0:18:45] este
+[0:18:47] algo más financiero, sean bots o algo de
+[0:18:50] DeFi o el error que es eh también una
+[0:18:53] posibilidad.
+[0:18:55] ¿Por qué Rust en Solana?
+[0:18:57] Y bueno, esto es una decisión técnica
+[0:18:58] que tuvieron los founders de Solana hace
+[0:19:00] ya bastante tiempo.
+[0:19:02] Y principalmente
+[0:19:04] o sea, a nivel a nivel de
+[0:19:07] de arquitectura Rust sirve y conviene
+[0:19:09] mucho a nivel de blockchains, o sea,
+[0:19:11] bueno, son varias las las que utilizan
+[0:19:13] Rust, no solo Solana,
+[0:19:15] es primero por la seguridad eh de
+[0:19:18] memoria, que básicamente es es usar Rust
+[0:19:21] no tiene un garbage garbage collector,
+[0:19:24] entonces básicamente ese garbage
+[0:19:25] collector no se está llevando los
+[0:19:27] punteros que quedan colgando,
+[0:19:29] simplemente no puede quedar un puntero
+[0:19:30] colgando por la misma
+[0:19:33] eh
+[0:19:35] o sea, por lo mismo
+[0:19:36] por lo mismo del del
+[0:19:38] de Rust.
+[0:19:39] Luego, ya eso es como parte más dentro
+[0:19:41] de la ejecución en la máquina virtual de
+[0:19:44] Solana, pero entonces una vez que el
+[0:19:46] programa escrito en Rust
+[0:19:48] pasa a este formato que es SBF,
+[0:19:52] eh y eso básicamente es una vez nosotros
+[0:19:55] hacemos el programa, lo lo compilamos,
+[0:19:58] como cualquier compilación, o sea,
+[0:20:01] Python, o sea,
+[0:20:02] Java,
+[0:20:03] y esa compilación revisa que no hayan
+[0:20:06] bugs, si hay bugs no deja deployarlo
+[0:20:09] porque bueno, si lo hacemos en mainnet,
+[0:20:12] esto involucra dinero real y la idea es
+[0:20:14] que no se pierda dinero real, entonces
+[0:20:17] eh básicamente si hay bugs lo devuelve,
+[0:20:19] lo tiene que
+[0:20:20] eh revisar, lo tiene que arreglar y
+[0:20:22] volverlo a a desplegar. Una vez ya esté
+[0:20:25] bien, entonces se despliega.
+[0:20:27] Eh, se compila el al SBPF y el SBPF
+[0:20:31] queda corriendo dentro de la máquina
+[0:20:33] virtual de Solana,
+[0:20:34] que es la SVM, que significa Solana
+[0:20:38] Virtual Machine. Eh, el básicamente el
+[0:20:41] SBPF básicamente es como un bytecode, o
+[0:20:44] sea, le queda como cuando se hace en
+[0:20:45] Java, por ejemplo, que el Java el Java
+[0:20:47] se convierte en un en un estilo bytecode
+[0:20:50] para poder eh ejecutarlo ya a nivel de
+[0:20:53] máquina. Pasa lo mismo con Solana. Se
+[0:20:55] escribe Pasa lo mismo con Rust. Se
+[0:20:57] escribe en Rust, luego ya ya es como
+[0:21:00] esto no lo no lo vemos nosotros a la
+[0:21:01] hora de programar, pero es como más
+[0:21:03] arquitectura de la red.
+[0:21:04] Eh, desplegamos el contrato, el contrato
+[0:21:06] está escrito en Rust, entonces el Rust
+[0:21:08] se pasa a este formato, que igual es un
+[0:21:09] formato de bytecode, y el bytecode es el
+[0:21:12] que se ejecuta en esa máquina virtual,
+[0:21:13] pero bueno, nosotros no
+[0:21:15] a la hora de programar lo único que
+[0:21:17] vemos es cómo se despliega el contrato
+[0:21:20] eh bueno, el programa en Rust a la a la
+[0:21:23] blockchain de Solana.
+[0:21:25] Eh, ah, bueno, esto es cuando uno va a
+[0:21:28] iniciar un proyecto en en Rust
+[0:21:31] de cualquier tipo, aquí no hace falta
+[0:21:34] O sea, eh podemos iniciar un proyecto de
+[0:21:36] Rust que no necesariamente sea Solana de
+[0:21:39] esta manera. Entonces, tenemos el cargo
+[0:21:40] new, que es para crear un nuevo
+[0:21:41] proyecto, tenemos el cargo build, que es
+[0:21:43] para compilarlo, tenemos los test, si le
+[0:21:46] si le configuran un test, entonces digo,
+[0:21:48] básicamente los va a correr, y el
+[0:21:50] clippy, que es una herramienta extra,
+[0:21:52] que sugiere mejoras. Básicamente, esta
+[0:21:54] herramienta lo que tiene es como digo,
+[0:21:57] ya ya conocimiento de cuándo algo se se
+[0:22:00] podría mejorar. Entonces, como esos
+[0:22:03] warnings que a veces puede que sirvan, a
+[0:22:05] veces no, dependiendo del caso.
+[0:22:07] Entonces, le le podría decir como, para
+[0:22:09] este tipo de dato debería usar
+[0:22:12] esta estructura
+[0:22:13] eh o no, dependiendo si es óptimo o no.
+[0:22:17] Pero bueno, el clippy no es no es algo
+[0:22:19] que se tiene que confiar al 100% porque
+[0:22:22] de eh de nuevo, eh es dependiendo de las
+[0:22:24] condiciones que se es eh tengan para
+[0:22:27] subir el programa.
+[0:22:29] Y bueno, a nivel de error normalmente
+[0:22:32] esto se ve así, nos tiene el código de
+[0:22:34] error como como en los demás lenguajes y
+[0:22:36] este código de error podemos abrir el
+[0:22:39] buscador y nos va a buscar qué error es.
+[0:22:41] O si es un error propio, entonces
+[0:22:43] entender por qué se dio ese error.
+[0:22:45] Y uno normalmente documenta el error con
+[0:22:47] el tipo y el número.
+[0:22:50] Por ejemplo, aquí tenemos este
+[0:22:52] este error.
+[0:22:55] Y el bueno, el help
+[0:22:57] es o sea, el más para los para los
+[0:23:01] errores que ya están documentados,
+[0:23:02] normalmente los que no
+[0:23:05] no no no no le va a salir como un como
+[0:23:08] un help.
+[0:23:09] Pero igual es bastante bueno si es un
+[0:23:11] error como conocido, entonces ya
+[0:23:13] básicamente le dice como de qué manera
+[0:23:14] debería resolverlo.
+[0:23:18] Pero vamos a empezar entonces un poco
+[0:23:20] más con eh Rust como tal. Entonces eh
+[0:23:25] bueno, para el ejemplo eh es importante
+[0:23:27] tener el concepto concepto de lamports.
+[0:23:30] Básicamente un lamport es la unidad
+[0:23:32] mínima eh de Solana, básicamente
+[0:23:36] para uno pagar transacciones en la red
+[0:23:38] de Solana, tú pagas los Solana.
+[0:23:40] Pero eh cuando es un Solana muy pequeño,
+[0:23:43] se les dice lamport, algo así como el
+[0:23:45] dólar y el centavo, solo que el lamport
+[0:23:47] es bastante menos
+[0:23:49] eh bastante más pequeño que el centavo,
+[0:23:51] o sea, un un centavo es 0. eh
+[0:23:54] 0.1 dólares, el el lamport es eh varios
+[0:23:58] ceros, no no sé si serán tantos, pero
+[0:23:59] varios ceros
+[0:24:00] eh a la derecha.
+[0:24:03] Entonces eh bueno, en este en este
+[0:24:05] ejemplo lo que tenemos es estamos
+[0:24:07] declarando la constante lamports por
+[0:24:09] sol, o sea, básicamente estamos solo
+[0:24:11] poniéndole un número, en este caso son
+[0:24:14] eh bueno, es un número que es bastante
+[0:24:16] grande eh y
+[0:24:20] tenemos el balance, entonces es eh o
+[0:24:23] sea, declaramos por la variable balance
+[0:24:24] con 5000, eso es inmutable.
+[0:24:27] Muy importante eh entender que la
+[0:24:29] diferencia entre cuando cuando uno
+[0:24:31] declara
+[0:24:32] eh se pone la palabra mut
+[0:24:35] para que sea mutable y si no se pone se
+[0:24:39] el o sea el
+[0:24:40] Solana va a entender que es inmutable.
+[0:24:42] Entonces, el el balance este no se puede
+[0:24:46] cambiar, es decir, va a seguir siendo
+[0:24:47] 5000 para siempre.
+[0:24:48] En cambio, este total sí puede cambiar.
+[0:24:52] Entonces, el el la palabra mut lo que lo
+[0:24:54] lo que lo introduce es la capacidad de
+[0:24:56] que el valor pueda cambiar.
+[0:25:00] Entonces, por ejemplo, aquí
+[0:25:02] aquí eh se le se le añade Bueno, esto es
+[0:25:04] la manera de de sumarle 1000 al valor
+[0:25:06] inicial. Entonces,
+[0:25:08] total
+[0:25:09] para este punto vale 5000 y aquí se le
+[0:25:12] suman 1000, entonces ahora son 6000.
+[0:25:15] Y ahora total se multiplica por dos,
+[0:25:17] entonces eh terminaría siendo 12000.
+[0:25:21] Em
+[0:25:23] Ah, bueno, esto de los tipos.
+[0:25:25] En Solana para escribir números tenemos
+[0:25:27] varios tipos. Esto esto es lo que lo
+[0:25:30] hace más eficiente.
+[0:25:32] Básicamente,
+[0:25:33] por un lado en en lenguajes normales
+[0:25:36] como
+[0:25:37] como, por ejemplo, C, tenemos C C++,
+[0:25:41] tenemos los integers o los enteros
+[0:25:44] y ya.
+[0:25:45] Aunque sí se pueden declarar este tipo
+[0:25:47] que son como los U 64 y los I 64,
+[0:25:51] eh
+[0:25:52] idealmente es esto sirve un montón
+[0:25:54] porque
+[0:25:55] en el cuando uno lo declare y le pone la
+[0:25:57] U delante, le está diciendo que no
+[0:25:59] traiga signo. Entonces,
+[0:26:01] cuando uno por ejemplo, no sé, hay un
+[0:26:03] valor que no puede ser negativo y no
+[0:26:05] necesitamos que sea negativo,
+[0:26:06] para hacerlo más eficiente, utilizamos
+[0:26:08] el tipo de dato U 64. Entonces,
+[0:26:10] el U 64 abarca
+[0:26:13] eh
+[0:26:15] Hay una cierta cantidad de números a los
+[0:26:17] a la que puede llegar Ahorita no me
+[0:26:18] acuerdo cuánto era,
+[0:26:20] pero dependiendo del caso de uso,
+[0:26:22] puede que uno no necesite inclusive que
+[0:26:24] el que el entero sea mayor a 100.
+[0:26:25] Entonces, de esa manera nos ahorramos
+[0:26:27] muchísima este memoria, y lo cual hace
+[0:26:30] muchísimo más eficiente el programa y es
+[0:26:32] muy importante en temas de eficiencia
+[0:26:34] siempre ver este tipo de cosas, porque
+[0:26:36] al final de cuentas
+[0:26:38] mientras menos eficiente sea el
+[0:26:40] programa, más dinero se va a pagar por
+[0:26:43] cada fee.
+[0:26:44] Eh, y eso pues al final de cuentas
+[0:26:47] termina
+[0:26:51] termina pues afectando a a quien paga el
+[0:26:54] fee.
+[0:26:55] Por ahí por ahí puso que el U64 tiene
+[0:26:58] bueno,
+[0:26:59] es un número gigante, pero hay hay U8,
+[0:27:02] U16, U32.
+[0:27:05] Eh, y ahí va creciendo. Creo creo que
+[0:27:08] no pasa de 128 o 264 o 128, creo.
+[0:27:12] Este
+[0:27:14] y
+[0:27:15] bueno, eso es un es un flag, básicamente
+[0:27:19] nunca se debería utilizar F64 para
+[0:27:21] generar un chain.
+[0:27:22] Eh, esto es más un un estándar que se
+[0:27:25] debe seguir, porque si no pues puede
+[0:27:27] terminar generando un
+[0:27:29] algún problema. A un iPhone nos pasó.
+[0:27:32] Eh, sí.
+[0:27:34] Cada
+[0:27:35] cada
+[0:27:36] tipo y hasta cuánto llega y cuántos bits
+[0:27:39] eh
+[0:27:40] vale. Entonces, si tenemos el I8 o el U8
+[0:27:43] y esos son de 8 bits.
+[0:27:45] Este, y ahí van subiendo. Y bueno, lo lo
+[0:27:47] lo interesante sería tener igual el la
+[0:27:49] la cantidad que más, o sea, hasta qué
+[0:27:52] número pueda albergar.
+[0:27:54] Eh, y creo que hay uno por ahí que
+[0:27:56] también es este custom, pero
+[0:27:59] nunca he visto
+[0:28:01] eh, un lugar donde se utilice
+[0:28:04] un número tan alto.
+[0:28:06] Pero podría pasar dependiendo de de de
+[0:28:08] qué se está haciendo.
+[0:28:12] Aquí, entonces, vamos a
+[0:28:18] abrir el va vamos a ir viendo como las
+[0:28:23] las tareas, bueno, los los ejercicios, y
+[0:28:26] vamos a ir a ir como como viendo cómo se
+[0:28:28] pueden ir desarrollando y al frente
+[0:28:30] igual este, ustedes y lo revisan por
+[0:28:33] aparte y lo y lo entregan después, pero
+[0:28:36] pero vamos a ir viendo cómo
+[0:28:38] cómo cómo se implementa cada cada cosa
+[0:28:41] en tiempo real.
+[0:28:43] Entonces, bueno, yo aquí tengo un
+[0:28:44] workspace que es antes y después,
+[0:28:46] entonces vamos a ir viendo cómo está
+[0:28:48] antes y cómo está después. Entonces,
+[0:28:50] aquí tenemos el ejercicio número uno.
+[0:28:52] Eh, importante que no modifiquen los
+[0:28:54] tests porque los tests, o sea, los tests
+[0:28:56] es lo que mide si hicieron, o sea, si lo
+[0:28:58] hicieron bien o no. Entonces, eh si lo
+[0:29:01] modifican, se va a desconfigurar y
+[0:29:04] posiblemente se va a ver como que no lo
+[0:29:05] hicieron, entonces
+[0:29:07] los tests sí no se deberían eh copiar.
+[0:29:10] Aquí tenemos varias funciones,
+[0:29:11] básicamente es un archivo Rust.
+[0:29:13] Eh
+[0:29:15] para hacer un archivo Rust y simplemente
+[0:29:16] se escribe el nombre del archivo y la la
+[0:29:18] extensión .rs.
+[0:29:21] Eh y aquí tenemos el ejercicio uno.
+[0:29:22] Entonces, el ejercicio uno, eh igual,
+[0:29:25] antes de hacerlo, léanme este
+[0:29:28] este file que es tasks, que bueno, está
+[0:29:30] dentro del tasks y es el ejercicio
+[0:29:32] 01.me.
+[0:29:36] Y aquí les explica como cada una de las
+[0:29:38] cosas que van a ver dentro del dentro
+[0:29:41] del
+[0:29:42] dentro del archivo.
+[0:29:44] Y como los conceptos que hay dentro de
+[0:29:45] esto, como por ejemplo, lo de let, let
+[0:29:48] mut, que es lo que acabo de explicar,
+[0:29:50] el shadow, el shadow, el shadowing, eh
+[0:29:52] la constante, el u64,
+[0:29:54] eh y cada función, como qué hace, eh
+[0:29:59] y también como para entenderla.
+[0:30:00] Entonces, por ejemplo,
+[0:30:01] aquí tenemos igual que se declara la
+[0:30:06] la constante lamps per second.
+[0:30:10] Y aquí lo que, bueno, lo que declaramos
+[0:30:12] son varias funciones. Estas están
+[0:30:15] como tú, porque es lo que lo que hay que
+[0:30:17] hacer la tarea.
+[0:30:18] Pero entonces, eh tenemos primero que
+[0:30:20] todo la de solve lamps, entonces
+[0:30:23] es superimportante ver que cada función
+[0:30:25] dentro de Rust
+[0:30:27] el parámetro tiene que especificar qué
+[0:30:29] es lo que viene
+[0:30:31] y tiene que explicar especificar también
+[0:30:33] qué va a salir. Entonces, Entonces,
+[0:30:34] caso, nos entra un U64 y salen U64.
+[0:30:38] Eh, por ese lado, todo todo bien.
+[0:30:40] Luego tenemos la Ampers de Sol.
+[0:30:42] Entonces, básicamente, esto es como
+[0:30:43] decir,
+[0:30:45] o sea, cambiar de
+[0:30:48] de una unidad a otra. Entonces, no sé,
+[0:30:50] como que estamos cambiando de
+[0:30:52] gramos a kilogramos.
+[0:30:54] Eh, es exactamente lo mismo, nada más
+[0:30:56] que con Solanas y Lamports.
+[0:30:58] Eh, entonces,
+[0:31:00] en este caso, si recibimos
+[0:31:03] una cantidad de eh muy grande de
+[0:31:05] Solanas, vamos a tener millones de
+[0:31:07] Lamports.
+[0:31:08] Y si recibimos una cantidad muy grande
+[0:31:10] de Lamports, posiblemente sean unos
+[0:31:11] cuantos Solanas, porque así es como está
+[0:31:13] establecida la la conversión.
+[0:31:16] Eh, aquí este Apply Bonus es como para
+[0:31:19] aplicarle un un bonus y retornar un
+[0:31:21] saldo nuevo. Entonces, básicamente, es
+[0:31:23] casi que una suma, mmm nada nada muy muy
+[0:31:26] complejo. Está el Double, que
+[0:31:28] básicamente es para duplicar el valor
+[0:31:30] que entra. Entonces, aquí nos entran
+[0:31:31] 10,000, van a salir 20,000.
+[0:31:34] Eh, y el eh Is Is Empty, lo que hace es
+[0:31:37] revisar si la variable trae o no un
+[0:31:40] valor. Entonces, si si viene vacío,
+[0:31:42] devuelve true.
+[0:31:43] Y si eh viene con algo, entonces,
+[0:31:45] devuelve true.
+[0:31:46] En Rust, de hecho, es es
+[0:31:48] superimportante, porque
+[0:31:51] a nivel de diseño, ellos
+[0:31:55] a nivel de diseño, ellos dejaron la
+[0:31:56] posibilidad de retornar valores
+[0:31:59] dependiendo de cómo, o sea, uno
+[0:32:03] si uno pone un punto y coma o no.
+[0:32:05] Entonces, por ejemplo, yo puedo poner
+[0:32:06] aquí true
+[0:32:07] y ya la la función lo que va a volver es
+[0:32:10] true. No necesito poner return ni nada,
+[0:32:12] simplemente pongo true y ya se devuelve.
+[0:32:14] Pero si le pongo esto,
+[0:32:17] teclado en español.
+[0:32:21] Pero si le pongo ya el punto y coma,
+[0:32:22] entonces, ya no ya no va a entender que
+[0:32:24] retorne, sino que simplemente es una
+[0:32:26] instrucción más.
+[0:32:27] Eh, entonces, siempre es importante ver
+[0:32:30] cuándo se pone el punto y coma o cuándo
+[0:32:32] no.
+[0:32:32] Eh, que aquí sí es muy importante, ¿no?
+[0:32:34] Como en JavaScript, que, o sea, no
+[0:32:36] importa si se pone o no el punto com.
+[0:32:39] Eh, y ahora vamos a revisar cómo se
+[0:32:41] vería este después del
+[0:32:46] de de resolver eso, en este caso
+[0:32:49] eh, igual
+[0:32:52] o sea, si quieren pueden ir haciéndolo a
+[0:32:54] al lado mío o también pueden hacerlo
+[0:32:55] después, esto no no es como que
+[0:32:57] necesario que lo vayan haciendo al mismo
+[0:32:58] tiempo.
+[0:33:00] Pero
+[0:33:02] pero eh, es como una idea, o sea, hay
+[0:33:05] muchas formas de resolver esto
+[0:33:07] y lo que yo estoy haciendo solo es una
+[0:33:08] forma más, pero si ustedes ven otra
+[0:33:11] también está super superbién mientras
+[0:33:14] pase los test y tenga sentido.
+[0:33:17] Em
+[0:33:18] por ejemplo, esto es lo que les
+[0:33:19] explicaba ahorita.
+[0:33:21] Aquí no se puso el punto y coma,
+[0:33:22] entonces esta función va a devolver lo
+[0:33:24] que esta multiplicación no sé, entonces
+[0:33:27] no tengo por un return, sino simplemente
+[0:33:29] no poner el punto y coma.
+[0:33:31] Entonces, el sol to lampers lo que va a
+[0:33:32] hacer es multiplicar estas dos
+[0:33:33] variables, el sol y el lampers.
+[0:33:36] Y ya nos va a devolver la cantidad que
+[0:33:39] que por ejemplo, si yo pongo aquí un dos
+[0:33:42] dos, entrarían dos solanas, me
+[0:33:45] devolvería
+[0:33:46] eh, eso son
+[0:33:48] dos millones de lampers.
+[0:33:51] Eh, entonces ahí la conversión es un un
+[0:33:55] solana un millón de lampers.
+[0:33:58] Igual acá.
+[0:34:00] El el lampers to sol, entonces entrarían
+[0:34:03] dos dos millones 500 de lampers.
+[0:34:06] Y aquí lo que hace es eh, devolver esa
+[0:34:09] división y retorna un dos. Esto
+[0:34:12] eh, di, dependiendo cómo se configure y
+[0:34:14] qué tipo de datos se usen puede cambiar,
+[0:34:16] por ejemplo se podría hacer que sea un
+[0:34:18] 2.5 y no solo un dos, porque eran dos
+[0:34:20] millones 500.000 lampers.
+[0:34:22] Entonces ahí también hay que eh, ver qué
+[0:34:25] estructura de datos se debe utilizar y
+[0:34:26] bueno, vamos a ir viendo varios,
+[0:34:27] entonces no no todos, o sea
+[0:34:30] es muy común ver que siempre se utilice
+[0:34:32] un 64
+[0:34:34] pero cuando ya se hace de una manera más
+[0:34:37] eh, a nivel de producción, cuando ya es
+[0:34:39] un contrato que se, o sea, que va a a, a
+[0:34:42] mainet, siempre se revisa que sea lo más
+[0:34:44] óptimo posible, porque al final de
+[0:34:45] cuentas le sale más caro al usuario
+[0:34:47] pagar los fees por algo que realmente no
+[0:34:49] se está utilizando.
+[0:34:50] Eh, hay casos en los que, por ejemplo,
+[0:34:52] no se necesita más de
+[0:34:54] no, no, o sea, el número no es mayor a
+[0:34:56] mil, entonces, yo para qué voy a poner
+[0:34:58] un 64 si un 64 soporta no sé cuántos
+[0:35:00] millones.
+[0:35:02] Eh,
+[0:35:03] que son decisiones igual más como a
+[0:35:05] nivel de de ingeniería y arquitectura,
+[0:35:06] pero vale la pena pensarlo, eh,
+[0:35:09] porque al final de cuentas decisiones
+[0:35:11] optimizan o no
+[0:35:12] eh, el precio del fee,
+[0:35:14] que es un, es un diferenciante en,
+[0:35:18] dependiendo de lo que estén haciendo,
+[0:35:19] pero igual, eh, mientras más barato y
+[0:35:21] mejor siempre.
+[0:35:23] Eh, aquí está el de duplicar el valor,
+[0:35:25] entonces, básicamente
+[0:35:27] el, se declara la, la variable value,
+[0:35:31] eh, y se, se hace, ahí mismo se le, se
+[0:35:34] le duplica, entonces, se hace por dos, y
+[0:35:36] aquí nada más ponemos la variable value,
+[0:35:38] que es el equivalente a hacer el return.
+[0:35:41] Entonces, eh, como ven aquí se pone el
+[0:35:43] punto y coma, pero aquí no, porque ya
+[0:35:45] está retornando.
+[0:35:46] Y el is empty,
+[0:35:48] eh, igual lo que hace es comparar,
+[0:35:50] entonces, estos dos iguales es una
+[0:35:52] comparación que nos va a devolver un
+[0:35:53] verdadero o un falso, entonces, si el
+[0:35:55] balance es igual a cero, nos va a
+[0:35:56] devolver un verdadero,
+[0:35:58] y la función como tal devuelve un
+[0:35:59] verdadero, porque no hay un punto y
+[0:36:00] coma.
+[0:36:02] Eh, yo igual aquí podría hacer eso, por
+[0:36:03] ejemplo,
+[0:36:05] pongo aquí el, el punto y coma,
+[0:36:08] y aquí y nada más escribo la, la palabra
+[0:36:10] balance, y ya se vería de acuerdo al
+[0:36:12] valor, por ahí creo que
+[0:36:15] ahora no.
+[0:36:16] En este caso tendría que declararla con
+[0:36:18] el let,
+[0:36:21] y el tipo,
+[0:36:29] y ya ahí, pues, debería, bueno, ahí más
+[0:36:32] adelante hay que hacer el
+[0:36:41] que se hace la comparación,
+[0:36:45] para el mod
+[0:36:48] y aquí
+[0:36:49] mod
+[0:36:51] es igual y aquí se hace la operación.
+[0:36:57] Y ahí pues daría Ah, pues un momento.
+[0:37:00] Nada más.
+[0:37:02] Y ahí debería hacer el retorno, si no me
+[0:37:05] equivoco por ahí hay un error.
+[0:37:08] Pero no es un error del del tipado,
+[0:37:09] entonces en este caso
+[0:37:11] eh
+[0:37:13] es la manera más larga de hacerlo y la
+[0:37:14] verdad no no no vale la pena, pero igual
+[0:37:17] también se puede hacer de esa manera.
+[0:37:19] Entonces aquí vamos a poner un punto de
+[0:37:21] quiebre.
+[0:37:27] Que es como super
+[0:37:29] rápido, aquí quitamos el
+[0:37:32] punto y coma y es la manera como más
+[0:37:33] propia de pues devolver el el valor.
+[0:37:37] Eh y bueno, aquí se
+[0:37:39] especifica igual que es el bool.
+[0:37:42] Vamos a ir de nuevo a la presentación.
+[0:37:45] Eh entonces bueno, ya aquí vimos un poco
+[0:37:47] de las variables y qué se puede hacer.
+[0:37:49] Ah, un momento.
+[0:37:54] Por ahí hay una pregunta, para
+[0:37:55] operaciones matemáticas es una buena
+[0:37:57] práctica controlar el overflow
+[0:38:00] o evitar negativos en un signed.
+[0:38:06] O sea, dependiendo dependiendo puede ser
+[0:38:09] puede ser una buena práctica, no diría
+[0:38:10] que para todos los casos eh
+[0:38:13] se deba controlar el overflow
+[0:38:16] o no.
+[0:38:17] Eh pero digamos si es algo muy
+[0:38:19] repetitivo, yo no recomiendo ponerse a
+[0:38:21] controlarlo, es mejor
+[0:38:23] eh
+[0:38:24] evitar los negativos con con el signed.
+[0:38:27] Pero dependiendo del caso, si ya saben
+[0:38:28] que se reitera mucho
+[0:38:31] o sea, la variable mejor
+[0:38:33] eh cambiar el tipo de dato, si es algo
+[0:38:36] que solo pasa una vez
+[0:38:37] eh
+[0:38:39] digamos dentro de las dentro de las
+[0:38:41] procesos que hay dentro del programa
+[0:38:44] no habría por qué no controlar el
+[0:38:45] overflow, pero bueno, igual es una
+[0:38:46] opción como
+[0:38:49] como que hay que tomar en consideración
+[0:38:51] que
+[0:38:52] que
+[0:38:54] qué tanto se utiliza, qué tan importante
+[0:38:57] es, si al final de cuentas no todo es
+[0:38:59] eficiencia, porque también, o sea, si si
+[0:39:01] por hacer alguna de esas cosas le
+[0:39:03] añadimos una capa de vulnerabilidad,
+[0:39:05] preferiría pues pagar un poquito más en
+[0:39:07] fees, pero mantener el programa seguro.
+[0:39:10] Eh, porque bueno, al final de cuentas,
+[0:39:13] pues muchos casos de uso de blockchain
+[0:39:15] son financieros y nadie quiere pues
+[0:39:17] perder el dinero en un programa. Eh, y
+[0:39:20] bueno, últimamente, de hecho, es algo
+[0:39:21] común que se vean hacks. Eh,
+[0:39:23] hoy fue Mercado Bitcoin, fin de semana
+[0:39:26] fue Binance.
+[0:39:28] Eh, y bueno, todos están expuestos a
+[0:39:30] eso, que la blockchain es pública y
+[0:39:31] cualquiera puede interactuar
+[0:39:33] eh con los contratos, entonces
+[0:39:35] la idea es, sí, ser eficientes, pero
+[0:39:37] tampoco dejar vulnerabilidades eh
+[0:39:40] expuestas.
+[0:39:41] Entonces,
+[0:39:42] depende, depende del caso de uso.
+[0:39:44] Eh,
+[0:39:47] por ese lado, vamos a ver entonces la
+[0:39:49] siguiente
+[0:39:51] diapositiva, funciones y control de
+[0:39:53] flujo. Entonces, bueno, aquí tenemos la
+[0:39:56] función base fee, básicamente es como
+[0:39:58] para calcular ese fee.
+[0:40:01] Igual recibimos un parámetro, eh que es
+[0:40:03] la cantidad de firmas,
+[0:40:05] eh igual es un u64 y devolvemos un un
+[0:40:08] u64.
+[0:40:10] Eh, tenemos la función total y tenemos
+[0:40:13] la función find.
+[0:40:14] Entonces, vamos a irnos igual al código.
+[0:40:17] Eh, ah, bueno, por aquí tenemos el
+[0:40:18] código.
+[0:40:19] Eh, los tipos de la firma, las firmas,
+[0:40:22] ya lo lo dije. Ah, bueno, y lo de lo del
+[0:40:24] option, que básicamente es
+[0:40:28] que no es un tipo de dato como tal, sino
+[0:40:30] que es
+[0:40:31] es como decir que va a entrar un dato,
+[0:40:33] pero aún no se conoce exactamente el el
+[0:40:36] el tipo de dato y eh se básicamente
+[0:40:39] puede ser un non,
+[0:40:40] eh y es como evitar el null, porque, o
+[0:40:43] sea, mmm, no es tan óptimo eh
+[0:40:46] tipar con null.
+[0:40:48] Y no es la idea, porque al final de
+[0:40:49] cuentas si estamos tipando de eso por
+[0:40:50] algo.
+[0:40:51] Eh, vamos a nuestro código y vamos a
+[0:40:56] revisar el ejercicio dos.
+[0:40:59] Entonces, funciones y control de flujo.
+[0:41:03] Eh, vamos a revisar el
+[0:41:06] el punto B.
+[0:41:12] Entonces, dentro del punto B, el
+[0:41:13] objetivo, bueno, es de de este es
+[0:41:15] escribir funciones con tipos explícitos
+[0:41:17] y retornar un valor valor desde la
+[0:41:19] última expresión. Y usar el for y el for
+[0:41:21] y el if.
+[0:41:22] Entonces, como conceptos, la firma de
+[0:41:24] una función indica el tipo de cada
+[0:41:25] parámetro y el tipo de retorno. La
+[0:41:27] última expresión sin punto y coma es el
+[0:41:28] valor de retorno, que es lo que les
+[0:41:29] explicaba.
+[0:41:31] El if es una expresión que produce un
+[0:41:32] valor. El for recorre una colección. Eh,
+[0:41:35] un slice es una prevista prestada en una
+[0:41:38] lista de números. Y el use size es el
+[0:41:40] tipo entero que es usado para longitudes
+[0:41:42] y conteos.
+[0:41:44] Entonces, aquí, bueno, les explica cómo
+[0:41:46] qué tienen que hacer. Entonces, abrir
+[0:41:47] este este
+[0:41:51] archivo.
+[0:41:52] Y las funciones que trae.
+[0:41:54] Entonces, vamos a
+[0:41:55] vamos a listar
+[0:41:58] Entonces, bueno, aquí viene todo igual
+[0:42:00] en en to do.
+[0:42:02] Entonces, tenemos el el base fee.
+[0:42:03] Entonces, por ejemplo,
+[0:42:05] la la comisión base de una transacción
+[0:42:07] en la amp pool. Entonces, básicamente se
+[0:42:09] calcula cuál es la comisión base
+[0:42:11] dependiendo, ¿verdad?, de qué
+[0:42:13] de qué se le pase. Entonces, eh, eso,
+[0:42:15] digamos, esta solución aplica comisión
+[0:42:17] base, las comisiones de prioridad
+[0:42:19] también se se suman por separado, que
+[0:42:21] por por separado. Eso, di, depende
+[0:42:22] también de la de la lógica. Por ejemplo,
+[0:42:24] eh, si yo como
+[0:42:26] como empresa estoy lanzando mi programa
+[0:42:28] y quiero cobrar un fee extra, entonces
+[0:42:30] también lo cobro por aparte.
+[0:42:32] Eh, entre otros
+[0:42:34] entre otras como capas de
+[0:42:36] programabilidad que se le pueden añadir.
+[0:42:38] Am,
+[0:42:40] vamos a ver. El de total, igual, lo que
+[0:42:43] trae es todos los montos del slice.
+[0:42:46] Entonces, aquí lo que vamos a recorrer
+[0:42:47] es un vector de
+[0:42:49] de U64.
+[0:42:53] Y el count above
+[0:42:57] también contar cuáles son mayores que el
+[0:42:59] threshold y el clan transfer es
+[0:43:03] eh no transferir más que es el que el
+[0:43:06] saldo que ya se tiene. Entonces, eso es
+[0:43:07] como una variación
+[0:43:09] eh de de eso mismo.
+[0:43:13] Entonces,
+[0:43:14] eh igual acá lo que se hace para co
+[0:43:18] para calcular el base fee es tomar las
+[0:43:21] can la cantidad de firmas y
+[0:43:22] multiplicarlo por 5,000.
+[0:43:25] Eh
+[0:43:26] que bueno, eso es como un monto que está
+[0:43:29] eh
+[0:43:30] moqueado ahí, se se podría cambiar,
+[0:43:31] podría poner cualquier otro monto,
+[0:43:33] 1,000,
+[0:43:34] eh el millón o lo que sea, igual va a
+[0:43:36] funcionar, o sea, es lo que es casi una
+[0:43:38] constante, que esto, o sea, realmente lo
+[0:43:41] lo podríamos igual
+[0:43:42] eh declarar que había como una constante
+[0:43:44] y no pasa nada.
+[0:43:46] Este, esta función lo el la del total,
+[0:43:49] lo que hace es recorrer ese array de U64
+[0:43:52] que trae las los montos
+[0:43:55] y lo va sumando. Entonces, básicamente
+[0:43:57] es
+[0:43:58] tomar un un vector,
+[0:44:00] iterarlo y sumar
+[0:44:02] cuánto vale cada espacio de ese vector.
+[0:44:04] Eh en este caso, en Solana es muy
+[0:44:07] estricto con los tipos, entonces, estos
+[0:44:09] eh arreglos solo pueden ser de un solo
+[0:44:11] tipo. Eh entonces, en este caso,
+[0:44:14] solo puede tener U64s.
+[0:44:17] Eh no como en otros lenguajes que uno
+[0:44:19] podría tener
+[0:44:20] varios tipos, podría tener un string y
+[0:44:21] un entero, eh en este caso, inclusive
+[0:44:24] hasta ni siquiera pueden tener dos
+[0:44:27] enteros, porque, por ejemplo, puede ser
+[0:44:28] que un entero no entre en su U64,
+[0:44:30] entonces, ahí también
+[0:44:32] eh es otra consideración a tomar, eh
+[0:44:35] que solo serían U64s.
+[0:44:38] Eh
+[0:44:40] y bueno, el parámetro es el de amounts.
+[0:44:42] Y bueno, primero que todo, declaramos la
+[0:44:44] variable suma.
+[0:44:46] Esta es la que, o sea, esta variable es
+[0:44:47] mutable
+[0:44:49] porque es la que va a ir contando todos
+[0:44:52] eh o sea, va a ir sumando todos montos.
+[0:44:55] Entonces, básicamente aquí, con este
+[0:44:57] for, vamos a iterar el el el arreglo.
+[0:45:02] Y cada vez que pase se le va a ir
+[0:45:03] sumando el monto específico de ese
+[0:45:07] de o sea, de esa posición. Entonces, en
+[0:45:09] la posición uno se le suman 10, por
+[0:45:11] ejemplo, posición dos se suman 20.
+[0:45:12] Entonces, al final de cuentas, la
+[0:45:14] variable suma tiene como valor final eh
+[0:45:19] 10 y 20, 30.
+[0:45:21] Entonces, aquí eh retornamos la variable
+[0:45:24] suma.
+[0:45:27] Aquí lo que lo que vamos a hacer es
+[0:45:29] contar cuántos montos son estrictamente
+[0:45:31] mayores que el threshold.
+[0:45:34] El threshold es una un parámetro más que
+[0:45:36] le pasan.
+[0:45:38] Entonces, aquí le pasamos igual el el
+[0:45:40] arreglo y el threshold. Entonces, yo
+[0:45:41] defino como threshold un número, no sé,
+[0:45:44] 10,000. Entonces, si dentro del dentro
+[0:45:47] del arreglo hay algún número que es
+[0:45:49] mayor a 10,000, lo va a contar. Y si no,
+[0:45:52] simplemente lo pasa.
+[0:45:53] Y aquí ya no usamos un for como tal,
+[0:45:55] porque hay ciertas variables
+[0:45:56] predefinidas que se pueden utilizar como
+[0:45:58] herramientas
+[0:45:59] eh para no para no hacerlo a mano,
+[0:46:02] aunque se podría igual poner un for e ir
+[0:46:04] haciendo las sumas y poner como toda esa
+[0:46:06] lógica, pero esto lo simplifica un
+[0:46:08] montón. Entonces, digamos, con la
+[0:46:10] función iterar vamos iterando el arreglo
+[0:46:13] y vamos filtrando dependiendo de lo que
+[0:46:14] le pongamos acá. Entonces, por ejemplo,
+[0:46:15] aquí le ponemos eh que si el monto eh
+[0:46:18] del que estamos hablando es mayor al
+[0:46:19] threshold, lo cuente y si no, pues, no
+[0:46:21] lo cuente.
+[0:46:23] Eh y esto es para nunca transferir más
+[0:46:25] que saldo, que teóricamente o sea,
+[0:46:28] dentro de Solana no se puede, porque si
+[0:46:30] uno quiere transferir más de cinco
+[0:46:33] Solanas
+[0:46:34] y tiene cuatro,
+[0:46:36] por reglas de la red no lo va a dejar,
+[0:46:38] porque si no se podría hacer dinero
+[0:46:39] infinito de esa manera y no, pues, no es
+[0:46:41] la idea. Entonces, ahí la red le va a
+[0:46:43] retornar un error. Sin embargo, si usted
+[0:46:46] lo escribe en el programa,
+[0:46:47] va a intentar hacerlo. Y eso ya es un un
+[0:46:50] error de ejecución, el cual
+[0:46:52] distam muy mal hecho y no no no debería
+[0:46:54] poder suceder.
+[0:46:56] Y evidentemente, por reglas de la vida
+[0:46:57] no va a suceder, pero igual siempre es
+[0:46:59] bueno verificar esto.
+[0:47:01] Eh, entonces aquí lo que lo que verifica
+[0:47:04] es eh que si está dentro del o sea que
+[0:47:07] si alguno es pues
+[0:47:09] este
+[0:47:10] o sea si está intentando transferir más
+[0:47:12] de lo que puede
+[0:47:13] eh y ahí lo que lo que devuelve es este
+[0:47:18] cuál es el monto que se puede
+[0:47:19] transferir.
+[0:47:20] Eh que en este caso es un 64, entonces
+[0:47:22] igual lo que hace es
+[0:47:24] eh la interacción y nada más revisa.
+[0:47:27] Luego vamos con
+[0:47:29] Ponemos un momento la presentación.
+[0:47:32] Entonces por ese lado está esto.
+[0:47:34] Ah
+[0:47:36] Igual signature será si el parámetro que
+[0:47:38] se le pasa que es una cantidad y bueno
+[0:47:40] ahí se corre el el
+[0:47:42] la o sea el la
+[0:47:45] la fee base.
+[0:47:47] Ah, luego tenemos el ownership.
+[0:47:50] El ownership básicamente es literalmente
+[0:47:52] la manera en la que eh algo
+[0:48:01] Eh bueno por aquí preguntaban de nuevo
+[0:48:02] es más fácil usar el el ampersand para
+[0:48:05] todo para que no funcione
+[0:48:07] no sé si eso es por la misma a menos que
+[0:48:09] sea copy paste. Sí, eh en ese caso sí es
+[0:48:11] más más eficiente.
+[0:48:14] Eh
+[0:48:16] de por por por un tema del del copy
+[0:48:18] paste, entonces eh si si no se utiliza
+[0:48:21] después es muchísimo más conveniente
+[0:48:23] usar el ampersand.
+[0:48:25] Ah bueno vamos con ownership y la del
+[0:48:27] auto, entonces básicamente aquí tenemos
+[0:48:29] este código donde declaramos por ejemplo
+[0:48:32] A
+[0:48:33] y ponemos que es un string
+[0:48:35] y el valor llave.
+[0:48:38] Una vez lo ese valor se lo asignamos a
+[0:48:41] otra variable, la llave se mueve, ya A
+[0:48:43] no sería el dueño de o sea ya A no
+[0:48:46] tendría la llave para ese valor, sino
+[0:48:48] que sería B.
+[0:48:49] Entonces a la hora de intentar imprimir
+[0:48:50] por ejemplo el A
+[0:48:52] no lo no se va a poder hacer por ese
+[0:48:54] mismo motivo.
+[0:48:55] Eh cada valor tiene un solo dueño, eso
+[0:48:58] desde el punto de vista del ownership.
+[0:49:00] Puede que, digamos, ya a nivel de
+[0:49:02] variables sí
+[0:49:03] eh cambie y digamos dos variables pueden
+[0:49:06] tener el mismo valor, pero no eso
+[0:49:07] depende realmente de cómo se esté
+[0:49:08] programando.
+[0:49:10] Eh pero en este caso si la llave de la
+[0:49:12] mueve ya no se maneja, entonces ya por
+[0:49:15] ejemplo aquí ya no deja de ser dueño de
+[0:49:17] ese valor. Entonces vamos a irnos al
+[0:49:19] código.
+[0:49:21] Vamos a verlo desde
+[0:49:24] el main primero.
+[0:49:43] Entonces bueno, eh el objetivo de esto
+[0:49:45] es ver cómo ocurre un move, básicamente
+[0:49:47] cómo se se mueve el ownership de un
+[0:49:50] de una variable a otra y retornar un
+[0:49:53] valor con con ownership. Entonces
+[0:49:55] tenemos una función que toca hacer hacer
+[0:49:58] el move y otra que retorna un valor con
+[0:49:59] ese ownership.
+[0:50:02] Eh
+[0:50:04] Vamos a ver todo esto
+[0:50:07] del código.
+[0:50:09] Aquí nada más salir del archivo
+[0:50:11] y
+[0:50:16] Entonces vamos a irnos al archivo que no
+[0:50:18] está resuelto,
+[0:50:20] que así es como se va a ver. Entonces
+[0:50:22] aquí tenemos una, dos, tres, cuatro
+[0:50:24] funciones.
+[0:50:26] Eh está el make label, que es construir
+[0:50:29] una etiqueta a partir del nombre de un
+[0:50:30] dueño con ownership.
+[0:50:32] Eh luego retornar una copia con
+[0:50:36] ownership, con ownership de un string
+[0:50:38] prestado, la entrada se presta con el
+[0:50:41] ampersand STR, así que
+[0:50:43] quien llama conserva el el ownership.
+[0:50:46] Eh luego tenemos take and return, que es
+[0:50:48] toma un ownership del nombre de una
+[0:50:50] cuenta y lo retorna junto con su
+[0:50:51] longitud. Quien llama no puede utilizar
+[0:50:53] el string original después de esta
+[0:50:54] llamada. Entonces básicamente es una
+[0:50:56] función que recibe eh
+[0:50:59] la variable
+[0:51:01] que asumo tiene el ownership, pero
+[0:51:03] dentro de la función el ownership cambia
+[0:51:04] de dueño. Entonces, una vez se devuelva,
+[0:51:07] ya se ya o sea, ya quien estaba usando
+[0:51:09] esa función no va a poder tener el
+[0:51:11] ownership del parámetro que pasó.
+[0:51:15] Y este último consume un consume un
+[0:51:18] vector de nombres de cuentas y retorna
+[0:51:20] cuántos hay.
+[0:51:21] Pues vamos a ver cómo queda ya
+[0:51:24] resuelto.
+[0:51:29] El make label lo que hace igual es eh
+[0:51:32] llamar a esta función format y le pasa
+[0:51:34] como parámetro lo que se va a poner eh
+[0:51:37] como texto
+[0:51:38] y a la par el owner que es el que está
+[0:51:41] pasando.
+[0:51:42] Ahora, este de duplicate lo que le o
+[0:51:45] sea, lo que hace es retornar una copia
+[0:51:47] con ownership de un string prestado, o
+[0:51:48] sea, no no es no es que está no es que
+[0:51:50] está haciendo el movimiento, sino que
+[0:51:52] simplemente está duplicando ese
+[0:51:54] ownership, que no es no es lo mismo,
+[0:51:55] porque al final de cuentas
+[0:51:57] cada variable tiene su propio ownership.
+[0:52:00] Tanto la inicial como la nueva.
+[0:52:03] En este de take and return eh
+[0:52:06] literalmente toma y retorna, entonces
+[0:52:09] eh recibe el parámetro
+[0:52:11] que tenía el ownership
+[0:52:13] lo toma
+[0:52:14] y lo devuelve
+[0:52:16] como uno nuevo. Entonces, en este caso
+[0:52:18] eh
+[0:52:20] hm eh como extra también devuelve la
+[0:52:22] longitud, entonces en esto lo que
+[0:52:23] estamos haciendo es calcular que qué tan
+[0:52:26] qué tan grande es
+[0:52:28] y devolvemos entonces el o sea,
+[0:52:31] devolvemos este tipo de dato que es un
+[0:52:34] un string y un user size. Entonces, el
+[0:52:36] string sería el el valor
+[0:52:38] eh del cual se está cambiando el
+[0:52:39] ownership
+[0:52:41] y este sería la longitud.
+[0:52:43] Y luego tenemos el consume
+[0:52:45] que básicamente lo que hacemos es
+[0:52:46] simplemente tomar el el parámetro y
+[0:52:49] contar qué tan largo es.
+[0:52:51] Eh entonces, en ese caso eso sería del
+[0:52:54] lado de
+[0:52:56] de la parte tres. Entonces, vamos a
+[0:52:59] a pasar a borrow main
+[0:53:01] que borrow main eh y bueno, y eso va
+[0:53:02] relacionado a lo que a lo preguntaban
+[0:53:04] por ahí.
+[0:53:05] Em,
+[0:53:08] el borrowing básicamente es
+[0:53:10] que la, o sea, la la llave o puede ser
+[0:53:12] ownership se puede prestar, no siempre
+[0:53:14] va a haber un solo dueño, sino puede
+[0:53:15] haber uno o muchos,
+[0:53:17] dependiendo de cómo yo lo lo
+[0:53:20] lo maneje. Puedo manejarlo con el
+[0:53:22] ampersand solo, donde muchos pueden
+[0:53:24] verlo,
+[0:53:25] o puedo manejarlo como el el ampersand
+[0:53:28] mut, o mut,
+[0:53:30] que solo lo puede manejar uno. Entonces,
+[0:53:32] eso depende, digamos, de de qué le toque
+[0:53:34] hacer en ese caso.
+[0:53:37] El se se utiliza, digamos,
+[0:53:40] cuál sea mejor, más eficiente y, bueno,
+[0:53:42] todas las las
+[0:53:44] los requerimientos que haya a la hora de
+[0:53:45] construirlo.
+[0:53:47] Eh, y eso sí, es muy importante que eso
+[0:53:51] no se
+[0:53:52] se considere uno, o sea, o se usa el
+[0:53:53] ampersand solo o se usa el ampersand
+[0:53:55] mut.
+[0:53:56] Eh, nunca ambos, porque ni siquiera se
+[0:53:57] puede, o sea, no se puede hacer
+[0:54:00] eh, dentro del programa, de esa manera.
+[0:54:03] Ah,
+[0:54:05] vamos a ir al al código.
+[0:54:08] Entonces, esto lo voy a decir cuatro y
+[0:54:09] lo vamos a ver de, eh,
+[0:54:11] dentro del task. Ahora, para es esto no
+[0:54:13] lo había explicado, pero más o menos así
+[0:54:15] se ve el repositorio, que
+[0:54:18] creo que ya Solen las mostró, si no
+[0:54:20] igual ahorita se los paso.
+[0:54:22] Eh, básicamente
+[0:54:24] tiene
+[0:54:26] lo tienen el AI policy, tienen el cargo
+[0:54:28] eh, tomo, los test, que esto es lo que
+[0:54:31] les decía que no hay que modificar,
+[0:54:32] porque esto está hecho para que puedan
+[0:54:34] verificar si lo hicieron estuvo bien.
+[0:54:36] Eh,
+[0:54:38] pero aquí yo corro los test y aquí
+[0:54:42] me va a decir si pasaron o no pasaron.
+[0:54:44] En este caso, por ejemplo, pasaron
+[0:54:45] cinco, fallaron cero, ignoraron cero,
+[0:54:47] cero fueron medios y cero se filtraron.
+[0:54:51] Esto,
+[0:54:52] em, dependiendo puede
+[0:54:55] puede lanzarles varios warnings, sí. En
+[0:54:57] este caso no estamos fijándonos en
+[0:54:59] ahorita como en eficiencia o o en ver
+[0:55:01] qué qué tipo de datos usar para hacerlo
+[0:55:03] lo más barato, sino que no estamos eh,
+[0:55:05] viendo Rust como tal, entonces va a
+[0:55:07] tirarnos un montón de warnings sobre eh
+[0:55:10] sobre, o sea, sobre el tipo de dato, si
+[0:55:13] se le puede hacer algo extra, entonces,
+[0:55:16] aquí tira estos warnings, pero al final
+[0:55:17] de cuentas son como solo recomendaciones
+[0:55:21] de algo que puede pasar o algo que puede
+[0:55:24] ser un error más adelante, pero en este
+[0:55:25] caso no
+[0:55:26] no pasa nada. También, bueno, les les va
+[0:55:29] a mostrar qué variables no ha utilizado,
+[0:55:30] esto es eh supercomún, eso si no
+[0:55:34] utilizan una variable, digo, es mejor
+[0:55:35] que no esté, entonces, igual eh
+[0:55:37] quitarlo.
+[0:55:38] Eh, en este caso creo que es esta
+[0:55:40] variable sí no se usa,
+[0:55:42] eh
+[0:55:44] habría que quitarlo.
+[0:55:46] Ah.
+[0:55:50] Y sí, más más que todo dice la manera de
+[0:55:52] correr un test,
+[0:55:54] pero eh igual esto no se modifica, esto
+[0:55:56] es literal así como está.
+[0:55:58] Está está bien, nada más es correrlo
+[0:56:01] como tal. Que igual hay un comando para
+[0:56:03] eso dentro del repo, eh si no me
+[0:56:06] equivoco, es cargo test
+[0:56:32] Aquí está. Entonces, para ejecutar todos
+[0:56:34] los test es cargo test.
+[0:56:36] Y si se quiere ejecutar uno solo es
+[0:56:38] cargo test y aquí se le se le pasa como
+[0:56:42] parámetro
+[0:56:43] el nombre del
+[0:56:45] del archivo que se quiere testear.
+[0:56:47] Entonces, por ejemplo, si yo quiero
+[0:56:48] testear el archivo ejercicio uno,
+[0:56:51] entonces, simplemente le paso ex01.
+[0:56:54] Si es el dos, ex02, y así sucesivamente.
+[0:56:57] Eh, aquí igual vienen como las
+[0:57:00] las indicaciones para entregar el
+[0:57:01] trabajo, entonces, nada más es hacer un
+[0:57:03] fork
+[0:57:05] y abrirnos un pull request, y ahí
+[0:57:07] nosotros vamos a verificar que ustedes
+[0:57:08] eh hayan
+[0:57:10] presentado
+[0:57:11] los los ejercicios de manera correcta.
+[0:57:14] Eh igual, o sea, como recomendación
+[0:57:16] cuando ya hacen el pull request
+[0:57:18] pueden abrirlo sin necesidad de que esté
+[0:57:21] todo terminado, nada más denlo como
+[0:57:22] draft.
+[0:57:23] No lo dejen abierto eh del todo porque
+[0:57:27] si no puede que nosotros lo revisemos y
+[0:57:28] pensemos que ya está listo.
+[0:57:31] Eh igual siempre vamos a o sea, como una
+[0:57:33] doble verificación, pero en caso de que
+[0:57:35] de que
+[0:57:36] pase algo así, nada más
+[0:57:38] o sea, súbanlo como draft para no tener
+[0:57:40] malentendidos.
+[0:57:41] Eh
+[0:57:43] igual nosotros vamos a dar como un
+[0:57:44] tiempo de gracia para que para que
+[0:57:46] puedan subirlo, entonces eh o sea,
+[0:57:48] si lo suben por ejemplo hoy mismo el el
+[0:57:51] PR, nosotros no lo vamos a estar
+[0:57:53] revisando hoy, sino que puede ser dentro
+[0:57:55] de una semana.
+[0:57:56] Eh tengo que tengo que hablar algo de
+[0:57:58] eso bien con Sole, porque en
+[0:58:00] no recuerdo cuándo cuándo era que se que
+[0:58:02] es se revisaba el PR o tal.
+[0:58:04] Pero por si igual no no no es como que
+[0:58:07] ahorita lo suban de una vez.
+[0:58:09] Eh y lo otro es
+[0:58:11] si tienen dudas, pueden abrir el pull
+[0:58:13] request y entre los mismos pull request
+[0:58:15] nos pueden etiquetar, nosotros lo
+[0:58:17] revisamos, aunque
+[0:58:18] eh o sea, déjenlo como comentario ahí
+[0:58:22] para nosotros tenerlo, pero si pueden
+[0:58:24] igual escribirnos por Telegram, es más
+[0:58:25] sencillo porque bueno
+[0:58:27] al menos yo paso más pendiente de
+[0:58:28] Telegram que GitHub.
+[0:58:30] Eh entonces si si tienen alguna
+[0:58:33] pregunta, nos pueden
+[0:58:35] eh escribir al Telegram y y lo podemos
+[0:58:37] ver.
+[0:58:38] Eh inclusive si ocuparan algo extra
+[0:58:41] eh que podemos ver si algo si es que
+[0:58:43] algo les está fallando, ocupan como una
+[0:58:45] explicación más más de
+[0:58:48] o sea, más
+[0:58:49] más lenta de de algo, eh podemos hablar
+[0:58:52] igual para coordinar si necesitan algo
+[0:58:53] entonces para esa ayuda.
+[0:58:56] Am
+[0:58:57] pero sí, por ese lado es un tema de la
+[0:58:59] entrega que me desvié un poco.
+[0:59:01] Pero em
+[0:59:03] sí, eso sería el el PR.
+[0:59:06] Am
+[0:59:11] más o menos el código.
+[0:59:27] Para los tres de los programas en core,
+[0:59:28] la dirección de la estándar.
+[0:59:31] No, no estoy seguro de de cuál es el
+[0:59:33] estándar, voy a revisarlo porque de
+[0:59:34] momento no hay, o sea, no no
+[0:59:38] No hay que, o sea, no hay no hay ninguna
+[0:59:39] subdirección
+[0:59:41] de los programas, entonces por ese lado
+[0:59:44] todavía no no lo no lo he revisado, pero
+[0:59:47] pero sí, igual igual creo que creo que
+[0:59:49] sí, o sea, eso sería el que se se
+[0:59:51] usaría.
+[0:59:52] Ah, tengo que revisar en el en el red
+[0:59:54] book cuál
+[0:59:56] cuál es.
+[1:00:02] Okay.
+[1:00:04] Entonces, ya hasta ahí vamos por el
+[1:00:06] ejercicio tres, vamos a ver el último
+[1:00:10] que es el
+[1:00:13] el último.
+[1:00:16] Ah, no hemos visto el cuatro.
+[1:00:18] Entonces, vamos.
+[1:00:22] Cierto, sí, el cuatro es el que hace
+[1:00:23] falta
+[1:00:26] resolverlo antes.
+[1:00:34] Entonces, en este cuatro tenemos igual
+[1:00:37] cuatro funciones, la función total
+[1:00:40] que le damos un slice de montos y
+[1:00:41] retorna la suma. Tenemos el app fee que
+[1:00:44] suma una comisión a un saldo a través de
+[1:00:46] una referencia mutable.
+[1:00:48] Tenemos el count, el writeable
+[1:00:50] que cuenta cuántas cuentas son
+[1:00:52] escribibles.
+[1:00:54] Eh, y el append note de agregar una nota
+[1:00:57] a través de una referencia mutable.
+[1:01:00] Eh, entonces vamos a ver eso ya a nivel
+[1:01:01] de código.
+[1:01:03] Cómo quedó.
+[1:01:05] Vamos a ejecutar el ejercicio 04.rs.
+[1:01:09] Y vemos que la función total, igual toma
+[1:01:13] el como parámetro amounts y un arreglo
+[1:01:17] de U64, y devuelve un U64. Entonces esto
+[1:01:21] lo que hace es lo lo común que hicimos
+[1:01:23] en la otra función de total,
+[1:01:25] toma la el el arreglo, lo recorre, y en
+[1:01:27] cada propiedad va sumando el valor del
+[1:01:29] monto en la posición específica, y
+[1:01:31] retorna como valor la suma.
+[1:01:33] Luego tenemos el el add fee, que es
+[1:01:36] sumar una comisión a un saldo a través
+[1:01:38] de una referencia mutable.
+[1:01:39] Eh entonces básicamente aquí recibimos
+[1:01:41] como parámetros el amount
+[1:01:44] y
+[1:01:46] el fee.
+[1:01:48] Y entonces aquí lo que hace es tomar una
+[1:01:49] referencia mutable, y se le suma el fee
+[1:01:52] al al amount.
+[1:01:54] Eh luego tenemos el comparable
+[1:01:58] que lo que lo que o sea lo lo que nos
+[1:02:01] dice es
+[1:02:02] cuántos se se puede o sea cuántos se
+[1:02:04] pueden modificar, por así decirlo, o
+[1:02:06] editar.
+[1:02:07] Eh o es escribir dentro de de Entonces
+[1:02:10] aquí tenemos la la iteración
+[1:02:12] básicamente, se filtra,
+[1:02:14] eh y aquí hacemos la validación,
+[1:02:17] y si esa validación es verdadera
+[1:02:18] entonces lo cuenta, si no simplemente no
+[1:02:20] lo hace.
+[1:02:23] Y este agrega una nota eh a través de la
+[1:02:25] definición mutable, entonces igual
+[1:02:27] tomamos como
+[1:02:29] como parámetros el history
+[1:02:31] y la nota. Entonces eh el history
+[1:02:33] básicamente es eh ti todo lo que ya
+[1:02:36] viene, y la nota es lo que queremos
+[1:02:37] añadirle, entonces lo que es lo que hace
+[1:02:39] es al history pushearle esa nota, y le
+[1:02:43] bueno le hacemos el to string para que
+[1:02:45] eh asegurarnos que quede en el formato
+[1:02:47] string
+[1:02:48] eh y no vaya a causar un error futuro.
+[1:02:50] Que bueno, igual siempre es importante
+[1:02:52] como validar que el dato que vamos a
+[1:02:55] a pushearle sea sea el correcto, porque
+[1:02:57] si no eso puede terminar siendo un
+[1:02:59] problema.
+[1:03:03] Entonces volviendo a la presentación, eh
+[1:03:07] el bit only writeable si le doy,
+[1:03:09] entonces básicamente bueno el bit only
+[1:03:12] lo que lo que hace bueno igual con pues
+[1:03:14] eso es lo del ampersand que les
+[1:03:15] explicaba, solo pueden leer, o sea el
+[1:03:18] bit solo puede leer y entonces digamos
+[1:03:20] esto lee la cuenta X, este lee la cuenta
+[1:03:22] X igual y se ejecuta en paralelo. Y el
+[1:03:25] writable, eh, lo lo lo que añade es que
+[1:03:27] también se le puede escribir encima, o
+[1:03:29] sea, yo yo puedo modificarla. Eh, la el
+[1:03:32] parámetro que nos que nos están pasando,
+[1:03:33] entonces por ejemplo, eh,
+[1:03:36] por ahora ahora que estamos
+[1:03:38] en el
+[1:03:40] archivo, por aquí tenemos que tener,
+[1:03:42] bueno, este se declara eh, de esa
+[1:03:45] manera, el ampersand mod.
+[1:03:48] Entonces yo puedo escribir, o sea, puedo
+[1:03:50] puedo hacer el push a eso. Si yo no
+[1:03:51] tuviera ese ampersand mod,
+[1:03:53] posiblemente no podría escribirle.
+[1:03:56] Eh,
+[1:03:57] por porque así está
+[1:04:00] este, ya ya asignado.
+[1:04:02] Eh,
+[1:04:03] porque inicialmente se o sea, si uno no
+[1:04:05] lo declara mod,
+[1:04:07] o sea, ya desde ahí no puede
+[1:04:09] modificarlo, entonces
+[1:04:11] eh, básicamente eso es lo que le da la
+[1:04:12] la capacidad de que lo podamos
+[1:04:13] modificar.
+[1:04:21] Eh, y bueno, para la tarea, eh, ya ya
+[1:04:23] pues estamos terminando.
+[1:04:25] Eh,
+[1:04:26] la tarea es completar del ejercicio 1 al
+[1:04:29] 4, igualmente, o sea, igualmente esto
+[1:04:32] es, o sea,
+[1:04:34] cada día va a quedar como una tarea,
+[1:04:35] pero realmente es una sola tarea que
+[1:04:37] sería del ejercicio 1 al 8, solo que de
+[1:04:40] hoy quedaría del 1 al 4. Eh, estos igual
+[1:04:43] son super de sencillos y rápidos, eh,
+[1:04:46] pero igual si alguno tiene una duda, eh,
+[1:04:47] puede escribirnos, nosotros estamos
+[1:04:49] atentos.
+[1:04:50] Eh,
+[1:04:52] y bueno, sí, entonces básicamente los
+[1:04:54] pasos para poder hacerlo sería primero
+[1:04:56] clonar el repo de, bueno,
+[1:04:58] el repo del ROS basics, en realidad es
+[1:05:00] el el repo este semana.
+[1:05:02] Eh, resolver cada to do, pues cambiar
+[1:05:05] la, o sea, cambiar el to do por un, o
+[1:05:08] sea, por código real que funcione, no
+[1:05:10] modificar los tests, porque ahí va a
+[1:05:12] terminar siendo, o sea, no no vamos a
+[1:05:14] poder contarlo.
+[1:05:16] Y hacer el push con el CI en verde,
+[1:05:18] entonces si el CI está en verde
+[1:05:19] significa automáticamente que ya ustedes
+[1:05:21] tienen la tarea lista, entonces de su
+[1:05:23] lado no hay nada más que hacer. Si el CI
+[1:05:25] no está en verde, eh
+[1:05:27] di, corrijan lo que tengan mal
+[1:05:29] o escríbannos para ver qué es lo que
+[1:05:31] puede estar pasando, eh porque a veces
+[1:05:33] el CI puede ser un poco
+[1:05:35] un poco
+[1:05:37] estricto y pueden haber cosas super
+[1:05:40] pequeñas que pueden hacer que no pase.
+[1:05:43] Eh son 19 tests automatizados, entonces
+[1:05:45] la nota es
+[1:05:47] la cantidad de tests que pasen entre 19,
+[1:05:49] entonces si tienen 19
+[1:05:51] eh
+[1:05:52] van a obtener un 100, por ejemplo.
+[1:05:54] Eh y ahí va bajando si si tiene alguno
+[1:05:56] menos, pero la la idea es igual que
+[1:05:57] puedan pasarlo todos.
+[1:05:59] Eh
+[1:06:00] y si tienen alguna duda, de igual manera
+[1:06:02] nos nos la hacen saber.
+[1:06:06] Eh
+[1:06:08] Sí, aquí está como como para que no
+[1:06:09] intenten modificarlo, porque si no no no
+[1:06:11] lo vamos a soportar.
+[1:06:13] Eh y quiero eh instarles a que eh
+[1:06:19] no
+[1:06:20] O sea, vamos a ver, yo soy full creyente
+[1:06:22] de que la IA llegó para quedarse y que
+[1:06:24] de verdad tenemos que usarla en el día a
+[1:06:25] día,
+[1:06:26] pero este bootcamp está partiendo de
+[1:06:28] cero, entonces en estas partes
+[1:06:30] sí utilícenla,
+[1:06:32] pero háganlo con conciencia para que
+[1:06:33] puedan aprender realmente lo que están
+[1:06:34] haciendo.
+[1:06:36] Eh
+[1:06:38] si ustedes, por ejemplo, no pueden
+[1:06:39] explicar lo que hicieron, realmente no
+[1:06:41] cuenta, simplemente
+[1:06:42] di, hicieron un trabajo, pero no
+[1:06:44] entienden lo que hacen y eso es
+[1:06:47] eh algo super riesgoso, porque
+[1:06:48] imagínense que entran a un trabajo en el
+[1:06:50] cual tienen que trabajar en Rust, hacen
+[1:06:52] un código que se va a producción y
+[1:06:54] termina fallando eso.
+[1:06:55] Eh y no saben cómo arreglarlo, nadie más
+[1:06:57] sabe porque nadie sabe sabe Rust en el
+[1:07:00] trabajo, por ejemplo, sería un problema
+[1:07:01] gigante.
+[1:07:02] Eh y al final de cuentas el que queda
+[1:07:04] como un mal profesional es uno, entonces
+[1:07:06] intentar entender lo más básico es
+[1:07:08] clave, porque si ustedes entienden esto,
+[1:07:10] de aquí para adelante todo lo pueden
+[1:07:12] hacer con IA, evidentemente revisándolo
+[1:07:14] y haciendo un
+[1:07:16] eh un buen desarrollo de la mano del de
+[1:07:19] la IA,
+[1:07:21] pero sí es importante que le dediquen
+[1:07:23] tiempo. no no, o sea, la idea no es que
+[1:07:25] entreguen por entregar.
+[1:07:27] Eh, sino que entreguen
+[1:07:29] y que al entregar ustedes estén llevando
+[1:07:32] algo y aprendiendo algo.
+[1:07:33] Eh,
+[1:07:34] les recomiendo como
+[1:07:36] como también un recurso extra que no es
+[1:07:39] parte del bootcamp como tal, es lo de
+[1:07:41] acá, el Rustbook y los Rustlings. Los
+[1:07:44] Rustlings es como
+[1:07:46] casi que lo que por lo todo el mundo
+[1:07:48] pasa cuando se inicia en Rust
+[1:07:49] y son como pequeños retos de de Rust eh
+[1:07:52] que están buenísimos y te llevan un
+[1:07:54] montón a aprender desde lo más básico, o
+[1:07:55] sea, son ejercicios sí, más básicos que
+[1:07:58] los que vimos. Entonces también eh por
+[1:08:00] ese por ahí está eso y este repo que
+[1:08:04] está mal. El el el último es es de
+[1:08:09] español. Entonces voy a pasarles el link
+[1:08:11] igual
+[1:08:13] para que lo tengan a la mano.
+[1:08:16] Es exactamente el mismo URL, solo que
+[1:08:18] cambian la N por una S.
+[1:08:21] Eh, entonces ahí igual son 37 tests.
+[1:08:25] Em,
+[1:08:27] y ya una vez los pasan, pues ya quedaría
+[1:08:30] completo.
+[1:08:32] Eh, pero como como vieron es, o sea,
+[1:08:34] esta primera parte solo solo ve del 1 al
+[1:08:37] 4. Mañana eh se vería
+[1:08:41] el del 5 al 8.
+[1:08:44] Am, entonces por ese lado ya ya estamos
+[1:08:47] por hoy. No sé si alguno tiene alguna
+[1:08:48] duda, eh algo que no le quedó claro,
+[1:08:51] tiene algún comentario.
+[1:08:53] Eh,
+[1:08:55] sea lo que sea, igual estamos para
+[1:08:58] para escucharlos y y y también si tienen
+[1:09:00] al- algo de feedback, eh estamos
+[1:09:02] superabiertos a escucharlo.
+[1:09:04] Y si no, pues terminamos por ahí.
+[1:09:23] Bueno, creo que nadie tiene dudas,
+[1:09:24] entonces
+[1:09:25] Eh
+[1:09:26] Por ahí quedaríamos por hoy
+[1:09:29] Ah
+[1:09:32] Y nos nos vemos mañana si no me equivoco
+[1:09:35] Este mañana sería Fabi el encargado
+[1:09:39] Eh entonces ya mañana pues conocemos más
+[1:09:41] a Fabi y de ahí podemos también este
+[1:09:45] Yo también voy a pasar por ahí entonces
+[1:09:46] también
+[1:09:47] Nos vemos mañana
