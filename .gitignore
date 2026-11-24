@@ -1,0 +1,17 @@
+# Dependencias y compilación
+node_modules/
+target/
+__pycache__/
+*.pyc
+
+# Variables de entorno y llaves
+.env
+.env.*
+*.key
+*.pem
+
+# Sistema operativo e IDEs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
