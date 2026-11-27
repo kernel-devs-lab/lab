@@ -1,0 +1,1360 @@
+# Transcripción: Enable micro-payments with x402 on Solana
+URL: https://www.youtube.com/watch?v=BoqpFVoYWQg
+
+[0:01:50] Jim Jim
+[0:01:53] So we're going to start soon. I just
+[0:01:55] like sent anime
+[0:01:57] to people to join.
+[0:02:01] Um.
+[0:02:03] Yes.
+[0:02:15] I'm closing registration to avoid spam.
+[0:02:24] Okay.
+[0:02:28] So
+[0:02:30] yes, today today it's about Explorer
+[0:02:32] two.
+[0:02:33] Um tomorrow going to be the last session
+[0:02:36] about the preparation with um best tips
+[0:02:40] to like to do your first hackathon
+[0:02:42] basically.
+[0:02:43] Uh and then after on Friday going to be
+[0:02:47] the hackathon.
+[0:02:49] Like it will start officially.
+[0:02:54] Fabian, are you there?
+[0:02:57] Okay.
+[0:02:58] >> Hey soon.
+[0:02:59] >> Perfect, perfect.
+[0:03:01] Um
+[0:03:03] so I think we can start in um
+[0:03:06] like one or two minutes
+[0:03:08] if if all good.
+[0:03:10] Like when you see uh there's enough
+[0:03:12] people um
+[0:03:16] tuk tuk tuk. Let me add you as host
+[0:03:20] in case I'm crashing
+[0:03:23] because sometimes I'm crashing.
+[0:03:28] Okay.
+[0:03:32] Hi everyone.
+[0:03:34] Hello, always there. [laughter]
+[0:03:36] So good.
+[0:04:22] >> Okay, so let's start then.
+[0:04:28] >> Okay.
+[0:04:29] Thank you so much.
+[0:04:30] Um well, hi everyone. My name is Fabian.
+[0:04:33] I'm from Costa Rica.
+[0:04:35] And today I'm going to be
+[0:04:38] telling you more about X402, how you can
+[0:04:41] use it in the hackathon that we're going
+[0:04:43] to have
+[0:04:44] and a lot of other things which I think
+[0:04:45] are pretty cool that Solana has also. So
+[0:04:49] yeah, let's get started. I'm going to
+[0:04:50] share my screen.
+[0:04:52] Um yeah, it's recording.
+[0:04:56] So
+[0:04:57] I think you guys can see my screen.
+[0:05:04] Right?
+[0:05:04] >> Yes, yes, yes, all good.
+[0:05:06] >> Yep. Okay, thank you.
+[0:05:08] So if you guys have any questions, let
+[0:05:10] me know. I I am seeing the chat, so I
+[0:05:12] can actually, you know, if you write
+[0:05:14] something in the chat, I'll see it. So
+[0:05:16] now today we're going to be talking
+[0:05:18] about X402.
+[0:05:20] Um
+[0:05:21] so let me just put it this full screen.
+[0:05:26] There we go.
+[0:05:28] And um basically what's X402? It's
+[0:05:31] basically a way that
+[0:05:33] what if your apps could pay or for
+[0:05:35] instance, you could get paid for your
+[0:05:37] APIs.
+[0:05:38] So that's what X402 exists. You know,
+[0:05:41] it's an internet native micro payments
+[0:05:43] for AI agents, APIs and apps and Solana.
+[0:05:48] And today we're going to be talking
+[0:05:49] about how it started because it started
+[0:05:51] in a pretty cool way, how you can
+[0:05:53] utilize it,
+[0:05:54] some really good AI tools
+[0:05:57] and a lot of more other things. So
+[0:06:00] um if you were in the yesterday's class,
+[0:06:02] you got a lot of
+[0:06:04] tools on how to build with AI in Solana.
+[0:06:07] Today is more it's more focused into
+[0:06:09] this specific protocol on what if apps
+[0:06:12] could be. So yeah, let's get started.
+[0:06:15] Um
+[0:06:17] and I cannot move these slides. Oh,
+[0:06:19] there we go. Okay, yeah. So for today's
+[0:06:21] session, we're going to be seeing four
+[0:06:23] things. So first, what's sex 402, how
+[0:06:25] the payment protocol works. We're going
+[0:06:27] to enable micro payments on Solana.
+[0:06:29] We're going to integrate payment flows
+[0:06:32] into your applications.
+[0:06:34] And finally, we're going to see real
+[0:06:35] world use cases for AI agents.
+[0:06:40] Yeah. So let's talk about the problem.
+[0:06:42] So the big problem that we had before
+[0:06:45] was that the web never shipped payments.
+[0:06:48] So
+[0:06:48] HTTP, which is basically the way we
+[0:06:51] communicate on the internet.
+[0:06:53] >> Uh you you are the host, so I cannot
+[0:06:55] mute people, but there's like someone
+[0:06:56] who is like um have
+[0:07:00] his mic open. So if you can click on
+[0:07:02] unmute it. Yes, perfect.
+[0:07:04] >> I mute him.
+[0:07:05] Thank you.
+[0:07:07] Right. So um here's the thing now. When
+[0:07:10] the internet started,
+[0:07:12] we didn't ship payments. We didn't think
+[0:07:14] it was necessary at that point to have
+[0:07:16] payments integrate.
+[0:07:18] So what HTTP like the HTTP is basically
+[0:07:21] how we communicate in the internet.
+[0:07:24] Always has had this reserved code status
+[0:07:26] 402 payment required since the 1990s.
+[0:07:30] Now it has been sat unused for a long
+[0:07:33] time. So we bolted payments on instead.
+[0:07:37] That's what we have been doing. So
+[0:07:41] uh there's three main things. So
+[0:07:42] accounts and sign ups. So every service
+[0:07:45] wants an email, a password, and a human
+[0:07:47] to click through onboarding,
+[0:07:49] API keys and plans, you know, keys
+[0:07:50] supervision, monthly tiers to pick,
+[0:07:53] invoices, or everything before the first
+[0:07:55] request. And finally, card checkouts.
+[0:07:57] Now, what's the problem with cards and
+[0:08:00] payments? That card fees make it
+[0:08:03] impossible to charge a small amount
+[0:08:06] because the fee is quite a bit and um it
+[0:08:10] just it just eat like the entire
+[0:08:12] payment.
+[0:08:14] And so it's impossible with cards. So
+[0:08:17] the web was built for humans with
+[0:08:19] browsers and not for software that acts
+[0:08:22] on its own. Now that's not like a bad
+[0:08:24] thing because
+[0:08:26] I mean the internet itself is a great
+[0:08:27] invention and everything, but we didn't
+[0:08:30] think about payments since that moment.
+[0:08:32] So let me show you actually something.
+[0:08:35] I'm going to share my
+[0:08:37] uh
+[0:08:39] Brave one second. And here you can see
+[0:08:41] if we go over to the
+[0:08:43] developer.mozilla.org,
+[0:08:45] basically we can see what each well what
+[0:08:48] HTTP is if you guys are interested. But
+[0:08:51] more importantly, we can see their
+[0:08:53] status codes. And we can see that the
+[0:08:56] 402 payment required status code has
+[0:08:58] always existed. So basically what
+[0:09:01] happens is that when you get a 402
+[0:09:03] payment required, you won't get access
+[0:09:06] to what you're trying to get with the
+[0:09:09] request because you're not allowed
+[0:09:12] because you haven't paid. Now we had
+[0:09:14] enabled that up until now that there's a
+[0:09:16] protocol that exists called X402
+[0:09:19] that solves it. So
+[0:09:21] let's get back to the presentation real
+[0:09:22] quick and let's keep on learning.
+[0:09:27] Right, so here we're back and um
+[0:09:31] now let's continue. So what's X402? It's
+[0:09:34] an open protocol that turns the HTTP 402
+[0:09:38] status code into a real payment step. So
+[0:09:41] that's something very useful. So first
+[0:09:44] of all, it's just HTTP.
+[0:09:46] Um I'm going to put the chat here.
+[0:09:49] There we go.
+[0:09:50] So it's just HTTP. So any API or any web
+[0:09:53] page can ask for payment before it
+[0:09:56] serves a response.
+[0:09:57] It's also stable coin native, so you can
+[0:09:59] pay in USDC and other tokens. It's chain
+[0:10:03] agnostic actually. So of course it's
+[0:10:05] going to have Solana support, but
+[0:10:07] there's a ton of other chains that
+[0:10:09] support it. And finally, something very
+[0:10:11] good is that it has open governance. So
+[0:10:13] it was created by Coinbase in 2025.
+[0:10:16] [snorts] You might have heard of
+[0:10:17] Coinbase. You know, it's a very
+[0:10:18] well-known exchange, mostly in the US,
+[0:10:21] but a lot of other countries have it.
+[0:10:23] And it's now it's stewarded that's
+[0:10:25] basically like
+[0:10:28] I mean, stewarded is like another word
+[0:10:30] for like maintained by the 402
+[0:10:33] Foundation. That's now under the Linux
+[0:10:35] Foundation. So the Linux Foundation
+[0:10:38] actually took the 402 Foundation and now
+[0:10:40] they're like stewarding it.
+[0:10:43] All right, so
+[0:10:49] Right, so let's see how it works. So
+[0:10:51] X402 works the following way. There's
+[0:10:53] basically just five steps
+[0:10:56] which are pretty simple actually.
+[0:10:58] [snorts] So the first one is the
+[0:10:59] request. It's like any normal thing that
+[0:11:01] you are going to do with HTTP.
+[0:11:04] So you have a client
+[0:11:06] that calls a paid endpoint like any
+[0:11:09] other URL.
+[0:11:10] So let's say for instance, get slash
+[0:11:13] weather.
+[0:11:15] Now, what happens when
+[0:11:17] I ask weather, it says it gives the code
+[0:11:21] 402. So what does 402 mean? Payment
+[0:11:23] required. [clears throat] So pay me. So
+[0:11:25] the server answers with the price, the
+[0:11:27] network, the token, and pay two and
+[0:11:31] payment required. That's basically how I
+[0:11:33] should do the payment. Now, once I pay,
+[0:11:37] I'll sign and a client sends a token
+[0:11:40] transfer and resends with payment
+[0:11:42] signature. So I'm going to do the get
+[0:11:45] request again. So it's like it goes here
+[0:11:47] back, but with the signature of a token
+[0:11:50] transfer.
+[0:11:51] Now, after that's done, we the server
+[0:11:55] that in sometimes it's the facilitator.
+[0:11:57] We're going to talk about that later on,
+[0:12:00] basically checks the payload and submits
+[0:12:02] it to Solana. So we use two functions
+[0:12:04] mostly called slash verify and slash
+[0:12:07] settle.
+[0:12:08] Those are normally under the
+[0:12:09] facilitator. We're going to talk about
+[0:12:10] it later.
+[0:12:12] And basically after everything is done
+[0:12:14] and it's delivered, we get a status 200,
+[0:12:17] which is the status code for okay. So,
+[0:12:20] the content comes back with the receipt
+[0:12:22] and response payment.
+[0:12:24] So, we notice that we don't have
+[0:12:27] anything any account, we don't have API
+[0:12:29] keys, we don't have a checkout. It's
+[0:12:32] just pure HTTP, which is very cool.
+[0:12:35] So,
+[0:12:38] um we're going to talk about the roles
+[0:12:40] later. Let me show you some things on
+[0:12:42] the browser.
+[0:12:44] So, we're back in the browser.
+[0:12:46] There's a lot of things that I need to
+[0:12:47] tell you. So, well, first of all,
+[0:12:50] uh this is the repository for X402. You
+[0:12:52] can see it's the um Coinbase one.
+[0:12:55] There's also the
+[0:12:57] the X402 Foundation one, which is the
+[0:12:59] one that's more up to date.
+[0:13:01] But it's basically
+[0:13:02] it it'll basically showcase how X402
+[0:13:05] works because you can you need to
+[0:13:07] remember that this is a protocol for
+[0:13:09] HTTP that just happens to have support
+[0:13:11] for
+[0:13:12] for crypto. So, it has Solana, it has
+[0:13:16] uh a ton of other chains, but it also
+[0:13:19] supports Fiat. So, that's something very
+[0:13:20] cool. You know, X402 was made literally
+[0:13:23] for payments in well, not every way
+[0:13:26] because it's not possible to have every
+[0:13:28] way in this protocol, but a lot of ways.
+[0:13:30] So, the the most common example is the
+[0:13:32] get weather where it accepts as many
+[0:13:36] networks and schemes as you want it to
+[0:13:39] support
+[0:13:40] and then description and then you will
+[0:13:42] like return a value.
+[0:13:44] So, that's basically the repository.
+[0:13:46] There's also this if you guys are
+[0:13:48] interested. Here you can basically see
+[0:13:51] some of the things of what X402 is, the
+[0:13:54] ecosystem that it has on Solana.
+[0:13:56] And also something very cool that I
+[0:13:58] wanted to showcase is solana.ai. This is
+[0:14:01] a bit more separate. We're going to talk
+[0:14:03] about one of the products that Solana AI
+[0:14:05] has
+[0:14:06] in today's class.
+[0:14:08] But it's basically Solana has open
+[0:14:11] infrastructure for intelligence. So,
+[0:14:12] they have a lot of things that are super
+[0:14:15] useful for you guys.
+[0:14:17] Like for instance, um you know, Solana
+[0:14:20] is the network where agents pay because
+[0:14:22] payments settle super quickly and an
+[0:14:25] agent can pay for an API call in
+[0:14:27] milliseconds. And so it's pretty cool.
+[0:14:30] You know, they have a lot of different
+[0:14:31] products that we're going to talk about.
+[0:14:33] Specifically, I'm going to talk about
+[0:14:35] pay.sh which we're going to try out
+[0:14:38] soon.
+[0:14:39] But they have a confidential chat. They
+[0:14:41] have Milo. They have payment channels
+[0:14:43] and they have a lot of support for
+[0:14:46] builders in AI in the blockchain. So if
+[0:14:49] you guys are actually interested in in
+[0:14:51] doing the hackathon with something
+[0:14:52] regarding AI or X402,
+[0:14:55] uh be sure to do it. It's pretty cool.
+[0:14:57] It's a good narrative. I'm going to talk
+[0:14:58] about that later. If you guys have any
+[0:15:00] questions, you can just ask me.
+[0:15:02] So yeah, now let's go back to the
+[0:15:04] presentation.
+[0:15:05] Uh
+[0:15:06] we're going to go into the code later by
+[0:15:08] the way. So it's not just presentation.
+[0:15:11] Um so oops.
+[0:15:14] All right, so there's three roles when
+[0:15:16] you're doing X402. There's the client,
+[0:15:18] the server, and the facilitator. So the
+[0:15:20] client is the buyer. Basically the app,
+[0:15:22] the script, the AI agent with the wallet
+[0:15:25] that reads the price, decides if it's in
+[0:15:28] the budget, and then signs your
+[0:15:30] payments. So that's the buyer.
+[0:15:33] The seller is the one that has the API.
+[0:15:35] The
+[0:15:36] basically just just to let you know if
+[0:15:39] you guys don't know what an API is, it's
+[0:15:42] basically
+[0:15:43] you can think of it like the point where
+[0:15:46] there's information and I need to get
+[0:15:48] it. So I have to request the information
+[0:15:51] or I have to send information to that
+[0:15:54] API.
+[0:15:55] So the seller is the API. You know, it
+[0:15:58] has one middleware line that sets the
+[0:16:00] price per route and returns 402 until a
+[0:16:04] valid payment arrives. And finally,
+[0:16:06] there's the facilitator which is an
+[0:16:08] optional helper, but I always recommend
+[0:16:11] it where you expose Oh, there's
+[0:16:13] something in the chat. Can you make X402
+[0:16:15] work for native currency and what's the
+[0:16:16] trade-off?
+[0:16:18] Yeah, I mean, uh XRO two works with
+[0:16:20] fiat. I'm not entirely sure. There's not
+[0:16:23] in every country, of course, and not in
+[0:16:25] every way
+[0:16:26] because for instance here in Costa Rica
+[0:16:27] doesn't work.
+[0:16:29] to like send the Costa Rican money
+[0:16:32] which is called colones colones like
+[0:16:34] with XRO two.
+[0:16:36] I mean there's just no way. But uh maybe
+[0:16:40] if you're in like the US or something
+[0:16:42] it's more possible. I mean I've never
+[0:16:43] tried it with fiat. I just know it
+[0:16:45] works.
+[0:16:46] But um yeah, it's possible in some
+[0:16:48] countries.
+[0:16:49] The tradeoff is that it can maybe take
+[0:16:52] more time. We're going to see later that
+[0:16:55] when you're using stable coins it's just
+[0:16:58] super quick because
+[0:17:01] I mean well uh Solana settles in no time
+[0:17:05] less than
+[0:17:06] like
+[0:17:07] around 200 milliseconds and so payments
+[0:17:10] are really really really fast.
+[0:17:13] So that's very good and that's something
+[0:17:16] that we really also value when doing an
+[0:17:17] API call like
+[0:17:20] uh doing the settlement quickly. That's
+[0:17:22] also very important. I think a tradeoff
+[0:17:24] could be speed in the sense when you're
+[0:17:26] using fiat. But yeah.
+[0:17:29] Um
+[0:17:31] well and if you meant
+[0:17:33] native currency as in like Solana in the
+[0:17:36] Solana chain
+[0:17:38] then yeah, that's fully possible and
+[0:17:39] there's no tradeoff.
+[0:17:41] Well finally there's the facilitator
+[0:17:44] which is like the settler. So it exposes
+[0:17:46] three main functions which are the
+[0:17:47] verify, the settle and the supported.
+[0:17:50] And that's something very cool because
+[0:17:52] your server would never have to touch an
+[0:17:54] RPC. If you're wondering an RPC is a
+[0:17:57] remote procedure call where you
+[0:17:59] basically just try to communicate with
+[0:18:02] the blockchain
+[0:18:04] to settle things. So
+[0:18:05] um the good thing about using a
+[0:18:07] facilitator
+[0:18:09] I mean local currency XRO two with local
+[0:18:11] currency swap to Solana
+[0:18:13] USD USD
+[0:18:15] USD. Oh yeah, I mean yeah, with local
+[0:18:19] currency it 's possible.
+[0:18:20] Like if you're in if you're in the US
+[0:18:24] and you want to send dollars like fiat
+[0:18:26] dollars in the US, I think that's
+[0:18:28] totally possible. I haven't tried it,
+[0:18:30] but it's possible.
+[0:18:32] And yeah, the the receiver would have to
+[0:18:34] receive in fiat currency though. That's
+[0:18:36] the thing.
+[0:18:39] Right, so the settler basically makes
+[0:18:41] sure your server never touches RPCs. So
+[0:18:45] RPCs are basically just a way to
+[0:18:47] communicate with a blockchain and when
+[0:18:49] we're using a facilitator, we basically
+[0:18:51] jump that step so we don't have to do it
+[0:18:54] ourselves. So it's very cool and very
+[0:18:55] useful.
+[0:18:56] Now,
+[0:18:57] these three roles are trust minimizing
+[0:18:59] by design. So neither the facilitator
+[0:19:01] nor the server can move the funds
+[0:19:04] without the client having signed. So
+[0:19:06] that's something that's very important
+[0:19:08] and you have to note.
+[0:19:11] Um,
+[0:19:13] right, so
+[0:19:15] uh this we can basically skip. We just
+[0:19:17] talk about the history of how things
+[0:19:18] have going have been going last year.
+[0:19:21] Coinbase revived the dormant 402 status.
+[0:19:25] Then the protocol gets sent into the
+[0:19:27] Linux Foundation.
+[0:19:29] Now fully operational.
+[0:19:31] A ton of companies use it. Amazon well
+[0:19:33] AWS, Google, MasterCard, Coinbase,
+[0:19:36] Stripe, Visa, etc.
+[0:19:38] That's something just about a small
+[0:19:40] history.
+[0:19:41] Now,
+[0:19:42] let's talk about why Solana is one of
+[0:19:44] the best rails to actually do this type
+[0:19:48] of micro payments with X42.
+[0:19:50] Well, the most important thing is that
+[0:19:52] the finality is really quickly and
+[0:19:56] really really fast. Sorry. And we really
+[0:19:58] value speed in in payments, of course,
+[0:20:02] and we must really value it
+[0:20:05] in the sense of when we're doing an API
+[0:20:07] call.
+[0:20:08] So it's this something very useful. Also
+[0:20:11] it's very cheap as you can see um if
+[0:20:14] you've been listening to the boot camp
+[0:20:16] that we've been doing the past few weeks
+[0:20:18] or you know about Solana, you'll know
+[0:20:20] that you know it's very cheap and very
+[0:20:23] fast. And finally, also very something
+[0:20:25] very good is that has it has support for
+[0:20:28] any SPL token
+[0:20:30] or any token 2022 mint. So you choose
+[0:20:34] what you accept as payment. Now Solana
+[0:20:37] reports about 35 million transactions
+[0:20:40] and with X row two since it launched on
+[0:20:42] the network.
+[0:20:43] So that's been a big improvement and a
+[0:20:46] big narrative that there's like right
+[0:20:48] now and at that point a ton more on this
+[0:20:52] protocol.
+[0:20:54] Now let's see how it works now. Let's
+[0:20:57] talk about some code.
+[0:20:59] Um
+[0:21:00] first when we are doing X for two
+[0:21:04] specifically for Solana, we have to
+[0:21:06] define some fields. So we have to define
+[0:21:08] five main fields which are the network,
+[0:21:10] the asset, pay to amount and schema. So
+[0:21:14] the network we have to put a CAIP two
+[0:21:18] ID. So now you'll be wondering what is
+[0:21:20] that? Basically that's an ID that maps
+[0:21:24] what network you're going to be doing
+[0:21:26] the payment with. So for instance this
+[0:21:29] Solana cap ID two
+[0:21:32] CAIP two is Solana two dots and then
+[0:21:36] five EY. So that's
+[0:21:38] the ID for the Solana blockchain
+[0:21:41] and then on dev net it's Solana two dots
+[0:21:44] ETW TR
+[0:21:46] etc.
+[0:21:47] Now something very important if you guys
+[0:21:50] aren't aware
+[0:21:51] Solana has
+[0:21:53] a dev net and a main net. It's not the
+[0:21:55] same thing. Dev net is when we're doing
+[0:21:58] things with fake funds
+[0:22:01] and on main net it's when we're using
+[0:22:04] actual money.
+[0:22:05] So
+[0:22:07] for instance for the hackathon, I think
+[0:22:08] some people will go main net
+[0:22:10] but it's very important to note that on
+[0:22:14] dev net you're testing out things and
+[0:22:17] you know there the money that you using
+[0:22:18] it's like fake. Well I mean it's not
+[0:22:21] fake. It's like play money in the sense
+[0:22:23] that it's not real
+[0:22:25] and you can do a lot more tests and more
+[0:22:27] cool things, okay? Or you can get Solana
+[0:22:30] for instance or USDC from a faucet on
+[0:22:33] testnet.
+[0:22:34] Now let's talk about then the field. Did
+[0:22:37] I miss anything?
+[0:22:38] Uh yeah, you kind of missed the
+[0:22:40] explanation on on X402 like the start,
+[0:22:44] um a bit of a history and what how it
+[0:22:46] started with like the 402 payment
+[0:22:48] required thing, like the status code.
+[0:22:51] But now we're just going into the code
+[0:22:53] on what X402 is and the fields that
+[0:22:56] you'll have to utilize.
+[0:22:58] Also we talked about some AI tools with
+[0:23:00] Solana.
+[0:23:02] The with the recording will be
+[0:23:04] available, so
+[0:23:06] I guess we can move forward and then
+[0:23:08] later on I can send the resources
+[0:23:10] because I have a repo and everything.
+[0:23:13] Uh where to get testnet tokens? Okay,
+[0:23:15] yeah, let's talk about that real quick.
+[0:23:17] Well, let me finish this and now I'll
+[0:23:19] say that.
+[0:23:20] Um
+[0:23:22] wait.
+[0:23:23] Um there's a question there. Does X402
+[0:23:26] support usage based payments in Solana?
+[0:23:28] Uh
+[0:23:30] specs are fun for up to our only EVM. Is
+[0:23:32] there Solana integrated
+[0:23:35] Okay, yeah. Let's talk about it. So
+[0:23:37] uh well, let's let me finish that and
+[0:23:39] I'll answer that. So asset
+[0:23:41] an SPL or a token 2022 mint like for
+[0:23:45] instance USDC, pay to which is your
+[0:23:48] Solana wallet address. So it's basically
+[0:23:51] where the payment is going to be done.
+[0:23:54] The amount which is going to be in the
+[0:23:56] token base units which is very
+[0:23:58] important. So for instance if you want
+[0:24:00] to send
+[0:24:01] one USDC, well, I mean 0.001 USDC, you'd
+[0:24:06] have to put 1,000 because it's in token
+[0:24:08] base units.
+[0:24:10] It's not in the
+[0:24:12] normal units that we use. If I want to
+[0:24:14] do one USDC, I won't put one. I would
+[0:24:17] put one with six decimals because USDC
+[0:24:20] has six decimals. That's how it works,
+[0:24:21] okay?
+[0:24:22] And finally the schema which is related
+[0:24:25] to the question that I just got asked in
+[0:24:27] the chat.
+[0:24:29] That basically there's two types of
+[0:24:30] schemas, the exact, which has a fixed
+[0:24:33] price per call, and up to which which is
+[0:24:36] where a client caps maximum a maximum
+[0:24:40] and you settle with actual usage. So the
+[0:24:43] question that uh
+[0:24:45] Hung has been having in the chat is that
+[0:24:48] does X route to support usage based
+[0:24:50] payments on Solana where the client
+[0:24:53] authorizes a maximum
+[0:24:55] and the server settles the actual amount
+[0:24:58] used.
+[0:24:59] And the specs I found for up to and
+[0:25:00] batch payment batch settlements are EVM
+[0:25:03] only. Is there a Solana implementation
+[0:25:05] of either or one planned? If not is
+[0:25:07] exact the only schema on Solana today?
+[0:25:10] Great question.
+[0:25:12] As of right now I think
+[0:25:14] there should be work. Can you give me
+[0:25:17] the complete docs what I can totally
+[0:25:19] comprehend
+[0:25:21] Yeah sure. I'm going to send out the
+[0:25:22] documentation soon. Actually we're going
+[0:25:24] to the documentation just right now to
+[0:25:27] share something.
+[0:25:29] Um so yeah I'm pretty sure that right
+[0:25:32] now there should be works on the up to
+[0:25:35] like setting a max
+[0:25:37] because there's two things there. First
+[0:25:40] it's a bit more complex in the sense of
+[0:25:42] how the schema works because you have to
+[0:25:45] like your server has to check how much
+[0:25:49] usage it has had
+[0:25:50] from this person like from this
+[0:25:53] from this call from this user for
+[0:25:56] instance. So you have to keep track of
+[0:25:58] that. That's one thing that you have to
+[0:25:59] do. So um the client has to set a
+[0:26:02] maximum and then you settle.
+[0:26:04] Now I think um I haven't seen it in
+[0:26:07] Solana. I know EVM has it as you said.
+[0:26:10] In EVM there's like the up to and the
+[0:26:13] batch settlement which is like you start
+[0:26:15] paying with batches.
+[0:26:17] Um in Solana we have the exact one is
+[0:26:20] the one that I'm going to show you in
+[0:26:21] the demo that we're going to do
+[0:26:23] but I'd have to research more. So
+[0:26:26] um if you want uh I'm going to research
+[0:26:29] it and you can send me a message on
+[0:26:32] Telegram,
+[0:26:33] and then I'll give you the answer when I
+[0:26:35] research a bit more. So yeah.
+[0:26:37] Now let's go to the documentation real
+[0:26:39] quick
+[0:26:40] to show you something.
+[0:26:43] So
+[0:26:45] um well, first of all, let's remember
+[0:26:48] some of the questions here. Where to get
+[0:26:50] Solana test tokens? To get Solana test
+[0:26:52] tokens, you can go to faucet.solana
+[0:26:55] .com.
+[0:26:56] That's not regarding X42, but just
+[0:26:58] remember that here you can request an
+[0:27:00] airdrop. There's a maximum of two
+[0:27:01] requests every 8 hours. You just put the
+[0:27:03] wallet, the amount, and the network.
+[0:27:07] And for the one that's the X42
+[0:27:10] documentation,
+[0:27:12] you can just go to x42.org
+[0:27:14] and here you can basically see
+[0:27:17] you know, the website,
+[0:27:18] the FAQs, and get started. And in get
+[0:27:21] started, you can see the docs.x42.org
+[0:27:25] which I'm going to send out.
+[0:27:28] So basically here you see a demo for
+[0:27:30] sellers, a demo for buyers. You know,
+[0:27:32] these guys do things with Go. I'm doing
+[0:27:35] my my one with TypeScript. Although with
+[0:27:38] Go it would have been cool.
+[0:27:40] Um and you can see basically core
+[0:27:41] concepts like the facilitator, the
+[0:27:43] server, the wallets,
+[0:27:45] network support, the payment schemas
+[0:27:48] that you mentioned. Let's see up to
+[0:27:50] uh I mean, it's available in Go with the
+[0:27:54] Solana virtual machine. So yeah, it
+[0:27:56] should be available.
+[0:27:58] Yeah, it's available with Solana
+[0:28:01] for the guy that asked.
+[0:28:04] Um so yeah.
+[0:28:05] That's basically the documentation for
+[0:28:07] X42. And now we're going to talk about
+[0:28:10] something very cool.
+[0:28:12] Let me just change
+[0:28:14] to this back.
+[0:28:17] Well, so something important that I
+[0:28:19] forgot to mention
+[0:28:21] is that
+[0:28:22] uh we have to of course add
+[0:28:23] dependencies. In this case, I'm going to
+[0:28:25] be working with TypeScript. So
+[0:28:28] these are the dependencies that I need.
+[0:28:31] The core is just like
+[0:28:33] the core dependency that I'm going to
+[0:28:34] use.
+[0:28:35] Express, it's because I'm going to be
+[0:28:36] using express.
+[0:28:39] Um for with node.
+[0:28:40] Then SVM. SVM start start um SVM stands
+[0:28:45] for Solana virtual machine. So it's
+[0:28:47] basically how we're going to be using
+[0:28:49] things with X42 on the Solana virtual
+[0:28:52] machine. And finally the fetch is just
+[0:28:54] the fetch with 402 X42.
+[0:28:57] So
+[0:28:59] um I know this is not the best way to
+[0:29:01] put it. I have it in an IDE, so I'm
+[0:29:03] going to show you soon, but this is
+[0:29:05] basically how you put a price on a root.
+[0:29:08] Uh oh.
+[0:29:09] And this is how you let your code pay on
+[0:29:12] its own. So
+[0:29:13] now let's let's see that code. Let's see
+[0:29:16] how it works. So
+[0:29:18] um
+[0:29:20] right. So
+[0:29:21] yes, up to both epsilon specs on the
+[0:29:24] client as for the max and the payment
+[0:29:25] channel and the server service will was
+[0:29:27] was used. Though I'm not sure the SDK
+[0:29:29] ships it yet.
+[0:29:31] All right. Yeah, so
+[0:29:32] so Krishna now has the answer. Um thank
+[0:29:35] you Krishna.
+[0:29:37] Krishna, sorry. Um thank you. And I'm
+[0:29:40] going to research more about it and
+[0:29:42] maybe I can make a demo for you guys
+[0:29:44] with the opt to because that would be
+[0:29:45] pretty cool.
+[0:29:47] So
+[0:29:48] this is basically just a quick demo on
+[0:29:49] how X42 can work. So
+[0:29:52] first and foremost
+[0:29:54] um there's three things here. The first
+[0:29:56] one is just a keygen. You can ignore
+[0:29:58] this one. This has nothing to do with
+[0:30:00] 402.
+[0:30:01] Now but we have the client and the
+[0:30:04] server. So
+[0:30:06] first remember there's two three roles,
+[0:30:08] the facilitator, server and client. So
+[0:30:11] let's start with the client.
+[0:30:12] The client is basically the one Well,
+[0:30:15] let's start with the server actually.
+[0:30:17] So the server is the one that actually
+[0:30:20] um is the seller, the one that's selling
+[0:30:22] data with the API. So they import some
+[0:30:26] dependencies like payment middleware,
+[0:30:29] the resource server, the exact SVM
+[0:30:32] scheme, the HTTP facilitator. So
+[0:30:36] first thing do is they define
+[0:30:38] the network that we're going to be
+[0:30:40] using. In this case, we're going to be
+[0:30:42] using Solana definite. Now, how can I
+[0:30:44] know that this is definite? Well, this
+[0:30:47] is the CAIP
+[0:30:49] ID. So, CAIP2 ID that I show you guys.
+[0:30:54] So, actually we can see that
+[0:30:56] in the browser.
+[0:30:58] Um if I go CAIP
+[0:31:01] 2 I
+[0:31:05] that
+[0:31:07] um this is basically an IP called an ID
+[0:31:10] called the chain agnostic improvement
+[0:31:12] proposal, which is basically like an
+[0:31:14] standardized string that defines
+[0:31:16] blockchain network.
+[0:31:18] And you can see that there's some common
+[0:31:19] examples like the Ethereum one, Polygon,
+[0:31:22] Solana, Bitcoin, etc.
+[0:31:25] And basically that's where we would
+[0:31:26] bring there. In this case, we're putting
+[0:31:28] Solana definite.
+[0:31:30] So,
+[0:31:31] next we have to
+[0:31:33] do a constant for sorry, yeah, a
+[0:31:37] constant like a
+[0:31:39] yeah. We have basically have to define a
+[0:31:41] facilitator. So, we have to create an
+[0:31:43] HTTP facilitator client with a URL. Now,
+[0:31:47] this URL you normally put it in the your
+[0:31:49] environment files. Today, I'm going to
+[0:31:51] show you my environment files. There's a
+[0:31:52] secret key there. Um this is testnet, so
+[0:31:55] don't try and do anything because I will
+[0:31:58] just not use this. You can If you want
+[0:32:00] to use it, do it. I don't think it's a
+[0:32:02] good idea, but okay.
+[0:32:03] Um basically this is the environment
+[0:32:05] variables that I have. So, for the
+[0:32:07] seller I have the facilitator,
+[0:32:10] the URL for the facilitator. Actually,
+[0:32:13] if I take this
+[0:32:15] and I sent us into the browser,
+[0:32:19] what do you guys think will happen? This
+[0:32:21] is going to be not found because this is
+[0:32:23] just a facilitator. This is not like a
+[0:32:25] page. There is something that will help
+[0:32:27] us settle and verify things. So, of
+[0:32:29] course that would not work.
+[0:32:31] So, we have the facilitator, which is
+[0:32:33] normally in the environment files, and
+[0:32:35] we have our SVM address. This SVM
+[0:32:38] address is going to be the address that
+[0:32:40] will receive payments for the request
+[0:32:43] that we're going to do.
+[0:32:44] So,
+[0:32:45] basically here I just uh initiate
+[0:32:48] Express, which is basically just a
+[0:32:50] framework for doing backend work and
+[0:32:52] doing like HTTP things on Node. So,
+[0:32:57] basically we have to put app.use
+[0:33:00] payment middleware and then we're going
+[0:33:02] to do a get request for slash weather,
+[0:33:04] the same example that we've been doing
+[0:33:07] that accepts and I have to put the
+[0:33:09] things that I told you there. So,
+[0:33:11] your schema, which is going to be the
+[0:33:12] exact schema,
+[0:33:15] then
+[0:33:16] our price,
+[0:33:17] which is going to be 0.001 dollars,
+[0:33:20] then our network, which is going to be
+[0:33:22] Definit, and this we should normally put
+[0:33:25] the ID, but as we made this constant
+[0:33:28] Definit, then we just put Definit here,
+[0:33:31] and then pay to, which is going to be
+[0:33:33] where it is going to be paid. So, it's
+[0:33:36] going to be paid to this address, SBM
+[0:33:39] address that it's in the environment
+[0:33:40] files. So, in this case would it would
+[0:33:42] be this one, right? So,
+[0:33:45] and then finally we just uh create a new
+[0:33:48] export to resource server and we
+[0:33:50] register it with the exact SBM schema on
+[0:33:54] Definit.
+[0:33:55] And that's basically just how we enable
+[0:33:58] this route for payment.
+[0:34:01] Now we just put the get for slash
+[0:34:03] weather, the request the sorry and the
+[0:34:06] response
+[0:34:07] when it passes the 402 will be weather
+[0:34:10] sunny. So, in this case it's not
+[0:34:12] something like that changes, it's just
+[0:34:14] hardcoded like that
+[0:34:16] because I mean I don't have an API for
+[0:34:18] weather. So, so yeah.
+[0:34:20] Um and finally we just put the listen
+[0:34:22] for the app to start and to listen uh
+[0:34:25] port on my computer. So, that's how the
+[0:34:27] server works.
+[0:34:29] Now let's go to the terminal real quick
+[0:34:31] and I'll show you guys. Let me make this
+[0:34:33] bigger.
+[0:34:34] Um in this example that I 'm doing just
+[0:34:37] for you to know it's npm start. Uh I'm
+[0:34:40] going to actually divide this into. So,
+[0:34:43] here I'm
+[0:34:49] start.
+[0:34:50] and actually we can test this out. So
+[0:34:53] I'm going to go to Postman
+[0:34:55] real quick
+[0:34:57] um and I'm going to do a new HTTP
+[0:35:00] request.
+[0:35:01] Let me close all these tabs.
+[0:35:04] Don't save, don't save.
+[0:35:07] Um
+[0:35:08] so
+[0:35:09] I'm going to
+[0:35:10] Postman is basically just a platform to
+[0:35:13] um do API calls with HTTP requests for
+[0:35:17] instance and a lot of other things like
+[0:35:18] GraphQL HTTP etc. You know there's a ton
+[0:35:21] of things you can do with this.
+[0:35:23] So we're just going to test out the
+[0:35:25] request to the port that I have in my
+[0:35:27] computer. So remember it's a GET
+[0:35:29] request. These are the types of requests
+[0:35:31] that you can have. Normally it's a GET
+[0:35:33] request with X402.
+[0:35:36] We have the URL
+[0:35:37] and we're going to do slash weather.
+[0:35:40] Now what do you guys think will happen
+[0:35:42] if I send this?
+[0:35:45] There's a payment required. So right
+[0:35:48] well
+[0:35:48] payment required 402 payment required
+[0:35:51] that means that
+[0:35:53] right now oh I'm not sharing that side
+[0:35:55] of the screen I just found out
+[0:35:58] because I didn't see like the the thing.
+[0:36:03] Um
+[0:36:05] and oh oh there we go. Yeah so um
+[0:36:09] basically
+[0:36:10] after you can see that there is
+[0:36:12] different like GET POST PUT PATCH DELETE
+[0:36:14] etc.
+[0:36:15] When I put the link and the uh
+[0:36:18] the thing that I want to ask so it's the
+[0:36:21] slash weather
+[0:36:23] and I do the the request you'll see that
+[0:36:27] I get 402 payment required. So that
+[0:36:29] means that right now I cannot do it
+[0:36:31] because I haven't paid. Now how do I pay
+[0:36:34] is the question? Well that's a great
+[0:36:36] question if you're asking that. Let's
+[0:36:37] talk and go back to
+[0:36:40] to this because we've already seen the
+[0:36:42] server. Now let's go over to the client.
+[0:36:45] The client is the one that's going to be
+[0:36:48] paying to see the weather. So,
+[0:36:52] first and foremost, they have to import
+[0:36:55] uh X42/fetch.
+[0:36:57] Basically, this just makes it so that
+[0:36:59] they can fetch data from an API.
+[0:37:03] And we also need the exact SM SVM
+[0:37:06] schema.
+[0:37:08] This create keeper is because um well
+[0:37:10] I'll I'll show you later. But basically,
+[0:37:13] we have we need to have a signer
+[0:37:15] that will create a keeper signer from
+[0:37:17] bytes.
+[0:37:18] And you can see that it's decoding from
+[0:37:21] SVM private key on my environment
+[0:37:23] variables. So this is just so I don't
+[0:37:25] hard code things in the code because you
+[0:37:28] know you never want to do that
+[0:37:29] especially with private keys and public
+[0:37:31] keys. So
+[0:37:33] uh in the environment files, I've set up
+[0:37:35] this private key. Of course, it's
+[0:37:36] testnet, so you know it won't work.
+[0:37:39] Um
+[0:37:40] sorry, it will work, but just know that
+[0:37:43] there's no real value in that.
+[0:37:45] Um so I have this private key. And what
+[0:37:48] I'm doing here it's I'm just decoding in
+[0:37:51] this private key to get the signer.
+[0:37:53] Now I'm going to start a client. So X42
+[0:37:56] client with the fetch. And then I have
+[0:37:59] to set up set two things. First
+[0:38:02] spend limits. So spend control, sorry.
+[0:38:05] So the max amount per payments or like
+[0:38:07] the budget guard rail that I must have
+[0:38:09] with X42.
+[0:38:11] And finally, I have to register
+[0:38:13] with the Solana and the exact SVM scheme
+[0:38:16] for the signer.
+[0:38:18] Now then, I'm going to create a constant
+[0:38:20] with Sorry, I'm going to create a fetch
+[0:38:22] with payment
+[0:38:24] which is going to use this wrap fetch
+[0:38:25] with payment from the X42 fetch.
+[0:38:28] So we have a fetch and we have a client.
+[0:38:31] And um well it's just pretty simple
+[0:38:35] this. So
+[0:38:36] our response will be a promise where we
+[0:38:39] fetch with payment
+[0:38:41] to this process.env.resource
+[0:38:43] URL.
+[0:38:44] And this resource URL is
+[0:38:47] http localhost 3001/weather,
+[0:38:50] which if you remember when we did no
+[0:38:52] payment, it returned 402 payment
+[0:38:55] required.
+[0:38:56] So,
+[0:38:58] um yeah, once we do that,
+[0:39:01] then we're going to console log the
+[0:39:04] the status of this response after the
+[0:39:07] await
+[0:39:08] and we're just going to return the
+[0:39:10] response for the JSON which remember
+[0:39:13] that in this case would be weather
+[0:39:15] sunny. So,
+[0:39:16] let's see how this works. Uh well, it
+[0:39:18] just says 402 sign and retry done for
+[0:39:21] you. Yeah, so something very cool with
+[0:39:23] this fetch with payment and wrap fetch
+[0:39:25] with payment is that we don't have to do
+[0:39:27] the request multiple times. It just just
+[0:39:29] does it for us like the 402 then the
+[0:39:32] signature and then sending like retry
+[0:39:35] and with the signature. So, just to let
+[0:39:38] you know you don't have to do that step
+[0:39:39] like manually. It's
+[0:39:41] done for you, right? So,
+[0:39:44] let's head over to the terminal which I
+[0:39:47] think you weren't seeing last time too.
+[0:39:50] Um now you can see it.
+[0:39:52] Um
+[0:39:53] so here pnpm start is basically how I
+[0:39:56] initialize the server
+[0:39:58] and you can see that now the server is
+[0:39:59] listening on http localhost 3001
+[0:40:03] and here I'm going to put pnpm client
+[0:40:05] and basically what this is going to do
+[0:40:07] is
+[0:40:09] um just
+[0:40:10] see well yeah.
+[0:40:12] That
+[0:40:13] this is the low the console log that was
+[0:40:15] at the end where the status is now 200
+[0:40:18] as I have already paid and the weather
+[0:40:21] is now sunny. Why do I get status 200
+[0:40:23] here? Well, because I got a 402 at the
+[0:40:26] start, then I paid, I signed and I
+[0:40:29] retried and so now I get status 200. So,
+[0:40:32] that's basically just a small demo on
+[0:40:34] how this works. The code I'm going to
+[0:40:37] send out so don't worry about it and now
+[0:40:40] let's go back to the presentation.
+[0:40:43] Now,
+[0:40:44] let's talk about a real use case which
+[0:40:47] is why AI agents need Xferto. So,
+[0:40:50] there's three main things here.
+[0:40:52] First, the wallet is the identity. So,
+[0:40:55] oh, I bit my my tongue.
+[0:40:59] So, there's three main things here.
+[0:41:01] First, the wallet is the identity. So,
+[0:41:03] there's no API key per service, so an
+[0:41:06] agent can reach any paid endpoint
+[0:41:08] without a human settling it up.
+[0:41:11] Um then the price is a part of the
+[0:41:12] context, so the agent can weigh a cheap
+[0:41:15] tool against a pricier one and stay
+[0:41:17] inside its budget. And finally, we can
+[0:41:20] earn and spend in one runtime. So,
+[0:41:21] there's real-time settlement means what
+[0:41:24] an agent earns can fund its next call.
+[0:41:26] So, that's something very useful.
+[0:41:28] Now, let's talk about payment.sh.
+[0:41:31] Payment.sh is one of the tools that
+[0:41:34] Solana has been working on that are, in
+[0:41:37] my opinion, very very cool.
+[0:41:39] So, payments.sh is basically
+[0:41:41] a way to enable payments for agents. So,
+[0:41:43] you can see that there's Claude, there's
+[0:41:46] Hermes, Muse, Grok, ChatGPT, Claude,
+[0:41:48] etc.
+[0:41:50] Basically, any any AI agent can use
+[0:41:52] pay.sh.
+[0:41:54] It's basically a way
+[0:41:56] personally one of the most important
+[0:41:57] parts of using Xferto is making those
+[0:42:00] actions readable and accessible for
+[0:42:02] agents. And it's simply working out on
+[0:42:05] these steps obvious the type of
+[0:42:06] instructions for agents, but as far
+[0:42:12] Oh, yeah. Okay. Yeah, for sure. I mean,
+[0:42:16] um if you mean by actions like your
+[0:42:19] APIs,
+[0:42:21] uh there's a ton of like marketplaces
+[0:42:24] where you can like add the services that
+[0:42:27] AI agents can do and AI agents can get
+[0:42:30] paid for their work.
+[0:42:32] Um
+[0:42:33] but you know, there's a ton of
+[0:42:36] of things that you can do with Xferto.
+[0:42:38] Like for instance, pay.sh is this. Let
+[0:42:40] let me show you this and then I'll
+[0:42:42] return to the question.
+[0:42:43] This basically it's just a way to pay
+[0:42:45] for for a process for products. And you
+[0:42:48] can see that there's a ton of things
+[0:42:50] that your AI agent can pay for. Like,
+[0:42:52] for instance,
+[0:42:53] um Arkham intelligence that if you don't
+[0:42:56] know, it's like a whale tracker.
+[0:42:58] Um
+[0:43:00] and by whale I mean when someone has
+[0:43:02] like a ton ton of like a big portion of
+[0:43:06] like a an asset on chain or things like
+[0:43:08] that.
+[0:43:09] And there's like a ton of things,
+[0:43:10] messaging, AI, etc. So how does this
+[0:43:14] work? Well, you have to first add it to
+[0:43:17] your AI agent. So for instance, I'm
+[0:43:19] going to do I don't have I won't do it,
+[0:43:21] but I already do. I have already done
+[0:43:24] it, so I'm not going to do it like right
+[0:43:25] now. But basically, what you have to do
+[0:43:28] is uh set it up with brew install pay.
+[0:43:31] Uh I'm going to share my full screen.
+[0:43:34] Um well, with the full screen you're
+[0:43:36] going to see the chat
+[0:43:38] this but I'm just going to close this
+[0:43:40] out and I'm going to be checking this if
+[0:43:42] there's anything.
+[0:43:44] Um
+[0:43:49] oh
+[0:43:50] there we go.
+[0:43:53] Um yes, so what you're going to do is um
+[0:43:57] let me do this to this.
+[0:44:00] Right, so you're going to do brew
+[0:44:02] install
+[0:44:05] pay then you're going to do what you
+[0:44:07] have to do there and you're going to do
+[0:44:09] afterwards pay setup.
+[0:44:11] Pay setup basically is where you set it
+[0:44:13] up for your agents. In this case, you
+[0:44:15] can use Claude, ChatGPT. I guess you can
+[0:44:18] make it work with open code
+[0:44:21] if you guys are using like
+[0:44:23] free AI.
+[0:44:25] Um
+[0:44:26] I I saw a chat thing, but it removed it
+[0:44:28] I don't see the chat, but yeah.
+[0:44:30] Um
+[0:44:31] then you have to set up
+[0:44:33] your your
+[0:44:36] your chain your chain. So if mainnet, if
+[0:44:39] local net, if test net, etc. In this
+[0:44:42] case, you can see that I'm actually in
+[0:44:43] mainnet with one USDC.
+[0:44:46] Now, how do you get USDC into this?
+[0:44:49] Well, first there's like the pay
+[0:44:51] sandbox where you can, you know, just
+[0:44:53] test things out. For free.
+[0:44:55] But you can also do paid top-up if I'm
+[0:44:58] not mistaken. Yeah. So that's basically
+[0:45:01] how you get money into this wallet so
+[0:45:05] that you can actually use AI.
+[0:45:08] I'm sorry, you can actually pay for
+[0:45:09] APIs.
+[0:45:10] So basically you can buy API tokens, you
+[0:45:12] can top up from
+[0:45:14] a mobile wallet, you can redeem the
+[0:45:16] code, etc.
+[0:45:17] I'm just going to test out how this
+[0:45:19] works. So this is just a scan
+[0:45:21] just to send $1 in API credits. So what
+[0:45:25] you do is you basically just scan the QR
+[0:45:27] code.
+[0:45:29] And I'm going to show you real quickly
+[0:45:31] how this looks.
+[0:45:33] And
+[0:45:34] what you can see is that I guess I hope
+[0:45:37] you can see it.
+[0:45:40] I hope that you can see it where
+[0:45:41] basically you can see that it's unknown.
+[0:45:43] This is going to be the wallet where I'm
+[0:45:45] going to be sending. So you can see it
+[0:45:47] ends in B M T K F.
+[0:45:49] And this one ends in M T K F. So it's
+[0:45:52] the same one.
+[0:45:53] So I'm going to send one USDC. In this
+[0:45:55] case, I don't have USDC in this wallet.
+[0:45:57] But I'm just going to click pay and
+[0:46:00] there I would get some USDC. In this
+[0:46:02] case, as you can see
+[0:46:05] set up
+[0:46:07] you can see that
+[0:46:09] I already have one USDC on mainnet. So
+[0:46:12] let's see how this actually works with
+[0:46:13] agents. So I'm going to go onto Claude.
+[0:46:16] I trust this folder.
+[0:46:18] And I'm going to ask it the thing that
+[0:46:20] was in the presentation. The
+[0:46:22] presentation said top tokens today by
+[0:46:25] volume. So
+[0:46:27] here I'm just going to ask this.
+[0:46:32] And I'm going to put slash pay. Slash
+[0:46:34] pay as you can see makes it so that user
+[0:46:37] pay user authorized paid HTTP slash API
+[0:46:40] access for agents through local pay MCP
+[0:46:42] and touch ID gated payments. So that's
+[0:46:44] something very useful.
+[0:46:46] When we did pay dot SH, I set it up for
+[0:46:49] it to pay when and ask for my touch ID
+[0:46:52] on my computer. You can make it so that
+[0:46:54] auto auto authorizes or that it does
+[0:46:58] things on its own
+[0:47:01] uh or that you have to approve with
+[0:47:03] another wallet. So you can see that it
+[0:47:05] called the skill and it hasn't made a
+[0:47:08] paid call yet. So two providers hit
+[0:47:11] the bird eye where this is the get
+[0:47:14] request and the pricing shows uh 0.00
+[0:47:18] and the second option is Solana analysis
+[0:47:21] which there's a known pricing. So I'm
+[0:47:24] going to put Solana only
+[0:47:28] and I'm going to ask it to do option
+[0:47:31] two.
+[0:47:33] And so I'm going to read the question
+[0:47:35] how did you edit your terminal like
+[0:47:36] that?
+[0:47:37] Um if you mean like my terminal it's
+[0:47:40] called ghosty. Well here actually I
+[0:47:43] don't know if you guys can see it
+[0:47:45] because
+[0:47:46] let's see if you can see it.
+[0:47:49] Oh yeah you can see it. Um so pay.sh is
+[0:47:52] now trying to authorize a payment for me
+[0:47:53] for this amount. The reason it's the
+[0:47:56] least Solana tokens. The operator is
+[0:47:58] going to be this API and for this. So
+[0:48:01] I'm just going to put my touch ID and
+[0:48:03] accept this.
+[0:48:05] And as you can see it's um
+[0:48:10] nothing was banned. The API rejected.
+[0:48:13] Okay so it can sort by 24 hour volume.
+[0:48:17] So I 'm just going to do option three.
+[0:48:23] Option three.
+[0:48:24] And while I'm doing that how did I edit
+[0:48:26] my terminal to look like that? Um I'm
+[0:48:28] using ghosty so you basically there's
+[0:48:30] like a configuration file
+[0:48:32] where you can set up like the opacity,
+[0:48:35] the color and there's a ton of like
+[0:48:38] customization options. So I can do like
+[0:48:41] uh command didn't answer the call. The
+[0:48:44] call went through costing about with the
+[0:48:46] results are not ranked by volume. I mean
+[0:48:49] the thing with this like why it's not
+[0:48:51] working right now is because the API
+[0:48:52] that I'm calling it's not good
+[0:48:55] because you can see that it cost but the
+[0:48:57] volumes are not tracked by volume.
+[0:48:59] So you know, I can't do a top top by
+[0:49:03] volume list. So, the sort was ignored
+[0:49:06] and everything. So,
+[0:49:07] I mean,
+[0:49:09] kind of a bummer that it didn't work as
+[0:49:11] expected. We can use another example.
+[0:49:12] For instance, we can go and
+[0:49:15] I'll just ask it to
+[0:49:22] I'll just ask it to use
+[0:49:24] query from this
+[0:49:26] like
+[0:49:27] pay for an endpoint here
+[0:49:31] just for a
+[0:49:32] just for a demo.
+[0:49:33] But here, as I was saying, with this
+[0:49:35] terminal, I can do a lot of things like
+[0:49:37] command shift D opens this.
+[0:49:39] Command W does this. Command T does
+[0:49:41] this. Command W does this. There's a lot
+[0:49:44] of things. So, I'm going to authorize
+[0:49:46] this payment for real-time crypto, VWAP,
+[0:49:48] market cap, market data. So, I'm just
+[0:49:51] going to pay for this just to test it
+[0:49:53] out.
+[0:49:57] And
+[0:49:58] here everything worked.
+[0:50:00] So, I paid for one block size call.
+[0:50:03] So, the pay.sh link
+[0:50:05] I gave you is the catalog, and it called
+[0:50:07] the gateway URL from the catalog entry.
+[0:50:10] So, you can see the price for BTC right
+[0:50:13] now, this hour, this volume, market cap,
+[0:50:16] and the source. So, everything went
+[0:50:19] fine.
+[0:50:20] Also, BTC is at 57,000 wow.
+[0:50:23] All right. So, that's basically how
+[0:50:25] pay.sh works. It's a way to enable AI
+[0:50:28] agents
+[0:50:29] for payment and like a marketplace where
+[0:50:33] there's like a directory for X402
+[0:50:35] endpoints. Now, responding the question
+[0:50:37] that
+[0:50:38] that Carlos had
+[0:50:42] X402 should be readable and accessible.
+[0:50:44] And so, this type of tools where, you
+[0:50:47] know, the directories are available or
+[0:50:49] MCPs that basically find and aggregate
+[0:50:52] endpoints are pretty useful.
+[0:50:54] And I think that's a good use case for
+[0:50:56] X402.
+[0:50:57] So,
+[0:51:00] there's also MCPs that basically give
+[0:51:02] access to these types of opportunities
+[0:51:05] for payment.
+[0:51:06] But I'm going to talk about this later.
+[0:51:09] Although I'm already finishing, here is
+[0:51:11] the thing that I think Carlos wanted to
+[0:51:13] hear. Some real-world use cases. So
+[0:51:15] there's a ton of use cases for this
+[0:51:18] for these tools. For instance, there are
+[0:51:20] self-funding agents where agents buy API
+[0:51:22] calls, data feeds, and compute per
+[0:51:24] request. There's pay-per-request APIs
+[0:51:27] which price on each endpoint, so there's
+[0:51:30] no keys, no plans, no invoices. There's
+[0:51:33] paid MCP tools where you call for MCP
+[0:51:37] servers, data sources, specialized
+[0:51:39] models which are paid with X402 and then
+[0:51:43] you can pay for micro micro-priced
+[0:51:45] content. So for images, articles,
+[0:51:47] datasets, model
+[0:51:50] etc.
+[0:51:51] Inference, sorry. etc.
+[0:51:53] [snorts] So some of the some of the
+[0:51:54] ideas that are on the X402 guide from
+[0:51:57] Solana are per RPC call metering,
+[0:52:01] real-time market data, DPIN sensor
+[0:52:04] readings, GPU minutes, pay-to-reach
+[0:52:06] inbox, game sessions, etc.
+[0:52:09] There's a ton of use cases.
+[0:52:11] And so where's adoption finally? We're
+[0:52:14] ending now, so where's adoption? You
+[0:52:16] know, there's real traction. We're still
+[0:52:17] very early. There's like almost 200
+[0:52:20] million transactions. There's 12 chains.
+[0:52:22] About $42 million have been settled.
+[0:52:25] And an important note is that
+[0:52:29] over half of lifetime transactions came
+[0:52:31] from a late 2025 token minting surge.
+[0:52:35] And
+[0:52:36] this last October we saw 5.1 million
+[0:52:39] transactions.
+[0:52:40] So
+[0:52:42] on a real note, the rails are ready,
+[0:52:45] but there's no real incredibly useful
+[0:52:47] apps
+[0:52:48] that there that there are available. You
+[0:52:50] know, the useful apps are still missing.
+[0:52:53] So there's a ton of use cases. There's a
+[0:52:55] ton of things that we can do, but
+[0:52:57] there's no like real insanely useful app
+[0:53:00] there and you can actually build it. So
+[0:53:03] how can you build it? Well, we uh
+[0:53:06] you can ship it this weekend.
+[0:53:08] We're going to have the Dapprepack
+[0:53:10] Global Hackathon, which is hybrid. You
+[0:53:12] can join join online or in a local
+[0:53:15] station. You can ship an XRO2 powered
+[0:53:17] app on Solana if you want. I hope that
+[0:53:20] if you were interested in doing
+[0:53:22] something regarding AI or XRO2, you got
+[0:53:26] more of an idea of how it works, how you
+[0:53:28] can do it, use cases, good things,
+[0:53:30] tools, etc. You know, the hackathon has
+[0:53:33] um a lot of good prices. You can
+[0:53:35] register at hack.dapprepack.xyz
+[0:53:38] and yeah, that's it. Thank you.
+[0:53:40] This is my name. Here's my Telegram. If
+[0:53:43] you guys Well, this is also my X. You
+[0:53:45] want to follow me, follow me. Um
+[0:53:49] you guys have any questions, you can
+[0:53:50] message me on Telegram. You can send me
+[0:53:52] a DM on X. I think they're open. And
+[0:53:54] here's some important links like
+[0:53:57] the code, the build on Solana, the
+[0:54:00] protocol, etc.
+[0:54:02] Um yeah, Solan sent out the hackathon.
+[0:54:07] Great session.
+[0:54:10] And
+[0:54:11] thanks a lot.
+[0:54:12] >> Thanks, Fabian.
+[0:54:14] Very cool session.
+[0:54:16] But complete from theory to practice. Um
+[0:54:20] and and yeah, like
+[0:54:22] uh
+[0:54:23] I can maybe just show you one thing.
+[0:54:25] Wait.
+[0:54:27] Wait a minute.
+[0:54:34] Okay. Let me just share my screen.
+[0:54:39] Okay, I have some issues with my
+[0:54:40] computer.
+[0:54:45] It's a bit long.
+[0:54:48] Okay.
+[0:54:50] Here, for example, um wait. I will just
+[0:54:53] connect myself, my account.
+[0:55:02] So it's something that you will have
+[0:55:03] access to during the hackathon um like
+[0:55:06] to get some support.
+[0:55:10] So here for example, I have like 40
+[0:55:12] credits, but I can buy credits
+[0:55:15] as well.
+[0:55:17] Thank [clears throat] and what I want to
+[0:55:19] showcase is that
+[0:55:21] you will be able like to get some
+[0:55:25] some
+[0:55:26] help
+[0:55:28] AI mentoring help itself
+[0:55:31] and just like of course
+[0:55:34] it's limited, but normally it will be
+[0:55:37] okay for the hackathon. I think you have
+[0:55:39] around 40 50 credits itself. So yeah, I
+[0:55:43] mean everything there
+[0:55:46] will be done by X for zero two two.
+[0:55:52] Okay.
+[0:55:53] So Fabian, feel free to send me your
+[0:55:56] slides, so I will add it
+[0:55:58] into into the dashboard and yeah, all
+[0:56:02] good.
+[0:56:03] Let's just see you tomorrow everyone and
+[0:56:05] thanks a lot Fabian for everything.
+[0:56:09] >> Yeah, thank you.
+[0:56:11] >> To just
