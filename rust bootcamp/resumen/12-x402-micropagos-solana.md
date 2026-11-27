@@ -6,7 +6,7 @@ Transcripción completa en inglés guardada en: [`../transcripciones/transcripci
 
 ---
 
-## 📌 1. El Problema: La Web Nunca Tuvo Pagos Nativos
+## 📌 1. El Problema: La Web Nunca Tuvo Pagos Nativos `[0:06:40]`
 
 Desde los años 90, el protocolo HTTP reservó el código de estado **`402 Payment Required`**, pero quedó sin uso durante décadas. Por eso, en la Web 2.0 tuvimos que "pegarle" sistemas de pago encima con mucha fricción:
 1. **Cuentas y registros:** Email, contraseña y un humano completando formularios de onboarding.
@@ -17,7 +17,7 @@ En resumen: **la web se diseñó para humanos frente a un navegador, no para sof
 
 ---
 
-## 🌐 2. ¿Qué es x402?
+## 🌐 2. ¿Qué es x402? `[0:09:31]`
 
 **x402** es un protocolo abierto (iniciado por Coinbase en 2025 y mantenido bajo la **x402 Foundation / Linux Foundation**) que convierte el código HTTP **`402 Payment Required`** en un paso real de pago nativo en la web.
 
@@ -30,7 +30,7 @@ En resumen: **la web se diseñó para humanos frente a un navegador, no para sof
 
 ---
 
-## 🔄 3. Arquitectura: Roles y Flujo en 5 Pasos
+## 🔄 3. Arquitectura: Roles y Flujo en 5 Pasos `[0:10:51]`
 
 ### Los 3 Roles (*Trust-Minimizing*)
 1. **Client (Comprador):** App, script o Agente de IA con una wallet que lee el precio, verifica sus límites de presupuesto (*guardrails*) y firma el pago.
@@ -62,7 +62,7 @@ sequenceDiagram
 
 ---
 
-## 🛠️ 4. Implementación Técnica en Solana (TypeScript)
+## 🛠️ 4. Implementación Técnica en Solana (TypeScript) `[0:20:57]`
 
 En los paquetes del ecosistema (`@x402/core`, `@x402/express`, `@x402/svm`, `@x402/fetch`):
 
@@ -80,7 +80,7 @@ Usando `wrapFetchWithPayment` (de `@x402/fetch`) junto con límites de gasto (*s
 
 ---
 
-## 🤖 5. Casos de Uso para el Hackathon (IA + Micro-pagos)
+## 🤖 5. Casos de Uso para el Hackathon (IA + Micro-pagos) `[0:41:28]`
 
 Fabián destacó que **los rieles ya están listos, pero aún faltan aplicaciones realmente útiles construidas encima**. Ideas concretas mencionadas:
 

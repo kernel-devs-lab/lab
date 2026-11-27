@@ -6,7 +6,7 @@ Transcripción completa en inglés guardada en: [`../transcripciones/transcripci
 
 ---
 
-## 🚨 1. Errores Eliminatorios (Lo que NO debes hacer)
+## 🚨 1. Errores Eliminatorios (Lo que NO debes hacer) `[0:21:19]`
 
 Solène advirtió sobre fallos simples que dejan fuera a muchísimos equipos automáticamente:
 
@@ -21,7 +21,7 @@ Solène advirtió sobre fallos simples que dejan fuera a muchísimos equipos aut
 
 ---
 
-## ⚡ 2. Preparación Técnica Antes de Empezar (Hazlo HOY)
+## ⚡ 2. Preparación Técnica Antes de Empezar (Hazlo HOY) `[0:17:47]`
 
 * **Reclama SOL de Devnet con anticipación:**  
   Al final del hackathon todos intentan desplegar al mismo tiempo y los *faucets* de Devnet se saturan o bloquean. Conseguí tokens de prueba antes de arrancar.
@@ -34,7 +34,7 @@ Solène advirtió sobre fallos simples que dejan fuera a muchísimos equipos aut
 
 ---
 
-## 🧠 3. Cómo Piensan los Jueces y la IA Evaluadora
+## 🧠 3. Cómo Piensan los Jueces y la IA Evaluadora `[0:24:34]`
 
 * **Revisión técnica profunda con IA + Jueces locales:**  
   En Dev3pack, una IA analiza técnicamente tu repositorio para verificar que las integraciones que declarás sean **reales y no simuladas**. Al finalizar el hackathon recibirás un *Project Report* con fortalezas y puntos a mejorar.
@@ -45,7 +45,7 @@ Solène advirtió sobre fallos simples que dejan fuera a muchísimos equipos aut
 
 ---
 
-## 💡 4. Estrategia de Producto
+## 💡 4. Estrategia de Producto `[0:09:04]`
 
 * **Toda app viable necesita Usuarios o Liquidez.**
 * **Diferenciación por contexto:** Aprovechá tu experiencia personal, tu profesión o tu país/región para resolver un problema concreto que otros no ven.
@@ -53,7 +53,7 @@ Solène advirtió sobre fallos simples que dejan fuera a muchísimos equipos aut
 
 ---
 
-## ✅ 5. Checklist Obligatorio de Entrega (*Submission*)
+## ✅ 5. Checklist Obligatorio de Entrega (*Submission*) `[0:28:54]`
 
 Antes de la hora límite (revisar el reloj exacto en tu dashboard según tu zona horaria; mencionado como *7:00 a.m. UTC del domingo* en la charla):
 

@@ -6,7 +6,7 @@ Transcripción completa en inglés guardada en: [`../transcripciones/transcripci
 
 ---
 
-## 📌 1. Reglas de Oro para Elegir tu Idea
+## 📌 1. Reglas de Oro para Elegir tu Idea `[0:28:17]`
 
 Durante la charla, los organizadores remarcaron los errores más comunes en un hackathon y cómo evitarlos:
 
@@ -22,7 +22,7 @@ Durante la charla, los organizadores remarcaron los errores más comunes en un h
 
 ---
 
-## 🛠️ 2. Herramientas para Validar e Inspirarte
+## 🛠️ 2. Herramientas para Validar e Inspirarte `[0:12:57]`
 
 * **Directorio de Proyectos de Colosseum:** Revisar proyectos ganadores de hackathones anteriores de Solana (*Frontier*, *Cyberpunk*, etc.), analizar sus repositorios en GitHub y sus demos para ver qué problemas resolvieron y cómo los presentaron.
 * **Skill de Colosseum para Agentes de IA:** Instalar la skill de Colosseum en tu agente de IA para consultar el historial de proyectos enviados a hackathones de Solana y validar si tu idea es original, qué le falta o qué nichos están creciendo.
@@ -30,7 +30,7 @@ Durante la charla, los organizadores remarcaron los errores más comunes en un h
 
 ---
 
-## 🚀 3. Ejemplos e Ideas Reales Mencionadas en la Sesión
+## 🚀 3. Ejemplos e Ideas Reales Mencionadas en la Sesión `[0:21:30]`
 
 ### A. Pagos y Stablecoins (Muy relevante para LATAM / Argentina)
 * **Pagos cotidianos y suscripciones en Stablecoins:** Soluciones que permitan a comercios o usuarios operar con dólares digitales sin fricción bancaria ni comisiones abusivas.
@@ -50,7 +50,7 @@ Durante la charla, los organizadores remarcaron los errores más comunes en un h
 
 ---
 
-## 🤝 4. El Valor de las Build Stations y el Post-Hackathon
+## 🤝 4. El Valor de las Build Stations y el Post-Hackathon `[0:38:51]`
 
 * **Networking y Equipos:** Ir presencialmente a una **Build Station** (como la de Jujuy en la UNJu) no es solo para entregar el código; las conexiones presenciales son lo que abre oportunidades reales después del evento.
 * **Aceleradora de Dev3pack:** El hackathon sirve como puerta de entrada y experimentación para luego poder aplicar a la aceleradora de Dev3pack (pensada especialmente para impulsar talento fuera de EE. UU. y Europa).

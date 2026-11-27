@@ -15,7 +15,7 @@ Podés programar el contrato en Rust/Anchor por tu cuenta, con tu agente de IA l
 
 ---
 
-## 🧠 2. De "Vibecoding" a *AI Engineering*
+## 🧠 2. De "Vibecoding" a *AI Engineering* `[0:09:46]`
 
 Santiago explicó que el cuello de botella hoy ya no es escribir código línea por línea, sino **diseñar bien el producto**. Para no generar código basura (*AI slop*), propone trabajar con ingeniería asistida por IA:
 
@@ -27,7 +27,7 @@ Santiago explicó que el cuello de botella hoy ya no es escribir código línea 
 
 ---
 
-## 🏗️ 3. Flujo de Trabajo: El Arquitecto y el Constructor
+## 🏗️ 3. Flujo de Trabajo: El Arquitecto y el Constructor `[0:19:56]`
 
 La estrategia recomendada en la charla consiste en **separar la herramienta que piensa de la que ejecuta**:
 
@@ -46,7 +46,7 @@ flowchart TD
 
 ---
 
-## 🛠️ 4. ¿Qué ofrece Noah AI para Solana?
+## 🛠️ 4. ¿Qué ofrece Noah AI para Solana? `[0:25:26]`
 
 **Noah AI** funciona como una plataforma tipo *"Lovable enfocada en Solana"* que integra varias piezas en un solo lugar:
 
