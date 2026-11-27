@@ -14,12 +14,13 @@ Resumen detallado de los requisitos para obtener la certificación oficial del *
 
 ## 📋 Detalle según las Sesiones
 
-### 1. Quizzes en la Plataforma (40% mínimo)
+### 1. Quizzes en la Plataforma (40% mínimo / 3 quizzes publicados)
 * **Sesión 1 `[0:05:45]`–`[0:05:49]`:** Se indica que al alcanzar el **40% de progreso** te volvés elegible para recibir el certificado (si además desplegás un programa en Solana).  
   🔗 [Transcripción Sesión 1](../rust%20bootcamp/transcripciones/transcripcion_rust_session_1.txt)
-* **Sesión 4 `[0:05:45]`–`[0:06:03]`:** Se detalla que la evaluación consta de **7 quizzes** donde **cada quiz equivale al 10%**, requiriendo **40% o más** de completitud para la certificación.  
+* **Sesión 4 `[0:05:45]`–`[0:06:03]`:** Se anunció inicialmente un plan de **7 quizzes** donde **cada quiz equivalía al 10%**, requiriendo **40% o más** de completitud para la certificación.  
   🔗 [Transcripción Sesión 4](../rust%20bootcamp/transcripciones/transcripcion_rust_session_4.txt) · [Resumen Sesión 4](../rust%20bootcamp/resumen/04-wallets-seguridad-y-multisig.md)
-* **Sesión 10 `[0:05:14]`–`[0:05:15]`:** Divish recuerda completar **todos los quizzes** disponibles en la plataforma.  
+* **Sesión 5 `[0:05:45]` y Sesión 6 `[1:19:01]`:** Los instructores fueron subiendo manualmente los quizzes tras cada clase teórica; sin embargo, al pasar a práctica con Anchor y preparación del hackathon (Sesiones 7–13), **solo quedaron publicados 3 quizzes en la plataforma** (*Arquitectura y Wallets*, *Transacciones y Cuentas* y *Solana Kit*).
+* **Sesión 10 `[0:05:14]`–`[0:05:15]`:** Divish actualizó la indicación a completar **todos los quizzes que están en la plataforma** (*"all the quizzes that are in platform"*).  
   🔗 [Transcripción Sesión 10](../rust%20bootcamp/transcripciones/transcripcion_rust_session_10.txt) · [Resumen Sesión 10](../rust%20bootcamp/resumen/10-product-ideation.md)
 
 ### 2. Ejercicios de Rust (*Rust Assignment* / Pull Requests)
