@@ -31,9 +31,9 @@ Cada bloque de información contiene:
 * El **Hash del bloque inmediatamente anterior**.
 
 ```mermaid
-flowchart LR
-    B1["📦 Bloque #100\nHash: abc123\nHash Previo: 000000\n[Transacciones...]"] --> B2["📦 Bloque #101\nHash: def456\nHash Previo: abc123\n[Transacciones...]"]
-    B2 --> B3["📦 Bloque #102\nHash: ghi789\nHash Previo: def456\n[Transacciones...]"]
+flowchart TD
+    B1["Bloque #100<br/>Hash: abc123 | Previo: 000000<br/>[Transacciones...]"] --> B2["Bloque #101<br/>Hash: def456 | Previo: abc123<br/>[Transacciones...]"]
+    B2 --> B3["Bloque #102<br/>Hash: ghi789 | Previo: def456<br/>[Transacciones...]"]
 ```
 
 > **¿Por qué es inmutable?**  

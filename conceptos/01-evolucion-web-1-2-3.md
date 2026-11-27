@@ -7,9 +7,9 @@ Para entender el ecosistema de blockchain y Solana en este hackathon, es fundame
 ## ⏳ La Evolución Histórica: De la Lectura a la Propiedad
 
 ```mermaid
-flowchart LR
-    W1["🌐 Web 1.0\n(1990 - 2004)\n'Read-Only'\nSolo Lectura"] --> W2["📱 Web 2.0\n(2004 - Actualidad)\n'Read-Write'\nLectura y Escritura"]
-    W2 --> W3["⚡ Web 3.0\n(Presente y Futuro)\n'Read-Write-Own'\nLectura, Escritura y Propiedad"]
+flowchart TD
+    W1["Web 1.0 (1990 - 2004)<br/>Read-Only (Solo Lectura)"] --> W2["Web 2.0 (2004 - Actualidad)<br/>Read-Write (Lectura y Escritura)"]
+    W2 --> W3["Web 3.0 (Presente y Futuro)<br/>Read-Write-Own (Propiedad)"]
 ```
 
 ---

@@ -13,24 +13,21 @@ Una de las confusiones más comunes es creer que para hacer un proyecto en Solan
   Aquí es donde **sí entra Rust**. Solo necesitas programar en Rust cuando necesitas **crear tus propias reglas descentralizadas** que deban vivir y ejecutarse dentro de la red (por ejemplo: un protocolo de préstamos, un sistema de votación infalsificable, o un contrato de custodia de fondos / *escrow*).
 
 ```mermaid
-flowchart LR
-    subgraph TuApp["💻 Tu Aplicación (Cualquier Lenguaje)"]
-        direction TB
-        JS["React / Next.js (TypeScript)"]
-        PY["Backend (Python / FastAPI)"]
-        SDK["@solana/web3.js\n(Librería Cliente)"]
-        JS --> SDK
-        PY --> SDK
+flowchart TD
+    subgraph TuApp["Tu Aplicación (Cualquier Lenguaje)"]
+        direction LR
+        JS["React / Next.js (TS)"] --> SDK["@solana/web3.js<br/>(Librería Cliente)"]
+        PY["Backend (Python)"] --> SDK
     end
 
-    subgraph Blockchain["⛓️ Dentro de la Blockchain (Solana SVM)"]
+    subgraph Blockchain["Dentro de la Blockchain (Solana SVM)"]
         direction TB
-        RustProg["🦀 Smart Contract (Escrito en Rust con Anchor)\nReglas financieras, lógica crítica"]
-        State["📦 Cuentas de Datos (Balances, Estados)"]
+        RustProg["Smart Contract (Rust + Anchor)<br/>Reglas financieras y lógica crítica"]
+        State["Cuentas de Datos (Balances, Estados)"]
         RustProg --> State
     end
 
-    SDK -->|"1. Envía Transacción firmada"| RustProg
+    SDK -->|"Envía transacción firmada"| RustProg
 ```
 
 ---

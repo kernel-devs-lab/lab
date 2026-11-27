@@ -32,10 +32,10 @@ Santiago explicó que el cuello de botella hoy ya no es escribir código línea 
 La estrategia recomendada en la charla consiste en **separar la herramienta que piensa de la que ejecuta**:
 
 ```mermaid
-flowchart LR
-    P["1. Planificación y Spec (.md)\n(ChatGPT / Claude / Tu Agente)"] -->|"Especificación cerrada"| E["2. Ejecución y UI / Programa\n(Noah AI / IDE + MCPs)"]
+flowchart TD
+    P["1. Planificación y Spec (.md)<br/>(ChatGPT / Claude / Tu Agente)"] -->|"Especificación cerrada"| E["2. Ejecución: UI y Programa<br/>(Noah AI / IDE + MCPs)"]
     E -->|"Exportar código"| GH["3. Repositorio GitHub Público"]
-    GH -->|"Si faltan créditos o ajustes finos"| Local["4. Edición Local + Deploy\n(Solana Devnet + Vercel)"]
+    GH -->|"Ajustes o falta de créditos"| Local["4. Edición Local y Deploy<br/>(Solana Devnet + Vercel)"]
 ```
 
 1. **El Arquitecto (ChatGPT / Claude / Agente local):**  
