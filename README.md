@@ -8,15 +8,21 @@ Laboratorio personal de investigación y experimentación sobre **Rust, Solana, 
 
 ```text
 lab/
-├── conceptos/                           # Fundamentos teóricos y arquitectura Web3
-│   ├── 01-evolucion-web-1-2-3.md        # Evolución Web 1.0, 2.0 y 3.0 (Comparativa REST/Cloud)
-│   ├── 02-que-es-blockchain.md          # Arquitectura distribuida, hashes, consenso y ledger
-│   ├── 03-solana-y-arquitectura.md      # Red, validadores, PoH, Sealevel y modelo de cuentas
-│   └── 04-por-que-rust.md               # Rol de Rust, SBF, ausencia de GC y Framework Anchor
+├── conceptos/                              # Fundamentos teóricos y arquitectura Web3
+│   ├── 01-evolucion-web-1-2-3.md           # Evolución Web 1.0, 2.0 y 3.0 (Comparativa REST/Cloud)
+│   ├── 02-que-es-blockchain.md             # Arquitectura distribuida, hashes, consenso y ledger
+│   ├── 03-solana-y-arquitectura.md         # Red, validadores, PoH, Sealevel y modelo de cuentas
+│   └── 04-por-que-rust.md                  # Rol de Rust, SBF, ausencia de GC y Framework Anchor
 │
-├── rust bootcamp/                       # Bootcamp oficial de Solana en Español
+├── hackaton/                               # Charlas y recursos estratégicos del Hackathon
 │   ├── resumen/
-│   │   └── 01-rust-basics-solana.md     # Guía técnica, código y sintaxis de Rust para Solana
+│   │   └── 01-product-ideation.md          # Cómo encontrar ideas reales y validarlas (Dev3pack)
+│   └── transcripciones/
+│       └── transcripcion_product_ideation.txt # Transcripción completa con marcas de tiempo
+│
+├── rust bootcamp/                          # Bootcamp oficial de Solana en Español
+│   ├── resumen/
+│   │   └── 01-rust-basics-solana.md        # Guía técnica, código y sintaxis de Rust para Solana
 │   └── transcripciones/
 │       └── transcripcion_rust_session_1.txt # Transcripción completa con marcas de tiempo
 │
@@ -34,6 +40,10 @@ lab/
 * ⚡ **[¿Qué es Solana y cómo funciona su arquitectura?](./conceptos/03-solana-y-arquitectura.md):** Proof of History (PoH), procesamiento paralelo Sealevel, y el modelo de cuentas (Accounts Model).
 * 🦀 **[¿Por qué Rust en Solana?](./conceptos/04-por-que-rust.md):** Ausencia de Garbage Collector, seguridad de memoria a costo cero y el framework Anchor.
 
-### 2. Bootcamp de Rust para Solana
+### 2. Preparación para el Hackathon (Dev3pack)
+* 💡 **[Ideación de Producto: Cómo encontrar ideas reales](./hackaton/resumen/01-product-ideation.md):** Consejos de los organizadores, validación con proyectos de Colosseum y oportunidades para LATAM/Argentina.
+* 📄 **[Transcripción - Product Ideation](./hackaton/transcripciones/transcripcion_product_ideation.txt):** Transcripción íntegra en inglés con timestamps.
+
+### 3. Bootcamp de Rust para Solana
 * 📘 **[Resumen Técnico - Sesión 1](./rust%20bootcamp/resumen/01-rust-basics-solana.md):** Variables, mutabilidad, ownership, borrowing, `Option` y `Result`.
 * 📄 **[Transcripción Completa - Sesión 1](./rust%20bootcamp/transcripciones/transcripcion_rust_session_1.txt):** Registro textual íntegro con timestamps de la clase.

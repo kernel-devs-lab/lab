@@ -1,0 +1,975 @@
+# Transcripción: Product Ideation: how to find real ideas
+URL: https://www.youtube.com/watch?v=yM6HUVMjxdI
+
+[0:00:15] Jim Jim
+[0:00:16] um so I'm pretty
+[0:00:19] as instructor
+[0:00:22] for today's session.
+[0:00:25] Um so I have to go on my end because I
+[0:00:28] have a meeting um
+[0:00:30] but Divish will uh will lead the session
+[0:00:34] uh
+[0:00:34] regarding product ideation.
+[0:00:37] Of course everything is also recorded in
+[0:00:39] everything so
+[0:00:40] all good no worries um but yeah have a
+[0:00:43] nice session I think we'll be around 50
+[0:00:46] or something like this.
+[0:00:48] >> Sure sure.
+[0:00:50] >> Good luck.
+[0:00:52] >> You too bye-bye.
+[0:01:08] Hey everyone how are we doing?
+[0:01:28] GM GM I'm doing fine.
+[0:01:34] I think you should join audio like
+[0:01:38] am I audible like I am audible I guess
+[0:01:40] so that
+[0:01:41] that's why everyone is
+[0:01:43] replying.
+[0:01:45] Daniel I I'll recommend to just rejoin
+[0:01:48] or just rejoin the audio.
+[0:01:55] I'm fine Isabella.
+[0:02:04] >> Without Ubuntu like Solana and Rust
+[0:02:06] turns on every platform that is Windows,
+[0:02:10] Linux as well as macOS. And also there's
+[0:02:13] good thing for Rust
+[0:02:15] that is if you have the native code you
+[0:02:18] can run it on any machine.
+[0:02:19] But yeah, for Solana and Rust you can
+[0:02:22] run on every machine.
+[0:02:34] Um,
+[0:02:35] job market, what should I say about the
+[0:02:37] job market? Yeah, there's job and you
+[0:02:39] can see there are many jobs that are
+[0:02:41] getting listed on Solana job boards
+[0:02:43] every day. But yeah, eventually you have
+[0:02:45] to be
+[0:02:47] very much skilled for building something
+[0:02:50] that will create money on chain and that
+[0:02:52] will be holding millions of money on
+[0:02:54] chain. Let's say if you are building a
+[0:02:57] trading market, if you are building
+[0:02:58] anything that that will require trading.
+[0:03:00] So you must be having a perfect skill to
+[0:03:02] build that. Until unless you don't hold
+[0:03:04] that skill,
+[0:03:06] you won't be getting hired. It's all
+[0:03:07] about skills and connections both.
+[0:03:12] Um, yeah, you can complete the homework
+[0:03:16] till tomorrow, but I'm evaluating it
+[0:03:20] um
+[0:03:22] ASAP. So kindly do it
+[0:03:26] as early as possible.
+[0:03:34] Um, bootcamp is all about giving you
+[0:03:36] knowledge.
+[0:03:37] So
+[0:03:38] it's not mandatory, but it's a useful
+[0:03:41] tool.
+[0:03:51] Yeah.
+[0:03:57] I've already started evaluating. I have
+[0:04:00] marked the PR. Like I have commented if
+[0:04:03] someone PR is wrong. So
+[0:04:06] yeah, I've started evaluating the
+[0:04:08] rest thing.
+[0:04:14] Yeah, everything is available in the
+[0:04:16] depth three pack YouTube
+[0:04:18] channel. Let me share the link.
+[0:04:20] And everything is there in dashboard
+[0:04:22] itself.
+[0:04:23] So you guys can
+[0:04:26] basically see the everything.
+[0:04:37] Just a second.
+[0:04:56] So this is the recording of the boot
+[0:04:58] camp.
+[0:05:01] Also in order to get the certificates,
+[0:05:04] you need to submit the Solana definite
+[0:05:08] deployed program address as well as
+[0:05:12] you need to complete the rest assignment
+[0:05:14] as well as all the quizzes that are in
+[0:05:15] platform.
+[0:05:22] So we'll wait for five more minutes and
+[0:05:25] let everyone join. Then we will start
+[0:05:27] the session guys.
+[0:05:34] Yeah, you can. You can.
+[0:05:41] For acceptance thing, Solen will be
+[0:05:43] taking care of that. So yeah.
+[0:05:49] Next code will start. I don't have any
+[0:05:51] information of that right now, but maybe
+[0:05:54] January.
+[0:06:06] I like how
+[0:06:08] how long started the Solana?
+[0:06:10] I started Solana in early 2025.
+[0:06:15] Yeah.
+[0:06:16] I learned from docs, rust book
+[0:06:20] and many things. Still I'm learning
+[0:06:22] everything. Still I am exploring the
+[0:06:24] ecosystem, but yeah, have a pretty much
+[0:06:26] idea of all the basics
+[0:06:28] and how things works.
+[0:06:29] But yeah, I'm also learning to make like
+[0:06:32] trading platforms and all of that stuff.
+[0:06:37] I I did turbine as well as rectof
+[0:06:41] as well as some boot camps and yeah,
+[0:06:44] mostly the doc things help me. Also some
+[0:06:47] pipe coded projects and
+[0:06:49] self coding like everything included.
+[0:06:52] Yeah, you can speak. Anyone can speak.
+[0:07:01] Um I think you will get the link in the
+[0:07:03] Luma
+[0:07:05] and depth three pack India is hosting
+[0:07:07] that I guess. So yeah, you can get the
+[0:07:09] information from there.
+[0:07:13] Munai Maumu. Yeah, you can speak if I am
+[0:07:16] saying the right name.
+[0:07:23] Are requirements to build the app for
+[0:07:24] what?
+[0:07:27] Like for the hackathon?
+[0:07:36] Um
+[0:07:37] that link I shared is just for the depth
+[0:07:41] three pack YouTube channel that contains
+[0:07:43] recording of the boot camp that was
+[0:07:45] happening live this month.
+[0:07:49] And today we will be like we'll be
+[0:07:51] discussing what the ideas and what are
+[0:07:53] the things you have to actually you can
+[0:07:56] actually build and what Solana is
+[0:07:58] requiring to build.
+[0:07:59] So yeah, we will discuss this thing.
+[0:08:03] Yeah, just let's start in 740.
+[0:08:10] Yeah, rust is a must have basically.
+[0:08:13] Solana
+[0:08:14] works on rust.
+[0:08:16] So yeah,
+[0:08:17] rust is
+[0:08:20] the
+[0:08:21] building block of your home if you're
+[0:08:23] building on Solana.
+[0:08:48] Yep.
+[0:08:52] There are some tricks I guess. You can
+[0:08:55] check out in the boot camp
+[0:08:58] page.
+[0:08:59] There are some
+[0:09:01] like sponsors too. You can build on
+[0:09:03] them. So yeah, you can check specific
+[0:09:05] details on the boot camp.
+[0:09:10] Yeah, you should.
+[0:09:11] Basically, you will be writing smart
+[0:09:13] contracts and that is programs in Solana
+[0:09:16] in rust only. So yeah,
+[0:09:19] you will require rust for the boot for
+[0:09:22] building a Solana app.
+[0:09:27] Um I'm I haven't actually worked as
+[0:09:30] engineer Solana based company, but yeah,
+[0:09:32] I have worked as developer relations in
+[0:09:33] this community to step three pack.
+[0:09:42] Everything is like
+[0:09:44] requirements. By requirements, what you
+[0:09:46] mean I I'm not actually getting, but
+[0:09:48] yeah,
+[0:09:49] how to build a Solana full stack app.
+[0:09:50] It's all explained in the boot camp and
+[0:09:54] I've also shared many resources in the
+[0:09:56] resource page of the depth three pack
+[0:09:58] hackathon
+[0:09:59] depth three pack boot camp dashboard.
+[0:10:01] There you can see all of the things.
+[0:10:11] Um yeah,
+[0:10:12] uh we will plan that probably in
+[0:10:14] January. I'm not sure, but I have to
+[0:10:16] talk to Solene.
+[0:10:18] So yeah.
+[0:10:21] And also I'll recommend to go through
+[0:10:23] the rust book. That will be awesome.
+[0:10:25] Also JetBrains have a rust coding
+[0:10:29] tutorial. Like there are 100 exercises
+[0:10:31] for rust, I guess. Learn rust with 100
+[0:10:33] exercises and that is
+[0:10:35] uh in rust ID. So you can learn that
+[0:10:37] too. Like you can utilize that resource
+[0:10:39] too.
+[0:10:41] All right guys. So
+[0:10:45] um Solene will be telling you that thing
+[0:10:49] for about credits.
+[0:10:53] So should we start?
+[0:10:57] Just give me a thumbs up, any reaction.
+[0:11:06] Cool.
+[0:11:10] So let me share my screen.
+[0:11:14] Just a second.
+[0:11:28] Wait.
+[0:11:46] So are you guys able to see the screen?
+[0:11:48] I guess yes.
+[0:11:58] So yeah, regarding the boot camp, let me
+[0:12:00] first clear them. This is the boot camp
+[0:12:03] and
+[0:12:05] people who are in boot camp already know
+[0:12:06] what is all there in and you you
+[0:12:09] probably have to do all this
+[0:12:12] respective
+[0:12:14] and the quizzes
+[0:12:16] as well as you have to submit uh
+[0:12:20] Solana deployed address
+[0:12:22] as well as in the resources section you
+[0:12:24] will get all of the information and all
+[0:12:26] of the basic things extra information
+[0:12:29] that you can
+[0:12:30] use
+[0:12:32] these are some of the videos that I have
+[0:12:34] also put in my YouTube channel as well
+[0:12:36] as there are live recordings as well as
+[0:12:38] some articles and all of this. So you
+[0:12:40] can utilize all of this to build a
+[0:12:42] Solana thing
+[0:12:45] Solana project basically.
+[0:12:47] Coming to the ideas part
+[0:12:53] um this is something that you can
+[0:12:55] install and this is something that is
+[0:12:57] created by the Colosseum itself. It
+[0:12:59] contains the it is a skill basically you
+[0:13:02] can give your AI agent or you can give
+[0:13:04] your AI to
+[0:13:07] just
+[0:13:08] check and validate your idea as well as
+[0:13:10] ask for all of the projects that are
+[0:13:13] built previously in the hackathons.
+[0:13:16] Let's say
+[0:13:17] in the Solana hackathon it contains
+[0:13:19] information of all of the hackathon
+[0:13:21] submissions and you can validate your
+[0:13:24] idea what you're lagging. You can also
+[0:13:26] validate your product based on that.
+[0:13:28] So as you can see you just have to
+[0:13:31] install it via this NBP skill at
+[0:13:33] Colosseum.
+[0:13:35] You just have to copy and paste it in
+[0:13:36] your terminal as well as you can just
+[0:13:38] give
+[0:13:39] this thing in your just you can just
+[0:13:42] copy this thing and just give it to your
+[0:13:46] Cloud Code Codex or any any platform AI
+[0:13:49] platform that that you use so that it
+[0:13:51] will just install that skill and
+[0:13:53] whenever you ask any question that is
+[0:13:55] something like that has anyone built a
+[0:13:57] way for fans to fund artists and it will
+[0:13:59] give you information in this way
+[0:14:02] as well as
+[0:14:04] some more questions like
+[0:14:06] how to build a prediction market and how
+[0:14:08] to build anything on Solana that will
+[0:14:09] generate revenue, how to build anything
+[0:14:12] that will create a
+[0:14:15] basically what I say?
+[0:14:17] Marketing thing and some craze in Solana
+[0:14:20] like as you can see the example our
+[0:14:22] payments project growing across Coliseum
+[0:14:23] hackathon and it will give you some
+[0:14:26] information based on that.
+[0:14:28] So I'll paste the link in the chat box
+[0:14:31] and you make sure that
+[0:14:41] just a second.
+[0:14:49] So make sure everyone installs this.
+[0:14:54] So if I can ping this
+[0:15:13] right
+[0:15:15] and it contains all of the information.
+[0:15:17] Let's say as you can see here like it
+[0:15:19] contains information about this
+[0:15:21] hackathon projects and all of the other
+[0:15:23] products that is across Solana and
+[0:15:25] crypto and these are the hackathon that
+[0:15:28] it covers.
+[0:15:30] As well as you can research everything
+[0:15:32] that Solana has. So this is a very
+[0:15:35] really good tool that you can use while
+[0:15:37] validating what to build and
+[0:15:40] how to basically find what is the right
+[0:15:43] thing to build at the present of time.
+[0:15:45] Right?
+[0:15:47] Are we good with this? Like I I can just
+[0:15:57] I just want to make sure that everyone
+[0:15:59] installs this. So just give me a thumbs
+[0:16:02] up if you have given this prompt to your
+[0:16:04] AI.
+[0:16:08] Yeah, let's just install it guys first.
+[0:16:11] Just give that prompt to the AI or just
+[0:16:13] save that link.
+[0:16:20] So I have just got
+[0:16:23] one yes
+[0:16:24] from a person.
+[0:16:29] So
+[0:16:30] open your agent and just paste that
+[0:16:33] thing.
+[0:16:39] Yeah
+[0:16:46] I'm waiting for everyone to just install
+[0:16:47] it then we will proceed.
+[0:16:54] Let me paste that link again or let me
+[0:16:56] paste this only.
+[0:16:58] So you can just copy this and paste it
+[0:17:01] in your
+[0:17:03] agent platform anything cloud code codex
+[0:17:06] and anything that contains information
+[0:17:07] about everything.
+[0:17:15] Just give me a thumbs up when you guys
+[0:17:17] done with this.
+[0:17:33] And yeah do ask question.
+[0:17:38] Either just copy this and give it to
+[0:17:40] your agent or just install this
+[0:17:44] if you are in terminal only just add
+[0:17:46] this skill. So it will add the skill for
+[0:17:49] you and if you if you have an agent just
+[0:17:52] set up this it will add skill for you in
+[0:17:54] your skill library
+[0:17:56] and basically you can ask questions like
+[0:17:59] this should my prediction market or not
+[0:18:00] AMM or anything what should I build on
+[0:18:02] Solana and what should I build what is
+[0:18:05] the right product to build you can ask
+[0:18:06] any questions you want and it will it it
+[0:18:09] has context of all of the ideas and all
+[0:18:11] of the hackathons that are already built
+[0:18:12] in the Solana hackathon. So basically it
+[0:18:14] will help you to validate all of the
+[0:18:17] ideas and your ideas also.
+[0:18:23] Yeah a skill. It's not an agent. It's a
+[0:18:24] skill. So, you can use it in Claude,
+[0:18:27] Code, Codex, open code, any any AI agent
+[0:18:30] you have.
+[0:18:33] Yep.
+[0:18:39] Okay, just three more minutes then we
+[0:18:41] will
+[0:18:42] proceed with the ideas.
+[0:18:47] And just give me a thumbs up like when
+[0:18:48] you guys done.
+[0:19:25] Oh.
+[0:19:27] Cool.
+[0:19:43] That's all right, bro.
+[0:20:02] Also, it looks good in light mode too,
+[0:20:05] like this all animations.
+[0:20:13] Okay, then
+[0:20:16] I'm proceeding to the next slide.
+[0:20:18] Like next next thing basically.
+[0:20:21] So,
+[0:20:23] first of all, let me walk you through
+[0:20:25] other things. Let's say
+[0:20:28] this is the Colosseum
+[0:20:31] uh project directory and you can
+[0:20:33] basically see all of the projects that
+[0:20:36] are listed in the Colosseum hackathon.
+[0:20:38] You can see the thing in frontier. You
+[0:20:41] can also see things of cyberpunk and all
+[0:20:44] of the hackathons that has happened
+[0:20:45] across the Solana
+[0:20:47] uh ecosystem. You can see all of the
+[0:20:49] projects and this is these are just
+[0:20:51] filters and can just open any product
+[0:20:54] and read about that. You can explore
+[0:20:57] what they're building, what they have
+[0:20:58] built, whether they're winner or not and
+[0:21:00] all of this thing. So let me just paste
+[0:21:03] this thing also.
+[0:21:09] Right?
+[0:21:12] And also I'll also paste all of this
+[0:21:14] link in the resource section that will
+[0:21:16] help you.
+[0:21:17] So
+[0:21:19] make sure you bookmark all of this
+[0:21:20] thing.
+[0:21:23] Next thing
+[0:21:25] about the Sania ideas you can
+[0:21:27] ideas that you can build on Solana AI
+[0:21:30] and anything related to AI and Solana.
+[0:21:34] You can get all of the ideas and some of
+[0:21:36] the proposed ideas here that you can
+[0:21:38] build that is agents are like app just
+[0:21:41] like in early days of apps.
+[0:21:45] Agents are fragmented and face
+[0:21:46] disability issues, solution and app
+[0:21:47] store for AI agents. Agents are mini
+[0:21:50] apps. User explores, installs and use
+[0:21:52] mini apps and just like Shopify.
+[0:21:54] So all of this thing
+[0:21:56] again
+[0:21:58] let's say
+[0:22:00] you can build anything. Let's say there
+[0:22:02] is an AI agent that is
+[0:22:05] accessing an app and playing things for
+[0:22:07] you, doing tasks for you and you are
+[0:22:09] earning and leveraging some of the
+[0:22:10] tokens from there and you can use that
+[0:22:12] token. You're earning token but
+[0:22:14] all the things are done by your AI
+[0:22:16] agents and it's just doing everything on
+[0:22:18] that app and you just hold and set the
+[0:22:21] guard rails what it should do and what
+[0:22:23] it should do like it shouldn't spell off
+[0:22:25] your money all of your money it should
+[0:22:27] spend some of your money that you have a
+[0:22:28] guard trade.
+[0:22:30] So all of these things you can build.
+[0:22:32] And this is all the things you can build
+[0:22:35] these are all the ideas you can build.
+[0:22:38] I will also share this link.
+[0:22:41] So that will help you.
+[0:22:45] Just a second.
+[0:23:03] Uh I didn't understand your question.
+[0:23:05] It wasn't there from start that means.
+[0:23:09] Like I I'm just showing all of you guys
+[0:23:11] to like just see all of the other
+[0:23:13] projects and take inspiration from that
+[0:23:15] it just it's not like that you have to
+[0:23:17] build that thing it's just taking
+[0:23:18] information that what are
+[0:23:20] the project that have been built in
+[0:23:22] Solana ecosystem and how they performed
+[0:23:24] and who are the winner winners and all
+[0:23:26] of this thing.
+[0:23:28] As well as
+[0:23:30] this is all like this is all the
+[0:23:32] hackathon projects that are on Solana
+[0:23:36] that is a stock Lana that related to
+[0:23:40] all of that stocks thing.
+[0:23:42] Let's say you can just view
+[0:23:44] each and every
+[0:23:46] these are these all projects were the
+[0:23:48] winners like this were the winner this
+[0:23:50] was the winner and these all things were
+[0:23:53] the winner. So you can just
+[0:23:55] look at their GitHub with their demo and
+[0:23:58] read what they are actually building. So
+[0:24:01] it this this project just gives
+[0:24:04] enter just project just gives you like
+[0:24:06] education to the
+[0:24:08] early member
+[0:24:10] let's say young people to
+[0:24:12] trade and just learn financing based on
+[0:24:16] what family has set boundaries on that
+[0:24:18] and just understand and take information
+[0:24:21] about trades if
+[0:24:23] the trade happens apart from that
+[0:24:25] boundary it will teach you why it failed
+[0:24:27] and why it is not happening and all of
+[0:24:29] this thing.
+[0:24:30] So this is all you can build.
+[0:24:33] Basically the thing I'm saying is you
+[0:24:35] can explore all of the blockchain
+[0:24:37] products that are on Solana and that
+[0:24:39] have won the hackathon basically.
+[0:24:42] So you can learn that what you can
+[0:24:45] build. So you just don't build any
+[0:24:47] normal program chain. You can build
+[0:24:49] anything. You should build anything that
+[0:24:51] will generate revenue, that will attract
+[0:24:53] users and
+[0:24:55] that will leverage something, right? So
+[0:24:57] it's like that.
+[0:24:59] One more thing like there was a recent
+[0:25:01] hackathon that was from Radiant Dow and
+[0:25:04] people have built something. Let's say
+[0:25:06] this project.
+[0:25:09] It just
+[0:25:10] when you swap something it just saves
+[0:25:12] some of the money and use that money in
+[0:25:14] investments and they just for craze they
+[0:25:17] connected it to a
+[0:25:19] some place and you just see your plant
+[0:25:22] growing there
+[0:25:23] something like this.
+[0:25:25] This is a credit department that fits in
+[0:25:27] your pocket and it just brings the
+[0:25:30] lending protocol. It just brings
+[0:25:31] borrowing, leverage thing, trading and
+[0:25:34] this is basically a seeker hackathon. So
+[0:25:37] you have to integrate seeker that is the
+[0:25:38] token for Solana mobile,
+[0:25:41] seeker phone that is.
+[0:25:43] So these are all the things. Everything
+[0:25:45] has a health factor. If you
+[0:25:48] fail to deposit your health factor just
+[0:25:52] like basically it went down and all of
+[0:25:55] this thing.
+[0:25:56] This is a some of this is like a
+[0:25:58] keyboard. You just have to you can swap
+[0:26:01] through your keyboard only. You don't
+[0:26:02] have to
+[0:26:04] go and
+[0:26:06] switch apps. Basically your keyboard
+[0:26:08] take years of takes care of all of the
+[0:26:10] swapping. So that is some of the good
+[0:26:12] products, right? There is one more
+[0:26:14] product in Magic Block. You just have to
+[0:26:16] predict
+[0:26:17] the price will go up and down and you
+[0:26:18] just have to select the blocks. If the
+[0:26:21] price is going like there's a
+[0:26:23] fluctuation of
+[0:26:24] price and if your the point touches your
+[0:26:27] block, your prediction is right and you
+[0:26:29] won that thing. So that is also a cool
+[0:26:32] thing.
+[0:26:33] Right? These are all the hackathon
+[0:26:35] things that have been listed by the
+[0:26:37] Reda itself, right?
+[0:26:41] You can also look at the magic block.
+[0:26:45] All of the apps that are built using
+[0:26:47] magic block. Let's say this is
+[0:26:50] something that has been built by the
+[0:26:52] magic block.
+[0:26:54] Some people have built it. So you can
+[0:26:56] basically reduces the ephemeral roll-up
+[0:26:59] of magic block
+[0:27:01] as well as some information, let's say
+[0:27:03] ideas that magic block itself they
+[0:27:07] have proposed some of the ideas they can
+[0:27:08] build on magic blocks also. Magic block
+[0:27:11] Solana Blitz is going on so you can just
+[0:27:13] go and read about all of this thing how
+[0:27:16] this
+[0:27:17] thing work and basically all this idea
+[0:27:19] that I propose
+[0:27:21] solves a real problem that is proposed
+[0:27:23] by the
+[0:27:25] magic block and Solana ecosystem and all
+[0:27:27] of these things, right?
+[0:27:39] So yeah, um
+[0:27:42] yeah some
+[0:27:44] I I guess Solen posted about the tracks.
+[0:27:47] So you can build on this tracks.
+[0:27:49] There was some person who was asking
+[0:27:51] about the tracks.
+[0:27:53] So let me share all of this links here
+[0:27:58] in the chat.
+[0:27:59] >> Yeah, maybe if I can add something so
+[0:28:01] related to tracks. Uh the thing is that
+[0:28:04] on the hackathon dashboard you will be
+[0:28:06] able to see the prices and so on the
+[0:28:08] prices you will see a description,
+[0:28:11] requirements, resources to be able to
+[0:28:13] build using this track.
+[0:28:15] So just just write your name.
+[0:28:17] And and to be honest as well
+[0:28:20] yeah there's something I always said is
+[0:28:22] that um when you are building a project
+[0:28:25] um don't pick up like random ID.
+[0:28:28] Like think about
+[0:28:30] um
+[0:28:32] your
+[0:28:33] you like where have influence where uh
+[0:28:36] on.
+[0:28:37] Uh that can be I I'm saying every time
+[0:28:39] the
+[0:28:40] the thing related to entertainment like
+[0:28:42] if you are building something related to
+[0:28:44] entertainment but you don't have any
+[0:28:46] network uh experience in that is going
+[0:28:49] to be complicated to build the right
+[0:28:50] thing for the right people you know. Um
+[0:28:53] you need like a bit of passion on the
+[0:28:55] project you are building.
+[0:28:57] So it can be very uh personal things
+[0:28:59] like I I don't know you are living in uh
+[0:29:02] in Argentina um
+[0:29:04] you obviously like most of them uh are
+[0:29:06] building payment hub because there is
+[0:29:08] like things related to
+[0:29:10] um
+[0:29:12] to inflation etc. So yeah just think
+[0:29:14] about uh your daily life um how you can
+[0:29:18] like build something that can match with
+[0:29:21] that.
+[0:29:24] Yes.
+[0:29:31] >> Someone saying like they are they can
+[0:29:32] only see Solana some Solana mobile
+[0:29:34] tracks.
+[0:29:35] >> Yeah as I said it just because I will
+[0:29:37] have the rest [clears throat] today.
+[0:29:39] That's why.
+[0:29:40] >> Yeah it will be updated soon. Don't
+[0:29:41] worry guys.
+[0:29:44] And also these this platform that Solana
+[0:29:46] the people in Solana they propose some
+[0:29:48] of the things like what you can build
+[0:29:50] and why now you want to build and why on
+[0:29:52] Solana. So you can build future of
+[0:29:55] stable coin you can just implement an
+[0:29:57] idea that is that will be using stable
+[0:29:59] coins. Basically you can pay for
+[0:30:01] subscription using stable coins and why
+[0:30:04] stable coins are important why you can
+[0:30:06] build on Solana.
+[0:30:07] You can just read all of these things
+[0:30:09] like there are many business are
+[0:30:11] adopting stable coins and all of these
+[0:30:14] things.
+[0:30:15] Again you can just
+[0:30:17] bring collectibles right. Like you can
+[0:30:20] just uh find a way how can you tokenize
+[0:30:23] something how can you tokenize let's say
+[0:30:25] if you want to tokenize this thing. So
+[0:30:27] also if you can tokenize some cards some
+[0:30:30] legendary cards let's say Pokémon cards.
+[0:30:32] So you can just use them and find a way
+[0:30:34] that how will you evaluate the history
+[0:30:37] of that asset? So that if someone buys
+[0:30:39] that asset, they will, they can see
+[0:30:41] through that what exactly is, is it the
+[0:30:43] legit token or the asset or not? So you
+[0:30:45] can just find a way to make the
+[0:30:49] asset that are in real world and make it
+[0:30:51] live on chain.
+[0:30:53] In the same way, this is like you can
+[0:30:56] just build something on prediction
+[0:30:57] market basically. If you are betting on
+[0:31:00] multiple games and you just want a
+[0:31:02] single interface for all of your bets so
+[0:31:05] that you can have a single dashboard and
+[0:31:07] you can just see all of your positions
+[0:31:09] that you are in multiple game. So these
+[0:31:11] are also some of the things that has
+[0:31:13] been
+[0:31:15] um
+[0:31:16] proposed by some of the people in the
+[0:31:17] ecosystem. Let's say for this project,
+[0:31:21] uh startup distribution ecosystem. Let's
+[0:31:23] say you launch a coin and then launch is
+[0:31:25] used for just marketing and revenue of
+[0:31:28] that coin when traded, it just contains,
+[0:31:32] creates a revenue and that revenue will
+[0:31:33] be used only by the marketing that is
+[0:31:35] for the startups things. So you can just
+[0:31:38] read all of this thing and it does have
+[0:31:41] information about all of this thing and
+[0:31:42] you can just
+[0:31:45] copy this thing and just go to open to
+[0:31:48] open the quick start. It will redirect
+[0:31:50] you to the Solana docs and for this you
+[0:31:52] can just give it this thing to your
+[0:31:54] agent and that will help you evaluate
+[0:31:56] and do all of the other things just
+[0:32:00] for this idea. So as Solin said that
+[0:32:03] you have to be you. Like you just don't
+[0:32:05] have to copy any other project. You just
+[0:32:08] have to build and see the problem that
+[0:32:10] has been faced by your area as well as
+[0:32:13] what you see there's a problem and what
+[0:32:16] the problem you can fix and what you can
+[0:32:18] improvise. So it's all up to you.
+[0:32:20] I'll also share this thing.
+[0:32:23] >> I again um
+[0:32:25] showcase one wait can I share my screen
+[0:32:28] briefly?
+[0:32:30] >> Uh yeah.
+[0:32:31] >> Okay.
+[0:32:32] I would just showcase um
+[0:32:35] someone like uh
+[0:32:38] student
+[0:32:40] a a student uh who built something which
+[0:32:43] is like a live prediction market.
+[0:32:46] And basically to tell you a bit of
+[0:32:48] context why he built that
+[0:32:50] is because
+[0:32:52] he started to do career in cinema
+[0:32:55] first. So he has all this
+[0:32:57] this
+[0:33:00] this experience of being like a
+[0:33:01] comedian.
+[0:33:03] And so basically actually
+[0:33:06] through his apps you can like trade like
+[0:33:09] bet in anything like
+[0:33:12] he's like pickers on the cheeseburger
+[0:33:13] that he's going to
+[0:33:15] to to buy you know.
+[0:33:17] And so people like trading on on a bit
+[0:33:20] everything and right now he has like 80
+[0:33:24] more than 80
+[0:33:26] users, 8k users which is like a lot.
+[0:33:29] But it's very inspiring profile.
+[0:33:33] Wait. Is this one.
+[0:33:36] So he was previously
+[0:33:38] a comedian.
+[0:33:40] And actually just he's building
+[0:33:42] what he really wanted to build.
+[0:33:45] And it's working pretty well because he
+[0:33:47] has all the experience and network
+[0:33:48] around.
+[0:33:54] >> That is cool.
+[0:33:59] Should I share my screen now?
+[0:34:01] >> Yeah yeah yeah.
+[0:34:04] >> Yeah also there's one more project that
+[0:34:06] has been built by Akash and that is
+[0:34:09] called Solana Consensus Lab. So it was I
+[0:34:12] guess the
+[0:34:14] winner of Solana Fall School. So it just
+[0:34:16] for education, educating people how
+[0:34:19] things work in Solana.
+[0:34:21] So as you can see the dashboard it
+[0:34:23] contains the lifetime of how a Solana
+[0:34:26] transaction happens from property
+[0:34:29] propagating the transaction to the
+[0:34:30] leader and how leader plays it and just
+[0:34:33] plays around
+[0:34:35] and propagates is
+[0:34:37] slice of the transaction to the other
+[0:34:39] validator and other validator play that
+[0:34:42] as well as there are two consensus that
+[0:34:44] is happening, basically agreement is
+[0:34:46] happening in Alpine glow. They are
+[0:34:47] sending a certificate and in Tower BFT
+[0:34:50] they are sending a vote transaction. So
+[0:34:52] it contains all of the information.
+[0:34:55] As you can see
+[0:34:57] this is some of the scenarios that you
+[0:34:59] can basically play like if the ideal
+[0:35:02] path is
+[0:35:04] it is some of the scenario. Let's say if
+[0:35:05] some of the leader is down. So let me
+[0:35:07] just first play this and show you how it
+[0:35:11] works. Let's say let me put the time in
+[0:35:14] 0.1x and just play it and
+[0:35:17] as you can see this is the slot time and
+[0:35:22] this is basically the stages that will
+[0:35:24] be happening.
+[0:35:26] And as you can see this is how
+[0:35:29] things happen that submitted to RPC then
+[0:35:32] forward to leader included in block and
+[0:35:34] when they propagate and when the replay
+[0:35:37] happens and how the certificates get
+[0:35:40] exchanged and how the transaction comes
+[0:35:42] to finality. And this is the time spent
+[0:35:45] in which things happen.
+[0:35:47] As well as you can do the same thing for
+[0:35:49] Tower BFT that is the thing before
+[0:35:52] Alpine glow update.
+[0:35:54] You can just play this and
+[0:35:56] let you know like what are the things
+[0:35:58] happening here.
+[0:36:00] There's one more thing you can learn
+[0:36:01] from this like there are many lessons
+[0:36:03] like
+[0:36:04] how things happen. So you can just go to
+[0:36:06] this lesson and just start and read from
+[0:36:10] here, read from here and just have to do
+[0:36:13] some question answer. Let's say if I
+[0:36:15] give one answer
+[0:36:17] and it will just tell me that what you
+[0:36:20] did and what happened actually. And it
+[0:36:23] will also showcase
+[0:36:25] showcase you
+[0:36:27] what's happening in real time
+[0:36:29] what's happened what happens in Alpine
+[0:36:31] glow as well as what happens in Tower
+[0:36:33] BFT.
+[0:36:34] So these are
+[0:36:35] all the things that you can build.
+[0:36:37] So it's a good thing to explore how
+[0:36:39] Solana actually works. I will also share
+[0:36:41] the link of this.
+[0:36:44] You can just understand
+[0:36:46] how the leader propagates and how what
+[0:36:48] time it takes. You can also see this
+[0:36:52] how voter works and what are the events
+[0:36:55] that are happening and what is the
+[0:36:57] metric of that
+[0:36:58] event. You can also select multiple
+[0:37:00] nodes.
+[0:37:01] Here node zero that has the largest
+[0:37:03] stake is the leader now and you can
+[0:37:04] select other nodes as well and you can
+[0:37:07] just replay what how a transaction
+[0:37:09] happens in Solana. So this is a good
+[0:37:10] tool you can
+[0:37:12] look at to learn how consensus and
+[0:37:16] Solana does the things. Let me share
+[0:37:18] this too.
+[0:37:26] Just a second.
+[0:37:30] Also these are some multiple scenarios
+[0:37:32] like if the leader is down and if some
+[0:37:34] of the thing are offline, what are the
+[0:37:36] thing
+[0:37:38] if partition happens between the network
+[0:37:40] and also you can create custom
+[0:37:42] scenarios by yourself also
+[0:37:45] and you can just prompt and change this
+[0:37:47] JSON file and just you can just create
+[0:37:49] your scenario as well. So you will see
+[0:37:52] what happens if this go down. So there
+[0:37:54] are there might be multiple questions in
+[0:37:56] your mind that what happens if this
+[0:37:58] happens. So you can just create a
+[0:38:00] scenario and look what happens inside
+[0:38:04] consensus of Solana and let me share
+[0:38:06] this.
+[0:38:16] So yeah, probably this was all about
+[0:38:18] like what are the ideas that were
+[0:38:20] proposed in Solana hackathon. Like you
+[0:38:22] can build on and many things
+[0:38:25] and it's only up to you. You have to
+[0:38:27] create any product that
+[0:38:29] like encourages people to use that you
+[0:38:31] just have don't if you yourself is not
+[0:38:34] using your product like why you're
+[0:38:35] building that. So basically build that
+[0:38:37] thing that you will use yourself and you
+[0:38:40] will
+[0:38:41] people will be using that thing and you
+[0:38:43] will eventually get users for that and
+[0:38:44] generate revenue.
+[0:38:49] >> Yeah,
+[0:38:49] >> and and after after the hackathon, uh we
+[0:38:51] have the accelerator. So
+[0:38:54] basically
+[0:38:56] it will be the way like to redefine your
+[0:38:58] Heidi, um building something stronger,
+[0:39:01] etc. etc. So really the goal of the
+[0:39:03] hackathon is just like starting
+[0:39:05] experimenting um like building something
+[0:39:08] and tomorrow you have a session about
+[0:39:10] building your first hub by coding your
+[0:39:12] first app on Solana
+[0:39:14] through Noah AI. So basically you will
+[0:39:16] don't need of
+[0:39:18] uh
+[0:39:20] known
+[0:39:21] know how to deal with Solana
+[0:39:23] technically.
+[0:39:24] Just let me share my screen.
+[0:39:27] Yeah.
+[0:39:27] Um
+[0:39:32] Okay.
+[0:39:34] >> Also accelerator is a great place to be
+[0:39:37] like I was in, but yeah, it was really
+[0:39:39] good thing.
+[0:39:41] >> Thank you.
+[0:39:43] Um yeah, I mean you don't have this
+[0:39:45] chance usually
+[0:39:47] in like if you are not in US in Europe,
+[0:39:49] it's very hard to access accelerator. So
+[0:39:52] that's why I really wanted to to build
+[0:39:54] an accelerator for underrepresented
+[0:39:56] talent in general. So uh basically yes,
+[0:39:58] tomorrow you're going to build
+[0:40:01] an app just using that. So in 30 minutes
+[0:40:03] it's going to be okay. Maybe you will
+[0:40:05] build a prediction market or whatever,
+[0:40:07] but you don't need to know how to use
+[0:40:10] like Solana, how to build with Solana
+[0:40:12] technically
+[0:40:13] to to make it. So you're going to be
+[0:40:16] able to to create a real prompt etc. to
+[0:40:19] tomorrow.
+[0:40:20] Uh and here
+[0:40:22] also in resources you can see
+[0:40:25] a lot of
+[0:40:27] things dogs extra product ideation
+[0:40:30] things.
+[0:40:31] Uh I will update in hard things by the
+[0:40:33] way.
+[0:40:34] Um but yeah, it's where you can find the
+[0:40:37] what you need.
+[0:40:38] And another thing we going to add um is
+[0:40:43] uh wait, let me just yes.
+[0:40:47] You going to have like talk to someone
+[0:40:50] here.
+[0:40:51] So it will be in your own language, like
+[0:40:54] in English, in Spanish, or Vietnamese,
+[0:40:56] or Portuguese, or whatever.
+[0:40:58] And you will be able to ask for any
+[0:41:01] tips.
+[0:41:02] Like I'm stuck I'm stuck at building
+[0:41:04] blah blah blah. I need your advice. So
+[0:41:07] please
+[0:41:08] give me give me help me just.
+[0:41:11] And so basically we're going to respond
+[0:41:13] to you telling you something like
+[0:41:16] as well.
+[0:41:17] If your mentor is not available.
+[0:41:23] No AI let me send to you if you want to
+[0:41:26] try before tomorrow of course.
+[0:41:28] You're going to also receive
+[0:41:32] credits at the beginning for the
+[0:41:34] hackathon for using
+[0:41:36] No AI.
+[0:41:39] To
+[0:41:42] What is that?
+[0:41:44] I don't know what is
+[0:41:47] Sorry.
+[0:41:49] We don't have that.
+[0:41:49] >> Maybe he was asking for build station. I
+[0:41:51] don't know.
+[0:41:56] >> I'm just guessing.
+[0:41:58] >> Okay. So
+[0:42:00] go there.
+[0:42:04] Go there. You can click and put like
+[0:42:07] India.
+[0:42:08] Like and just click on register.
+[0:42:11] So we're going to update the address
+[0:42:12] soon as well.
+[0:42:14] But there's like plenty of build
+[0:42:16] station.
+[0:42:17] So if you are from this country, I would
+[0:42:20] really suggest you to to join
+[0:42:23] because
+[0:42:24] beyond like just submitting a project is
+[0:42:26] also about
+[0:42:27] creating connection that will matter a
+[0:42:30] lot if you want to unlock opportunities
+[0:42:32] later.
+[0:42:33] Really. It's the best thing to do. Like
+[0:42:35] join if you can.
+[0:42:38] And of course like it's not changing
+[0:42:39] things. Like you can still
+[0:42:42] like submit your project etc.
+[0:42:46] If you are looking for a team, let's say
+[0:42:47] you don't have any idea.
+[0:42:49] You can go there. There's a couple of
+[0:42:52] people who already put um
+[0:42:55] uh
+[0:42:57] what they are looking for, etc. There's
+[0:42:59] like for example here three pots twist
+[0:43:01] pot left so you can request to join.
+[0:43:04] Uh and this one are
+[0:43:07] um if it's more matching with your
+[0:43:10] skills is directly um highlight there.
+[0:43:14] So yeah.
+[0:43:16] All right.
+[0:43:19] Uh tomorrow yes let me just send uh
+[0:43:22] tomorrow session. Um
+[0:43:24] I mean
+[0:43:26] I will suggest you to
+[0:43:30] who
+[0:43:31] to join here just in one click register
+[0:43:34] for the different session uh ready to
+[0:43:36] the hackathon preparation.
+[0:43:38] Uh on my end I will lead the
+[0:43:41] the Thursday one about uh how to
+[0:43:45] to build uh your first like to the best
+[0:43:48] tips for your first hackathon. So for
+[0:43:51] context uh
+[0:43:52] I never lose an hackathon.
+[0:43:55] [laughter] So I think I can provide you
+[0:43:57] great tips um
+[0:44:00] yeah.
+[0:44:03] Okay.
+[0:44:04] Um
+[0:44:06] can the hackathon be
+[0:44:07] Yes you can uh you can have an idea that
+[0:44:10] you worked on it before but make sure
+[0:44:12] it's on Solana and you're adding
+[0:44:14] futures.
+[0:44:16] Otherwise we not going to count it.
+[0:44:20] That's the only requirement.
+[0:44:24] Okay. So
+[0:44:26] see you tomorrow then.
+[0:44:28] Looks good.
+[0:44:29] [snorts]
+[0:44:29] Um so it's related to the tracks that
+[0:44:33] we're going to put. Maybe it can be
+[0:44:35] adding like a voice
+[0:44:37] a voice future or things like this. Um I
+[0:44:40] mean I I will talk about that on
+[0:44:43] Thursday.
+[0:44:46] Uh which one to get sponsor technology.
+[0:44:48] Yeah.
+[0:44:53] Okay.
+[0:44:55] See you tomorrow.
+[0:44:57] To just.
+[0:45:00] >> Bye bye.
+[0:45:01] >> Bye bye.
+[0:45:05] >> Hello my guys.
