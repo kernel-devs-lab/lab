@@ -1,0 +1,576 @@
+# Transcripción: Session 8
+URL: https://www.youtube.com/watch?v=ZWlm8H3htKc
+
+[0:06:14] Hola, hola, yo soy por acá.
+[0:06:25] Listo,
+[0:06:25] ya estoy.
+[0:06:30] Eh, bueno, hoy
+[0:06:32] bueno, bueno, ayer ayer de hecho vimos
+[0:06:33] muchísimo, o sea, adelantamos
+[0:06:36] eh bastante lo que lo que teníamos que
+[0:06:39] ver,
+[0:06:40] porque para hoy teníamos un poco de
+[0:06:41] testing, entonces eh o sea, hoy igual
+[0:06:44] vamos a ver como como una parte de
+[0:06:46] testing como extra
+[0:06:48] eh y escribí algunos tests nuevos, pero
+[0:06:50] eh
+[0:06:51] ya casi que lo que nos tocaba ayer para
+[0:06:53] hoy lo lo lo cumplimos, entonces la
+[0:06:55] clase hoy es bastante rápida.
+[0:06:57] Eh, y básicamente es o sea, desde
+[0:07:00] desplegar que bueno, lo vimos ayer y
+[0:07:02] testear. Eh, entonces eh voy a
+[0:07:04] presentarles pantalla de
+[0:07:08] de la presentación.
+[0:07:17] Eh, entonces ya, ahí estamos.
+[0:07:20] Entonces eh bueno, este módulo
+[0:07:21] básicamente le pusimos a desplegar
+[0:07:24] y bueno,
+[0:07:25] o sea, el la idea es que ustedes ya pues
+[0:07:27] puedan desplegar su programa, sea el el
+[0:07:29] código que tengas que
+[0:07:31] eh y bueno, aquí eh si estamos tomando
+[0:07:35] en cuenta primero desplegarlo en local,
+[0:07:37] luego en que bueno, esas dos cosas las
+[0:07:39] hicimos ayer
+[0:07:40] y el diseño con la máquina de estados.
+[0:07:43] Eh,
+[0:07:45] y bueno, entonces
+[0:07:47] para hoy o sea, está para 100 minutos,
+[0:07:49] pero vamos a durar como 30 porque como
+[0:07:51] decía, ya ya ya vimos como la gran
+[0:07:52] mayoría.
+[0:07:54] Eh,
+[0:07:56] el orden normal para para hacer un
+[0:07:59] programa es primero construir, luego
+[0:08:01] desplegar y luego proteger. Entonces
+[0:08:03] eh primer paso o o no no es
+[0:08:06] necesariamente este orden, pero o son
+[0:08:08] como las tres eh características
+[0:08:10] principales a la hora de hacer este
+[0:08:11] proceso. Es desplegar
+[0:08:13] O sea, se hace primero en el validador
+[0:08:14] local, luego en Devnet y ya si vamos a
+[0:08:16] ir a Mainnet, pues a Mainnet.
+[0:08:18] Eh, hay que diseñar, entonces dibujaron
+[0:08:20] la máquina de estados antes de
+[0:08:21] programar, eso es no solo necesariamente
+[0:08:22] la máquina de estados, sino como
+[0:08:24] diagramar los flujos, qué sucede si pasa
+[0:08:27] algo eh e inclusive, bueno,
+[0:08:29] matemáticamente entender si lo que está
+[0:08:31] escribiendo en el programa eh
+[0:08:33] eh queda alguna vulnerabilidad, por
+[0:08:35] ejemplo,
+[0:08:36] o si algún tipado podría exponer algo
+[0:08:38] que no queremos exponer. Eh, bueno,
+[0:08:40] tomar todo eso en cuenta.
+[0:08:42] Y proteger
+[0:08:43] que eh bueno,
+[0:08:45] esto es muy importante porque siempre,
+[0:08:47] bueno, los montos que sean enteros
+[0:08:50] si si no se necesita que sean
+[0:08:53] que sean floats.
+[0:08:55] Y también tener pruebas de fallo.
+[0:08:57] Entonces eh o sea, hay que hay que
+[0:08:59] siempre pensar en el peor de los casos y
+[0:09:00] en este caso
+[0:09:03] eh
+[0:09:04] si si podría fallar
+[0:09:06] eh algo, hay que tomarlo en cuenta y
+[0:09:08] gestionar ese riesgo, eh sea
+[0:09:10] reescribiendo el programa
+[0:09:12] o haciendo un upgrade. Normalmente, o
+[0:09:13] sea, dependiendo del contrato del
+[0:09:15] programa que ustedes lancen,
+[0:09:17] pueden o no eh hacer upgrade.
+[0:09:20] Entonces
+[0:09:21] pues sí.
+[0:09:24] Eh,
+[0:09:26] vamos a ver qué sigue.
+[0:09:29] Bueno, aquí lo que les decía un poco, eh
+[0:09:34] primero lo hacen local o local O sea, es
+[0:09:37] una red que ustedes tienen local.
+[0:09:39] Eh, entonces eh bueno, aquí tenemos los
+[0:09:42] pasos. Está el
+[0:09:44] que es el validador y el despliegue.
+[0:09:46] que muestra la paridad del tamaño, los
+[0:09:47] logs, que es para ver como qué está
+[0:09:49] pasando y vamos a mostrar cómo temporal
+[0:09:51] es.
+[0:09:52] Y los
+[0:09:53] que son básicamente el ID del programa,
+[0:09:55] que es lo que lo que habíamos visto
+[0:09:56] ayer. Voy a
+[0:09:58] abrir la terminal para mostrarles eso.
+[0:10:27] Segundo, voy a cambiar aquí
+[0:10:59] Aquí ya
+[0:11:08] Hm.
+[0:11:09] Aquí está.
+[0:11:13] vamos a buscar
+[0:11:17] el bootcamp.
+[0:11:28] Ehm.
+[0:11:33] No me acuerdo dónde había puesto ese
+[0:11:37] su proyecto.
+[0:11:53] [carraspeo]
+[0:11:54] Sí, aquí está.
+[0:11:59] La bootcamp.
+[0:12:02] Vamos a ponerlo un poco más grande
+[0:12:07] Ahí y
+[0:12:09] [carraspeo] dentro de esto entramos a
+[0:12:11] que era lo que creado ayer.
+[0:12:13] Eh.
+[0:12:21] Vamos a correr este comando que era el
+[0:12:23] de
+[0:12:32] Eh, ah, cierto,
+[0:12:35] Sí, no.
+[0:12:37] [carraspeo]
+[0:12:42] Ahí bueno, es como un un rol
+[0:12:44] eh que se arreglaba justo con ese
+[0:12:46] comando, entonces si a ustedes les llega
+[0:12:47] a pasar en algún momento simplemente
+[0:12:48] corren el comando eh y creo que pueda
+[0:12:51] podría dar algún error extra, pero
+[0:12:54] eh
+[0:12:56] o sea, ya ya sería como como como
+[0:12:58] revisar qué error está tirando y ya pues
+[0:13:01] entrar ahí a a si estamos usando una
+[0:13:04] preguntar cuál es el error o entrar a
+[0:13:06] internet y buscar
+[0:13:07] eh cuál es el error porque puede
+[0:13:08] depender mucho del dispositivo que estén
+[0:13:10] usando.
+[0:13:10] Eh, y bueno, puede cambiar, entonces eh
+[0:13:13] en ese caso sí.
+[0:13:17] Bueno, en este caso a mí me volvió a
+[0:13:19] fallar, entonces vamos a revisar
+[0:13:21] qué puede ser.
+[0:13:51] Ya, okay, ya encontré, entonces que
+[0:13:53] corra primero el comando que nos habían
+[0:13:55] dicho antes, entonces corremos este
+[0:13:58] y luego de correr este
+[0:14:00] hay que correr el
+[0:14:02] pero hay que
+[0:14:04] porque hay un mismatch entre las
+[0:14:07] versiones de Solana CLI y el que
+[0:14:08] tenemos, entonces eh
+[0:14:10] puede pasar.
+[0:14:14] Eh,
+[0:14:15] entonces esperamos a que se haga esta
+[0:14:17] instalación. Esto es superlento. Eh,
+[0:14:19] Rust para compilar y para cuando tenemos
+[0:14:21] que hacer esas cosas que siempre es como
+[0:14:24] poco tardado, entonces hay que darle
+[0:14:25] chance.
+[0:14:28] Eh,
+[0:14:33] Listo.
+[0:14:34] Entonces ahora corremos el
+[0:14:49] Ehm,
+[0:14:56] Hm.
+[0:15:07] Este no no no lo había tenido antes,
+[0:15:09] pero vamos a revisar qué es.
+[0:15:41] Creo que esto Okay, es un problema con
+[0:15:42] el validador. Creo que esto debería
+[0:15:44] levantar un validador.
+[0:15:46] Eh, ya ahí se está levantando, sí.
+[0:15:50] Ehm, y creo que esto queda ahí
+[0:15:52] corriendo. Si no me equivoco.
+[0:15:55] Entonces
+[0:16:00] Sí, vamos a tener que terminar.
+[0:16:07] Eh, entonces bueno, si les si les ocurre
+[0:16:09] este error, básicamente lo que hay que
+[0:16:10] hacer es ehm
+[0:16:12] levantar un validador
+[0:16:14] y abrir otro terminal.
+[0:16:15] Eh, en este caso
+[0:16:19] Y tenemos que volver a entrar a
+[0:16:35] Ah, okay. Esta otra terminal no le sale,
+[0:16:37] entonces voy a compartir pantalla por
+[0:16:38] completo.
+[0:16:54] Okay, de ahí está.
+[0:16:56] Entonces aquí tenemos la
+[0:17:04] Ya tenemos entonces estamos dentro del
+[0:17:05] control y son los comandos que hay que
+[0:17:07] correr. Entonces sería el normal que
+[0:17:08] corrimos ahora, el
+[0:17:11] que es para para programarlo del
+[0:17:13] y el que es para hacerlo dentro del
+[0:17:16] Entonces aquí ya corremos esto.
+[0:17:18] Y ahí creo que le falta un paquete por
+[0:17:20] compilar.
+[0:17:22] Y ahí
+[0:17:24] eh nos dice
+[0:17:43] Listo.
+[0:17:46] Bueno, eso fue lo que nos dijo ayer,
+[0:17:47] pero no hay problema con eso.
+[0:18:04] Hm.
+[0:18:12] Revisar que es este pero mientras vamos
+[0:18:14] a volver a la presentación.
+[0:18:16] Eh
+[0:18:19] Okay, desplegar en
+[0:18:21] Bueno, sí, esto esto lo vimos ayer, que
+[0:18:22] básicamente era setear el el provider eh
+[0:18:25] dentro de Devnet y básicamente
+[0:18:28] correr lo demás, que por ejemplo era el
+[0:18:29] Solana Program, eh el el URL, que en
+[0:18:33] este caso ya el Devnet, eh y bueno, por
+[0:18:36] esos pasos que esos casos esos pasos son
+[0:18:38] como más boilerplate, que sería pedir el
+[0:18:40] airdrop y el build de el programa.
+[0:18:45] Ehm,
+[0:18:48] esto bueno, es es más como a la hora de
+[0:18:51] de arquitectura que uno primero dibuja
+[0:18:53] la máquina.
+[0:18:54] Entonces, eh primero se nombran los
+[0:18:56] estados. Estos son máquinas de estados
+[0:18:57] finitos, entonces básicamente es como
+[0:18:59] todos los estados que se pueden dar
+[0:19:01] dentro del programa de ejecución
+[0:19:03] eh y básicamente es verlo como un
+[0:19:06] como una máquina de estados finitos,
+[0:19:07] entonces básicamente ehm ver si el
+[0:19:10] programa acepta o no acepta algo y
+[0:19:12] entender cada uno de los estados eh y
+[0:19:14] qué valores pueden llegar a tomar.
+[0:19:16] Entonces, eh paso número uno es nombrar
+[0:19:19] los estados,
+[0:19:20] eh si es abierto, si está tomado, si es
+[0:19:22] cancelado, luego tener un handler por
+[0:19:24] cada sesión
+[0:19:26] y cerrar los estados finales. Entonces,
+[0:19:28] básicamente
+[0:19:29] primero hay que entender cuáles son los
+[0:19:31] estados que tenemos, por ejemplo si es
+[0:19:32] un counter, el contador es el es el
+[0:19:34] primer estado que vamos a tener, que es
+[0:19:35] la cantidad de veces que se ha que se ha
+[0:19:37] sumado.
+[0:19:38] Eh, hay que tener un handler, entonces
+[0:19:40] el handler es el que se encarga de
+[0:19:41] aumentarlo. Entonces, en este caso ayer
+[0:19:43] la función que teníamos
+[0:19:45] handle
+[0:19:46] eh
+[0:19:48] ¿cómo se llamaba? Handle
+[0:19:49] Increment. Handle Increment lo que hacía
+[0:19:51] básicamente era
+[0:19:53] eh aumentar este estado y cerrar los
+[0:19:55] estados finales. Entonces, siempre hay
+[0:19:57] que cerrar ese proceso, o sea, no puede
+[0:19:59] quedar como como algo abierto, sino que
+[0:20:01] el estado tiene que tener un estado
+[0:20:03] final, por así decirlo. Entonces, en el
+[0:20:05] programa el estado final es
+[0:20:09] lo último que eh o sea, el último
+[0:20:11] resultado que tuvimos del del mismo.
+[0:20:16] Ehm,
+[0:20:19] bueno, aquí aquí es como un dibujo de
+[0:20:20] cómo se ve en otro caso, por ejemplo
+[0:20:22] esto es una de ofertas, entonces
+[0:20:25] ehm entras, o sea, estos que ven acá son
+[0:20:28] los eh los por así decirlo.
+[0:20:36] Ehm, si es, o sea, cuando cuando uno
+[0:20:39] hace una una oferta, entonces tiene dos
+[0:20:41] posibilidades, por ejemplo,
+[0:20:42] puede tomarla o puede cancelarla.
+[0:20:44] Si la toma,
+[0:20:46] entonces ya el
+[0:20:47] si la cancela simplemente se hace un
+[0:20:49] reembolso.
+[0:20:50] Y ven que las dos termina en un cierre,
+[0:20:52] digamos, una conclusión. Entonces,
+[0:20:54] básicamente siempre hay que diseñar el
+[0:20:57] programa para que
+[0:20:59] sea cual sea la función que utilicen o
+[0:21:01] el estado que llamen siempre termine
+[0:21:03] eh de alguna manera.
+[0:21:07] Eh, bueno, eso es más aritméticas,
+[0:21:15] Eh, entonces el dinero normalmente
+[0:21:18] siempre se maneja en enteros.
+[0:21:20] Ehm,
+[0:21:22] dependiendo, pero, por ejemplo, lo
+[0:21:24] hablamos en otra clase, el F64 nunca se
+[0:21:27] utiliza para
+[0:21:29] para dinero, no no es lo ideal.
+[0:21:31] Ehm,
+[0:21:33] y a veces lo que se hace es que para
+[0:21:35] representar decimales se hacen números
+[0:21:37] muy grandes con varios ceros y
+[0:21:39] simplemente después se hace como una una
+[0:21:42] transición a números enteros normales.
+[0:21:44] Entonces, puede ser que hayan un 10
+[0:21:47] millones
+[0:21:48] uno, pero ese 10 millones lo que ese 10
+[0:21:50] millones uno lo que termina
+[0:21:51] representando es 10.1.
+[0:21:53] Ehm, eso con el fin de hacerlo más
+[0:21:55] óptimo y para que no le introduzcamos
+[0:21:57] vulnerabilidades al sistema.
+[0:21:59] Porque con los
+[0:22:01] eh se introducen varias varias
+[0:22:02] vulnerabilidades en las cuales hay hay
+[0:22:03] que pensar y a nivel de
+[0:22:05] no no es
+[0:22:23] más de 64 más que suficiente, use 128
+[0:22:26] para multiplicar, aunque no creo que
+[0:22:28] ese o sea, alguna multiplicación se
+[0:22:29] salga de
+[0:22:30] use 64, o sea, es difícil, pero bueno,
+[0:22:33] siempre o sea, podría pasar, entonces
+[0:22:34] siempre
+[0:22:35] usen use 128 si van a hacer una
+[0:22:36] multiplicación.
+[0:22:40] Eh, y
+[0:22:43] bueno, sí, eso que les decía de no o
+[0:22:45] sea, idealmente no tener floats ni
+[0:22:47] bordes silenciosos.
+[0:22:48] Eh,
+[0:22:50] y o sea, sé que tal vez es muy común
+[0:22:52] tener el
+[0:22:53] el carry eh en otros en otros lenguajes,
+[0:22:56] pero para programas como tal no es lo
+[0:22:58] ideal.
+[0:22:59] Eh,
+[0:23:01] porque lo hace o sea, le le añade varias
+[0:23:03] vulnerabilidades, entonces no no vale la
+[0:23:05] pena arriesgarse por una
+[0:23:08] por una optimización del código que al
+[0:23:10] final de cuentas no no trae mucho
+[0:23:11] beneficio más allá de que baja un poco
+[0:23:13] el fin.
+[0:23:15] Eh, la seguridad hay que verla como un
+[0:23:17] checklist.
+[0:23:18] Eh,
+[0:23:20] entonces y básicamente bueno, hay que
+[0:23:23] verificar cada uno es o sea, a la
+[0:23:25] izquierda tenemos como
+[0:23:26] cuál es la verificación el porqué y la
+[0:23:28] falta, entonces
+[0:23:29] bueno, primero
+[0:23:30] que solo puede firmar quien es
+[0:23:32] autoridad, caso que yo tenga un
+[0:23:34] programa, eh ese programa depende como
+[0:23:36] lo configure, hay ciertas funciones que
+[0:23:38] solo la autoridad o el admin
+[0:23:42] pueden verlo.
+[0:23:43] Eh, y falla si falta la firma.
+[0:23:46] Eh, el que es el que el programa es
+[0:23:48] dueño de la cuenta y este falla si no es
+[0:23:50] el
+[0:23:51] correcto, o sea, si no es el verdadero.
+[0:23:54] Y el estado
+[0:23:56] este este es como
+[0:24:00] o sea,
+[0:24:01] debería verse
+[0:24:03] que o sea,
+[0:24:04] siempre está abierto antes de tomar
+[0:24:06] y falla si hay un doble toma, entonces
+[0:24:07] el estado o sea, no no puede tener como
+[0:24:09] un doble estado, o sea, no pueden haber
+[0:24:11] dos estados distintos, siempre tiene que
+[0:24:12] dar uno que es el más más actualizado y
+[0:24:14] si se hacen cambios pues estar estar
+[0:24:18] eh los que sea la la
+[0:24:20] que eso eso es más dentro de la firma,
+[0:24:21] entonces cuando firma esto se verifica
+[0:24:23] casi que automáticamente.
+[0:24:25] Eh,
+[0:24:30] y bueno, renta,
+[0:24:32] que es eh que hay que cerrar, o sea,
+[0:24:34] cuando se cierran las cuentas que puede
+[0:24:35] quedar algún saldo varado, entonces
+[0:24:37] tomar eso en cuenta, pero bueno, este
+[0:24:38] último realmente no es muy importante.
+[0:24:42] Ehm,
+[0:24:46] y bueno, sí les dije que la clase iba a
+[0:24:47] estar bastante corta, pero vamos a
+[0:24:49] revisar esto otro que tenemos por acá al
+[0:24:51] final.
+[0:24:55] Eh,
+[0:25:06] revisar
+[0:25:19] revisar
+[0:25:38] pulsa aquí
+[0:25:42] está el otro comando.
+[0:26:00] Bueno,
+[0:26:01] sí vale la pena guardar el campos fechas
+[0:26:04] en las cuentas ese mismo datos y podría
+[0:26:06] tener otra sección, verdad, por los
+[0:26:07] partidos
+[0:26:10] Eh, en ese caso
+[0:26:13] no, realmente no vale la pena eh guardar
+[0:26:15] las fechas.
+[0:26:16] Eh, inclusive o sea, no es muy bueno con
+[0:26:19] fechas, eh
+[0:26:21] entonces hay que tener cuidado con eso.
+[0:26:23] Eh, salvo que sea algo de transparencia
+[0:26:26] o algo así
+[0:26:28] y que necesite como la fecha
+[0:26:29] inmediatamente y que queda así como
+[0:26:42] y es al final de cuentas lo tienes en la
+[0:26:43] transacción, entonces por qué lo
+[0:26:45] guardarías doble.
+[0:26:47] Entonces sí, o sea,
+[0:26:49] no no se me ocurre un caso de uso, o
+[0:26:50] sea, puede que exista,
+[0:26:52] pero sí, o sea, si si es full
+[0:26:54] transacciones realmente no no no pienso
+[0:26:56] que valga la pena.
+[0:26:58] Eh, bueno, tal vez si tenés como algún
+[0:27:01] estado en el que puedas saber cuando fue
+[0:27:02] la última vez que se modificó algo, tal
+[0:27:04] vez en ese caso sirva,
+[0:27:07] porque puede que tengas que llamar a la
+[0:27:09] o sea, tendrás que o sea, tendrás que
+[0:27:10] buscar transacciones muy viejas y eso
+[0:27:12] puede hacer poco óptimo y si lo tienes
+[0:27:14] en una función del programa puede ser
+[0:27:16] más rápido.
+[0:27:18] Por temas de eficiencia tal vez podría
+[0:27:20] servirte, sin embargo no
+[0:27:22] no sé, o sea, no estoy tan seguro que
+[0:27:24] que tan útil sea. Eh,
+[0:27:27] puede que haya algún caso de uso el que
+[0:27:28] valga la pena.
+[0:27:30] Eh, vamos a correr aquí el
+[0:27:36] Aquí ya nos corre el
+[0:27:40] y o sea,
+[0:27:54] Okay, ya ya entonces ahí tenemos
+[0:27:58] y bueno, básicamente entonces aquí ya
+[0:28:00] literal o sea, eso es el entonces
+[0:28:02] ustedes aquí ya podrían desplegar sus
+[0:28:04] propios contratos y todo.
+[0:28:06] Y aquí tenemos el el
+[0:28:08] Entonces cuando ustedes van a setear el
+[0:28:14] provider que era acá.
+[0:28:23] Aquí está.
+[0:28:25] Ponen esta.
+[0:28:27] Y ya debería
+[0:28:45] Ahí está.
+[0:28:47] Entonces ahora se se
+[0:28:49] se configura
+[0:28:50] y tenemos básicamente que el nuevo
+[0:28:53] ya no es como era antes, sino que era
+[0:28:56] Antes lo teníamos así.
+[0:29:05] Entonces eh o sea,
+[0:29:07] si van a
+[0:29:09] entonces
+[0:29:11] o sea, si van a
+[0:29:13] entonces utilizan este con el
+[0:29:17] y si van a entonces a
+[0:29:21] a este a entonces nada más
+[0:29:25] le cambian la palabra
+[0:29:27] por
+[0:29:28] esta URL
+[0:29:30] que se la lanza cuando corren el
+[0:29:34] Tienen que correrlo en otra terminal
+[0:29:35] porque esto es como literalmente correr
+[0:29:38] o sea, es como, por así decirlo, un
+[0:29:39] servidor, entonces eh y ese servidor que
+[0:29:42] está corriendo localmente
+[0:29:43] tiene que seguir corriendo, no no lo
+[0:29:45] pueden pausar porque si se pausa, pues
+[0:29:46] no no va a funcionar
+[0:29:48] eh porque se le llama a un servidor que
+[0:29:49] no que no no va a dar una respuesta.
+[0:29:51] Entonces vamos a
+[0:29:53] igual que antes que eran
+[0:29:56] y setear esto.
+[0:29:57] Y ya básicamente eso aquí ya podrían
+[0:29:59] hacer entonces el
+[0:30:00] en
+[0:30:03] en ese
+[0:30:08] Eh, vamos a revisar por acá
+[0:30:23] Creo que era así.
+[0:30:26] Okay.
+[0:30:57] Y no sé
+[0:31:24] Vamos a ver este error, vamos a
+[0:31:26] preguntarle
+[0:31:28] lo otro lo que puede estar pasando.
+[0:31:38] Y
+[0:32:01] Eh, aquí nos dio como los pasos, pero
+[0:32:04] dice que Ah, okay.
+[0:32:06] Esto es de un build anterior que nos
+[0:32:08] hizo
+[0:32:09] P 0, entonces la versión va a ser
+[0:32:11] incompatible.
+[0:32:12] Entonces vamos a
+[0:32:13] remover eso.
+[0:32:16] Sí, vamos a explicarles entonces
+[0:32:17] básicamente todo lo que cambió.
+[0:32:21] Nos vamos acá. Entonces la O sea, el
+[0:32:23] primer paso es remover este paquete
+[0:32:25] antiguo porque se nos quedó de otra
+[0:32:27] versión, entonces esto podría dar
+[0:32:29] errores o bueno, estaba dando errores.
+[0:32:31] El cargo lo hago con esto
+[0:32:34] que es para que
+[0:32:36] o sea, para que las versiones
+[0:32:37] básicamente estén
+[0:32:39] este
+[0:32:40] al mismo nivel digamos y no no vayan
+[0:32:41] errores.
+[0:32:43] Y luego hacer
+[0:32:46] Vamos a revisar si funciona.
+[0:32:49] Bueno, ahí compila solo un rato
+[0:34:05] Dice que puede ser el la versión del
+[0:34:07] del validador.
+[0:34:18] Vamos a correr esto, vamos a intentar
+[0:34:19] con este.
+[0:34:21] A ver si será eso.
+[0:34:27] Es Ah, no.
+[0:34:32] Revisamos qué versiones da.
+[0:34:35] Nos tira que está usando versiones. Esto
+[0:34:37] bueno, no es muy común que pase
+[0:34:39] que lance o sea que hayan de versiones,
+[0:34:41] entonces hay que
+[0:34:42] corregirlos.
+[0:34:44] Ehm.
+[0:34:47] a ver qué nos dice.
+[0:35:08] Y vamos copiando esto de
+[0:35:17] Listo, ya quedó.
+[0:35:18] Entonces, básicamente ya aquí logramos
+[0:35:19] desplegar en
+[0:35:21] eh y lo que teníamos era un error de
+[0:35:23] compilación por el versionado. Entonces,
+[0:35:25] nada más eh hay que tener cuidado con
+[0:35:27] los con las versiones
+[0:35:29] eh que sean compatibles.
+[0:35:31] Ehm.
+[0:35:34] Aquí tenemos el ID
+[0:35:36] y vamos es como para quitar el duplicado
+[0:35:38] si queda por ahí.
+[0:35:40] Y bueno, básicamente es el nombre en la
+[0:35:41] cual se
+[0:35:46] Y bueno, básicamente ya sería la clase.
+[0:35:49] Eh, siempre cuando vayan a escribir un
+[0:35:51] programa
+[0:35:52] los pasos son dibujar los estados, los
+[0:35:55] revisar los montos y cerrar las cuentas.
+[0:35:58] Eh, no sé si alguno tiene una una
+[0:36:00] pregunta y si no estaríamos por acá hoy.
+[0:36:04] Ehm. Y bueno, muchas gracias por la
+[0:36:06] atención.
+[0:36:07] Eh, ya mañana viene con la clase de
+[0:36:11] creo que es de
+[0:36:12] entonces van a ver como un poco la
+[0:36:13] implementación con
+[0:36:15] y y ese tipo de cosas.
+[0:36:31] Bueno,
+[0:36:33] yo estaré más por hoy.
+[0:36:34] Eh,
+[0:36:36] y bueno, eh muchas gracias por la
+[0:36:38] atención y espero verlos la la otra
+[0:36:39] semana que ya es la el cierre y vamos a
+[0:36:42] estar teniendo
+[0:36:44] este más tips para la hackathon y
+[0:36:46] para ese o sea, para
+[0:36:49] para que puedan desarrollar un buen
+[0:36:50] hackathon,
+[0:36:51] eh qué tecnologías pueden utilizar y
+[0:36:52] bueno, es como más interesante porque no
+[0:36:54] es tanto teoría, sino más como discutir
+[0:36:56] qué temas son se pueden desarrollar
+[0:36:59] eh y así.
+[0:37:01] Pero bueno, eh un gusto verlos hoy y nos
+[0:37:03] estamos hablando.

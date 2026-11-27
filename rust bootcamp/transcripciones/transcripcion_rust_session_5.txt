@@ -1,0 +1,1705 @@
+# Transcripción: Session 5
+URL: https://www.youtube.com/watch?v=8nOlUikkBXE
+
+[0:00:46] Jim.
+[0:00:49] Hey So then, how are you?
+[0:00:51] Fine, fine. And you?
+[0:00:55] Doing good.
+[0:00:57] Perfecto.
+[0:01:01] Nice.
+[0:01:26] So let's move to message again.
+[0:02:08] Um, does everyone register for
+[0:02:11] the session
+[0:02:13] for the Solana for students? Ah, we are
+[0:02:16] two.
+[0:02:18] We have to wait.
+[0:02:28] Normally you receive as well a reminder
+[0:02:30] on email, right?
+[0:02:32] Um, sorry, I I didn't understand the
+[0:02:34] question.
+[0:02:35] You receive a reminder by email normally
+[0:02:38] as well.
+[0:02:38] Um, yes. Uh, let me check if I receive
+[0:02:42] the reminder.
+[0:02:44] Normally
+[0:02:44] Yeah, I got the reminder.
+[0:02:46] Yeah.
+[0:02:48] Okay.
+[0:02:52] Um,
+[0:02:53] yeah.
+[0:02:55] Maybe they have courses, I don't know,
+[0:02:57] classes.
+[0:03:06] I just end up a session with a super
+[0:03:09] team
+[0:03:11] Ukraine
+[0:03:13] and it was like very special because a
+[0:03:15] Russian
+[0:03:17] appeared and did and and did shit.
+[0:03:21] [resoplido] So,
+[0:03:22] yeah.
+[0:03:23] I had to manage the situation.
+[0:03:26] Oh.
+[0:03:27] Um.
+[0:03:30] Yeah.
+[0:03:31] This can be like very hard for them just
+[0:03:34] to to manage that every time.
+[0:03:37] Yeah, it should it's it's complicated.
+[0:03:40] Um.
+[0:03:41] Because basically the link was available
+[0:03:44] on Luma.
+[0:03:45] So they joins through Luma and then yeah
+[0:03:49] did what
+[0:03:52] we don't want to see. [risas]
+[0:04:01] Um, yeah. Ah, so let me just put the
+[0:04:04] message there
+[0:04:05] to make sure like if you are from a
+[0:04:07] specific country in Latam, normally like
+[0:04:10] in Latam we are
+[0:04:11] doing that for all countries. So
+[0:04:15] you can join a session that I will do
+[0:04:17] uh especially for students uh to explain
+[0:04:19] how to land helium
+[0:04:22] into the solar ecosystem.
+[0:04:25] I think I will have my voice broken
+[0:04:27] soon,
+[0:04:28] but the thing is that I have to do this
+[0:04:31] session more than 20 times.
+[0:04:34] [risas]
+[0:04:34] So
+[0:04:36] oof,
+[0:04:37] gonna be funny.
+[0:04:39] Um,
+[0:04:41] all right.
+[0:04:45] Okay, hi.
+[0:04:49] Where are you from? Dev Grim.
+[0:04:58] Ah, you are all from Peru
+[0:05:00] except Fabian Ronaldo. Where are you
+[0:05:04] from?
+[0:05:05] Spain?
+[0:05:07] Argentina?
+[0:05:20] Ecuador. Okay. Ecuador.
+[0:05:33] So I will let you
+[0:05:35] start in a in a few minutes.
+[0:05:37] Um, normally you review already the PR,
+[0:05:40] right?
+[0:05:42] Yes. So all homework has been reviewed
+[0:05:45] for the first week and we have a quiz
+[0:05:47] today, so the quiz is also there.
+[0:05:51] Okay.
+[0:05:52] All right.
+[0:05:53] Got it.
+[0:05:57] Um,
+[0:06:00] yes, the leader board has been updating.
+[0:06:03] All right.
+[0:06:06] So you you can see it.
+[0:06:08] Wait, just sharing my screen.
+[0:06:11] Here, uh so you can see first learners
+[0:06:15] like the homework 10% done.
+[0:06:18] And here they are like you have 43 so
+[0:06:24] All right.
+[0:06:24] Okay, okay.
+[0:06:27] Tuk tuk tuk and normally let me check if
+[0:06:30] the homework Okay, perfect for the quiz
+[0:06:33] they can
+[0:06:35] see it and just reply.
+[0:06:37] I mean previously just for me but you
+[0:06:40] you can see submit. If you have any
+[0:06:42] issue please tell tell us.
+[0:06:45] Normally I fix that but
+[0:06:49] if you still have let me know.
+[0:06:54] Okay.
+[0:07:05] Is that okay? I finish the quiz but my
+[0:07:09] Um
+[0:07:10] uh is because like every hour
+[0:07:13] what when when did you finish it?
+[0:07:17] Every hour it's like normally updated
+[0:07:20] yesterday.
+[0:07:22] Okay.
+[0:07:24] Okay, okay. I will check then.
+[0:07:27] Did you click on submit
+[0:07:29] or
+[0:07:30] like
+[0:07:32] could you see that you cannot um
+[0:07:34] refiling
+[0:07:36] refile again?
+[0:07:43] Yeah, I I will check for for you.
+[0:07:52] Okay.
+[0:07:53] Uh if you can take it again uh the quiz
+[0:07:57] has not been submitted. That's why I'm
+[0:07:58] asking.
+[0:08:40] Bueno, hola a todos. Espero estén súper
+[0:08:43] súper bien.
+[0:08:45] Hoy tenemos otra sesión del bootcamp y
+[0:08:47] eh
+[0:08:50] Hoy vamos a hablar un poco de transacts
+[0:08:53] y si nos da tiempo vamos a Solana Kit,
+[0:08:55] aunque no creo que nos da tiempo.
+[0:08:57] Entonces creo que vamos a quedar solo
+[0:08:59] con transacciones.
+[0:09:00] Pero la idea es que la clase de hoy sea
+[0:09:02] bastante interactiva y que todos vayan
+[0:09:04] haciendo las cosas.
+[0:09:06] Ustedes no pueden ver la cámara que
+[0:09:07] tengo al lado, ¿verdad? Tipo a la
+[0:09:08] derecha.
+[0:09:11] Eh porque si no me dicen.
+[0:09:13] Porque es que está a punto que la
+[0:09:15] presentación, entonces no se ve. Ah,
+[0:09:16] okay, excelente.
+[0:09:18] Entonces voy a compartir pantalla.
+[0:09:22] Y ahora, bueno, aquí estoy un poco más
+[0:09:23] adelante.
+[0:09:25] Les acabo de spoilear todo lo que vamos
+[0:09:26] a ver hoy.
+[0:09:27] Okay, hoy vamos a ver un poco sobre
+[0:09:30] cuentas y transacciones. Entonces,
+[0:09:32] primero que todo, recuerden que la clase
+[0:09:35] pasada
+[0:09:36] eh con Santi vieron un poco lo que son
+[0:09:39] las wallets, eh o sea, cómo funcionan.
+[0:09:42] Crearon su propia wallet en Solana. Yo
+[0:09:44] sé que con Santi la hicieron en Jupiter,
+[0:09:45] pero hay más alternativas. Está, por
+[0:09:46] ejemplo, Phantom.
+[0:09:48] Hay un montón de wallets que simplemente
+[0:09:50] ustedes pueden usar
+[0:09:51] para
+[0:09:52] eh para Solana. Y entonces recuerden que
+[0:09:55] ¿qué es una wallet? Una wallet es
+[0:09:56] básicamente algo que
+[0:09:58] bueno, o sea, una wallet está linkeada a
+[0:10:01] una cuenta
+[0:10:03] y esa cuenta es la que mantiene sus
+[0:10:04] fondos. Entonces si ustedes tienen
+[0:10:06] Solana, pues están asociados a esa
+[0:10:08] cuenta. Si ustedes tienen eh USDC que es
+[0:10:12] una moneda estable, que no sé si saben
+[0:10:14] el concepto, pero básicamente USDC es
+[0:10:18] como un dólar en la blockchain. ¿Y cómo
+[0:10:20] funciona? Es que en la vida real, es
+[0:10:23] decir, en en un banco ahí, supongamos, o
+[0:10:25] bueno, eso también se hace con deuda del
+[0:10:27] Estado estadounidense, pero supongamos
+[0:10:28] que en un banco tienen un dólar físico.
+[0:10:31] En el caso más básico sería que tiene un
+[0:10:32] dólar físico.
+[0:10:33] Y entonces cuando ustedes tienen un
+[0:10:35] USDC, que es un dólar en la blockchain,
+[0:10:38] es como si ustedes tuviesen un dólar, o
+[0:10:40] sea, un dólar en la Está colateralizado,
+[0:10:43] exactamente. Es como si ustedes tuvieran
+[0:10:44] un dólar en la vida real. Entonces el
+[0:10:46] token tiene una representación uno a uno
+[0:10:49] con el dólar. Es decir, que si yo tengo
+[0:10:50] 100 USDC,
+[0:10:52] significa que en algún lugar está
+[0:10:55] colateralizado, como dijo eh Dev Grim,
+[0:10:59] eh
+[0:11:00] con o sea, es el equivalente a 100
+[0:11:02] dólares.
+[0:11:03] Entonces eso es súper útil porque se da
+[0:11:05] para mucho. Por ejemplo, si ustedes en
+[0:11:07] la hackathon más adelante, si ustedes
+[0:11:09] quieren hacer la hackathon o lo que sea,
+[0:11:12] eh por ejemplo, quieren hacer algo de
+[0:11:13] pagos fronterizos, o sea, yo si yo soy,
+[0:11:15] por ejemplo, soy de Costa Rica y le
+[0:11:17] quiero pasar a a a Ronald a Ronado,
+[0:11:21] que es Ronado o Ronaldo, no sé,
+[0:11:24] que es de de Ecuador,
+[0:11:27] sí, yo le podría pasar Solana, sí, pero
+[0:11:29] ¿qué tal si él no quiere Solana? Él
+[0:11:30] quiere dólares o él quiere una moneda
+[0:11:33] estable, algo que esté estable, que no
+[0:11:34] cambie de valor, que no fluctúe, porque
+[0:11:36] Solana fluctúa.
+[0:11:38] Eh, sí, yo le puedo pasar dólares que
+[0:11:40] son en blockchain USDC o USDT, que eso
+[0:11:44] es básicamente porque hay como dos
+[0:11:45] empresas mayores que están que tienen
+[0:11:48] los dólares que es Circle y Tether.
+[0:11:50] Entonces básicamente sí, yo le puedo
+[0:11:52] pasar dólares a como le puedo pasar
+[0:11:53] Solana, a como le puedo pasar cualquier
+[0:11:55] otro token que esté en la red.
+[0:11:57] Me confundí con el nombre de Ronaldo.
+[0:11:59] Okay, sí, sí, me pareció raro Ronaldo,
+[0:12:01] la verdad. [risas]
+[0:12:02] Okay.
+[0:12:03] Entonces básicamente [resoplido] así es
+[0:12:05] como funciona, es muy útil para pagos
+[0:12:06] fronterizos, para
+[0:12:09] para pago de cosas. Por ejemplo, si yo
+[0:12:10] voy y quiero ir a pagarle a
+[0:12:13] quiero ir al supermercado, digamos.
+[0:12:16] Bueno, supermercado pequeño, aquí en
+[0:12:17] Costa Rica se le dice pulpería. Yo
+[0:12:18] quiero ir a pagarle. Yo no le voy a ir a
+[0:12:20] pagar a un señor que ya que posiblemente
+[0:12:24] apenas sabe qué es, que tal vez ni tiene
+[0:12:26] wallet. Yo no voy a pagarle en Solana
+[0:12:28] porque no le sirve. Le sirve más tener
+[0:12:29] dólares en blockchain. Entonces yo le
+[0:12:31] pago en dólares o le pago en una moneda
+[0:12:34] estable del peso argentino que, o sea,
+[0:12:37] realmente no es la idea, pero bueno, o
+[0:12:38] sea, supongamos que sí. O le pago en una
+[0:12:41] moneda estable de dólares, de euros, lo
+[0:12:43] que sea, ¿okay?
+[0:12:44] Entonces hoy vamos a hablar sobre
+[0:12:46] cuentas y transacciones. Eh, ahí me
+[0:12:49] salió el tema del toque. Entonces vamos
+[0:12:50] a ver un poco cómo Solana guarda el
+[0:12:52] estado y cómo se va modificando con las
+[0:12:54] transacciones. Entonces,
+[0:12:56] ¿qué vamos a ver hoy?
+[0:12:58] Hoy vamos a ver entonces cuentas.
+[0:13:00] Vamos a ver qué es una cuenta, los
+[0:13:01] campos de de cuenta, las propiedades,
+[0:13:03] los programas.
+[0:13:05] Vamos a ver transacciones y vamos a
+[0:13:07] hacer una demo rápida en Devnet que
+[0:13:08] recuerden que Devnet
+[0:13:10] yo creo que tal vez se los dijeron la
+[0:13:11] vez pasada, pero en Solana hay varias
+[0:13:14] formas de usarla. Está eh Devnet,
+[0:13:18] Mainnet y bueno, hay otras. Y si yo lo
+[0:13:20] hago localmente.
+[0:13:22] Mainnet es cuando yo uso fondos reales,
+[0:13:24] o sea, el Solana que yo mando, ahorita
+[0:13:26] Solana vale 81 dólares, digamos.
+[0:13:28] Entonces yo le mando un Solana y este
+[0:13:30] Solana sí tiene representación de 81
+[0:13:32] dólares. ¿Qué pasa si yo lo hago en
+[0:13:33] Devnet? Yo puedo tener
+[0:13:35] 100 Solanas en Devnet que no van a valer
+[0:13:37] nada porque son de prueba.
+[0:13:39] Entonces eh vamos a hacer un Devnet
+[0:13:42] porque obviamente estamos haciendo
+[0:13:43] pruebas. Y más adelante la idea es que
+[0:13:46] ustedes hagan todo en Devnet, pero en
+[0:13:47] algún momento ya puedan pasar a Mainnet
+[0:13:49] donde trabajan con fondos reales. Nada
+[0:13:52] más que eso incluye más riesgos, como
+[0:13:53] que por ejemplo si intenta buscar un
+[0:13:55] hacker hackearlos, de pues va a tener
+[0:13:57] dinero real.
+[0:13:58] No es el caso en Devnet porque en Devnet
+[0:14:00] es como dinero de mentira, digamos.
+[0:14:02] ¿Okay?
+[0:14:03] Entonces hablemos de cuentas. Las
+[0:14:05] cuentas es donde vive el estado
+[0:14:07] y en Solana todo es una cuenta. Entonces
+[0:14:10] básicamente pueden pensar que Solana es
+[0:14:11] como un almacén gigante
+[0:14:14] que es clave valor.
+[0:14:15] Eh, si de ustedes ha, por ejemplo, usado
+[0:14:18] Python, que es un lenguaje como bastante
+[0:14:21] que que se ha usado bastante,
+[0:14:23] saben que hay diccionarios donde se
+[0:14:25] guardan cosas de clave y un valor.
+[0:14:27] Entonces, ¿qué es lo que se hace en
+[0:14:28] Solana? Se guarda en una dirección se
+[0:14:30] guarda una cuenta.
+[0:14:32] Entonces, recuerden que las wallets
+[0:14:33] guardan el saldo de Solana. Los
+[0:14:35] programas guardan código ejecutable.
+[0:14:38] Y también se tienen saldos de token, que
+[0:14:40] es una cuenta por cada token que tienes.
+[0:14:43] Y esta otra parte voy que me está
+[0:14:44] tapando la cámara.
+[0:14:46] Es el estado del programa, donde,
+[0:14:48] digamos, se guardan los datos del
+[0:14:50] programa, como por ejemplo, un puntaje o
+[0:14:52] algo así.
+[0:14:53] Entonces, todas esas cosas son una
+[0:14:55] cuenta.
+[0:14:57] Y siempre es la misma estructura, nada
+[0:14:59] más creo que cambia es el contenido que
+[0:15:00] tiene la cuenta. Entonces, vamos a ver
+[0:15:02] un poco cómo funciona.
+[0:15:04] Ahorita hacemos más práctica para que lo
+[0:15:05] vean.
+[0:15:07] Entonces,
+[0:15:08] toda cuenta tiene cinco campos
+[0:15:10] principales.
+[0:15:17] Entonces, se preguntarán qué es cada
+[0:15:18] uno. Entonces,
+[0:15:19] veámoslo así. Eh, sí estoy compartiendo
+[0:15:21] pantalla completa, entonces todo bien.
+[0:15:24] Hoy vamos a hablar un poco de qué son
+[0:15:25] los exploradores, entonces nos vamos a
+[0:15:27] meter en un explorer como
+[0:15:28] explorer.solana.com
+[0:15:30] o bueno, hay un montón, está Solscan,
+[0:15:34] Legacy, ajá, sí.
+[0:15:35] Epoch, sí.
+[0:15:37] Sí.
+[0:15:39] Sí, o sea, eso o sea, son las cosas que
+[0:15:40] pueden tener en una cuenta. Pero sí.
+[0:15:43] Ehm, nos vamos a meter en un explorador
+[0:15:45] y les voy a enseñar básicamente qué es
+[0:15:47] un address. Entonces,
+[0:15:48] si se acuerdan, ya desde la clase pasada
+[0:15:51] deberían de tener una wallet. Eh, me voy
+[0:15:53] a meter a esta Phantom token.
+[0:15:56] Y esta wallet está en mainnet, eh, pero
+[0:15:58] o sea, supongamos que está en testnet,
+[0:15:59] igual esto se puede cambiar. Ahorita lo
+[0:16:01] cambio, pero para que lo vean.
+[0:16:03] Si yo le doy aquí a receive, esto me da
+[0:16:05] ven este address. Si yo copio esto y yo
+[0:16:08] lo pongo en un explorador, ¿qué es un
+[0:16:10] explorador, por cierto? Un explorador es
+[0:16:12] donde yo puedo explorar la data de la
+[0:16:14] blockchain, es decir, yo puedo buscar
+[0:16:15] tokens, puedo buscar validadores, puedo
+[0:16:17] buscar cuentas, puedo buscar programas,
+[0:16:18] etcétera.
+[0:16:19] Entonces, eh, bueno, me voy a meter a
+[0:16:21] Solscan, que es como más conocido.
+[0:16:25] Yo les recomiendo este Solscan, a mí me
+[0:16:26] gusta bastante. Entonces sí. Aquí igual,
+[0:16:29] o sea, todos tienen el mismo propósito.
+[0:16:30] Si ven, aquí ven un montón de
+[0:16:32] información, tal vez eh
+[0:16:35] se vayan tal vez tengo un poco
+[0:16:38] pero es que hay bastante información.
+[0:16:39] Por ejemplo, el supply de Solana en
+[0:16:42] mainnet es básicamente cuántos Solanas
+[0:16:44] hay circulando. Yo aquí puedo ver las
+[0:16:46] transacciones más recientes, puedo ver
+[0:16:48] los bloques más recientes porque
+[0:16:50] recuerden que la blockchain es como va
+[0:16:51] bloque por bloque.
+[0:16:53] Yo puedo ver la cantidad de
+[0:16:56] transacciones, puedo ver los
+[0:16:59] yo creo que eso no lo hemos visto, pero
+[0:17:00] lo vamos a ver más adelante. Puedo ver
+[0:17:01] los tokens, es decir, por ejemplo, aquí
+[0:17:04] estos son los dos que les dije, las
+[0:17:06] por ejemplo, ven que tienen un precio de
+[0:17:08] 1 dólar y puedo ver el volumen que
+[0:17:10] tienen y el market cap, es decir, el
+[0:17:12] market cap es como cuánto vale, o sea,
+[0:17:14] cuánto hay, digamos. Entonces eso es
+[0:17:17] bastante útil. Además, como otros
+[0:17:18] tokens, por ejemplo, yo sé que Santi
+[0:17:20] ayer usó la wallet de Júpiter, entonces
+[0:17:22] este es el token que tiene Júpiter. Pero
+[0:17:25] si nosotros nos metemos a nuestra
+[0:17:26] wallet, van a ver que yo tengo un
+[0:17:28] address, que es este. Entonces yo lo voy
+[0:17:30] a copiar y lo voy a meter al explorador.
+[0:17:34] Y como ven, tengo un Entonces, ¿qué es
+[0:17:36] un address?
+[0:17:38] Un address, como dice acá, es una clave
+[0:17:40] pública de 32 bits, es base 58, eso es
+[0:17:43] algo más de cómo cómo se hace, digamos.
+[0:17:45] Es de 32 bits y como pueden ver, se ve
+[0:17:48] algo así.
+[0:17:49] Esta es la dirección que básicamente
+[0:17:52] hace un link con la cuenta de la wallet.
+[0:17:55] Entonces, aquí, por ejemplo, en este
+[0:17:57] scanner yo puedo ver muchas cosas, como
+[0:17:59] por ejemplo, el valor total, es decir,
+[0:18:00] cuántos tokens tengo,
+[0:18:02] las transacciones que se han firmado.
+[0:18:04] Esta es una wallet de prueba, entonces
+[0:18:05] realmente no va a tener muchas cosas
+[0:18:07] porque sí, no no la uso casi.
+[0:18:10] Entonces, aquí yo puedo ver el
+[0:18:12] que en este caso el es el
+[0:18:15] es básicamente como el es como la la que
+[0:18:17] es de todo, ahorita lo vamos a ver.
+[0:18:20] Si yo tengo algún stake de Solana, aquí
+[0:18:22] lo voy a poder ver.
+[0:18:23] Voy a ver un montón de cosas. Entonces,
+[0:18:25] yo aquí puedo ver cambios de balance,
+[0:18:26] puedo ver actividad, puedo ver
+[0:18:28] transferencias, transacciones,
+[0:18:30] portafolio, etcétera.
+[0:18:33] Entonces, si yo me meto aquí a
+[0:18:34] transacciones,
+[0:18:36] pues van a ver que todo esto está
+[0:18:37] linkeado a la cuenta
+[0:18:39] que
+[0:18:39] está linkeada a este address, ¿okay?
+[0:18:43] Entonces,
+[0:18:44] eso es el address. Ahora, los lamports.
+[0:18:46] Los lamports es básicamente el saldo que
+[0:18:47] yo tengo. Recuerden que un lamport,
+[0:18:50] perdón, un Solana es equivalente a 1,000
+[0:18:53] millones
+[0:18:54] eh de
+[0:18:56] No, perdón, un Solana es equivalente a
+[0:18:57] 1,000 millones de lamports, ¿sí?
+[0:18:59] Eh y recuerden que eso se usa para
+[0:19:01] firmar transacciones y para todo. Y que
+[0:19:03] nosotros usamos esta medición de
+[0:19:05] lamports para no usar Solana, o sea,
+[0:19:07] por ejemplo, ahorita más adelante vamos
+[0:19:09] a ver cuánto cuesta una transacción o
+[0:19:11] una firma de una transacción
+[0:19:13] y no tendría sentido que vale O sea, se
+[0:19:15] puede decir que vale 0.000 tantos
+[0:19:17] Solanas, pero eso realmente nosotros lo
+[0:19:19] medimos en lamports. Entonces, es
+[0:19:21] bastante importante que sepamos eso.
+[0:19:23] Luego, la data
+[0:19:24] es que son los bytes que están sin
+[0:19:26] procesar.
+[0:19:28] Por ejemplo, si nosotros tenemos una
+[0:19:29] wallet, esto va a estar vacío.
+[0:19:31] Recuerden que eh en la pasada les dije
+[0:19:33] que todo era una cuenta. Entonces,
+[0:19:35] también algo muy importante, que aquí
+[0:19:37] está marcado en negro, es que los
+[0:19:38] programas también son una cuenta.
+[0:19:40] Entonces, guardan código. Y aquí
+[0:19:42] entonces hay que tener bastante
+[0:19:45] O sea, hay que tener bastante claro que
+[0:19:46] los programas tienen datos.
+[0:19:48] Entonces,
+[0:19:49] una wallet no va a tener datos porque hm
+[0:19:52] digamos en esta cuenta al menos yo nada
+[0:19:54] más tengo tokens, tengo un balance de
+[0:19:56] Solana y puedo enviar y enviar Solanas,
+[0:20:00] puedo enviar cualquier otro token y
+[0:20:01] listo.
+[0:20:02] ¿Pero qué pasa cuando yo tengo un
+[0:20:03] programa? Un programa sí tiene datos. En
+[0:20:06] un En un programa se pueden guardar
+[0:20:08] información. Recuerden que un programa
+[0:20:09] es básicamente como nosotros le añadimos
+[0:20:11] programabilidad a la blockchain.
+[0:20:13] Entonces, yo con un programa puedo hacer
+[0:20:15] un contador, por ejemplo, de
+[0:20:17] si yo hago la transacción, se le suma
+[0:20:20] uno a un contador.
+[0:20:22] O yo hago un bot donde digo, si vos le
+[0:20:25] pasas dinero o le pasas Solana a este a
+[0:20:27] este programa,
+[0:20:29] yo digo que esta dirección tiene tanto
+[0:20:32] que envió al al baúl, digamos. Entonces
+[0:20:35] es como si yo tuviese, por ejemplo, un
+[0:20:36] una caja
+[0:20:37] y y mucha gente le puede poner dinero,
+[0:20:41] pero yo tengo que saber de quién es cada
+[0:20:43] dinero que le ponen, porque si no se va
+[0:20:44] a esparcir todo y se va a perder y no
+[0:20:46] vamos a saber de quién es cada cosa.
+[0:20:48] Entonces yo como que lo separo por
+[0:20:50] nombres, digamos. Entonces yo digo,
+[0:20:51] Fabián echó
+[0:20:53] un Solana.
+[0:20:54] Death Grimet puso un Solana. Gianella
+[0:20:56] puso un Solana. Ronaldo puso un Solana y
+[0:20:58] así, ¿okay? Obviamente en Solana de eso
+[0:21:01] no hay nombres, entonces funciona con
+[0:21:03] con direcciones, con addresses, pero
+[0:21:05] para que lo tengan en cuenta. ¿Okay?
+[0:21:08] Ahí estaría la data, por ejemplo, en un
+[0:21:10] programa.
+[0:21:11] Luego
+[0:21:13] Eh, luego tenemos un owner, que es el
+[0:21:15] programa que está autorizado a
+[0:21:16] modificarla y finalmente tenemos algo
+[0:21:18] que es el executable, que es que va a
+[0:21:21] ser verdadero o falso si es un programa
+[0:21:23] o no es un programa. Ahora, recuerden
+[0:21:25] que los programas añaden programabilidad
+[0:21:27] a la blockchain, entonces son
+[0:21:29] ejecutables, es decir, yo los puedo
+[0:21:30] ejecutar. Y entonces una wallet
+[0:21:32] obviamente no es ejecutable porque no es
+[0:21:34] un programa, porque di, no.
+[0:21:37] Entonces para que lo tengan en cuenta y
+[0:21:38] el owner es
+[0:21:40] el programa que está autorizado a
+[0:21:41] modificarla. Entonces vamos a ver esto
+[0:21:44] rápidamente
+[0:21:45] y luego vemos cómo funciona, por
+[0:21:46] ejemplo, cómo se ve en el scanner.
+[0:21:48] Perdón, en el explorer.
+[0:21:50] Entonces
+[0:21:52] eh, con respecto a la propiedad de las
+[0:21:54] cuentas
+[0:21:56] hay un o sea, solo el programa que es
+[0:21:58] propietario puede cambiar datos o
+[0:22:00] retirar lamports. Entonces las reglas
+[0:22:02] así,
+[0:22:03] el programa propietario puede escribir
+[0:22:05] datos, puede debitar lamports. Todas las
+[0:22:08] demás, o sea, todas las demás cosas solo
+[0:22:09] pueden hacer lectura o agregar lamports.
+[0:22:13] Y aquí hay algo muy importante que tiene
+[0:22:15] Solana, que es el System Program, que
+[0:22:17] básicamente toda wallet normal el dueño
+[0:22:20] es algo que se llama el System Program.
+[0:22:22] Entonces es lo que mueve Solana cuando
+[0:22:24] firma una nueva transacción y lo que
+[0:22:26] crea cuentas nuevas y como pueden ver
+[0:22:28] aquí, si sale 1111 ustedes dirán, ah
+[0:22:30] bueno, será que se confundió y puso solo
+[0:22:32] 111. No.
+[0:22:33] Si nos damos aquí en el Explorer
+[0:22:36] vamos a ver que el owner de esta cuenta
+[0:22:37] es System Program.
+[0:22:39] Entonces pueden ver que System Program
+[0:22:41] es básicamente eh lo que les acabo de
+[0:22:44] decir.
+[0:22:44] En realidad si nosotros metemos acá y
+[0:22:46] ponemos System Program Solana
+[0:22:49] vamos a ver, bueno, esto me lo está
+[0:22:51] poniendo
+[0:22:52] eh
+[0:22:54] eh
+[0:22:56] Gemini, pero es como el programa
+[0:22:58] [carraspeo] nativo
+[0:22:59] que tiene este address.
+[0:23:02] Exactamente. O sea, es básicamente el
+[0:23:04] que es la pieza fundamental
+[0:23:07] donde se crean cuentas, se hacen
+[0:23:08] transferencias de Solana nativas,
+[0:23:11] cosas de ownership, etcétera. Muy
+[0:23:13] importante, aquí
+[0:23:14] algo que dice es que son las nativas. O
+[0:23:16] sea, ¿por qué las nativas? Porque di,
+[0:23:18] pues yo también puedo hacer
+[0:23:19] transacciones
+[0:23:20] o sea, no son transacciones no nativas,
+[0:23:22] pero si yo por ejemplo paso por algo que
+[0:23:24] no es simplemente una transferencia
+[0:23:25] normal, si no es por ejemplo eh pasar
+[0:23:28] por un
+[0:23:30] por un dex o pasar por un market maker
+[0:23:32] diferente. Bueno, esas son cosas más
+[0:23:34] complejas, pero ese tipo de cosas
+[0:23:36] normalmente yo no las puedo, o sea, eso
+[0:23:40] no se puede hacer con el con el System
+[0:23:42] Program
+[0:23:43] porque ese o sea, es para las cosas
+[0:23:45] nativas de Solana y ya. Ya cosas como
+[0:23:47] que hace un programa, o sea, si yo le
+[0:23:49] añado programabilidad a la blockchain,
+[0:23:50] digamos con un programa diferente
+[0:23:52] di, todas esas cosas no lo va a tener el
+[0:23:55] el programa nativo, digamos el el System
+[0:23:57] Program no el nativo no va a tener eso.
+[0:24:00] Entonces para que lo tengamos en cuenta.
+[0:24:02] Okay.
+[0:24:03] Luego
+[0:24:04] también tenemos entonces, hablemos de
+[0:24:06] cuentas de datos versus programas.
+[0:24:08] Entonces
+[0:24:09] el código y el estado viven en cuentas
+[0:24:11] diferentes. Entonces, ¿qué quiere decir
+[0:24:13] eso? Que la cuenta del programa solo va
+[0:24:15] a tener el código ejecutable sin estado
+[0:24:17] y va a tener lo de executable true.
+[0:24:20] Pero va a tener una cuenta de datos de
+[0:24:22] Alice, una cuenta de datos de Bob y una
+[0:24:24] cuenta de datos de Config. Entonces cada
+[0:24:26] programa tiene muchas cuentas de datos y
+[0:24:28] el programa que hace es que las lee y
+[0:24:30] las escribe cuando se las pasan.
+[0:24:32] Entonces, eso es bastante interesante
+[0:24:33] que lo tengan en cuenta. No es como que
+[0:24:35] el programa guarda el estado, sino que
+[0:24:38] el estado se guarda en cuentas de datos
+[0:24:39] diferentes que se cambian
+[0:24:41] según se va escribiendo, se va se va
+[0:24:44] leyendo, digamos. ¿Okay?
+[0:24:46] Hablemos un poco de renta.
+[0:24:48] Eh, básicamente todas las cuentas tienen
+[0:24:50] que tener un saldo mínimo en lamports,
+[0:24:54] bueno, en Solana, aquí lo puse en
+[0:24:55] Solana, donde se ve que, digamos, el
+[0:24:57] mínimo para una wallet que es básica es
+[0:25:00] de 0.00089
+[0:25:02] Solanas, que es aproximadamente 890,880
+[0:25:06] lamports.
+[0:25:07] Y eso le da para 0 bytes de datos. Es
+[0:25:10] decir, que si yo, por ejemplo, tengo
+[0:25:12] algo que donde ocupo tener datos, entre
+[0:25:15] más datos tenga el mínimo va a crecer,
+[0:25:17] porque ti con el mínimo yo no voy a
+[0:25:19] tener todos los datos posibles. Es
+[0:25:22] decir, que si yo le voy poniendo más
+[0:25:23] datos, por ejemplo, una cuenta de datos,
+[0:25:25] el mínimo de lamports que tiene que
+[0:25:26] tener para crecer.
+[0:25:28] Entonces, esto funciona porque
+[0:25:30] básicamente hay una renta, o sea, yo
+[0:25:31] tener la wallet,
+[0:25:33] perdón, tener la cuenta en la red
+[0:25:35] no no puede, o sea, no puede ser de
+[0:25:37] gratis. No, porque si no no tendría
+[0:25:40] sentido. Siempre tiene que haber un
+[0:25:41] poquito de lamports, un poquito de
+[0:25:43] Solana en la wallet, perdón, en la
+[0:25:45] cuenta para que se mantenga. Y si tiene
+[0:25:47] más datos, pues hay que tener un mínimo
+[0:25:50] más alto. Es reembolsable, que es que si
+[0:25:52] se cierra la cuenta se pueden recuperar
+[0:25:54] esos lamports.
+[0:25:55] Y eh hay una cosa que es la regla de la
+[0:25:58] primera transferencia, que es que si se
+[0:25:59] envía a una dirección nueva se debería
+[0:26:01] de enviar al menos el mínimo. O sea, no
+[0:26:03] es como que yo puedo mandarle menos del
+[0:26:05] mínimo. Entonces, eso es algo bastante
+[0:26:07] interesante.
+[0:26:08] Por ejemplo, si ustedes se meten a esta
+[0:26:10] wallet
+[0:26:12] pueden ver que yo tengo 0.002
+[0:26:15] Solanas, es decir, tengo más del mínimo
+[0:26:17] y por eso sirve, si no ti estaremos en
+[0:26:19] problema y en problemas y o sea, no
+[0:26:22] puedo tener menos de del saldo mínimo
+[0:26:24] porque si no no no tendría sentido.
+[0:26:26] ¿Okay?
+[0:26:27] En caso de que yo fuese a cerrar esta
+[0:26:29] wallet,
+[0:26:30] ¿todo bien? Esos lamports al menos
+[0:26:32] digamos este 0.17 dólares que es el
+[0:26:34] equivalente a lo que vale lo que tengo
+[0:26:35] ahorita.
+[0:26:36] Se pueden sacar, entonces pues por ese
+[0:26:39] lado todo bien.
+[0:26:40] Okay, ahora hablemos sobre
+[0:26:43] uy
+[0:26:43] voy que eso se quedó ahí
+[0:26:45] listo.
+[0:26:47] Hablemos sobre PDAs que es
+[0:26:51] que básicamente están controladas por un
+[0:26:53] programa y no tienen una clave privada.
+[0:26:55] Entonces básicamente eso es cuando
+[0:26:59] esto es básicamente cuando digamos yo
+[0:27:01] tengo eh una PDA que es básicamente una
+[0:27:04] dirección
+[0:27:06] eh la que por la que solo un programa
+[0:27:09] puede firmar. Entonces digamos que yo
+[0:27:11] tengo semillas, por ejemplo lo que dice
+[0:27:14] o la dirección del usuario
+[0:27:16] y yo tengo un
+[0:27:18] Obviamente aquí puse
+[0:27:20] o sea eso un programa un
+[0:27:24] Revisemos, en realidad busquemos un
+[0:27:25] programa conocido de Solana, hagamos el
+[0:27:27] experimento.
+[0:27:28] Program Solana
+[0:27:30] Busquemos cualquiera.
+[0:27:33] Eh bueno, por ejemplo ven aquí me puso
+[0:27:35] el
+[0:27:37] También están los
+[0:27:39] y aquí podemos ver un poco más de
+[0:27:41] información
+[0:27:42] donde dice que eh están derivados de un
+[0:27:45] programa ID
+[0:27:46] y un entonces
+[0:27:48] los son las semillas.
+[0:27:51] Por ejemplo aquí la semilla sería este
+[0:27:53] Y todo esto lo que me da es un PDA.
+[0:27:56] Entonces tiene bastantes cosas útiles,
+[0:27:58] son tres. Bueno, o sea tiene muchas más,
+[0:28:00] pero son tres. Que es que primero
+[0:28:02] no va a ocupar llave privada porque
+[0:28:04] nadie puede robar lo que no existe,
+[0:28:06] porque no no va a tener llave privada,
+[0:28:08] porque lo que firma es el programa
+[0:28:11] en este caso este.
+[0:28:12] Luego es determinista, que siempre que
+[0:28:13] se tenga las mismas semillas va a tener
+[0:28:15] la misma dirección y que es firmado
+[0:28:18] Bueno, o sea tal vez esto no es un
+[0:28:19] beneficio, pero es algo
+[0:28:21] podemos considerarlo bueno, que es que
+[0:28:23] el programa aprueba los cambios y no es
+[0:28:25] una persona. No es como que
+[0:28:28] yo con mi wallet puedo aprobar esos
+[0:28:30] cambios, sino que los tiene que aprobar
+[0:28:31] un programa.
+[0:28:32] Entonces aquí en la documentación de
+[0:28:34] Solana, si les interesa, voy a mandar
+[0:28:35] esto por acá.
+[0:28:37] Eso es algo bastante interesante.
+[0:28:41] Aquí en la documentación de Solana, que
+[0:28:42] por cierto les súper recomiendo que se
+[0:28:44] metan aquí y que revisen y que entiendan
+[0:28:47] las cosas, básicamente aquí pueden ver,
+[0:28:49] bueno, los key facts, que es básicamente
+[0:28:50] lo que puse, dónde se pueden usar, por
+[0:28:52] ejemplo eh para program signing, que es
+[0:28:55] como que programas puedan firmar y se
+[0:28:59] puede firmar tipo invoked sign, que es
+[0:29:00] como invocar firmado,
+[0:29:02] eh para address addressing
+[0:29:05] determinístico, que es que se puede
+[0:29:07] derivar la misma cuenta desde las mismas
+[0:29:08] semillas todos los datos, ven que hay
+[0:29:11] límites y básicamente hay un montón de
+[0:29:12] cosas. Eh, no sé si ya les habíamos
+[0:29:15] enseñado la documentación de Solana,
+[0:29:17] pero es muy útil, en realidad tiene algo
+[0:29:19] que se llama start here, donde pueden
+[0:29:21] ver básicamente qué es Solana, eh si
+[0:29:23] quieren codear con agentes, Solana ahora
+[0:29:25] tiene un MCP, en la última semana, en la
+[0:29:27] semana cuatro le vamos a hablar un poco
+[0:29:29] sobre eh
+[0:29:31] como desarrollo agéntico con Solana,
+[0:29:33] entonces vamos a ver cómo funciona el
+[0:29:34] MCP, cómo funcionan las skills,
+[0:29:37] eh bueno, por ejemplo aquí tienen las
+[0:29:39] skills, tienen MCPs,
+[0:29:41] eh si quieren conceptos, si quieren
+[0:29:43] jugar en Solana porque Solana hasta se
+[0:29:45] pueden hacer juegos como en estos en
+[0:29:46] 2048 que está como basado en Solana.
+[0:29:49] Si quieren cosas como de quick start,
+[0:29:50] cómo leer de la red, cómo escribir, cómo
+[0:29:52] funciona el Solana kit, el Solana kit lo
+[0:29:54] vamos a explicar la próxima clase y si
+[0:29:56] nos da tiempo un poquito esta, pero no
+[0:29:57] creo.
+[0:29:58] Y cosas como el SDK, el SDK de
+[0:30:01] TypeScript y si ustedes, por ejemplo,
+[0:30:03] les gusta
+[0:30:04] eh programar en Java o en Go, igual lo
+[0:30:06] pueden hacer, o sea, en este en este
+[0:30:08] curso no lo vamos a ver porque di
+[0:30:11] personalmente a mí no me gusta mucho
+[0:30:12] Java, digamos.
+[0:30:13] Go sí me gusta, pero eh Java no mucho.
+[0:30:16] Pero para que sepan que igual hay
+[0:30:18] disponibilidad de herramientas para sus
+[0:30:20] lenguajes.
+[0:30:21] Y bueno, otra cosa, yo sé que me estoy
+[0:30:22] saliendo un toque del tema,
+[0:30:24] si ustedes están en un lenguaje que no
+[0:30:26] sale en la documentación, a veces hay
+[0:30:28] formas o hay gente que hace, mantiene
+[0:30:32] tipo terceros que mantienen las
+[0:30:34] herramientas para otros lenguajes o para
+[0:30:37] otros frameworks, etcétera. Entonces,
+[0:30:39] si, por ejemplo, hay algo que ustedes
+[0:30:41] usan que no tiene nada de Solana, puede
+[0:30:44] ser, o sea, tendrían que buscar, puede
+[0:30:46] ser que no, puede ser que sí,
+[0:30:47] que haya una herramienta tercerizada o
+[0:30:49] un third party que es código abierto, es
+[0:30:51] open source, donde tal vez puedan
+[0:30:55] encontrar la herramienta que necesitan,
+[0:30:57] porque la comunidad siempre busca formas
+[0:30:58] de intentar llevar Solana a la mayoría
+[0:31:00] de lugares y que sea lo más accesible
+[0:31:02] posible. Entonces, eso es bastante
+[0:31:03] bueno.
+[0:31:05] Entonces, hablemos de la parte dos sobre
+[0:31:06] transacciones, que es básicamente cómo
+[0:31:08] se cambia el estado de las cuentas.
+[0:31:11] Volviendo al tema de la firma, si
+[0:31:13] nuestro programa no lo implementamos,
+[0:31:14] entonces no funcionará, la transacción
+[0:31:15] siempre lo rechazará.
+[0:31:18] O sea,
+[0:31:19] siempre tiene que
+[0:31:21] Bueno, estas las transacciones ya lo
+[0:31:22] íbamos a ver, pero siempre tiene que
+[0:31:24] haber una firma, no es como que yo puedo
+[0:31:27] O sea, siempre la firma tiene que estar,
+[0:31:28] tipo
+[0:31:30] A ver, si si esta es la pregunta, a ver
+[0:31:31] si te entendí.
+[0:31:32] Eh, si yo no firmo, la transacción no se
+[0:31:36] va a mandar
+[0:31:37] porque hm di, o sea, es como que yo
+[0:31:40] diga, ah, sí, tengo la wallet de Ronaldo
+[0:31:43] y di, le voy a quitar todo el Solana que
+[0:31:45] tiene. O sea, no no puedo
+[0:31:47] firmar por firmar.
+[0:31:49] Perdón, no puedo no firmar. Siempre
+[0:31:51] tiene que necesitarse la firma.
+[0:31:53] Y no es como que se rechaza, o sea, es
+[0:31:54] que ni siquiera llega a enviarse.
+[0:31:57] Si esa es la pregunta, sí. Y si era con
+[0:32:00] lo de las PDAs, ehm los program drive
+[0:32:03] addresses,
+[0:32:05] eh también necesitan la firma. O sea, yo
+[0:32:07] no puedo Si yo Yo puedo formular la
+[0:32:08] transacción, es decir, yo puedo
+[0:32:09] construir la transacción, pero siempre
+[0:32:11] tengo que firmarla. Si yo no la firmo,
+[0:32:14] hm no no es como si Di, o sea, yo digo,
+[0:32:17] vea, le voy a pasar 10,000
+[0:32:20] colones Bueno, colones no, le voy a
+[0:32:22] pasar 10 dólares a
+[0:32:24] le voy a pasar 10 dólares a Ronaldo,
+[0:32:26] pero yo nunca dije que sí o que no. O
+[0:32:28] sea, yo dije, le voy a pasar 10,000,
+[0:32:30] pero es como que nunca confirmé, nunca
+[0:32:31] firmé que lo iba a hacer. Entonces, no
+[0:32:33] se hace.
+[0:32:34] Igual ahorita vamos a ver un poco más de
+[0:32:35] transacciones
+[0:32:37] para que veamos cómo funciona lo de la
+[0:32:38] firma. Si si te quedó la duda o me
+[0:32:40] desvié de la respuesta que querías, me
+[0:32:42] avisas y y lo revisamos.
+[0:32:45] Okay.
+[0:32:47] Hablemos sobre transacciones. Las
+[0:32:48] transacciones tienen una anatomía
+[0:32:49] específica que es que, como decía acá,
+[0:32:52] la transacción tiene firmas y un
+[0:32:54] mensaje.
+[0:32:56] Sí, esta es la respuesta que quería.
+[0:32:57] Súper.
+[0:32:59] Okay, entonces eh básicamente las firmas
+[0:33:03] es de 64 bits cada una y es una por cada
+[0:33:05] firmante requerido y lo que firman es el
+[0:33:07] mensaje. Ahora ahorita hablamos de eso
+[0:33:09] de los firmantes requeridos. Hablemos
+[0:33:11] del mensaje por un momento. Eh, un toque
+[0:33:13] que es que tengo el chat acá y tenía que
+[0:33:15] ver esto. Ahora sí.
+[0:33:17] Eh, entonces el mensaje tiene cuatro
+[0:33:19] cosas. Tiene un encabezado
+[0:33:21] que habla de cuántos firmantes y cuentas
+[0:33:23] de solo lectura.
+[0:33:25] Tiene claves de cuentas que es
+[0:33:27] básicamente todas las cuentas que va a
+[0:33:28] tocar.
+[0:33:29] Luego el reciente que básicamente lo que
+[0:33:32] hace es probar que es reciente la
+[0:33:34] transacción y lo que va a hacer es que
+[0:33:36] va a evitar repeticiones.
+[0:33:38] Tipo para que no se haga la transacción
+[0:33:39] tres veces. O sea, no queremos eso
+[0:33:41] claramente, entonces por si acaso.
+[0:33:43] Y las instrucciones que es básicamente
+[0:33:45] el trabajo que va a realizar la
+[0:33:46] transacción.
+[0:33:47] Entonces ay.
+[0:33:51] Eh, vamos al Explorer otra vez
+[0:33:54] y revisamos.
+[0:33:57] Veamos, por ejemplo,
+[0:33:58] hm
+[0:33:59] bueno, esta misma wallet. O bueno, no,
+[0:34:01] en realidad hagamos esto.
+[0:34:02] Metámonos aquí
+[0:34:05] a este
+[0:34:06] ese es un bloque y pueden ver que en
+[0:34:09] este bloque hubieron 245 transacciones
+[0:34:12] y aquí se pueden ver que hubieron 62
+[0:34:14] tipos de instrucción.
+[0:34:16] Recuerden que los tipos de instrucción
+[0:34:17] es básicamente esto, las instrucciones,
+[0:34:19] el trabajo a realizar. Entonces aquí,
+[0:34:20] por ejemplo,
+[0:34:21] hubieron 62 tipos, tipo de
+[0:34:23] transferencia, de depositar, hacer
+[0:34:27] comprar, cerrar cuenta,
+[0:34:31] o sea, ese tipo de cosas
+[0:34:32] que básicamente hay un montón de tipos.
+[0:34:34] Los tipos
+[0:34:36] es como de
+[0:34:37] quemar tokens. Yo creo que eso no lo
+[0:34:39] hemos visto, pero lo vamos a ver mañana
+[0:34:40] tenemos una presentación de tokens y de
+[0:34:42] cómo funciona.
+[0:34:44] Y en realidad vamos a ver ya como ya
+[0:34:46] estamos dando el Solana aquí, ya vamos a
+[0:34:47] poder hacer más cosas con código y todo.
+[0:34:49] Estas claves son un poquito más
+[0:34:50] teóricas, pero bueno.
+[0:34:51] Y entonces aquí vamos a ver un montón de
+[0:34:53] tipos de
+[0:34:55] transacciones que se pueden hacer, tipos
+[0:34:57] de instrucciones, perdón.
+[0:34:59] Y entonces metámonos a cualquier
+[0:35:00] transacción, metámonos a esta.
+[0:35:02] Aquí podemos ver el signature, hace
+[0:35:04] cuánto fue, la instrucción que fue, la
+[0:35:07] la cuenta que la creó, el valor, el fee,
+[0:35:10] que es básicamente lo que se cobra por
+[0:35:11] transacción y el programa. Entonces
+[0:35:15] eh metámonos a esta.
+[0:35:18] Entonces aquí ya estamos en los detalles
+[0:35:19] de la transacción.
+[0:35:21] Entonces
+[0:35:23] ¿qué podemos ver acá? Podemos ver un
+[0:35:25] block,
+[0:35:27] el bloque digamos que fue, el resultado,
+[0:35:30] el signer, es decir, quién firmó. Y
+[0:35:32] ahora
+[0:35:34] eh si se dan cuenta yo aquí dije una por
+[0:35:36] cada firmante requerido que firman el
+[0:35:38] mensaje. Entonces ustedes se
+[0:35:39] preguntarán, bueno, ¿por qué por cada
+[0:35:41] firmante? ¿No solo puede firmar una
+[0:35:43] persona? Y la respuesta es que no.
+[0:35:46] Si quieren vamos a verlo en la
+[0:35:47] documentación de Solana rápidamente.
+[0:35:51] Básicamente eh hay varias cosas en
+[0:35:54] Solana que permiten que pueda haber más
+[0:35:56] de una persona firmando a la vez.
+[0:36:00] Entonces, ¿qué quiere decir eso? Que eh
+[0:36:04] o sea, si yo por ejemplo supongamos que
+[0:36:06] el el caso perfecto
+[0:36:08] Bueno, tal vez no sea el caso perfecto,
+[0:36:09] pero supongamos el siguiente caso.
+[0:36:11] Yo tengo una empresa que tiene una
+[0:36:13] wallet de Solana
+[0:36:14] y esa wallet tiene 10,000 dólares.
+[0:36:17] Y di
+[0:36:19] eh yo tengo tres empleados.
+[0:36:22] ¿Qué me garantiza a mí que un empleado
+[0:36:25] si todos tienen la wallet, digamos, que
+[0:36:27] bueno, o sea, ahí hay que tener cuidado
+[0:36:29] con eso, verdad, pero
+[0:36:31] serían como auditores de firma y van
+[0:36:32] confirmando cada uno. Eh sí, o sea, es
+[0:36:34] básicamente piensen como que hay cuatro
+[0:36:36] personas y que tienen que decidir si se
+[0:36:38] hace la transacción o si no se hace.
+[0:36:40] Entonces si se ha Para que se haga la
+[0:36:42] transacción tiene que firmar cuatro
+[0:36:44] personas. Entonces yo pongo cuatro
+[0:36:45] signers. Eso quiere decir que los cuatro
+[0:36:47] tienen que firmar para que se confirme
+[0:36:49] la transacción y se envíe y ya se haga
+[0:36:52] todo.
+[0:36:53] ¿Qué quiere decir eso? Eso es útil
+[0:36:55] porque si, por ejemplo, yo tengo una
+[0:36:56] empresa
+[0:36:57] ehm
+[0:36:59] donde tengo una wallet con cuatro
+[0:37:01] empleados, como digo, y yo tengo
+[0:37:02] $10,000. O sea,
+[0:37:04] nada, sería muy fácil. O sea, obviamente
+[0:37:07] ahí estoy pensando en el peor de los
+[0:37:08] casos, pero sería muy fácil que una de
+[0:37:10] las personas diga, ah, sí, véame, tengo
+[0:37:12] ahí $10,000 de la empresa, me los voy a,
+[0:37:15] y los voy a sacar de la wallet y me
+[0:37:17] desaparezco.
+[0:37:18] O sea, eso es totalmente posible.
+[0:37:20] ¿Qué es lo que pasa? Que si nosotros no
+[0:37:23] seteamos de que más de una persona o más
+[0:37:25] de dos personas firmen, esa persona no
+[0:37:27] tendría acceso total a los fondos,
+[0:37:28] entonces podría agarrar todo ese dinero
+[0:37:30] y irse y desaparecerse.
+[0:37:31] Y eso es un problema. Por eso se añaden
+[0:37:34] más firmantes. Eso quiere decir que, por
+[0:37:36] ejemplo, si somos una empresa de cuatro
+[0:37:38] personas, que al menos tres firmen para
+[0:37:40] que digamos, ah, okay, sí, esto es como
+[0:37:42] un consenso de que la transacción sí se
+[0:37:44] tiene que hacer. Entonces si al menos
+[0:37:46] tres de las cuatro personas firmantes
+[0:37:47] firman,
+[0:37:48] todo bien, pasó el 75% del del
+[0:37:52] de las personas que tenían que firmar,
+[0:37:54] entonces se manda la transacción y así
+[0:37:56] se evitan este tipo de problemas. Eso,
+[0:37:58] por ejemplo, lo hacen
+[0:38:00] las empresas, se usa
+[0:38:03] en un montón de casos, hasta en
+[0:38:05] programas, no se me ocurre un caso
+[0:38:06] ahorita de programas donde se tenga que
+[0:38:08] usar más de un signer, pero o sea, hay
+[0:38:10] un montón de casos donde se tiene que
+[0:38:11] usar.
+[0:38:13] Okay, eso es lo de los signers.
+[0:38:15] Eh, luego, uy.
+[0:38:17] Entonces ahí hice lo del encabezado, las
+[0:38:20] la clave de cuentas ya lo vemos, ya
+[0:38:21] vimos lo del block hash y las
+[0:38:23] instrucciones ya las vamos a ver.
+[0:38:24] Entonces, por ejemplo, yo me meto a esta
+[0:38:26] transacción,
+[0:38:28] yo puedo ver el
+[0:38:30] esto es lo que les decía, este es el
+[0:38:31] block
+[0:38:32] donde se hizo y el timestamp. Este es el
+[0:38:36] que es básicamente el hash del bloque
+[0:38:37] reciente.
+[0:38:39] Y aquí pueden ver que yo puedo ver la
+[0:38:41] lista, los detalles de las
+[0:38:42] instrucciones, las puedo ver como un
+[0:38:43] árbol, si lo quieren ver así.
+[0:38:45] Ehm, creo que ve mejor como árbol, sí.
+[0:38:48] Entonces, ven que cómo se distribuyó los
+[0:38:50] compute units, eso básicamente es como
+[0:38:52] la las unidades de cómputo que se
+[0:38:54] gastaron.
+[0:38:56] Eh, ¿cómo se puede agregar firmantes?
+[0:38:57] ¿Hay demostración? ¿O hay donde podamos
+[0:38:59] practicar y ver cómo funciona? Eh,
+[0:39:00] ahorita les enseño cómo se puede hacer.
+[0:39:02] Tipo hoy no lo íbamos a hacer porque di
+[0:39:04] realmente ustedes tienen su wallet
+[0:39:05] propia y no es como que
+[0:39:07] vayan a tener más firmantes, pero
+[0:39:10] pero ahorita les enseño cómo se puede
+[0:39:11] hacer.
+[0:39:13] Ehm,
+[0:39:15] por ejemplo, las unidades de cómputo,
+[0:39:16] entonces como pueden ver la instrucción
+[0:39:17] que más gastó definitivamente fue la
+[0:39:19] cuatro.
+[0:39:20] ¿Y por qué fue? Porque llamó a un
+[0:39:21] programa, este
+[0:39:24] Entonces es un programa, digamos,
+[0:39:26] que ustedes pueden ver, bueno, 19
+[0:39:28] millones de transacciones, 13 millones
+[0:39:30] fallidas,
+[0:39:31] tiene 53,000 usuarios que la han usado y
+[0:39:33] a cada rato están llamando a este
+[0:39:35] Entonces,
+[0:39:36] supongamos este programa, entonces
+[0:39:37] supongamos que está superbién.
+[0:39:40] ¿Qué hizo esta transacción?
+[0:39:41] Pues esta transacción hizo un compute
+[0:39:43] budget y puso el budget limit a 1 2 3 4
+[0:39:47] perdón, 1,264.
+[0:39:49] Luego el compute unit price puso 1,000
+[0:39:52] microlamports por unidad de cómputo.
+[0:39:55] Luego, o sea, todas estas instrucciones
+[0:39:56] ya son cosas más técnicas, digamos, de
+[0:39:59] de las instrucciones. La idea no es
+[0:40:01] entenderlo porque di esto ya depende de
+[0:40:04] cada uno, por ejemplo, o sea, tendríamos
+[0:40:05] que revisar el código de esto
+[0:40:07] y, por ejemplo, bueno, eso sí se puede
+[0:40:09] ver y todo. Tal vez ahora se los puedo
+[0:40:10] enseñar, pero sí.
+[0:40:13] Y en los program blocks puedo ver tipo
+[0:40:15] el log de si el programa retornó success
+[0:40:18] o si no retornó y así.
+[0:40:20] Entonces, básicamente eso son las lista
+[0:40:21] instrucciones y pues cómo funciona,
+[0:40:24] ¿okay?
+[0:40:25] Eh, dudas hasta ahora con esta anatomía
+[0:40:27] de una transacción. Si se dan cuenta,
+[0:40:29] tipo la firma es esta
+[0:40:32] y todo lo demás es el mensaje de la
+[0:40:34] transacción.
+[0:40:39] Okay, ahora entonces
+[0:40:41] supongo que todo bien, entonces sigamos
+[0:40:43] con
+[0:40:44] instrucciones de las transacciones.
+[0:40:46] Entonces,
+[0:40:48] no dudas por ahora, excelente.
+[0:40:50] Okay, entonces hablemos un poco sobre
+[0:40:52] instrucciones
+[0:40:53] de las transacciones.
+[0:40:55] Entonces eh yo puedo hacer una llamada a
+[0:40:57] un programa donde yo tengo que tener un
+[0:40:59] programa ID como es a qué programa tengo
+[0:41:01] que llamar.
+[0:41:03] Luego tengo que tener las cuentas y
+[0:41:05] tengo que marcar si es una cuenta
+[0:41:07] firmante o si es una cuenta escribible,
+[0:41:09] que es básicamente donde yo modifico y
+[0:41:12] tengo que tener datos sobre qué función
+[0:41:14] y qué argumentos uso. Entonces ehm aquí
+[0:41:18] aquí yo tenía un un ejemplo, no sé por
+[0:41:20] qué no sale, la verdad, pero bueno.
+[0:41:22] Eh no no sé por qué no sale el ejemplo,
+[0:41:25] pero bueno, todo bien.
+[0:41:26] Si no podemos revisar lo siguiente y de
+[0:41:28] paso me sirve para enseñarles con poco.
+[0:41:31] Ehm en en Solana hay protocolos de DeFi.
+[0:41:35] ¿Qué es DeFi? DeFi es finanzas
+[0:41:38] descentralizadas. Finanzas
+[0:41:39] descentralizadas es cuando yo
+[0:41:41] básicamente
+[0:41:42] creo
+[0:41:43] funcionalidades para tener finanzas
+[0:41:46] tipo finanzas que son descentralizadas
+[0:41:49] justamente. Entonces, ¿qué quiere decir
+[0:41:50] eso? Opciones tipo poder pedir préstamos
+[0:41:52] en chain, poder generar retorno sobre la
+[0:41:56] inversión en chain, tipo que eso se hace
+[0:41:59] con protocolos de lending.
+[0:42:01] Ehm por ejemplo, bueno, hay un montón,
+[0:42:03] por ejemplo en en en Solana está
+[0:42:06] Jupiter, está Orca, está Meteora, está
+[0:42:08] Raydium, está Drift.
+[0:42:09] O sea, hay un montón. Estos son los que
+[0:42:11] más volumen tienen. Como pueden ver, el
+[0:42:12] que más volumen tiene en las últimas 24
+[0:42:14] horas es Jupiter. Entonces yo me puedo
+[0:42:16] meter acá
+[0:42:17] y yo puedo ver
+[0:42:18] eh eso es un dashboard de DeFi que tiene
+[0:42:21] Solscan, es bastante útil. Entonces yo
+[0:42:23] aquí puedo ver tipo todas las
+[0:42:25] transacciones, las actividades de DeFi
+[0:42:27] que ha tenido Jupiter. Entonces, por
+[0:42:29] ejemplo, yo me puedo meter acá. Todos
+[0:42:31] estos son swaps. Por si acaso el swap es
+[0:42:32] cuando yo paso de un token a otro.
+[0:42:34] Y les voy a enseñar cómo funciona.
+[0:42:36] Entonces, si yo meto aquí este
+[0:42:37] signature,
+[0:42:40] aquí yo puedo ver que hay hasta acciones
+[0:42:42] de transferencia. Entonces, ¿qué fue lo
+[0:42:44] que hizo esta persona? Esta persona fue
+[0:42:46] este signer
+[0:42:47] y este signer cambió seis Solanas, seis
+[0:42:50] wrapped Solanas a
+[0:42:52] eh $500, 500 USDC usando el Jupiter
+[0:42:56] Aggregator 6. ¿Qué es el Jupiter
+[0:42:57] Aggregator? Es básicamente una forma de
+[0:42:59] pasar dinero
+[0:43:00] a otro lado. Básicamente eso funciona
+[0:43:02] con piscinas de liquidez a ambos lados
+[0:43:04] donde se hace un swap, ¿okay?
+[0:43:07] Entonces,
+[0:43:09] ¿qué qué fue lo que hizo acá?
+[0:43:11] Interactuó con la instrucción
+[0:43:14] en el Jupiter Aggregator, que eso es un
+[0:43:16] programa. Ahorita lo vamos a ver.
+[0:43:18] Y pues puedo ver las instrucciones. Aquí
+[0:43:21] eh se hizo el advanced nonce, eso no es
+[0:43:24] nada. Como pueden ver, no se gastó casi
+[0:43:26] nada de compute.
+[0:43:27] Luego el Jupiter Aggregator V2 hizo el
+[0:43:30] swap. Entonces,
+[0:43:32] eh entonces aquí el programa ID ¿cuál va
+[0:43:35] a ser? Va a ser el Jupiter Aggregator.
+[0:43:37] Esto es básicamente el contrato que se
+[0:43:39] llamó para hacer ese swap.
+[0:43:41] Luego
+[0:43:42] las cuentas,
+[0:43:43] pues la cuenta involucrada, bueno, hay
+[0:43:45] tres cuentas aquí en realidad.
+[0:43:47] Bueno, hay varias.
+[0:43:48] Primero que todo,
+[0:43:49] este rap solana es una cuenta.
+[0:43:52] Luego
+[0:43:53] este USDC va a ser otra cuenta, ¿verdad?
+[0:43:55] Porque es un token.
+[0:43:56] Y luego el contrato y luego el signer,
+[0:43:59] que el signer es el que tenía
+[0:44:00] inicialmente
+[0:44:02] esos esos seis solanas que pasó a USDC.
+[0:44:06] Entonces, vamos a ver cómo funciona.
+[0:44:08] Y bueno, y los datos que son como más
+[0:44:09] argumentos o así.
+[0:44:11] Eh entonces
+[0:44:14] eh metámonos al Jupiter Aggregator. Esto
+[0:44:17] es el programa. Como pueden ver, aquí ya
+[0:44:19] me dice que es un programa. Ya puedo ver
+[0:44:21] el valor que tiene este este tiene $4000
+[0:44:23] de valor. Y yo puedo ver el program
+[0:44:25] analytics donde puedo ver el total de
+[0:44:27] transacciones que están bien, que
+[0:44:29] fallaron.
+[0:44:30] Luego eh puedo ver las llamadas a las
+[0:44:32] instrucciones, que es los usuarios
+[0:44:34] activos, etcétera.
+[0:44:36] Eh por el momento
+[0:44:40] Eh
+[0:44:46] Eh listo, gracias.
+[0:44:47] Eh okay.
+[0:44:49] Eh entonces yo puedo ver en el programa
+[0:44:51] analytics tipo cosas como la interacción
+[0:44:53] de volumen, más transacciones y esas
+[0:44:55] cosas.
+[0:44:56] Normalmente
+[0:44:58] estos programas Ah, bueno, o sea, o sea,
+[0:45:00] esto es el IDL. Esto es básicamente tipo
+[0:45:02] yo puedo ver las instrucciones que
+[0:45:03] tiene,
+[0:45:04] los accounts y todas esas cosas, los los
+[0:45:06] tipos. Entonces yo, por ejemplo, puedo
+[0:45:08] ver acá que tiene un accounts type,
+[0:45:10] puedo ver las instrucciones tipo un
+[0:45:11] claim token, close, withdraw, create, o
+[0:45:13] sea, tiene un montón de cosas.
+[0:45:15] Y normalmente estos contratos son open
+[0:45:17] source. Entonces vamos a ver
+[0:45:20] aggregator V6 con eh contratos. Eh, si
+[0:45:23] si le doy si digo contratos es porque en
+[0:45:26] otros
+[0:45:27] en otras blockchain se le dice contratos
+[0:45:29] y entonces a veces me confundo.
+[0:45:31] Pero sí.
+[0:45:32] Eh,
+[0:45:35] vamos a buscar el código
+[0:45:38] para que lo veamos que normalmente es
+[0:45:40] open source.
+[0:45:42] Open instructions, no, esta no es.
+[0:45:45] Eh, bueno, si no si no lo buscamos en
+[0:45:47] otro momento.
+[0:45:55] Eh, bueno, me puso
+[0:45:58] Bueno, si no lo buscamos ahora
+[0:46:00] Eh, okay, básicamente así es como
+[0:46:01] funciona. Entonces tipo yo tengo
+[0:46:02] instrucciones y yo llamo un program ID,
+[0:46:05] en este caso el program ID es este y
+[0:46:07] tiene un valor y data ejecutable,
+[0:46:15] Y hablemos de atomicidad. Ehm, hablemos
+[0:46:18] de atomicidad y de límites.
+[0:46:22] Primero que todo, Solana [resoplido]
+[0:46:24] tiene algo que es bastante útil, si
+[0:46:26] ustedes lo ven bien, a mí me parece muy
+[0:46:28] bien la verdad, que es que tiene un todo
+[0:46:29] o nada. ¿Qué es un todo o nada?
+[0:46:30] Básicamente que si una instrucción
+[0:46:32] falla,
+[0:46:34] toda la transacción falla y se revierten
+[0:46:35] todos los cambios. ¿Pero qué es lo que
+[0:46:37] pasa? Se revierten todos los cambios,
+[0:46:38] pero te cobra la la comisión por haber
+[0:46:40] hecho la transacción, te cobra el fee.
+[0:46:42] Entonces eso hay que tenerlo en cuenta.
+[0:46:43] Eso es bastante bueno porque si yo, por
+[0:46:45] ejemplo, estoy haciendo varias
+[0:46:46] instrucciones seguidas que depende una
+[0:46:48] de la otra,
+[0:46:49] si falla una, ahí estoy en problemas
+[0:46:51] porque puede ser que di, o sea, se
+[0:46:53] pierda algo así. Entonces es mejor tipo
+[0:46:56] que si falla una,
+[0:46:58] toda transacción falle y que no se haga
+[0:46:59] nada.
+[0:47:00] Entonces por eso es mejor tener un todo
+[0:47:01] o nada.
+[0:47:02] Luego el tamaño máximo de transacciones
+[0:47:04] más técnico tiene que tener 1200 bytes
+[0:47:07] máximo, el cómputo por defecto por
+[0:47:09] instrucción en compute units, que fue lo
+[0:47:11] que vimos ahora, es de 200.000 y el
+[0:47:13] compute el compute máximo por
+[0:47:15] transacción es de 1.4 millones de
+[0:47:17] compute units, ¿okay?
+[0:47:20] Eh eso es lo que vimos acá
+[0:47:22] tipo
+[0:47:23] para darles contexto.
+[0:47:25] Eso es si yo me meto por ejemplo a esta
+[0:47:28] transacción,
+[0:47:30] yo puedo ver que aquí hay compute units
+[0:47:32] consumed y puedo ver que esta consumió
+[0:47:34] 67.459
+[0:47:36] compute units y en realidad tuvo muchas
+[0:47:38] instrucciones y yo aquí en el mismo
+[0:47:40] solscan puedo ver
+[0:47:42] la distribución de compute units units
+[0:47:44] según qué instrucción gastó más. En este
+[0:47:46] caso puedo ver que el root
+[0:47:48] V2 fue el que gastó más compute units,
+[0:47:51] gastó 48.000 compute units, ¿okay?
+[0:47:55] Ahora hablemos de de las comisiones, de
+[0:47:56] los fees.
+[0:47:58] Básicamente los fees es que siempre va a
+[0:48:01] haber una comisión base que va a estar
+[0:48:02] en Lamport, en este caso son 5000
+[0:48:05] Lamports siempre comisión base por firma
+[0:48:07] que es el aproximado 0.000005
+[0:48:10] Solanas, 5000 Lamports
+[0:48:12] eh solo una transferencia normal, o sea,
+[0:48:15] lo más simple es eso.
+[0:48:16] Pero eh se le puede añadir comisión de
+[0:48:18] prioridad que es algo opcional, ¿qué es
+[0:48:20] eso?
+[0:48:21] Que básicamente eh se puede tener un
+[0:48:23] precio por el compute units y un límite
+[0:48:25] de compute units, entonces si yo
+[0:48:27] multiplico eso yo puedo pagarlo extra
+[0:48:29] para pagarlo antes la la antes en la red
+[0:48:32] si la red está saturada.
+[0:48:34] Sorry.
+[0:48:35] Básicamente es una forma
+[0:48:37] de no hacer las transacciones más
+[0:48:39] rápidas, sino como que entren antes
+[0:48:42] si la red está saturada para evitar que
+[0:48:44] duren más y así. Normalmente hay algunas
+[0:48:46] wallets que hacen esto por defecto y
+[0:48:47] añaden un poco de comisión de prioridad
+[0:48:49] tipo para intentar hacer la transacción
+[0:48:51] rápida.
+[0:48:53] Ahora hablemos un poco sobre expiración
+[0:48:55] y commitments. Entonces todas las
+[0:48:58] transacciones pues tienen expiración y
+[0:49:00] tiene
+[0:49:01] Entonces hay tres tipos, bueno, hay
+[0:49:03] cuatro tipos de ahorita los vamos a ver.
+[0:49:06] Y eh hay expiración en el
+[0:49:08] Algo que me acabo de acordar
+[0:49:11] es que creo que en el quiz las
+[0:49:13] respuestas no puse como cuál era la
+[0:49:15] correcta, nada más puse las
+[0:49:18] Voy voy voy a poner esto, muy
+[0:49:19] importante, importante
+[0:49:22] no hacer el quiz aún.
+[0:49:24] Apenas termine la clase
+[0:49:26] Eh
+[0:49:28] no no hagan el quiz aún porque estoy
+[0:49:30] casi seguro que puse las respuestas que
+[0:49:31] no eran. Entonces intenten no hacer el
+[0:49:34] quiz aún porque me acabo de acordar
+[0:49:36] justo cuando vi esto pues puse algo de
+[0:49:37] niveles de
+[0:49:39] Okay. Y si alguno ya lo hizo me avisa
+[0:49:42] para avisar y que no no les bajen
+[0:49:43] puntos.
+[0:49:44] [risas] Ahí más bien mala mía que la
+[0:49:46] verdad es que ni me acordaba. ¿Okay?
+[0:49:49] Entonces, básicamente, ¿qué es la
+[0:49:50] expiración del Básicamente que pasan 150
+[0:49:53] bloques y eso expira. Entonces
+[0:49:56] eh ¿qué es lo que pasa? Cuando yo creo
+[0:49:58] una transacción
+[0:49:59] tiene que haber una expiración, o sea,
+[0:50:01] la transacción no puede quedarse ahí de
+[0:50:02] por vida. O sea, no puede ser que la
+[0:50:04] transacción dure ahí 100 años,
+[0:50:05] obviamente no tiene sentido. Entonces
+[0:50:07] tiene que tener una expiración.
+[0:50:08] Normalmente la expiración es de 150
+[0:50:10] bloques, que es alrededor de 1 minuto y
+[0:50:12] si no entró para entonces pues expira y
+[0:50:14] lo que hay que hacer es reconstruirla y
+[0:50:16] reenviarla.
+[0:50:17] Luego hay niveles de
+[0:50:18] ¿Qué es el es que
+[0:50:21] cuando cuando se mete en en un bloque
+[0:50:25] se procesa, luego se confirma y luego se
+[0:50:28] finaliza.
+[0:50:29] Entonces cuando se finaliza es
+[0:50:31] básicamente es ya es reversible, o sea,
+[0:50:33] ya ya no se puede hacer nada.
+[0:50:35] Y cuando está procesada es cuando se
+[0:50:37] incluyó en un bloque, cuando está
+[0:50:38] confirmada es que los validadores
+[0:50:40] votaron por la transacción y cuando se
+[0:50:42] finaliza es que ya es reversible. ¿Okay?
+[0:50:46] Y hablemos del ciclo de vida de una
+[0:50:47] transacción.
+[0:50:49] Básicamente hay cinco pasos. Primero se
+[0:50:52] construye la transacción, entonces la
+[0:50:53] app en la que ustedes estén o hasta en
+[0:50:55] su propia
+[0:50:56] agregan instrucciones y un
+[0:50:58] Luego la wallet firma el mensaje.
+[0:51:01] Luego el RCP,
+[0:51:03] que es básicamente lo que hace eh, el
+[0:51:06] RCP, ahorita vamos a hablar del RCP
+[0:51:08] porque porque sí.
+[0:51:10] El RCP es bastante útil, bueno, es es
+[0:51:13] primordial, o sea, sin RCP no se puede
+[0:51:14] hacer nada. Entonces, básicamente el RCP
+[0:51:17] es lo que envía o reenvía, perdón, la
+[0:51:20] transacción a a un líder, en este caso
+[0:51:22] piensen que un líder es como que el que
+[0:51:24] lo pone en un bloque, entonces se
+[0:51:26] procesa, es decir, que la transacción se
+[0:51:28] pone en un bloque y luego los
+[0:51:29] validadores votan
+[0:51:31] y te confirma la transacción. Y aquí
+[0:51:33] abajo pongo que sin mempool las
+[0:51:34] transacciones van directo a los próximos
+[0:51:36] líderes líderes, entonces ahorita
+[0:51:38] hablamos del mempool y esas cosas.
+[0:51:40] Podemos avanzar.
+[0:51:41] Luego, hablemos de leer transacciones,
+[0:51:43] que bueno, todo el rato hemos estado
+[0:51:45] leyendo cosas en el explorador, pero
+[0:51:47] bueno.
+[0:51:48] Entonces vemos que aquí tenemos una
+[0:51:49] firma, vemos la comisión, vemos el
+[0:51:51] saldo, por ejemplo que cambió, vemos un
+[0:51:53] slot, instrucciones, por ejemplo aquí
+[0:51:55] tenemos una instrucción de system de
+[0:51:56] transferencia, tenemos logs, tenemos un
+[0:51:58] saldo, por ejemplo, si yo pasé 0.01
+[0:52:01] Solana a alguien
+[0:52:03] eh, pues ese alguien va a tener 0.01
+[0:52:05] Solana,
+[0:52:06] pero mi saldo va a bajar. Y como pueden
+[0:52:08] ver, ¿por qué creen que mi saldo no es
+[0:52:11] 0.
+[0:52:13] eh, 49?
+[0:52:16] ¿Por qué mi saldo no es 0.49?
+[0:52:19] Perdón, 2.49.
+[0:52:21] Es que tengo esto.
+[0:52:27] A ver, alguien responda.
+[0:52:39] Hm, ¿nadie?
+[0:52:46] Bueno, todo bien.
+[0:52:48] Entonces,
+[0:52:50] okay, todo bien. Básicamente la pregunta
+[0:52:53] era
+[0:52:54] la pregunta es, tipo si yo tengo un
+[0:52:56] saldo
+[0:52:57] de 2.5 Solana y yo le paso 0.01
+[0:53:01] Solana a un amigo,
+[0:53:03] ¿por qué mi saldo después no va a ser 0.
+[0:53:06] 49, perdón, 0. 2.49?
+[0:53:10] Es decir, ¿por qué no se me quita nada
+[0:53:12] más 0.01 Solana? Exactamente.
+[0:53:15] Por los fees.
+[0:53:17] Porque eh pues hay una comisión y esta
+[0:53:19] comisión es esta que está acá y se
+[0:53:21] cobra. Entonces eh
+[0:53:24] pues sí.
+[0:53:25] Eso es.
+[0:53:27] Ahora vayamos a la parte de la demo
+[0:53:30] donde vamos a hacer una transacción de
+[0:53:32] Entonces,
+[0:53:33] todos ya deberían de tener una wallet,
+[0:53:34] si no tienen una wallet me avisan y les
+[0:53:36] puedo ayudar a setear una wallet.
+[0:53:38] Entonces nos vamos a ir a la wallet y
+[0:53:40] vamos a poner la wallet en modo
+[0:53:42] y luego vamos a fondear la wallet, vamos
+[0:53:44] a enviar dinero y vamos a probar.
+[0:53:45] Entonces,
+[0:53:48] hagamos lo siguiente.
+[0:53:50] Entonces eh ahí confírmenme si todos
+[0:53:52] tienen wallet y si pueden seguir lo que
+[0:53:54] voy haciendo, voy a ir haciendo lento
+[0:53:55] por si acaso. Entonces,
+[0:53:57] abrimos nuestra wallet.
+[0:53:59] Obviamente yo voy a poner mi contraseña,
+[0:54:00] igual
+[0:54:02] esta es una wallet de prueba, entonces
+[0:54:04] no importa mucho.
+[0:54:05] O sea, sí importa. Nunca nunca revelen
+[0:54:08] sus contraseñas.
+[0:54:10] Entonces, lo primero que vamos a hacer
+[0:54:12] es pasarlo a
+[0:54:13] Entonces, si por ejemplo ustedes están
+[0:54:15] usando ¿cómo hacen? Vienen acá,
+[0:54:18] les va a salir
+[0:54:20] y va a salir eh
+[0:54:23] Entonces, ah no, mentira, no. Aquí,
+[0:54:25] bueno, eso es porque
+[0:54:27] perdón, porque Phantom tiene más más
+[0:54:29] redes.
+[0:54:30] Pero eh
+[0:54:34] Ya les digo dónde era que se hacía, no
+[0:54:35] me acuerdo.
+[0:54:43] Hm,
+[0:54:46] ¿dónde era que se cambiaba eso?
+[0:54:50] Aquí está.
+[0:54:51] En
+[0:54:52] se pueden ir a
+[0:54:54] si ustedes están en otra en otra
+[0:54:57] Tienen que buscar la forma de pasarla a
+[0:54:59] Entonces eh aquí, por ejemplo, si yo le
+[0:55:01] doy clic ya pueden ver que me sale
+[0:55:04] Entonces yo le voy a dar aquí Solana
+[0:55:06] Devnet,
+[0:55:07] y me voy a volver. Y como pueden ver,
+[0:55:09] ahora en Devnet, esta wallet
+[0:55:13] bueno, esta sí tiene Solana.
+[0:55:15] Esta wallet no debería tener Solana.
+[0:55:17] Como pueden ver, esta wallet no tiene
+[0:55:18] Solana en Devnet. Entonces, ¿qué
+[0:55:20] significa eso? Que la wallet no tiene
+[0:55:22] nada.
+[0:55:23] La dirección esta, si yo ahorita vengo
+[0:55:25] acá al Explorer, que por cierto,
+[0:55:28] si ustedes vienen aquí al explorador,
+[0:55:30] pueden ver que
+[0:55:32] ehm si yo pongo esto,
+[0:55:35] no me va a salir y ustedes dirán, bueno,
+[0:55:36] ¿por qué?
+[0:55:38] Primero, porque
+[0:55:40] ah bueno, sí, sí sale, pero
+[0:55:42] ehm un toque, voy a pasar esto a Devnet.
+[0:55:55] Sí, es que esta es la de Mainnet. Ehm
+[0:55:57] toque, ¿dónde?
+[0:56:01] Okay, vamos a venir aquí a Solscan
+[0:56:04] y a ver dónde se ponía Devnet.
+[0:56:09] Bueno, si no usamos el Explorer del
+[0:56:10] otro.
+[0:56:12] Explorer, sí, el otro es más más
+[0:56:14] sencillo. En realidad si quieren usar el
+[0:56:15] otro todavía. Si nosotros metemos al
+[0:56:17] Solana Explorer,
+[0:56:19] pueden ver que aquí ya me deja elegir,
+[0:56:20] entonces me voy a meter a Devnet.
+[0:56:23] Y si yo me meto acá y pongo esta wallet,
+[0:56:25] perdón, esa dirección,
+[0:56:27] van a ver que primero no es ejecutable y
+[0:56:31] no tiene nada
+[0:56:32] porque pues no tiene transacciones.
+[0:56:34] Entonces, nosotros ¿cómo hacemos para
+[0:56:37] que esta wallet tenga Solana en Devnet?
+[0:56:38] Porque recuerden que en Devnet es cuando
+[0:56:42] estoy con
+[0:56:43] con tokens de prueba. Entonces, nos
+[0:56:46] vamos a meter a faucet.solana.com.
+[0:56:49] ¿Qué es un faucet? Un faucet básicamente
+[0:56:50] lo que a ustedes les da un poco de
+[0:56:52] Solana
+[0:56:54] para testear. Entonces, ustedes van a
+[0:56:56] venir acá y van a poner Devnet
+[0:56:58] y van a poner el wallet address. En este
+[0:57:00] caso yo voy a poner este wallet
+[0:57:02] y el amount que quiero. En este caso yo
+[0:57:04] realmente no quiero mucho, voy a poner
+[0:57:05] un Solana
+[0:57:06] y voy a confirmar el airdrop. ¿Qué ¿Qué
+[0:57:08] el airdrop? Bueno, aquí tengo que
+[0:57:09] verificar que soy
+[0:57:11] que
+[0:57:12] si soy humano
+[0:57:13] porque también hay escasez en Devnet,
+[0:57:15] aunque no lo crean. Entonces, eh
+[0:57:18] aquí si no me equivoco ya se debería
+[0:57:20] haber mandado, no sé por qué. Tal vez es
+[0:57:21] que aquí me salió algo. A ver.
+[0:57:25] Es que no había visto eso.
+[0:57:26] Si no, nos vamos a conectar con GitHub
+[0:57:28] un toque.
+[0:57:31] O pueden usar otro faucet, también hay
+[0:57:32] faucet de third parties.
+[0:57:34] ¿Okay?
+[0:57:35] Y vamos a poner una mount de un Solana
+[0:57:37] en Devnet y vamos a confirmar el
+[0:57:38] airdrop.
+[0:57:40] Esto lo que está haciendo es básicamente
+[0:57:41] pasarnos un Solana en Devnet para
+[0:57:43] nosotros poder testear. Y como pueden
+[0:57:45] ver, airdrop success. Entonces, ¿qué
+[0:57:47] puedo hacer ahora? Es que tengo que
+[0:57:49] mover el chat para el otro lado.
+[0:57:51] Yo ahora puedo venir a mi Jupiter y si
+[0:57:53] me meto a esta wallet van a ver que
+[0:57:54] ahora tiene Solana y eso es un Solana
+[0:57:56] pro. Entonces, ¿qué es lo siguiente que
+[0:57:58] vamos a hacer?
+[0:57:59] Vamos a
+[0:58:00] transferir 0.01 Solana a un compañero.
+[0:58:03] Entonces,
+[0:58:04] ahí los que ya tienen wallet
+[0:58:06] eh pasen su wallet en el chat y podemos
+[0:58:08] pasar Solanas.
+[0:58:11] Entonces, si alguien quiere pasarme
+[0:58:12] Solana ahí está mi wallet. Igual yo lo
+[0:58:14] que voy a hacer tipo para la pro,
+[0:58:16] obviamente en Devnet, obviamente esto no
+[0:58:17] es dinero real.
+[0:58:19] Lo que voy a hacer para la prueba es
+[0:58:20] pasarme un poquito de Solana de esta
+[0:58:23] ahí, no, de esta wallet.
+[0:58:25] No, perdón, de la wallet esta que
+[0:58:26] estamos usando, la Trust Wallet,
+[0:58:28] a la wallet esta otra que también está
+[0:58:31] en Devnet y ya tenía un poco de Solana.
+[0:58:32] Entonces, ¿qué es lo que tengo que
+[0:58:34] hacer? Bueno, yo aquí me tengo que venir
+[0:58:35] a la otra wallet y tengo que copiar el
+[0:58:37] address, pero ¿cómo hago? Vengo aquí a
+[0:58:39] send,
+[0:58:40] agarro el token que quiero, Solana,
+[0:58:43] y pongo la dirección de la de la otra
+[0:58:45] cuenta
+[0:58:46] y le paso la cantidad de Solana que
+[0:58:47] quiero. Entonces, le voy a pasar 0.1
+[0:58:49] Solana.
+[0:58:50] Le doy next y me va a dar unos datos.
+[0:58:52] Entonces, me va a decir cuánto voy a
+[0:58:54] pasar,
+[0:58:55] qué network y el fee. Entonces, como
+[0:58:58] todo lo veo bien, le doy send.
+[0:59:01] Súper, Ronaldo, súper. Y aquí ven que ya
+[0:59:05] se mandó la transacción. Entonces, si yo
+[0:59:07] me meto acá a ver transacción,
+[0:59:09] me manda a Solscan
+[0:59:11] en Devnet, como pueden ver, ahora sí.
+[0:59:14] Y puedo ver el
+[0:59:16] Puedo ver el bloque,
+[0:59:18] lo que se hizo. Entonces, como pueden
+[0:59:19] ver, del System Program, es decir, como
+[0:59:21] el
+[0:59:22] que dijo ahora
+[0:59:24] Eh, puedo ver la instrucción, en este
+[0:59:25] caso una transferencia, que se
+[0:59:26] transfirió de este a este.
+[0:59:29] Se mandó esta cantidad de Solanas.
+[0:59:31] Y pues pueden ver el
+[0:59:33] pueden ver lo que se gastó de
+[0:59:35] Pueden ver el
+[0:59:37] y etcétera.
+[0:59:38] Entonces, básicamente así es como se
+[0:59:39] hace una transacción.
+[0:59:41] Eh,
+[0:59:43] y bueno, ahí dice que la inspeccionemos
+[0:59:45] en el
+[0:59:46] y que veamos cómo funciona eso.
+[0:59:48] Entonces, para hacer un repaso de hoy,
+[0:59:50] que ya vamos a terminar porque no nos va
+[0:59:52] a dar tiempo de ver lo del
+[0:59:54] Eh,
+[0:59:56] entonces, ¿qué vimos hoy? Vimos que todo
+[0:59:58] todo es una cuenta, entonces que tiene
+[1:00:04] que solo el programa propietario puede
+[1:00:06] modificar una cuenta y que los programas
+[1:00:08] no tienen estado, que eso se se separa,
+[1:00:10] digamos, a otras cuentas que tienen los
+[1:00:12] datos. Luego las cuentas tienen un
+[1:00:14] mínimo de venta, entonces cada wallet
+[1:00:16] necesita aproximadamente 0.00089
+[1:00:18] Solanas.
+[1:00:19] Luego
+[1:00:20] una transacción son firmas más un
+[1:00:22] mensaje de instrucciones, entonces eso
+[1:00:24] lo vimos.
+[1:00:25] Luego las comisiones, que hay 5000 por
+[1:00:29] firma
+[1:00:30] y más una comisión de prioridad
+[1:00:31] opcional. Obviamente esos 5000 es por
+[1:00:34] una firma por solo una firma, ¿verdad?
+[1:00:35] Obviamente si hay más firmas va a cobrar
+[1:00:37] más.
+[1:00:38] Y que los
+[1:00:39] expiran cerca de 1 minuto y que
+[1:00:42] significa que ya es irreversible.
+[1:00:44] Okay, si tienen alguna duda pueden
+[1:00:45] decirla ahorita mientras les digo esto,
+[1:00:47] que es que la próxima clase
+[1:00:49] vamos a ver el
+[1:00:51] básicamente ya cuando empezamos a usar
+[1:00:52] código para configurar
+[1:00:54] que es para nosotros poder hacer
+[1:00:55] lecturas a la para hacer
+[1:00:58] Luego podemos hacer direcciones, leer
+[1:01:01] datos. Mañana es una clase más técnica
+[1:01:02] ya de código, entonces mañana estén
+[1:01:05] preparados con código para verlo en
+[1:01:08] ¿okay?
+[1:01:09] Eh, y no hagan el quiz aún, ya casi los
+[1:01:12] ya casi lo actualizo, recuerden eso.
+[1:01:14] Entonces si alguien tiene duda antes of
+[1:01:16] terminar la clase?
+[1:01:19] Eh,
+[1:01:21] y también y la el apartado buscando la
+[1:01:23] también quería
+[1:01:26] Recuerden ahora
+[1:01:31] ¿Podríamos subir
+[1:01:34] las las prácticas que estamos
+[1:01:36] realizando? No en el
+[1:01:40] Eh, si te refieres tipo a lo de las
+[1:01:42] secciones y eso no importa, o sea, eso
+[1:01:43] es como más tarea moral tipo de que lo
+[1:01:45] hagan y lo prueben y así. No es
+[1:01:47] necesario subir nada de eso. Lo que sí
+[1:01:49] tienen que hacer son los quizzes, pero
+[1:01:51] recuerden que este quiz lo tengo que
+[1:01:52] actualizar, entonces ahorita lo hago.
+[1:01:59] Y sí, si esas son todas las las
+[1:02:02] preguntas.
+[1:02:04] Espero que les haya gustado la clase de
+[1:02:06] hoy y nos vemos mañana con Solana
+[1:02:10] Bueno.
+[1:02:12] Chao.

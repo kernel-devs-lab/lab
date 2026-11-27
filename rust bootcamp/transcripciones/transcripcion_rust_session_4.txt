@@ -1,0 +1,1335 @@
+# Transcripción: Session 4
+URL: https://www.youtube.com/watch?v=ePiZBDkkUfA
+
+[0:01:37] Hola.
+[0:01:41] Hola. Hola.
+[0:01:46] I that you are doing bootcamp.
+[0:01:50] No,
+[0:01:54] you are doing a boot camp.
+[0:01:58] Yeah. Yeah, we're starting it like in
+[0:02:01] two weeks. Oh, yeah. Ok. It's not.
+[0:02:04] [risas] Yeah. Yeah.
+[0:02:06] All right. All right. All right. Who was
+[0:02:09] the first week?
+[0:02:12] Pretty good, I think. I mean the I had
+[0:02:15] to rush because there was like two
+[0:02:19] topics, two slides. So so I had to to to
+[0:02:23] rush a bit the second topic but it's
+[0:02:28] been great. Uh I mean I've seen like
+[0:02:32] eight people connecting to all the
+[0:02:34] classes and those eight are the same
+[0:02:36] that submitted the requests. So that's
+[0:02:39] great. Um, but I like to encourage like
+[0:02:42] all the people in the group, I think
+[0:02:43] it's like
+[0:02:45] to still submited and um and yeah, um I
+[0:02:49] mean it's not that difficult to do like
+[0:02:51] the first part and the next weeks are
+[0:02:55] also like
+[0:02:57] pretty easy. It's just like watching the
+[0:03:00] class and doing what's in the slides.
+[0:03:04] And yeah, I think it's pretty basic uh
+[0:03:06] content, but I mean those are like the
+[0:03:11] basic
+[0:03:13] um topics you need to know to start
+[0:03:15] developing great with. So
+[0:03:18] all right and yeah, we have to talk
+[0:03:20] about the capstone I think at the end of
+[0:03:22] the week for the week we're going to
+[0:03:26] have like a capstone
+[0:03:28] uh where people will have to
+[0:03:31] deploy program.
+[0:03:36] So yeah. All right. We going to wait
+[0:03:39] like two minutes before starting.
+[0:03:41] Sure.
+[0:03:45] So actually
+[0:03:47] in fact let me just share my screen.
+[0:03:52] Uh
+[0:03:57] here
+[0:03:59] you going to have like quizes uh
+[0:04:01] display. Um so it will be the homework
+[0:04:05] basically for example uh for the others
+[0:04:07] like the English one you can see here
+[0:04:11] the quizes and so this one will be added
+[0:04:14] as well into the r boot camp and also
+[0:04:18] your leaderbard will be updated because
+[0:04:20] they just like close the request. So you
+[0:04:25] will see here the leaderboard
+[0:04:28] as here we have
+[0:04:34] much more people there in English
+[0:04:37] but yeah you will see
+[0:04:40] it yeah hit here
+[0:04:44] um and also that did you test it um
+[0:04:48] actually we going to improve it
+[0:04:49] basically by doing decision decision I
+[0:04:53] don't know how to say like selecting
+[0:04:55] your mode uh like bootcamp accelerator
+[0:05:00] like it will it will depend and then
+[0:05:03] after um basically you will know
+[0:05:07] like daily date or like what happened
+[0:05:10] today or you have to select to click on
+[0:05:14] things and if you want to learn to you
+[0:05:17] click on learn rest things like this
+[0:05:19] we're going to improve that this week so
+[0:05:22] just to just to let you know because
+[0:05:23] through
+[0:05:25] It's hard to ask the right question if
+[0:05:27] you don't have any guidance first. So
+[0:05:30] just to show that and yeah so make sure
+[0:05:37] to complete here and then after um
+[0:05:41] all quizes for each session will be
+[0:05:44] display there [resoplido]
+[0:05:45] and uh for certification so you will
+[0:05:48] have to to do uh to have like at least
+[0:05:53] 40% uh of or more completion. So each
+[0:05:58] quiz will
+[0:06:00] it's like 10% and we will have seven
+[0:06:03] quiz and then after it's for everything
+[0:06:06] for everyone to deploy program but we
+[0:06:10] can talk about later
+[0:06:13] so yeah
+[0:06:20] ok um any question before starting
+[0:06:32] Fine.
+[0:06:34] We can wait a bit
+[0:06:36] more people. I will let you lead it. Um
+[0:06:41] and yeah,
+[0:06:44] by the way depending on where you are
+[0:06:47] located I can
+[0:06:49] I can send you something.
+[0:06:53] We are leading Solana for students
+[0:06:57] uh online sessions all over all over the
+[0:06:59] world. So you can find your session here
+[0:07:03] to join um
+[0:07:05] during the next 20 days. Uh let me just
+[0:07:10] send it. Um it's it's not about
+[0:07:14] presenting Solana itself. more about
+[0:07:15] presenting career that you can manage to
+[0:07:20] have as a like by starting as as a
+[0:07:23] student into the ecosystem. So gna be
+[0:07:26] really insightful. Uh I will it uh so
+[0:07:31] yeah to inspire people. I will also talk
+[0:07:33] about my journey. I really done it like
+[0:07:38] people just know how the list kind of
+[0:07:41] what I did but I think it's better to
+[0:07:44] explain everything. Alri so
+[0:07:51] fine
+[0:07:55] you are
+[0:07:58] so good classes then.
+[0:08:10] Okay.
+[0:08:12] Bueno, hola a todos. [carraspeo]
+[0:08:15] Qué bueno tenerlos por acá y que bueno
+[0:08:17] que hayan podido completar la semana
+[0:08:19] uno. La idea es que igual puedan seguir
+[0:08:21] completándola. E hoy, bueno, hoy queda
+[0:08:24] un quiz, entonces ahorita lo lo termino
+[0:08:27] de subir. Y lo que vamos a estar viendo
+[0:08:30] esta semana es un poco más de
+[0:08:31] arquitectura de Solana y wallets.
+[0:08:35] Entonces, como para entender el concepto
+[0:08:36] detrás de de una wallet, qué hace una
+[0:08:38] wallet, eh, y cómo cuando estamos
+[0:08:41] desarrollando interactuamos con ellas,
+[0:08:43] eh, que hay que pedirles eh y bueno, más
+[0:08:46] un poco es entonces
+[0:08:48] eh compatible
+[0:08:54] quiz está eh No, el quiz no lo he
+[0:08:58] publicado, pero cuando lo publique les
+[0:09:00] les paso como las instrucciones de cómo
+[0:09:02] hacerlo. Pero a mí me parece que le sale
+[0:09:03] en la plataforma. Es que yo tengo la
+[0:09:05] vista de de profesor, entonces no sé
+[0:09:09] cómo les aparece a ustedes, pero si no,
+[0:09:11] ahorita apenas terminemos la clase, les
+[0:09:15] muestro cómo es.
+[0:09:17] Eh,
+[0:09:24] vamos a ver entonces hoy la
+[0:09:28] las eh wallets.
+[0:09:32] Todo allá.
+[0:09:52] Okay.
+[0:09:54] Bueno, entonces para para esa semana,
+[0:09:56] como les decía, tenemos eh igual una
+[0:10:00] parte como básica, pero ya nos vamos a
+[0:10:02] ir adentrando un poco más al a los a los
+[0:10:06] programas y a la parte más pues técnica,
+[0:10:08] pero primero hay que entender las
+[0:10:10] wallets, cómo funcionan. La semana
+[0:10:12] pasada ya hablamos un poco sobre los
+[0:10:14] keepers y bueno, un poco de eso, pero
+[0:10:16] vamos a adentrarnos un poco más en el
+[0:10:18] funcionamiento como tal, eh, porque la
+[0:10:20] semana pasada lo que vimos en Ross
+[0:10:22] Basics y bueno, también en en el CLI es
+[0:10:25] como crear una wallet desde la terminal,
+[0:10:27] pero bueno, esto es meramente para
+[0:10:29] testing. Hoy vamos a ver un poco de
+[0:10:30] prácticas de seguridad a la hora de
+[0:10:31] tener una, eh, los fondos eh y un poco
+[0:10:35] eso. Entonces, eh bueno, por acá tenemos
+[0:10:37] lo que vamos a ver. Entonces, en la
+[0:10:39] parte uno tenemos eh
+[0:10:42] eh bueno, ya monedas, keepers y
+[0:10:44] direcciones, se sitraces, costo y
+[0:10:45] almacenamiento, tipos de wallet, eh que
+[0:10:49] es firmar el wallet estándard, tenemos
+[0:10:52] la parte dos que es seguridad, eh,
+[0:10:54] entonces vamos a ver se y estafas y
+[0:10:56] firma segura y buenos hábitos y la parte
+[0:10:59] tres, eh, que es como más un demo.
+[0:11:01] Entonces, ahí vamos a a ver eso.
+[0:11:04] Entonces, conceptos clave. Primero vamos
+[0:11:06] a a entender qué es realmente una
+[0:11:08] wallet. La wallet e por así decirlo, es,
+[0:11:13] o sea, son son llaves y no monedas.
+[0:11:14] Entonces, eh
+[0:11:17] la wallet como tal no es algo que existe
+[0:11:21] en un solo dispositivo, sino que existe
+[0:11:24] en en la blockchain y lo que hace es
+[0:11:25] guardar, o sea, lo que lo que guardamos
+[0:11:27] en realidad son las llaves para acceder
+[0:11:29] a ciertas monedas. Entonces es como ese
+[0:11:32] punto de entrada que nos permite hacer
+[0:11:33] transacciones con lo que tenemos. En
+[0:11:35] este caso, si tenemos Solanas, por
+[0:11:37] ejemplo, eh con las llaves correctas,
+[0:11:40] entonces tenemos el acceso a la cantidad
+[0:11:41] de de Solanas que tiene esa cuenta. Eh,
+[0:11:44] entonces la la wallet como tal no guarda
+[0:11:46] las monedas, sino que guarda las llaves.
+[0:11:48] Los fondos siempre viven onchain o en la
+[0:11:50] blockchain. Entonces, eh eso es muy
+[0:11:52] importante destacarlo, que realmente en
+[0:11:54] las cuales no se guarda nada porque si
+[0:11:56] no no tendría mucho sentido que este sea
+[0:11:58] descentralizado, si no digamos si fuese
+[0:12:01] de esa manera sería centralizado y y no
+[0:12:04] se podría acceder desde otro desde otro
+[0:12:06] desde otra interfaz o bueno, inclusive
+[0:12:10] desde otra cualquier otra parte.
+[0:12:12] Eh, entonces la función de la Wild como
+[0:12:14] tal y lo que muchas personas eh o bueno,
+[0:12:18] muchas empresas, aplicaciones hacen es
+[0:12:21] proveer una interfaz gráfica
+[0:12:23] literalmente porque a nivel de
+[0:12:25] infraestructura, la arquitectura y la
+[0:12:28] infraestructura de las wallets
+[0:12:29] mayoritariamente ya viven a lochain,
+[0:12:31] salvo que eh sea custodia que bueno, ya
+[0:12:34] ahí entra un tema del manejo de los
+[0:12:36] fondos e inclusive temas legales, los
+[0:12:38] cuales ahorita más adelante como que
+[0:12:39] vamos a a hablar un poco de ellos. para
+[0:12:41] que se entienda eh qué es el custodio.
+[0:12:44] Eh, la blockchain, que es donde se
+[0:12:46] registra cada salto y los fondos viven
+[0:12:49] acá. Entonces, o bueno, lo que sea, no
+[0:12:51] necesariamente solo fondos, porque la
+[0:12:52] login no es solo financiera, también se
+[0:12:54] pueden tener NFTs, por ejemplo.
+[0:12:55] Entonces, si si se tiene alguna
+[0:12:58] propiedad de sea sea un NFT, sea una
+[0:13:00] moneda, sea lo que sea, eso está en la
+[0:13:03] blockchain y nosotros lo que tenemos es
+[0:13:05] las llaves para poder utilizarlo.
+[0:13:08] Por ejemplo, eh, y o saber este diseño
+[0:13:11] es muy bueno y sirve mucho porque es muy
+[0:13:14] e
+[0:13:15] muy descentralizado y también muy
+[0:13:17] resiliente. Si una aplicación deja de
+[0:13:19] funcionar, si la, o sea, si si su wallet
+[0:13:22] es no custodial, no no se perdieron los
+[0:13:25] fondos, no se perdió nada, simplemente
+[0:13:27] se perdió la interfaz gráfica donde uno
+[0:13:29] podía ver eso. Entonces eh si si se
+[0:13:33] perdió la por ejemplo Phantom, si se
+[0:13:34] perdió Phantom o Phantom dejó de
+[0:13:36] publicar eh quitó la aplicación de del
+[0:13:39] Appore, eh no significa que se perdieron
+[0:13:42] los fondos. O sea, depende mucho de de
+[0:13:44] la cual porque podría ser custodia y ahí
+[0:13:47] sí pues habría que ver cómo funciona al
+[0:13:49] final de cuentas, pero en este caso si
+[0:13:51] es no custodia eh con un seat phrase que
+[0:13:54] es el que apuntamos cuando creamos la
+[0:13:56] wallet, simplemente podemos acceder
+[0:13:58] desde otra interfaz gráfica. Entonces,
+[0:14:00] por ejemplo, está Phantom. En Phantom yo
+[0:14:03] puedo importar mi wallet que creé en
+[0:14:05] otra wallet como Solfer o cualquier
+[0:14:07] otra. Entonces, eh básicamente es como
+[0:14:10] el como el diseño de un agua tenensolana
+[0:14:11] y en la mayoría de blockchains en
+[0:14:13] general. Los keepers, que lo hablamos la
+[0:14:15] vez pasada, eh, son dos llaves, una
+[0:14:18] pública y una privada. La privada pues
+[0:14:20] solo la deemos tener nosotros, es
+[0:14:22] secreta y firma est transacciones y
+[0:14:24] básicamente quien tiene la llave privada
+[0:14:26] sin controlar los fondos. Entonces hay
+[0:14:28] que tener mucho cuidado
+[0:14:30] y muy importante, ¿no? O sea, como es la
+[0:14:33] blockchain es inmutable, entonces una
+[0:14:36] transacción que se hizo ya no se puede
+[0:14:37] deshacer. Por lo tanto, si se hace una
+[0:14:40] transacción en la cual se envían fondos
+[0:14:42] y y o sea, ya sucedió, ya no se puede
+[0:14:45] hacer nada, se pereron los fondos, salvo
+[0:14:47] que haya pues o sea, sea un token el
+[0:14:50] cual se pueda revocar, pero bueno, ya
+[0:14:51] eso es ya eso entra más en qué tokens
+[0:14:54] tengan ustedes y cómo los manejan.
+[0:14:58] Eh, las direcciones, bueno, las
+[0:14:59] direcciones se ven así igual rarísimas,
+[0:15:01] son eh, o sea, está codificada en base
+[0:15:04] 58. Entonces, básicamente lo que se ven
+[0:15:06] son números, letras, minúsculas,
+[0:15:08] mayúsculas. Eh, son de 32 a 44
+[0:15:11] caracteres. Eh,
+[0:15:14] no tienen no tienen como, por así
+[0:15:16] decirlo, un
+[0:15:20] orden,
+[0:15:22] sino que simplemente se crean y ya.
+[0:15:26] Ah.
+[0:15:27] E bueno, tenemos los se phrases, que es
+[0:15:30] eh literalmente la manera en la cual
+[0:15:32] podemos recuperar nuestra wallet desde
+[0:15:35] cualquier parte y son 12 o 24 palabras.
+[0:15:38] Esto pues lo escoge cada quien cuando lo
+[0:15:39] va a crear. Eh, mientras más palabras,
+[0:15:42] hay que tener en cuenta que es más
+[0:15:44] difícil de, o sea, le da más eh,
+[0:15:49] se me olvidó la palabra, es
+[0:15:53] bueno, o sea, le da menos
+[0:15:56] capacidad a alguien de que lo puede
+[0:15:58] hackear, aunque realmente ya con dos es
+[0:16:00] teóricamente imposible que alguien y o
+[0:16:02] sea, ahí viene su su sefase, pero bueno,
+[0:16:07] con 24 lo hace aún más este difícil.
+[0:16:10] y pues no está de más hacerlo con 24 es
+[0:16:14] como lo más seguro.
+[0:16:17] Eh, y bueno, esas son como palabras de
+[0:16:19] ejemplo.
+[0:16:23] Entonces, literalmente y cualquier
+[0:16:25] palabra puede aparecer acá y simplemente
+[0:16:27] es guardarlas. Eh, evidentemente no se
+[0:16:30] debería guardar como un screenshot o o
+[0:16:33] escribirlo en notas porque, bueno, ahí
+[0:16:35] si hackean, por ejemplo, el celular o el
+[0:16:37] dispositivo en el que esté, eh, si ven
+[0:16:39] esto y van a intentar importarla y ya
+[0:16:41] con eso pues ya los los les pueden
+[0:16:44] quitar los fondos o lo que tengan dentro
+[0:16:46] de la wallet.
+[0:16:47] Eh, eso es lo que les decía de custodial
+[0:16:49] o no custodial. Eh,
+[0:16:53] básicamente la las blockchains en
+[0:16:55] general lo que hicieron fue introducir
+[0:16:57] como el concepto de propiedad privada
+[0:17:02] en la internet. Entonces, básicamente
+[0:17:05] si yo quiero tener mis activos y que yo
+[0:17:08] soy el único baño y no hay nadie
+[0:17:10] custodiándolos por detrás, una de las
+[0:17:12] maneras para hacerlo es utilizar
+[0:17:13] blockchain. Entonces, yo puedo tener mis
+[0:17:15] fondos y soy el único dueño de esos
+[0:17:16] fondos. No hay un intermediario que
+[0:17:18] diga, "¿Usted puede o no puede usarlos?"
+[0:17:20] Eh, pasa eso con Bitcoin, pasa eso con
+[0:17:22] Ethereum, pasa lo mismo con Solana, eh
+[0:17:24] son realmente descentralizadas.
+[0:17:26] Entonces, a la hora de introducir
+[0:17:30] personas al ecosistema 3 se dieron
+[0:17:32] cuenta que tal vez
+[0:17:35] esto no sirve para todas las personas y
+[0:17:36] no todos quisieran ser custodios de sus
+[0:17:40] activos, sino que prefieren entrar una
+[0:17:42] empresa por detrás que le simplifique el
+[0:17:44] proceso porque no todo el mundo eh
+[0:17:47] quiere añadirle esa complejidad a
+[0:17:49] manejar sus fondos o lo que sea, pero
+[0:17:51] además hay muchas otras cosas
+[0:17:52] interesantes en el login como el Deffi.
+[0:17:54] Y bueno, eh este los mercados de
+[0:17:56] predicciones, los pers y cantidad de
+[0:18:00] aplicaciones y contratos que se han
+[0:18:02] hecho que pues son bastante
+[0:18:04] interesantes. Entonces eh lo que
+[0:18:06] hicieron fue añadir como esta capa
+[0:18:08] custodial eh para que la cualquier
+[0:18:11] persona con un login de Google, por
+[0:18:13] ejemplo, vaya a tener una wallet. ¿Qué
+[0:18:15] pasa con custodial? Las llaves no las
+[0:18:18] tiene uno, entonces esa responsabilidad
+[0:18:20] queda en un tercero. Entonces, por
+[0:18:22] ejemplo, cuando vamos a abrir un
+[0:18:24] exchange como Binance, la
+[0:18:26] responsabilidad de los fondos al final
+[0:18:28] de cuentas sí yo puedo moverlos, pero yo
+[0:18:30] no soy dueño de esos fondos. Yo no si
+[0:18:32] Binance, por ejemplo, que pasó hace
+[0:18:34] poco, eh, y ellos suspenden los
+[0:18:38] withdraws y básicamente yo no tengo esos
+[0:18:41] fondos y realmente es una representación
+[0:18:43] lo que me muestra Binance, pero al final
+[0:18:45] de cuentas no son esos fondos.
+[0:18:47] Eh, lo cual es peligroso, pero bueno,
+[0:18:49] conviene para ciertas personas y hay
+[0:18:51] varios proveedores de custodia y a a la
+[0:18:54] hora de hacer una aplicación en cuanto a
+[0:18:55] temas legales, siempre es importante
+[0:18:57] saber quién tiene la custodia, si el
+[0:18:58] usuario o una empresa, porque ahí entran
+[0:19:01] pues temas de de la de instituciones y
+[0:19:06] inclusive leyes financieras, las cuales
+[0:19:08] regulan a los custodios.
+[0:19:10] Ah,
+[0:19:12] bueno, en cuanto a recuperación es mucho
+[0:19:14] más sencillo el custodial porque es una
+[0:19:16] es como un reset de contraseña, o sea,
+[0:19:18] básicamente el custodial es casi que una
+[0:19:20] experiencia web 2 con con un poquito de
+[0:19:24] blockchain por detrás, eh, y la la no
+[0:19:27] custodial solo es con el s pace que ya
+[0:19:29] se anotó. Entonces, en ese caso hay que
+[0:19:31] ser muy cuidadoso con lo que ya se
+[0:19:32] anota.
+[0:19:34] Eh, en cuanto al riesgo lo que les
+[0:19:35] decía, congelamiento, hackeos o la
+[0:19:37] quiebra de algún exchange, por ejemplo,
+[0:19:39] con FTX, hace unos años pasó que esa ese
+[0:19:43] exchange quebró, no tenía los fondos,
+[0:19:45] eh, y básicamente mucha gente perdió sus
+[0:19:49] fondos y no custodial, eh, perder o
+[0:19:52] filtrar el que realmente si alguien es
+[0:19:54] lo suficientemente hermético y cuidadoso
+[0:19:57] no debería de suceder.
+[0:19:58] En cuanto a ejemplos eh de custodial, ya
+[0:20:01] les di varios los exchanges entrevistes
+[0:20:03] en cuanto a no custodiales está Phantom,
+[0:20:05] Solfer y Backpack. Aunque Phantom y
+[0:20:08] Backpack, si si mal no estoy, también
+[0:20:10] tienen su parte no custodial. Entonces,
+[0:20:12] ellos ofrecen las dos posibilidades.
+[0:20:14] Ustedes pues escogen cuál les gusta más,
+[0:20:17] aunque siempre es bueno combinar un poco
+[0:20:19] las dos. Yo hay aplicaciones en las que
+[0:20:22] uso uno custodial, hay otras en las que
+[0:20:24] uso no custodial. Eh, donde más conviene
+[0:20:28] tener los fondos es signo custodial,
+[0:20:29] porque ahí es uno donde uno realmente es
+[0:20:32] el verdadero gestor de esas llaves y
+[0:20:35] pues si pasa algo el único responsable
+[0:20:38] de eso.
+[0:20:41] Y bueno, eso es una frase que que es muy
+[0:20:43] famosa, que bueno, está en inglés y la
+[0:20:47] tradu para la slide, pero dice not your
+[0:20:50] keys, not your coins, que es si no son
+[0:20:53] tus llaves, no son tus monedas eh y he
+[0:20:56] aplicado muchísimo. El Binance es el
+[0:20:58] mayor ejemplo, la o sea, muchísima gente
+[0:21:00] quería hacer withdraw de sus activos de
+[0:21:02] Binance a otras wallets. No podían
+[0:21:04] porque elw se bloqueó por el tema del
+[0:21:06] hackeo. Entonces, eh si hackean algún, o
+[0:21:10] sea, no existe la posibilidad de que
+[0:21:12] hackeen una wallet no custodia porque
+[0:21:14] para eso tenía que hackear la lini,
+[0:21:15] bueno, eso sería un caos, pero no ha
+[0:21:18] pasado hasta hoy y dudo mucho que que
+[0:21:21] llegue a pasar en algún momento por la
+[0:21:23] misma criptografía que hay detrás de
+[0:21:24] Cchin.
+[0:21:26] Vamos a seguir.
+[0:21:30] Wallets calientes versus frías. Eso es
+[0:21:31] más como un concepto
+[0:21:34] no tanto
+[0:21:36] no tan técnico, más teórico,
+[0:21:40] eh, y es a la hora de gestionar las
+[0:21:42] wallets. Entonces, tenemos las wallets
+[0:21:44] calientes y las wallets frías. Entonces,
+[0:21:47] una wallet caliente es una wallet que
+[0:21:52] que comúnmente se usa para recibir
+[0:21:54] transacciones y pasarlas. Realmente ahí
+[0:21:57] no se gestionan los activos o no se
+[0:21:59] mantienen o se holdean.
+[0:22:01] y está la wallet fría, que es donde pues
+[0:22:04] esta wallet normalmente tiene una
+[0:22:06] gestión mucho más cuidadosa de su se
+[0:22:08] phise. Evidentemente las dos tienen que
+[0:22:10] ser cuidadosas, pero por ejemplo la
+[0:22:11] wallet fría se se recomienda nunca
+[0:22:13] ponerlo en un dispositivo que tenga
+[0:22:16] acceso a acceso a a la cámara. O sea,
+[0:22:20] mucha gente lo que hace es que compran
+[0:22:21] estos este aparatos, los Ledgers, eh, o
+[0:22:26] los celulares nuevos que han sacado, eh,
+[0:22:28] se me olvida el nombre de la de la marca
+[0:22:30] que lo hace con Solana, pero o sea, son
+[0:22:33] dispositivos meramente para
+[0:22:36] resguardar estos activos. Entonces se
+[0:22:39] utiliza es como un concepto de una
+[0:22:41] cuenta bancaria en la cual eh está la
+[0:22:43] cuenta de ahorros y está la cuenta
+[0:22:44] corriente. Entonces, la cuenta ahorros
+[0:22:46] es donde yo siempre mantengo mis ahorros
+[0:22:48] y dinero que no estoy moviendo
+[0:22:49] constantemente. Y la cuenta corriente es
+[0:22:52] donde yo recibo, envío y muevo mis
+[0:22:55] activos y al final de cuentas al final y
+[0:22:57] al final del día lo que yo hago es que
+[0:22:59] si ya tengo el dinero que voy a
+[0:23:01] resguardar y ya lo voy a dejar, no sé,
+[0:23:02] random, entonces lo mando la cuenta ORS.
+[0:23:05] Eh, y eso por un motivo meramente de
+[0:23:08] seguridad y cómo se eh gestionan los
+[0:23:11] activos.
+[0:23:14] Ah, tipos de wallets. Entonces, eh hay
+[0:23:17] varios tipos. Está el de extensión del
+[0:23:19] navegador. Este se lo recomiendo
+[0:23:21] muchísimo para desarrollar. Eh, si están
+[0:23:24] haciendo una aplicación eh web eh di
+[0:23:28] para probar siempre hay que tener una
+[0:23:29] una extensión. Entonces, eh con esa
+[0:23:32] extensión se conecta a las DAVs que
+[0:23:34] ustedes generan y pues sí, nunca
+[0:23:37] recomiendo tener una wallet fría en el
+[0:23:38] navegador porque el navegador está
+[0:23:40] expuesto a hackeos y tengo conocidos que
+[0:23:42] por tener activos, o sea, grandes
+[0:23:44] cantidades de activos en el navegador,
+[0:23:46] eh han sido vulnerados y han perdido
+[0:23:48] fondos porque al vivir en el navegador
+[0:23:51] pues cierta caché está expuesta y si
+[0:23:53] bajan eh algún archivo, el cual sea
+[0:23:56] malware, podría exponer sus sus clavas.
+[0:24:00] o o ejecutar alguna transacción que que
+[0:24:03] los deje, o sea, que les saque los
+[0:24:05] fondos o o lo que tengan dentro de la
+[0:24:07] wallet,
+[0:24:08] eh, móvil o en el celular, que bueno,
+[0:24:11] este es mucho más que una pregunta por
+[0:24:13] ahí.
+[0:24:18] ¿Qué leería recomendas para usar
+[0:24:21] Custodial Wallets en Solana en Google?
+[0:24:25] Hm, no, no te entendí la pregunta. O
+[0:24:28] sea, te referís como para implementarlas
+[0:24:29] dentro de la aplicación.
+[0:24:33] Okay. Mm. O sea, lo más común es esta
+[0:24:36] que es eh previ.
+[0:24:39] Eh es lo más común. Eh, inclusive,
+[0:24:42] bueno, yo eh bueno, F y yo en el restar
+[0:24:45] que tenemos eh gestionamos eh todo lo
+[0:24:48] que sean fondos con preo
+[0:24:51] es sers seguro y legalmente están
+[0:24:54] regulados en muchos países y eso es muy
+[0:24:57] conveniente a la hora de
+[0:24:59] hacer una aplicación que que en teoría
+[0:25:02] gestiona fondos o los custodia. En este
+[0:25:04] caso, Previs encarga de custodiarlos.
+[0:25:06] Por lo tanto, a nivel de temas, por
+[0:25:08] ejemplo, legales, eh la responsabilidad
+[0:25:11] no cae en, por ejemplo, en mi empresa,
+[0:25:14] sino en el tercero, que es pre, que
+[0:25:17] ellos se encargan de gestionarlo. son
+[0:25:18] muy seguros, los compró hace creo que un
+[0:25:20] año ya o más Stripe, que Stripe es de
+[0:25:23] las empresas más grandes de pagos a
+[0:25:24] nivel mundial, lo cual demuestra que
+[0:25:27] pues sirven muchísimo, aunque siempre
+[0:25:29] hay otras aplicaciones que que pueden
+[0:25:31] ser más baratas porque PR es caro, pero
+[0:25:33] es por por lo por lo bien estructurado
+[0:25:36] que está, por lo confiable y bueno, esas
+[0:25:39] esas esos valores y esas características
+[0:25:41] que tal vez lo hacen mucho más caro,
+[0:25:44] pero al final de cuentas lo vale
+[0:25:49] Hay varios. Si quieren ahora les puedo
+[0:25:51] podemos ver ahorita
+[0:26:15] que se me olvida el nombre esto. como
+[0:26:17] minta algo.
+[0:26:22] M.
+[0:26:33] Eh, okay, aquí está.
+[0:26:36] Bueno, de las más conocidas también está
+[0:26:39] eh CDP o Coinbase Developer Platform.
+[0:26:43] Eh, es bastante buena y las más
+[0:26:46] conocidas. Prevy, Magic, Misten Laps.
+[0:26:49] Esas no las conozco, la verdad. Este,
+[0:26:51] esta esta de Magic Misten y Sequence no
+[0:26:53] las conozco. Siempre es bueno revisarlo.
+[0:26:56] Esta Crossmin sí la conozco. Es bastante
+[0:26:58] buena. Openford también. Ah, en este
+[0:27:01] sitio les va se los voy a mandar por el
+[0:27:03] Telegram ahora
+[0:27:06] este, pero en este sitio les va a
+[0:27:08] aparecer como todos los este los wallets
+[0:27:11] en bebidas.
+[0:27:13] Eh, y bueno, siempre van a haber más,
+[0:27:16] pero
+[0:27:17] en general creo que de aquí podrían
+[0:27:20] sacar al menos una que le sirva. Esta
+[0:27:23] Crossmint es bastante buena y creo que
+[0:27:25] al inicio no es tan cara. Entonces, si
+[0:27:27] van a empezar a hacer un producto,
+[0:27:28] Crossmint podría ser una buena forma de
+[0:27:30] empezar. Ah, aunque a la escala siempre
+[0:27:34] estas dos son como las más recomendables
+[0:27:36] por el nombre que tienen detrás. En este
+[0:27:38] caso esta pues Coinbase, que es de las
+[0:27:40] empresas más grandes en Estados Unidos y
+[0:27:43] Prevy, que también pues es bastante
+[0:27:44] buena.
+[0:27:46] Eh,
+[0:27:49] ahí les spoilé un poco del del quiz que
+[0:27:51] no debe ser eso, pero bueno, ahora
+[0:27:52] cambio las las respuestas.
+[0:27:55] Eh,
+[0:27:57] entonces, bueno, tenemos wallets en el
+[0:27:58] móvil, que esas son mucho más seguras,
+[0:28:03] al menos yo uso varias para gestionar
+[0:28:05] fondos en el celular.
+[0:28:07] Eh, está Phantom, está Solfare, que
+[0:28:10] todas estas tienen su extensión de
+[0:28:12] navegador, eh su versión móvil e
+[0:28:17] y creo que ya. Entonces, estaría
+[0:28:18] bastante bueno eh que si tienen una
+[0:28:21] extensión del navegador también tengan
+[0:28:22] una en el celular que es mucho más
+[0:28:24] segura, pues el celular no está tan
+[0:28:26] expuesto, archivos que descarguen y ese
+[0:28:28] tipo de cosas.
+[0:28:30] Eh, el sistema operativo del celular es
+[0:28:31] mucho más seguro que que el de cualquier
+[0:28:34] computador
+[0:28:35] eh a nivel de gestionar claves, cachés y
+[0:28:38] todo eso. Eh, ahora vamos con la SLI,
+[0:28:42] que bueno, fue lo que vimos la semana
+[0:28:43] pasada, cómo crear una wallet dentro del
+[0:28:45] CLI para testear. No, nunca conocí a
+[0:28:48] alguien que lo utilizara para gestionar
+[0:28:49] fondos reales.
+[0:28:51] No creo que sea la manera más segura de
+[0:28:53] hacerlo ni la mejor experiencia de
+[0:28:56] usuario, así que pues no hace mucho
+[0:28:58] sentido hacerlo, pero bueno,
+[0:29:00] son preferencias. Y la bebida que era lo
+[0:29:03] que les decía, que se crea dentro de la
+[0:29:05] aplicación con el
+[0:29:08] con el login, eh sea social, sea ex, eh,
+[0:29:13] Google, Facebook, lo que quieran. puede
+[0:29:16] crearse
+[0:29:18] wallets populares en Solana. Es son como
+[0:29:20] los tres nombres más escuchados.
+[0:29:23] Está Phantom, que es la más usada. Eh,
+[0:29:26] Phantom se conoce mucho por las mim
+[0:29:28] Coins. Eh,
+[0:29:30] no es como algo que recomienda hacer, la
+[0:29:33] verdad. Las m Coins, no es como el mejor
+[0:29:34] uso de las blockchains, pero bueno, ahí
+[0:29:36] está. también
+[0:29:38] eh tiene un registro simple y da la
+[0:29:40] opción, creo, de ser custodia o no
+[0:29:42] custodia, que pues esto es bastante
+[0:29:43] valioso. Está sulfer eh
+[0:29:48] extensión inmóvil y backpack. Entonces,
+[0:29:49] estas tres tienen extensión móvil.
+[0:29:51] También hay una que yo utilizo que se
+[0:29:53] llama Jupiter, que está bastante buena y
+[0:29:56] tiene varias, o sea, varios usos. Igual
+[0:29:59] la Wallet se puede crear, ¿no? Custodia.
+[0:30:01] Yo creé una cuenta con Google y hasta la
+[0:30:05] fecha me ha servido superb. Eh, se puede
+[0:30:08] hacer staking, se puede comprar acciones
+[0:30:11] e
+[0:30:13] entre otras cosas que se puede creo que
+[0:30:14] también tienen para abrir paquetes de
+[0:30:16] Pokémon y bueno, está bastante bueno.
+[0:30:18] Entonces, eh, si alguna de ustedes no
+[0:30:20] les gusta y quieren explorar más,
+[0:30:22] Júpiter es también otra opción.
+[0:30:24] E ah, bueno, y esto lo que dice es que,
+[0:30:28] por ejemplo, yo podría crear mi wallet
+[0:30:30] en Phantom. Eso sí, no custodia. Y si el
+[0:30:32] día de mañana quiero dejar de utilizar
+[0:30:34] Phantom porque no me gusta la nueva UX
+[0:30:36] que sacaron, puedo pasarme a Solfer
+[0:30:39] trayendo solo la la se phrase. Entonces
+[0:30:41] es como el concepto que veamos ahora.
+[0:30:44] Eh, ¿qué significa firmar? Eh, firmar
+[0:30:48] básicamente es
+[0:30:50] a nivel criptográfico es poner la
+[0:30:54] clave privada
+[0:30:56] y básicamente al firmarlo autorizo esa
+[0:30:58] transacción. Entonces, una vez está
+[0:31:00] firmado, no significa que ya está en la
+[0:31:02] blockchain, sino que una vez se firma,
+[0:31:04] se envía a la blockchain. E y aquí nos
+[0:31:08] pone el ejemplo, eh, por ejemplo,
+[0:31:09] utilizar un cambio onchain, enviar sol,
+[0:31:12] eh, swapear, mintear o pagar un fe, eh,
+[0:31:15] y eso pueden mover los fondos. Entonces,
+[0:31:16] por ejemplo, aquí transferir 1.5 sol a
+[0:31:19] esta cuenta. Eso hay que firmarlo. Si no
+[0:31:22] se firma, pues al final de cuentas no
+[0:31:23] puede ser variado por la blockchain y
+[0:31:25] pues no va a suceder.
+[0:31:27] eh firmar un mensaje. Eh, eso lo que
+[0:31:30] hace di básicamente es probar que la
+[0:31:32] dirección es es mía. Entonces, sin que
+[0:31:36] yo si yo no pruebo que la dirección es
+[0:31:38] mía, no no pasa nada en chain, porque al
+[0:31:40] final de cuentas es la puerta de entrada
+[0:31:42] para yo poder gestionar esos activos.
+[0:31:45] Eh, wallet standard es una interfaz
+[0:31:48] común para cualquier eh aplicación eh
+[0:31:52] que encuentre y conecte cualquier
+[0:31:53] wallet. Entonces, di, básicamente lo que
+[0:31:55] haces es un registro, las eh instaladas
+[0:31:57] se anuncian a la página, eh descubrir la
+[0:32:00] aplicación lista, todas las wallets
+[0:32:02] compatibles que encuentra y conectar,
+[0:32:04] que y básicamente es aprobar que la
+[0:32:06] aplicación reciba su dirección pública y
+[0:32:08] a veces hay otros permisos, pero eso hay
+[0:32:10] que tener mucho cuidado cuando uno va a
+[0:32:11] conectar un wallet en cualquier sitio,
+[0:32:13] el que sea, porque tengo personas muy
+[0:32:16] cercanas que han conectado, por ejemplo,
+[0:32:19] a aplicaciones como Uniswap, entran y
+[0:32:23] O sea, cliquearon el primer resultado
+[0:32:25] que les que les apareció en Google.
+[0:32:28] Normalmente esos son eh promocionados y
+[0:32:31] son aplicaciones falsas y cuando
+[0:32:33] conectan y firman un mensaje, a veces
+[0:32:35] dentro de ese mensaje viene como una
+[0:32:36] acción maliciosa en la cual les roban
+[0:32:37] fondos, eh lo que es muy peligroso.
+[0:32:40] Entonces, por eso hay que ser como muy,
+[0:32:42] yo le digo, ser muy celoso con la
+[0:32:44] wallet, no no dejarla que se conecte a
+[0:32:46] cualquier sitio web porque es peligroso.
+[0:32:49] Y bueno, también por eso la gestión como
+[0:32:51] responsable de no tener una wallet que
+[0:32:54] tenga fondos eh a largo plazo en el en
+[0:32:58] la extensión, por ejemplo, en el
+[0:32:59] navegador, porque pues al final de
+[0:33:01] cuentas el navegador lo expone
+[0:33:03] muchísimas cosas. Las páginas web pues y
+[0:33:06] pueden tener malware, eh podemos
+[0:33:08] descargar algo que no es o inclusive
+[0:33:09] firmar una transacción la cual nos
+[0:33:11] vulnere.
+[0:33:13] Eh,
+[0:33:15] teóricamente conectar solo comparte la
+[0:33:17] dirección, pero si les pide firmar, ahí
+[0:33:19] es donde hay que revisar que es lo que
+[0:33:20] se está haciendo. Eh,
+[0:33:24] pero si dice, por ejemplo, solo connect,
+[0:33:26] lo único que va a hacer es compartir la
+[0:33:27] dirección. E es que al final de cuentas
+[0:33:30] di la dirección es un dato público e y
+[0:33:33] es más como para autenticarse en la
+[0:33:35] aplicación y que la aplicación vea que
+[0:33:36] usted tiene un wallet.
+[0:33:39] Ya llegamos a seguridad. Eh, entonces
+[0:33:42] esto es un poco lo que les decía de los
+[0:33:44] seats y las estafas. Quien tiene el seat
+[0:33:46] phras es dueño de la wallet y no se le
+[0:33:48] puede pedir soporte a nadie. No es como
+[0:33:50] el banco que yo puedo decirle que ayer
+[0:33:52] me hackearon por eh $500 y que revisen
+[0:33:55] eso y hagan una investigación judicial.
+[0:33:57] No hay quien lo haga. Eh, y normalmente
+[0:34:01] cuando pasan ese tipo de cosas, pues no
+[0:34:03] hay nada que hacer más allá que
+[0:34:05] denunciarlo.
+[0:34:07] Ah, ya cuando son casos muy grandes,
+[0:34:09] como por ejemplo un hackeo a un
+[0:34:11] protocolo o así, intentan negociar, pero
+[0:34:13] no es como que el protocolo pueda
+[0:34:15] revocarles el dinero, sino que sería el
+[0:34:17] hacker el que tiene que estar dispuesto
+[0:34:19] a a
+[0:34:20] negociar.
+[0:34:22] Eh,
+[0:34:25] ¿con qué hay que tener cuidado? Bueno,
+[0:34:27] primero con los sitios de fishing, que
+[0:34:28] era la lo que les exponía. Si ustedes
+[0:34:30] buscan, o sea, no creo que pase ahorita
+[0:34:33] porque me imagino que ya está más
+[0:34:36] regulado esto, pero si por ejemplo yo
+[0:34:38] busco Uniswap,
+[0:34:42] okay, la primera que me sale es la
+[0:34:44] correcta, pero a veces o antes salían
+[0:34:46] resultados
+[0:34:47] eh promocionados y eso es muy peligroso.
+[0:34:51] Por ejemplo, si nosimos tal vez a la
+[0:34:52] tres, puede que salga algo que no es,
+[0:34:57] ¿no? En este caso creo que me imagino
+[0:34:59] que ya
+[0:35:01] está mucho más regulado, pero en su
+[0:35:03] momento e
+[0:35:06] pues pasó que
+[0:35:08] que alguien se conectó a a un sitio que
+[0:35:10] era fishing, estaba como promocionado.
+[0:35:12] Por eso cuando busquen algo en el
+[0:35:15] navegador que tengan, siempre asegúrense
+[0:35:17] que el que el sitio web es el correcto
+[0:35:20] porque puede cambiar una letra y ya es
+[0:35:23] un sitio de fishing el cual los pone a
+[0:35:25] firmar una transacción. eh que está
+[0:35:28] haciendo algo pues indebido,
+[0:35:30] eh nunca les, o sea, en ningún lado les
+[0:35:33] van a pedir su seat face. El sef jamás
+[0:35:35] tiene que compartirse por nada del
+[0:35:37] mundo. El seface, o sea, lo que hace es
+[0:35:39] literalmente arr a las puertas de la
+[0:35:40] casa o bueno, de la Wallet, eh, para que
+[0:35:44] cualquiera pueda entrar y hacer lo que
+[0:35:45] quiera, o sea, ya con el seat yo hago lo
+[0:35:47] que quiera con con la wallet, entonces
+[0:35:49] hay que tener mucho cuidado. Airdrops
+[0:35:51] falsos. Eh, no sé si conocen el término
+[0:35:53] de airdrops, pero bueno, un airdrop es
+[0:35:55] eh es como una manera de marketing
+[0:35:58] cuando alguien va a sacar un token.
+[0:36:00] Entonces, ellos a cambio de de actividad
+[0:36:03] de los usuarios les dan como a cambio un
+[0:36:06] un airdrop que es como tokens.
+[0:36:09] eh era muy famoso en 2021, 2020, 2022
+[0:36:13] inclusive, pero bueno, ya no es tan
+[0:36:15] común porque ya hay muchísima actividad
+[0:36:16] y realmente eh es una manera de
+[0:36:19] marketing muy cara y la gente empezó a
+[0:36:22] aprovecharse los airdrops para estafar.
+[0:36:24] Entonces decían como, "Ah, sí está este
+[0:36:26] airdrop y tienen que hacer tales cosas."
+[0:36:28] y por ejemplo era una acción maliciosa,
+[0:36:31] entonces les robaban o acepta, por
+[0:36:33] ejemplo, si se acepta un token este y
+[0:36:36] les dice cómo reclamar, tengan cuidado
+[0:36:38] porque los pueden poner a firmar algo,
+[0:36:40] eh, y en ese caso pues es super
+[0:36:42] peligroso y que tener mucho cuidado. y
+[0:36:45] los drainers, que es que una sola firma
+[0:36:47] maliciosa puede vaciar todos los tokens
+[0:36:49] de una wallet
+[0:36:51] y si esto es más pues gestión de de de
+[0:36:54] la wallet fría a la wallet caliente,
+[0:36:56] pero al final de cuentas siempre estamos
+[0:36:58] expuestos a esto, entonces por eso
+[0:36:59] siempre hay que tener mucho cuidado. Hay
+[0:37:01] ciertas, o sea, hay como otras medidas
+[0:37:04] las cuales se pueden utilizar. Creo que
+[0:37:06] hay unas extensiones que revisan eh si
+[0:37:09] la transacción es maliciosa o no, si el
+[0:37:11] sitio es común.
+[0:37:13] Eh, conozco una wallet de Ethereum que
+[0:37:16] se llama Raby y cuando uno se va a
+[0:37:18] conectar a un lugar le dice como la
+[0:37:20] popularidad de ese sitio. Entonces,
+[0:37:22] normalmente si un sitio no muy visitado,
+[0:37:24] pues es raro que, o sea, es raro que
+[0:37:27] alguien se conecte. Entonces, como que
+[0:37:28] le avisa al al usuario como este sitio
+[0:37:31] no es no es como muy conocido, te da
+[0:37:34] cuidado. O cuando lo está poniendo a
+[0:37:36] firmar una transacción le va a decir
+[0:37:37] como, "Esta transacción se ve maliciosa,
+[0:37:38] te da cuidado." Pero bueno, al final de
+[0:37:40] cuentas el que tiene el poder sobre
+[0:37:41] firmar o no es uno. Si no aprieta a
+[0:37:43] firmar, pues firma.
+[0:37:45] Eh, y algo con lo que hay que tener
+[0:37:48] mucho cuidado es que si es urgente,
+[0:37:50] gratis o demasiado bueno para ser
+[0:37:51] verdad, deténganse ahí, eh, porque no
+[0:37:54] hay un deshacer eh, en cuanto a
+[0:37:57] transacciones.
+[0:37:58] Entonces, en algún momento alguien les
+[0:38:00] cuenta sobre algo que hay que hacer ya o
+[0:38:02] un airdrop o algo que suena raro
+[0:38:04] realmente, o sea, el concepto de plata
+[0:38:07] gratis yo no creo que que exista,
+[0:38:10] siempre hay como un esfuerzo detrás, eh,
+[0:38:13] entonces hay que tener mucho cuidado con
+[0:38:15] eso porque, o sea, es es muy común y
+[0:38:19] inclusive a uno, dependiendo de la
+[0:38:22] wallet que use, a veces le mandan
+[0:38:24] airdrops y di, como es una llave
+[0:38:26] pública, di lo va a recibir ir la
+[0:38:28] wallet, pero uno puede como filtrarlo y
+[0:38:32] y tener cuidado con con esos porque al
+[0:38:35] final de cuentas no tienen un valor real
+[0:38:37] y simplemente lo que están haciendo es
+[0:38:38] querer estafar.
+[0:38:40] Eh,
+[0:38:45] está
+[0:38:47] firma segura y buenos hábitos. Entonces,
+[0:38:50] siempre antes de firmar, mi
+[0:38:52] recomendación es seguir estos tres
+[0:38:53] pasos. Primero, revisar el sitio, que la
+[0:38:55] URL sea la correcta. Luego revisar la
+[0:38:58] vista previa. Eh, solo debe salir la
+[0:39:00] wallet, eh, o sea, solo debe salir lo
+[0:39:02] que uno espera. Entonces, por ejemplo,
+[0:39:03] si ustedes van a transferir tres Solana,
+[0:39:06] no deberían estar transfiriendo más de
+[0:39:09] 3.005
+[0:39:12] Solana, porque bueno, siempre está el F
+[0:39:15] Lampard, ¿verdad? E pero ya si es por
+[0:39:18] ejemplo 3.5 Solana y están mandando casi
+[0:39:21] que ahorita con el precio Solana están
+[0:39:23] como $0 de más, eh, entonces pues hay
+[0:39:27] que realizar siempre eso y hay que hacer
+[0:39:30] caso a las a las alertas. Entonces
+[0:39:33] si sale alguna una alerta, pues hay que
+[0:39:35] rechazar y o sea, tipo, si ustedes no
+[0:39:38] han firmado, no ha pasado nada aún,
+[0:39:40] entonces el botón de rechazar eh es lo
+[0:39:42] que hay que hacer. hábitos diarios. Eh,
+[0:39:45] y esto es lo que les decía, eh, tener
+[0:39:47] wallet separadas, siempre hay que tener
+[0:39:49] la Borner o la wallet caliente, como
+[0:39:51] prefieran llamarlo, para hacer
+[0:39:53] experimentos, aplicaciones nuevas, mins,
+[0:39:56] eh,
+[0:39:58] es como lo más común y la OBA, que es
+[0:40:01] donde se guardan los fondos y esta no se
+[0:40:02] debería conectar a ningún sitio, sino
+[0:40:04] que para conectarnos a sitios, por
+[0:40:05] ejemplo, si queremos meter fondos en
+[0:40:07] algún sitio, lo ideal es yo paso el
+[0:40:11] dinero que tengo en la bóveda a otra
+[0:40:13] wallet y esa wallet es la que se conecta
+[0:40:14] a ese sitio, pero no directamente la ODA
+[0:40:17] porque ahí se gestionan muchos, o sea,
+[0:40:19] ahí es donde se gestiona la mayoría de
+[0:40:21] los fondos y el respaldo offline que es
+[0:40:25] eh en papel o metal hay unos
+[0:40:27] dispositivos que se me olvida el nombre
+[0:40:29] donde no puede guardar el seat phrase y
+[0:40:31] también en papel nunca tengan un solo
+[0:40:33] papel porque bueno, es peligrosísimo que
+[0:40:36] se queme, se moje, lo sea que sea lo que
+[0:40:38] le pase. Entonces, hay que tener
+[0:40:40] cuidado.
+[0:40:42] Nunca en capturas porque bueno, si
+[0:40:44] alguien abre sus fotos, por ejemplo,
+[0:40:46] tiene acceso a su wallet, no queremos
+[0:40:47] eso. Notas en la nube tampoco, no
+[0:40:50] queremos eso porque si les saquean
+[0:40:52] iCloud o le saquean
+[0:40:56] si les saquean alguna de esas nubes,
+[0:40:57] pues tienen acceso a sus fondos y no es
+[0:41:00] la idea. Tampoco en el email, tampoco en
+[0:41:04] email ni chat, porque bueno, también si
+[0:41:06] terminan siendo hackeados, pues es lo
+[0:41:07] primero que les van a comprometer.
+[0:41:10] Y ahora vamos a a ver una demo. Entonces
+[0:41:14] lo vamos a hacer de cero. Realmente yo
+[0:41:16] no tengo ahorita ni creo que si no tengo
+[0:41:19] ninguna de Solana instalada en el en el
+[0:41:25] en el navegador porque normalmente las
+[0:41:27] conecto desde el celular.
+[0:41:29] Este, entonces vamos a buscar una wallet
+[0:41:32] de Solana para eso salió.
+[0:41:58] Okay, vamos a ver qués tengo. Y sí, aquí
+[0:42:02] no tengo en el celular.
+[0:42:05] Vamos a buscar
+[0:42:07] Wal de Solana.
+[0:42:14] Entonces vamos a Razer Phantom.
+[0:42:20] Si van a buscar una wallet, les
+[0:42:22] recomiendo que se vengan aquí a al sitio
+[0:42:24] oficial de Solana Solana.com
+[0:42:27] y aquí ellos pues recomiendan que Wallet
+[0:42:29] utilizar. Entonces, aquí les dice como
+[0:42:35] aquí les dice las digamos qué wallet, o
+[0:42:37] sea, cuáles son más destacadas y como
+[0:42:38] para qué se utilizan. Por ejemplo, fuse
+[0:42:40] se utiliza para smart recovery and
+[0:42:42] spending. Solfur se utiliza para Solana
+[0:42:44] Pay, staking y NFTs. Phantom se utiliza
+[0:42:47] multichain y social recovery. Jupiter
+[0:42:50] gasless swaps, eh, enviar y pagos. Eh, y
+[0:42:55] aquí están como todas las billeteras.
+[0:42:57] posiblemente hay más, solo que bueno,
+[0:42:58] estas son las que listas, me imagino que
+[0:43:01] pasan por algún proceso de auditoría o
+[0:43:03] pues algo así e para estar aquí
+[0:43:05] listadas. Entonces pues estas diría yo
+[0:43:08] que son bastante confiables. Igual
+[0:43:09] siempre hagan su propio research sobre
+[0:43:12] la la wallet que van a utilizar porque
+[0:43:13] al final de cuentas es como escoger un
+[0:43:15] banco.
+[0:43:17] E
+[0:43:20] ah bueno, son 158 y estamosando 17.
+[0:43:23] Entonces, las más comunes, como les
+[0:43:24] decía, Sulfare, Phantom, Jupiter y
+[0:43:27] Backpack, que está por ahí,
+[0:43:30] ¿eh? Y en este caso,
+[0:43:33] vamos a ver si tiene. Sí, Jupiter, eh,
+[0:43:36] que es mi favorita, tiene para para
+[0:43:39] navegador. Entonces, vamos a ver.
+[0:43:44] Conectar
+[0:43:49] Jupiter ID.
+[0:43:56] Entonces aquí, bueno, que añadir la
+[0:43:58] extensión. Entonces vamos a darle
+[0:44:00] agregar a Chrome
+[0:44:02] addension.
+[0:44:04] E entonces aquí ya me dice como para
+[0:44:06] crear mi propia wallet.
+[0:44:09] Entonces aquí dice create a new wallet o
+[0:44:11] import. Entonces usted ya tienen una
+[0:44:12] wallet de import. En este caso vamos a
+[0:44:14] crear una de cero. Entonces vamos a
+[0:44:16] darle new wallet.
+[0:44:18] Aquí nos da la opción eh de un seat pace
+[0:44:21] o un Jupiter ID. Entonces eh depende de
+[0:44:24] lo que ustedes quieran hacer y para qué
+[0:44:26] lo vayan a usar. Por ejemplo, si es una
+[0:44:28] wallet así como una Borner, puede ser
+[0:44:30] una custodia, no, no hay mucho problema
+[0:44:32] con eso. Si es una wallet de
+[0:44:36] custodia activos o una wallet fría, pues
+[0:44:39] realmente es mejor el seat phrase.
+[0:44:40] Entonces aquí score seat phase. Eh,
+[0:44:44] bueno, aquí es meramente ejemplo. Luego
+[0:44:46] esto voy a borrarla porque bueno, va a
+[0:44:48] quedar en video, pero bueno, esta es una
+[0:44:50] es el sheet phrase que me va a salir. En
+[0:44:53] este caso yo lo lo borro. Voy a tomar un
+[0:44:56] screenshot porque la no me, o sea, no me
+[0:44:59] las voy a dejar. Posiblemente ahora la
+[0:45:01] borro este y es para simplemente tenerla
+[0:45:05] ahí, tener el acceso ahorita porque nos
+[0:45:07] va a pedir verificarla. Entonces aquí le
+[0:45:09] damos continue y aquí nos va a pedir un
+[0:45:12] label. Entonces voy a poner testing
+[0:45:17] solana
+[0:45:19] bootcamp.
+[0:45:21] Bueno, ahí me queda sin caracteres.
+[0:45:23] Instalada. Enter password. Entonces voy
+[0:45:25] a poner
+[0:45:27] eh
+[0:45:36] y si quiero desbloquear con bométricos,
+[0:45:38] no, no quiero yo desbloquear
+[0:45:39] comométricos.
+[0:45:40] Aquí nos da como unas settings
+[0:45:42] recomendadas. E no, esto tiene un
+[0:45:46] expanding limit porque Jupiter tiene
+[0:45:47] para una tarjeta
+[0:45:49] eh de Visa, entonces podrían gastar
+[0:45:52] desde Jupiter utilizando Ste Coins.
+[0:45:55] Y ya aquí ya se creó la wallet, entonces
+[0:45:59] nada más vamos a venir acá. Jupiter
+[0:46:00] wallet, lo abrimos y aquí tenemos cero
+[0:46:04] cero en fondos.
+[0:46:06] Y pues aquí uno puede recibir en Solana,
+[0:46:09] aquí copiar la dirección o también en
+[0:46:11] otras eh en otras reduci
+[0:46:16] en Hyper, EBM, Robin Hood, BNB, SUI,
+[0:46:20] Arbitro, Base y Etherum, pero es
+[0:46:22] principalmente Solano.
+[0:46:26] Bueno, aquí tienen como sus taps,
+[0:46:27] entonces para NFTs, actividad defi,
+[0:46:30] tokens,
+[0:46:31] puede se puede comprar con tarjeta, pid
+[0:46:34] se puede recibir desde otras chains y
+[0:46:36] reciben sola, ¿no?
+[0:46:39] E
+[0:46:41] y uno tiene que poder configurar la
+[0:46:44] Bueno, aquí se puede este exportar la
+[0:46:47] semilla, se puede cambiar el nombre de
+[0:46:50] la wallet y puede se pueden crear más
+[0:46:52] wallets y también se puede ver en el
+[0:46:54] explorador. Pues vamos a scen
+[0:46:57] y aquí está la wallet. En este caso,
+[0:46:59] ¿dónde estamos?
+[0:47:03] Okay. Ma beta. Entonces dentro de main
+[0:47:05] beta existe esta wallet y tiene pues ahí
+[0:47:08] toda la información. No tienen nada
+[0:47:10] porque la acabamos de crear.
+[0:47:13] Eh, vamos a abrirlo acá.
+[0:47:16] Bueno, también él le pide que uno lo
+[0:47:18] opinee. Entonces, ya ustedes aquí lo
+[0:47:20] opinean y ya les va a aparecer
+[0:47:22] eh siempre, digamos, cuando está activo
+[0:47:24] el navegador.
+[0:47:26] Eh,
+[0:47:28] y bueno, ya pues uno podría conectarse a
+[0:47:31] algún sitio. Hm,
+[0:47:35] voy a revisar qué sitio puedo conectarme
+[0:47:37] para probar.
+[0:48:05] Bueno, aquí me dieron aquí me dio un
+[0:48:06] sitio de ejemplo. Vamos a ver si si es
+[0:48:08] sitio.
+[0:48:13] Entonces, esto es como un ejemplo.
+[0:48:14] Entonces, aquí le da select wallet, aquí
+[0:48:17] le da las opciones. Entonces, yo
+[0:48:19] selecciono Jupiter,
+[0:48:21] aquí me dice firmar mensaje.
+[0:48:24] Eh, este sitio quiere que yo me loguee
+[0:48:27] con mi cuenta de Solana y aquí uno puede
+[0:48:30] firmar. Eh, aquí es muy importante que
+[0:48:33] veamos que no estamos conectando, aquí
+[0:48:35] estamos firmando directamente. Entonces,
+[0:48:37] eso es un método de autenticación que
+[0:48:38] utilizan algunas algunos sitios que
+[0:48:40] también podría ser malicioso, pero en
+[0:48:41] este caso no se ve que haya ningún
+[0:48:44] ningún traslado a fondos, solo un texto
+[0:48:48] que dice que se que se loguee. Entonces,
+[0:48:52] aquí vamos a darle signor riesgo.
+[0:48:56] Y aquí ya pues sale la wallet. E aquí
+[0:49:00] uno puede, bueno, eso es como más para
+[0:49:02] hacer UI, entonces es como una es un
+[0:49:04] sitio para probar eso. Entonces aquí le
+[0:49:06] va uno para copiar, para cambiar la
+[0:49:08] guet, para desconectarla. Eh, puede
+[0:49:10] hacer un request de un airdrop. Eh,
+[0:49:12] bueno, ahí falló por error de la vez
+[0:49:14] pasada, entonces hay que pedirlo
+[0:49:15] directamente en el faet
+[0:49:18] e para firmar un mensaje. Por ejemplo,
+[0:49:20] aquí lo que nos dice es quiere que
+[0:49:23] firme. Entonces, uno aquí te firma y ya.
+[0:49:26] E
+[0:49:28] entonces por ese lado sería lo de
+[0:49:33] lo, o sea, lo de conectar la guet y
+[0:49:35] firmar mensajes.
+[0:49:37] Eh, entonces ya vamos a hablar de una
+[0:49:39] vez la W porque no quiero tenerla.
+[0:49:43] La super expuse, entonces hay que tener
+[0:49:47] cuidado con eso.
+[0:49:57] No lo abro después de la clase.
+[0:50:00] Eh, pero bueno, voy a quitar la
+[0:50:01] extensión porque no me interesa utilizar
+[0:50:03] Jupiter dentro del navegador.
+[0:50:14] Ah, no quiero ver feedback.
+[0:50:17] Ya, aquí la quité.
+[0:50:21] Eh, entonces, bueno,
+[0:50:23] aquí corriendo esto,
+[0:50:30] se me escucha.
+[0:50:36] Ah, entonces, bueno, ya ahí vimos cómo
+[0:50:38] se quedaron una desde cero en Júpiter,
+[0:50:40] eh, y cómo utilizarla.
+[0:50:44] Eh, hicimos la búsqueda ya explorador,
+[0:50:46] tenía cerol. Y bueno, en resumen,
+[0:50:48] entonces lo que vimos es una wallet que
+[0:50:51] guarda las llaves, los fondos viven on
+[0:50:53] chain, eh la dirección es la la llave
+[0:50:56] pública eh de ese formato y la seat pace
+[0:51:00] restaura todo. Entonces eh normalmente,
+[0:51:04] o sea, guardenla offline que no sea como
+[0:51:07] en algún lugar donde alguien pueda
+[0:51:08] tenerla. Eh inclusive si es un papel, o
+[0:51:12] sea, ténganlo bastante escondido, que no
+[0:51:13] cualquier persona pueda verlo, ¿eh?
+[0:51:18] Firmar una atracción siempre mueve
+[0:51:19] montos y firmar un mensaje solo prueba
+[0:51:21] que es tuya, que es lo que vimos ahora
+[0:51:22] en esa página. Entonces, eh si le sale
+[0:51:25] como solo un texto, pues está bien,
+[0:51:28] digamos, es meramente autenticación,
+[0:51:29] pero si sale como que ya van a mover
+[0:51:31] fondos o hay algún fi que están
+[0:51:32] cobrando, pónganle o porque puede ser
+[0:51:34] alguna estafa,
+[0:51:37] eh, y hay que leer cada vista previa
+[0:51:38] porque, bueno, es gratis, lo pueden
+[0:51:40] hacer este y hasta que no se firme no ha
+[0:51:43] sucedido nada. Y bueno, eso es eso es
+[0:51:45] como parte lo que vimos hoy. Pues aquí
+[0:51:47] se me descaró.
+[0:51:52] Eh, no sé si alguien tiene preguntas
+[0:51:54] para lo que vimos hoy.
+[0:51:57] Eh, si sí, pues pueden abrir el
+[0:51:59] micrófono o hacerlo por el chat.
+[0:52:01] Eh, y si adaptaron el se bien este
+[0:52:06] y eso sería por la clase de hoy.
+[0:52:09] Eh,
+[0:52:11] bueno, dejaron ahí
+[0:52:17] cómo se manejaría Multisignature?
+[0:52:20] Eh, esa es una buena pregunta. Y bueno,
+[0:52:23] el multisignature
+[0:52:25] e para los que no han los que no están
+[0:52:28] familiarizados con el concepto, son
+[0:52:30] wallets que ocupan más de una firma para
+[0:52:32] que una transacción funcione. Entonces
+[0:52:35] es una manera de hacer como un quórum
+[0:52:37] para que todos nos pongamos de acuerdo
+[0:52:40] en que algo pase. Por ejemplo, eh
+[0:52:44] nosotros en Fabi y yo en el startup que
+[0:52:46] tenemos para recibir fondos, para
+[0:52:49] manejar todo esto, utilizamos una
+[0:52:51] multisic porque lo que, o sea, es la
+[0:52:52] manera de nosotros eh respaldarnos cada
+[0:52:56] uno que se hace lo que el equipo diga y
+[0:52:57] no solo uno, o sea, no no solo una
+[0:53:00] persona tiene poder sobre los montos que
+[0:53:03] hay en la wallet. Entonces, eh, de eso
+[0:53:05] se gestiona dependiendo del proveedor.
+[0:53:07] Vamos a buscar aquí en Wallet Solona,
+[0:53:10] tal vez aquí nos pone la opción de
+[0:53:13] multisig multifirma. Aquí está.
+[0:53:15] Entonces, estas son las wallets que
+[0:53:16] permiten multifirma. Nosotros utilizamos
+[0:53:18] squats, eh, específicamente
+[0:53:21] squats tiene una UI y una UX bastante
+[0:53:24] buena. Yo la recomiendo bastante, nos ha
+[0:53:26] servido montones y, o sea, se
+[0:53:29] normalmente se gestiona de de manera que
+[0:53:33] si por ejemplo son cuatro personas en un
+[0:53:35] equipo e se firme por la mayoría. Es
+[0:53:39] decir, si hay tres de acuerdo y uno no,
+[0:53:41] pues la mayoría firman y si el si uno no
+[0:53:44] firma, está bien, la transacción igual
+[0:53:45] se hace porque la mayoría ha firmado,
+[0:53:47] pero todo eso se puede pues configurar
+[0:53:49] cuando están haciendo la wet. Entonces,
+[0:53:50] yo quiero que una transacción sea solo
+[0:53:53] si cuatro. ¿Estamos de acuerdo? también
+[0:53:55] se puede hacer. Eh, en este caso di es
+[0:53:58] configurarlo en el sitio que lo estén
+[0:53:59] haciendo. En este caso, pues aquí se
+[0:54:01] gestiona desde squats, pero aquí en el
+[0:54:04] sitio de Solar pueden ver que también
+[0:54:06] Backpack, Viws, Nova y Samsung ofrecen
+[0:54:08] esa opción. Entonces, eh por ese lado sí
+[0:54:12] pueden usar cualquiera de esas y y son
+[0:54:15] bastante buenas, ¿eh? Y sí, a diferencia
+[0:54:18] de las de las wallets tradicionales, las
+[0:54:21] multifirma tienen como esa
+[0:54:22] particularidad de que requieren cierta
+[0:54:24] cantidad de firmas, eh,
+[0:54:27] y es configurable, o sea, dependiendo de
+[0:54:30] qué acción también se puede configurar.
+[0:54:32] Es decir, si van a mover fondos, se
+[0:54:33] necesita tanta aprobación, o sea, o
+[0:54:36] tantas firmas. Si van a, por ejemplo, a
+[0:54:39] cambiar algo de la wallet como tal, se
+[0:54:41] necesitan todas las firmas,
+[0:54:44] ¿eh? Y ahí se va haciendo como por se
+[0:54:46] les dice thresholds. Entonces el
+[0:54:47] threshold lo que hace es definir como, o
+[0:54:50] sea, qué tanto poder tiene cada firma. E
+[0:54:53] inclusive hay algunos casos donde una
+[0:54:55] wallet tiene más poder sobre la otra.
+[0:54:58] Entonces, si esa Wet firma, ya tiene un
+[0:55:00] 50% de aprobación, por ejemplo. Eh, y
+[0:55:03] bueno, ya a nivel de producción, cuando
+[0:55:05] son equipos grandes, esto es lo que más
+[0:55:06] se utiliza porque es la manera más
+[0:55:07] segura de gestionar los fondos donde no
+[0:55:09] solo una wallet o no solo una persona
+[0:55:11] tienen poder sobre ella, sino que son
+[0:55:12] varios que tienen que ponerse de acuerdo
+[0:55:13] para hacerlo.
+[0:55:15] Inclusive, bueno, esto le dificulta un
+[0:55:17] montón el tema de hackeos a las a los
+[0:55:19] hackers porque ocupan vulnerabilizar no
+[0:55:23] solo un dispositivo, sino cuatro o
+[0:55:25] cinco, lo cual ya se vuelve más
+[0:55:28] complicado. E aunque ha pasado, el año
+[0:55:32] pasado hubo un hackeo a si no me
+[0:55:34] equivoco fue a Bybit y, o sea,
+[0:55:37] vulneraron eh la cantidad de
+[0:55:40] dispositivos que necesitaban para sacar
+[0:55:42] los fondos. Entonces sí hay que ser como
+[0:55:43] muy hermético y cuidadoso cuando uno
+[0:55:45] gestiona una multisic.
+[0:55:48] Ah, pero sí, bueno, en ese caso eh así
+[0:55:51] funciona la multisic. Eh, igual si si
+[0:55:54] quisieran tienen la duda, quieren verlo
+[0:55:55] más a fondo, podemos hacerlo. Aunque
+[0:55:58] digamos a nivel de del hackaton,
+[0:56:01] ¿no? O sea, normalmente uno cuando hace
+[0:56:03] un DAP normalmente no tiene su, o sea, o
+[0:56:05] cuando hace la primera versión, la
+[0:56:07] prueba concepto, normalmente el support
+[0:56:09] para multix no está porque, o sea,
+[0:56:13] dependiendo del usuario final no tiene
+[0:56:14] mucho sentido eh tener multix, eh, pero
+[0:56:18] bueno, siempre es una opción más que hay
+[0:56:20] que tener y vale la pena. eh tomar en
+[0:56:23] cuenta.
+[0:56:25] Eh, entonces, bueno, de esa manera se
+[0:56:26] gestiona los multis. No sé si alguno
+[0:56:28] tiene por ahí otra pregunta, eh, o sí,
+[0:56:31] todo bien. Eh, en lo que llevamos de
+[0:56:33] clase, quedo pendiente de subirles el
+[0:56:36] quiz y decirles como por qué medio
+[0:56:39] pueden hacerlo. Ah, y sio, eso sería de
+[0:56:43] mi parte por esta semana. Mañana va Fabi
+[0:56:46] y el miércoles también y les va a seguir
+[0:56:48] hablando un poco de la arquitectura, las
+[0:56:50] transacciones, eh,
+[0:56:52] y y si se van a entrar un poco más ya en
+[0:56:54] el lado técnico detrás de de todo esto.
+[0:56:57] Entonces, creo que va a ser una semana
+[0:56:58] muy interesante donde se va a aprender
+[0:56:59] un montón eh sobre sobre Solana, este, y
+[0:57:04] los ya no no lo más básico, sino ya
+[0:57:07] principios y un poco más intermedios,
+[0:57:10] eh, que de igual manera son bastante
+[0:57:11] sencillos de entender y el y la tarea
+[0:57:14] que que se las vamos a dejar esta semana
+[0:57:16] también. Eh, entonces sí, yo creo que
+[0:57:20] por hoy estaríamos con la clase. No sé
+[0:57:22] si alguno tiene una duda, lo que sea,
+[0:57:24] puede preguntar y si no, pues estamos
+[0:57:26] por ahí.
+[0:57:27] Muchas gracias. Una última duda, este
+[0:57:31] eh cuando usted esta explicá en estaba
+[0:57:33] entrando en en internet, está no nos
+[0:57:36] está mostrando su diferentes tipos de
+[0:57:37] billeteras y de lo que tiene Solana de
+[0:57:40] creo que se llama DPS y
+[0:57:43] es es como una wallet estándar, si no me
+[0:57:45] equivoco.
+[0:57:47] No sé si si eso podríamos este
+[0:57:49] conectarlo como un con como una librería
+[0:57:52] que
+[0:57:54] eh con es para que tengan una mejor
+[0:57:57] personalidad con el cliente, se podría o
+[0:57:59] hay otra mejor con Solana Wallet adapter
+[0:58:01] track,
+[0:58:03] o sea, no tení muy bien,
+[0:58:06] no entendí muy bien la pregunta, es que
+[0:58:08] se te cortó un poco, puedesar un poco
+[0:58:09] más lento.
+[0:58:11] Este, no que aparte de la billetera de
+[0:58:13] de Wes de Solana de, o sea, la W
+[0:58:17] estándar, no es que hay de que se puede
+[0:58:19] conectar eh a través de la librería con
+[0:58:22] esa gente, no es un agente, pero la la
+[0:58:25] cuestión es que lo personaliza la
+[0:58:26] billetera para que pueda tener una mejor
+[0:58:28] interacción con el cliente, pero no sé
+[0:58:30] si hay otra mejor que me recomiendo
+[0:58:32] porque yo recién me estoy entrando en
+[0:58:33] este mundo de BL Chan y por eso
+[0:58:35] pregunto,
+[0:58:37] eh, o sea, sí, o sea, ese estándar se
+[0:58:39] puede personalizar realmente
+[0:58:42] Creo que en ese lado no no buscaría
+[0:58:45] otra, no hace falta reinventar la rueda
+[0:58:47] como por ese lado. O sea, igual si hay
+[0:58:49] algo que más aplicado a tu caso de uso
+[0:58:52] sirva más, pues puedes tomarlo en
+[0:58:54] cuenta, pero yo yo digamos no nunca he
+[0:58:56] usado otra, entonces no sabría
+[0:58:58] recomendarte alguna, pero si si
+[0:59:02] encontras alguna, me la puedes mandar y
+[0:59:04] y podemos verlo. Tal vez eh sea sea
+[0:59:07] interesante. También hay que tener
+[0:59:08] cuidado porque esos estándares, eh, o
+[0:59:10] sea, son como muy propios de la de la
+[0:59:13] fundación. Entonces, hay que hay que
+[0:59:15] revisar siempre qué es lo que se está, o
+[0:59:18] sea, qué es lo que está detrás del
+[0:59:19] código.
+[0:59:22] Ya, gracias.
+[0:59:25] Listo.
+[0:59:32] Bueno, entonces si nadie más tiene dudas
+[0:59:33] estaríamos por hoy. Muchas gracias.

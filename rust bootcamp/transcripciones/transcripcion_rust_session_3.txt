@@ -1,0 +1,1561 @@
+# Transcripción: Session 3
+URL: https://www.youtube.com/watch?v=gZLBW0FJbHk
+
+[0:01:29] Okay, so let's wait a bit.
+[0:01:33] Santiago, you are teaching today?
+[0:01:38] Yes, I am.
+[0:01:41] Nothing else is coming to
+[0:01:43] All right. I didn't hear us.
+[0:01:49] Okay.
+[0:01:51] So yeah, any question in terms of
+[0:01:54] logistics?
+[0:01:56] Actually, you are like a small group, so
+[0:01:58] I would
+[0:01:59] you to
+[0:02:00] just like
+[0:02:02] connect between each others
+[0:02:05] because like compared to the
+[0:02:08] English courses like English courses
+[0:02:11] some people in here let's
+[0:02:14] so
+[0:02:16] it's it's good for also
+[0:02:18] yes interacting
+[0:02:22] so so yeah just wanted to
+[0:02:25] to mention that
+[0:02:27] and we gonna wait yes like three minutes
+[0:02:33] and yeah
+[0:02:34] Sure.
+[0:02:36] Any questions arise around like the
+[0:02:39] maybe
+[0:02:41] the app
+[0:02:44] things like this as the bot
+[0:02:48] don't hesitate to to ask I remember
+[0:02:52] [risas]
+[0:02:52] when we were doing bootcamp last year it
+[0:02:55] was not this kind of
+[0:02:59] it was like freestyle one
+[0:03:01] freestyle organization
+[0:03:03] and
+[0:03:05] right now
+[0:03:06] it's like
+[0:03:08] more organized let's say
+[0:03:10] with the platform etc
+[0:03:13] what is super team I know super team is
+[0:03:15] like a community local community
+[0:03:18] so basically for example
+[0:03:20] in Latin America there is like super
+[0:03:22] team Brazil super team Argentina
+[0:03:25] and so they are there to support local
+[0:03:28] builders
+[0:03:29] so basically if you are building a
+[0:03:31] project if you want to participate into
+[0:03:34] like a local bootcamp there are still
+[0:03:37] like different kind of initiative
+[0:03:39] especially just for
+[0:03:41] a specific country
+[0:03:44] so yeah on our end is more like global
+[0:03:49] global
+[0:03:51] and regional then
+[0:03:53] because we are hosting in in Spanish
+[0:03:55] it's our first time
+[0:03:58] like really
+[0:04:00] teaching Solana in Spanish, so
+[0:04:04] yes, quite new.
+[0:04:08] Um, all right.
+[0:04:11] But like
+[0:04:13] all
+[0:04:15] all session are also available after the
+[0:04:18] boot camp, etc. So you have access to
+[0:04:20] the space.
+[0:04:22] Uh, what matters the most is like asking
+[0:04:24] for help, asking for question,
+[0:04:28] etc.
+[0:04:32] Okay.
+[0:04:34] So in one minute
+[0:04:36] people are always late by the way.
+[0:04:41] So
+[0:04:51] for the hackathon which are the filters.
+[0:04:53] So basically
+[0:04:55] um
+[0:04:56] it's about building on Solana on Solana,
+[0:04:59] yes. So they are trying a program on
+[0:05:01] Solana and also we are checking at which
+[0:05:04] point you are integrating deeply Solana.
+[0:05:08] Uh, if it's like just
+[0:05:10] uh setting uh
+[0:05:12] USDC on Solana
+[0:05:14] we don't see any value.
+[0:05:17] [risas]
+[0:05:17] But like
+[0:05:18] um think about how you can maybe
+[0:05:23] uh integrate as well um
+[0:05:27] uh Jupiter if you are building in DeFi,
+[0:05:30] things like this. Um, so
+[0:05:33] yeah, and also another thing we are
+[0:05:35] checking is uh
+[0:05:37] at which point is kind of relevant as a
+[0:05:40] use case.
+[0:05:41] Because we
+[0:05:43] we see like a lot of payment app
+[0:05:46] and uh we are a bit fed up.
+[0:05:49] [risas]
+[0:05:50] Like because what's matter is like
+[0:05:55] um what is the difference? Because if
+[0:05:57] everyone is building a payment app,
+[0:06:00] okay, but what you should do is like
+[0:06:03] building something that matter for like
+[0:06:06] you have an impact on.
+[0:06:08] For example,
+[0:06:10] I don't know
+[0:06:12] I I'm I'm thinking of a member in
+[0:06:14] Argentina who is building a payment hub
+[0:06:17] but is really just design
+[0:06:20] for a local market in Argentina.
+[0:06:23] It's not like
+[0:06:24] forever.
+[0:06:26] And it's quite original by the way, so
+[0:06:28] yeah. I mean, it's something that we're
+[0:06:30] gonna
+[0:06:32] talk about during the hackathon
+[0:06:34] preparation week, one week before the
+[0:06:36] hackathon, so no worries about the
+[0:06:38] project things, etc.
+[0:06:40] All right. So Santiago, I will let you
+[0:06:43] start
+[0:06:46] itself. Yeah.
+[0:06:51] Bueno, casi casi empiezo a hablar en
+[0:06:53] inglés.
+[0:06:55] Pero bueno, hola a todos. Este
+[0:06:58] qué bueno tenerlos por acá
+[0:07:01] hoy y bueno, vamos a ya ya y yo les
+[0:07:04] dimos como lo básico de de Rust
+[0:07:08] que
+[0:07:09] en teoría es suficiente para comprender
+[0:07:12] el concepto y ya
+[0:07:14] en los próxima semana vamos a poder
+[0:07:15] adentrarnos un poco más en
+[0:07:18] en hacer programas en Solana y
+[0:07:20] desplegarlos,
+[0:07:21] el ciclo de vida que tienen y bueno,
+[0:07:24] todas todas esas
+[0:07:25] características específicas del caso de
+[0:07:28] uso de Rust en Solana.
+[0:07:30] Hoy vamos a hablar un poco de
+[0:07:32] lo que vamos a o sea, es como lo que
+[0:07:35] está al lado de construir en Solana,
+[0:07:37] que es ver todo el tema de
+[0:07:38] infraestructura, wallets,
+[0:07:41] blockchain basics, entonces todo lo
+[0:07:43] básico de una blockchain
+[0:07:45] vamos a verlo y vamos a
+[0:07:48] usar un poco la terminal,
+[0:07:51] que es más que todo para crear una una
+[0:07:52] wallet en Solana y hacer
+[0:07:55] más que todo en local.
+[0:07:56] Entonces vamos a estar por ese lado.
+[0:08:00] La idea es
+[0:08:03] ver rápido lo de lo de los básicos de
+[0:08:04] blockchain porque realmente
+[0:08:06] eh
+[0:08:07] es es una presentación rápida, entonces
+[0:08:08] voy a voy a
+[0:08:10] presentarles ahí.
+[0:08:12] Hm.
+[0:08:23] Ahm.
+[0:08:25] Entonces,
+[0:08:26] para básicos de blockchain, básicamente
+[0:08:29] vamos a ver eh primero cómo O sea, la
+[0:08:31] primera parte es cómo funciona una
+[0:08:33] blockchain en general. Todas tienen como
+[0:08:35] una narrativa bastante parecida. Cambia
+[0:08:37] la tecnología detrás, pero no el
+[0:08:39] propósito. El propósito de todas las
+[0:08:40] blockchains y al final de cuentas es
+[0:08:42] tener eh un ledger compartido donde
+[0:08:44] podemos escribir datos y que sea
+[0:08:46] inmutable.
+[0:08:47] Entonces, varios nodos entre sí confían
+[0:08:49] para eh demostrar que una transacción
+[0:08:51] pasó o no pasó.
+[0:08:54] Eh, pues vamos a estar eh viendo
+[0:08:57] bueno, los conceptos clave y luego por
+[0:08:59] qué Solana en particular, qué diferencia
+[0:09:00] a Solana como una blockchain de las
+[0:09:02] demás, de Ethereum, de Bitcoin eh y de
+[0:09:05] de otras.
+[0:09:06] Entonces, vamos a ver conceptos clave de
+[0:09:08] cómo funciona cualquier blockchain.
+[0:09:11] Entonces, primero de todo, ¿qué es una
+[0:09:13] blockchain? Una blockchain es un
+[0:09:14] registro compartido al que solo se le
+[0:09:15] agregan datos del que muchas
+[0:09:17] computadoras guardan una copia.
+[0:09:19] Entonces, básicamente como todo el mundo
+[0:09:21] lo explica es
+[0:09:22] un registro contable, un Excel donde
+[0:09:24] todos pueden O sea, cualquiera puede
+[0:09:26] escribir,
+[0:09:28] pero para confiar hay varios nodos los
+[0:09:29] cuales verifican que eso está pasando. Y
+[0:09:31] cada cierto tiempo esta data se compacta
+[0:09:33] en bloques
+[0:09:34] y los bloques se van eh
+[0:09:37] juntando de manera en la cual eh hay
+[0:09:39] como una relación del del bloque pasado
+[0:09:42] al siguiente. Y de esta manera también
+[0:09:44] se garantiza la inmutabilidad,
+[0:09:46] dependiendo igual de lo que haga el de
+[0:09:49] lo que está haciendo el programa, por
+[0:09:50] ejemplo, podría cambiar, pero todo queda
+[0:09:53] escrito en un en un ledger público eh
+[0:09:56] donde cualquiera puede consultar en
+[0:09:59] eh una transacción, una wallet eh o
+[0:10:01] cualquier cosa que haya pasado dentro de
+[0:10:03] la blockchain y pueden acceder a ello.
+[0:10:06] Entonces,
+[0:10:08] ¿cuáles son las tres características
+[0:10:09] principales de una blockchain? Primero
+[0:10:10] es compartida, todos tienen el mismo
+[0:10:12] registro y nadie es dueño de ninguna
+[0:10:13] copia, maestro. No no hay un dueño como
+[0:10:15] tal de una blockchain, simplemente son
+[0:10:17] muchas computadoras que se ponen de
+[0:10:19] acuerdo para tener este registro
+[0:10:20] compartido.
+[0:10:22] Solo se agrega.
+[0:10:23] Es decir, ya cuando una entrada como ya
+[0:10:25] ponemos un dato, no se puede cambiar. Y
+[0:10:28] o sea, hay hay hay formas en las cuales
+[0:10:30] podemos hacer cambios, pero eso eso va
+[0:10:32] más programado como tal en los dentro de
+[0:10:35] los programas, no es
+[0:10:36] a la a la blockchain, o sea, el cambio
+[0:10:38] no se le hace al ledger.
+[0:10:40] Y es replicado, o sea, hay miles de
+[0:10:41] copias. Si se cae una máquina, hay 1000
+[0:10:44] más las cuales tienen el mismo registro
+[0:10:46] y se puede consultar.
+[0:10:47] Eh, entonces esa es la idea esa es la
+[0:10:50] idea básica de la descentralización, que
+[0:10:52] no importa si se cae una, hay hay varias
+[0:10:55] más las cuales pueden suplir.
+[0:10:58] Eh, pero cuando se estaban construyendo
+[0:11:00] cuando se da esta idea de cómo puede
+[0:11:04] confiar en que todo el mundo escribe
+[0:11:06] transacciones válidas,
+[0:11:08] sale el problema de la confianza.
+[0:11:10] ¿Cómo cómo o sea, cómo yo voy a confiar
+[0:11:11] en en que todo el mundo escriba algo
+[0:11:13] correcto y no cambie
+[0:11:15] eh los datos o o quiera manipularlo? Que
+[0:11:18] al final de cuentas muchas de las o sea,
+[0:11:20] los casos de uso de las blockchains son
+[0:11:21] financieros. Entonces imagínense si yo
+[0:11:24] pudiese reescribir
+[0:11:26] eh las finanzas de una wallet, o sea,
+[0:11:27] podrían ponerle un balance a mi super
+[0:11:29] alto y quitarle el balance a alguien,
+[0:11:30] sería catastrófico. Entonces nace este
+[0:11:33] problema, la confianza.
+[0:11:35] Eh, entonces bueno, ¿cómo hacen para
+[0:11:37] ponerse de acuerdo cuando no hay nada? O
+[0:11:40] sea, cuando no hay un ente central el
+[0:11:41] cual dice se hace esto, se hace lo otro,
+[0:11:44] eh o está velando porque no hayan eh
+[0:11:46] personas malintencionadas eh para hacer
+[0:11:49] algún daño a alguna wallet o a lo que
+[0:11:51] sea.
+[0:11:52] Entonces eh primero está el el doble
+[0:11:55] gasto, que eh lo digital es copia
+[0:11:57] perfecto, no se ocupa un árbitro y
+[0:11:59] básicamente
+[0:12:01] está distribuido, es decir, si pasó en
+[0:12:03] en un eh si está en un nodo está está en
+[0:12:06] todos los demás y básicamente está
+[0:12:08] completamente distribuido.
+[0:12:10] Eh, la censura, que básicamente es que
+[0:12:15] por así decirlo, entre varios nodos se
+[0:12:17] pueden poner de acuerdo para rechazar
+[0:12:20] a alguien que está haciendo algo mal
+[0:12:21] intencionado.
+[0:12:22] Entonces,
+[0:12:23] por por básicamente por el consenso
+[0:12:26] eh de los nodos, esto cambia dependiendo
+[0:12:29] del pero por el consenso o por las
+[0:12:31] reglas que hayan escrito se
+[0:12:34] o sea, no no no van a dejar que hagan
+[0:12:35] esa acción.
+[0:12:37] Y el punto único de fallo, que es que si
+[0:12:39] un servidor no se cae, la que no cierra.
+[0:12:42] Esto esto es más como,
+[0:12:44] por así decirlo,
+[0:12:45] eh
+[0:12:47] en comparación con con con una con un
+[0:12:51] banco, por ejemplo,
+[0:12:52] eso no pasa con
+[0:12:54] con Solana, entonces
+[0:12:55] lo que pasa es que cambia el
+[0:12:57] intermediario por reglas que todos
+[0:12:58] pueden verificar, entonces
+[0:13:00] si nos vamos al código core de Solana
+[0:13:02] podemos ver
+[0:13:03] cada una de las líneas de código que
+[0:13:05] están corriendo y podemos verificar qué
+[0:13:07] es lo que está pasando.
+[0:13:09] Eh, inclusive en
+[0:13:10] podemos ver si se dio un pago, eh los
+[0:13:13] hackeos son todos públicos cuando, por
+[0:13:15] ejemplo, hackean una empresa grande
+[0:13:17] se pueden ver a dónde van los fondos
+[0:13:19] dependiendo de la de la moneda en la
+[0:13:21] cual estaba el hackeo, se podría o no se
+[0:13:23] podría revocar los fondos.
+[0:13:25] Eh, pero más que todo de eso va la
+[0:13:27] descentralización y cómo se logra un
+[0:13:29] balance entre descentralizar,
+[0:13:32] pero también tener confianza porque no
+[0:13:35] se puede centralizar del todo en cierto
+[0:13:37] sentido
+[0:13:38] eh y hay partes donde la
+[0:13:39] descentralización
+[0:13:41] entra como en en un dilema con la
+[0:13:44] confianza, entonces ahí es donde la
+[0:13:47] eh suple esa necesidad.
+[0:13:51] También tenemos como concepto las
+[0:13:52] funciones hash.
+[0:13:57] Eh, las funciones hash básicamente es
+[0:14:00] una función a la cual yo llamo
+[0:14:01] con un parámetro y me devuelve un un
+[0:14:04] hash, por así decirlo.
+[0:14:06] Entonces,
+[0:14:07] eh es o sea, este este esto que retorna
+[0:14:11] es determinista, es decir, siempre que
+[0:14:12] yo le dé una misma entrada tendré el
+[0:14:14] mismo hash siempre,
+[0:14:16] Es largo y fijo, es una
+[0:14:17] sea una palabra o un bloque entero,
+[0:14:19] siempre son 256 bits.
+[0:14:21] De un solo sentido, no se puede volver
+[0:14:23] atrás a la entrada y el efecto
+[0:14:25] avalancha, que es que un cambio mínimo
+[0:14:27] altera toda la salida, es decir,
+[0:14:28] si yo, por example, pongo
+[0:14:30] en lugar de
+[0:14:32] no se va a parecer en nada al hash.
+[0:14:35] De hecho, ahí está la prueba de eso.
+[0:14:36] Aquí yo puse
+[0:14:37] en minúscula y con la h minúscula y con
+[0:14:40] la h mayúscula.
+[0:14:42] Y como pueden ver, no se parecen en
+[0:14:43] absolutamente nada. Estoy seguro que
+[0:14:46] son muy pocos los sitios en los que
+[0:14:48] coinciden en alguna posición.
+[0:14:50] Eh, y no
+[0:14:52] posiblemente fue random, no es como que
+[0:14:53] coinciden porque porque
+[0:14:56] tienen alguna relación.
+[0:14:59] Esto es lo que es lo que les hablaba de
+[0:15:01] los bloques. Entonces,
+[0:15:02] eh dependiendo de la blockchain, cada
+[0:15:04] cierto tiempo la data se se compacta en
+[0:15:07] un bloque
+[0:15:10] y básicamente eh
+[0:15:14] cada o sea, digamos cada bloque va
+[0:15:16] secuencialmente. Entonces, tenemos el
+[0:15:17] bloque 1041, el 1042, el 1043.
+[0:15:21] Y ahí va subiendo eh y dependiendo de la
+[0:15:23] blockchain, por ejemplo, en bitcoin hay
+[0:15:25] hay eh
+[0:15:26] entonces,
+[0:15:27] cada cierto tiempo, por ejemplo, se
+[0:15:28] vuelve deja de imprimir más bitcoins.
+[0:15:31] Eh, eso depende mucho del blockchain,
+[0:15:33] por ejemplo, en Solana eh no recuerdo
+[0:15:36] muy bien cómo funcionaba
+[0:15:37] el el tema del porque no no era como no
+[0:15:40] es como como tal minería,
+[0:15:42] pero los incentivos van cambiando
+[0:15:43] conforme el tiempo y conforme la
+[0:15:45] cantidad de bloques
+[0:15:47] eh y cómo van creciendo.
+[0:15:49] Entonces, por ejemplo, si ustedes tienen
+[0:15:51] una transacción en Solana,
+[0:15:52] eh muy posiblemente si toman el hash y
+[0:15:54] lo dicen también pueden ver dentro de
+[0:15:56] qué bloque está ese
+[0:16:00] ese esa transacción.
+[0:16:03] Eh, y bueno, aquí es como más un un tema
+[0:16:06] de de cómo funciona por detrás.
+[0:16:09] Por example, si alguien quisiera editar
+[0:16:11] el bloque 1041, su hash cambiaría por
+[0:16:13] completo.
+[0:16:15] El el prep, que es como por así decirlo,
+[0:16:17] lo guarda el siguiente bloque para
+[0:16:19] relacionarlo con el pasado, o sea, es
+[0:16:21] como más a nivel de de estructura de
+[0:16:23] datos que se utiliza para eso.
+[0:16:25] Ya no coincidiría, entonces
+[0:16:27] este 10 42 estaría apuntando a este
+[0:16:29] hash,
+[0:16:31] pero este bloque ya no tendría el mismo
+[0:16:32] hash porque se editó.
+[0:16:34] Entonces, eso rompe la cadena.
+[0:16:36] Y cada nodo en esto detecta
+[0:16:39] que esto sucedió y rechaza esa versión
+[0:16:41] falsa, es decir, revierte eso y y lo y
+[0:16:44] lo vuelve a su versión original.
+[0:16:46] Eh, que es
+[0:16:48] como una de las medidas los cuales eh el
+[0:16:51] mismo eh código que ya está corriendo de
+[0:16:54] Solana eh
+[0:16:56] pues detecta y simplemente
+[0:16:59] te ejecuta.
+[0:17:01] Aquí está sin concepto de la wallet,
+[0:17:04] entonces cuando se habla de una wallet
+[0:17:07] tenemos dos partes importantes.
+[0:17:09] Eh, bueno, en realidad tres,
+[0:17:11] pero la la que va en el medio es como
+[0:17:15] como parte de la primera. Entonces,
+[0:17:17] primero tenemos la clave privada.
+[0:17:19] Esta secreta solo uno la tiene y sirve
+[0:17:21] para firmar.
+[0:17:23] Y eh dependiendo de la blockchain
+[0:17:25] también hay una con la cual se puede
+[0:17:27] acceder a la clave privada.
+[0:17:29] Si se pierde, por ejemplo, eh dice
+[0:17:31] perdió la wallet. Entonces, si se pierde
+[0:17:33] la clave privada o
+[0:17:34] ya no hay acceso a esa wallet y ya no se
+[0:17:36] puede hacer nada.
+[0:17:39] Eh, luego la firma, que la firma siempre
+[0:17:41] tiene que O sea, siempre se verifica que
+[0:17:43] esté firmando con la clave privada para
+[0:17:45] poder hacer una firma válida, si no no
+[0:17:47] sería una firma válida. Y la clave
+[0:17:49] pública que es la que se comparte
+[0:17:50] abiertamente eh como la dirección, por
+[0:17:53] ejemplo. Entonces, para que me pasen
+[0:17:56] Solana a mi wallet yo tengo que
+[0:17:58] compartir mi mi clave pública
+[0:18:00] que cualquiera puede verificar. En
+[0:18:02] Solana las claves son ED25519
+[0:18:05] y la la dirección es la la
+[0:18:09] la clave pública que está en base 58.
+[0:18:12] Y no hay como un recuperador de
+[0:18:13] contraseña, sino que es lo que les
+[0:18:14] explicaba, hay como un
+[0:18:17] entonces el
+[0:18:18] permite acceder al al
+[0:18:20] al secret key
+[0:18:22] o a la clave privada,
+[0:18:23] pero
+[0:18:24] no no no es como que yo pueda subir a
+[0:18:27] alguien de soporte para que me diga
+[0:18:29] o o para que me dé acceso a la nueva mi
+[0:18:31] cuenta. Eso no eso no no funciona así en
+[0:18:33] blockchain. Si se perdió la la clave,
+[0:18:35] pues ahí hay un problema grande porque
+[0:18:37] se pueden sorprender inclusive fondos.
+[0:18:41] Eh, luego tenemos los nodos y los
+[0:18:43] validadores.
+[0:18:44] Entonces, vamos a ir eh uno por uno. Un
+[0:18:46] validador lo que hace es verificar
+[0:18:48] transacciones, vota bloques y produce
+[0:18:50] bloques cuando es líder.
+[0:18:52] Eh, y bueno, esto todo todo requiere
+[0:18:56] cómputo, ¿verdad? O sea, requiere tener
+[0:18:58] un servidor corriendo eh o una
+[0:19:00] computadora hm bueno, son servidores o
+[0:19:02] una computadora
+[0:19:04] dependiendo del hardware que estén
+[0:19:05] utilizando termina siendo lo mismo.
+[0:19:07] Pero el el el validador se encarga
+[0:19:10] entonces de de verificar sus
+[0:19:11] transacciones, votar bloques y
+[0:19:12] producirlos cuando es líder y le pagan
+[0:19:15] comisiones de transacción y recompensas
+[0:19:16] por staking. El staking es eh una manera
+[0:19:19] de asegurar la red poniendo sus activos
+[0:19:22] eh y y por asegurar o sea, por
+[0:19:24] asegurarla le dan un incentivo. Por
+[0:19:25] ejemplo, en Solana anda como por un 4%
+[0:19:27] el staking.
+[0:19:29] Luego tenemos el nodo RPC.
+[0:19:31] Este guarda una copia de la cadena,
+[0:19:33] responde consultas de la app de las apps
+[0:19:35] y reenvía transacciones. Entonces, el
+[0:19:37] RPC que inclusive es un valor que uno ve
+[0:19:39] cuando está programando es o sea,
+[0:19:42] el nodo RPC como tal no es el link, pero
+[0:19:44] el RPC uno lo llama utilizando
+[0:19:47] como si fuera una API. Entonces, tenemos
+[0:19:49] un link, lo llamamos y le pasamos qué
+[0:19:52] queremos hacer, si consultar data, si
+[0:19:54] escribir data,
+[0:19:56] eh
+[0:19:58] y y sí, o sea, realmente lo que se
+[0:20:00] quiera hacer. Y las apps les pagan a los
+[0:20:02] proveedores por hacerlo. Por ejemplo,
+[0:20:04] ehm
+[0:20:07] está este RPC que se llama Blockdaemon.
+[0:20:10] Ellos di, tienen sus planes
+[0:20:13] para para no tener acceso al RPC.
+[0:20:16] Normalmente siempre todas las
+[0:20:17] blockchains tienen un RPC público, pero
+[0:20:19] es extremadamente lento. Entonces, para
+[0:20:20] construir algo a nivel
+[0:20:23] ya di, producción y hacerlo bien,
+[0:20:25] realmente siempre es recomendable usar
+[0:20:27] un RPC propio que
+[0:20:29] que se pague o bueno, si se consigue
+[0:20:30] alguno
+[0:20:32] gratis. Creo que hay varios que dan eh
+[0:20:35] una prueba gratis, pero este Blockdaemon
+[0:20:37] es
+[0:20:38] es bastante conocido, es bastante bueno
+[0:20:40] y
+[0:20:41] y creo que dan una prueba gratis,
+[0:20:42] entonces también
+[0:20:43] eh en algún momento podría servir, pero
+[0:20:45] digamos para términos del curso
+[0:20:47] con con el público está bien, no hace
+[0:20:50] falta
+[0:20:51] eh
+[0:20:52] tener uno propio.
+[0:20:56] Entonces, bueno, [carraspeo] por ahí
+[0:20:57] está Blockdaemon.
+[0:20:59] Ah, entonces eso es lo que hace el nuevo
+[0:21:00] RPC y el delegador lo que hace es stake
+[0:21:03] de SOL con un validador y suma a su peso
+[0:21:05] voto.
+[0:21:07] Eh, básicamente lo O sea,
+[0:21:10] lo que hace el delegador es
+[0:21:12] eh
+[0:21:14] tienes sus tokens de Solana, que en este
+[0:21:17] caso en Solana solo se puede hacer con
+[0:21:19] con SOL,
+[0:21:20] y los da a un validador para eh sumarle
+[0:21:23] peso al voto del validador y eh de
+[0:21:26] vuelta recibo una parte de las
+[0:21:27] recompensas del validador. Entonces,
+[0:21:29] eh si yo tengo Solana y quiero ganar un
+[0:21:31] porcentaje sobre ese Solana, puedo
+[0:21:33] ponerlo a hacer staking eh con un
+[0:21:35] validador y básicamente recibo
+[0:21:38] eh un porcentaje de recompensas que
+[0:21:39] pueden dar del 4 o 5 %
+[0:21:42] eh
+[0:21:44] que también es es interesante cómo
+[0:21:46] funciona Solana porque gracias al al SOL
+[0:21:48] también la red se se valida.
+[0:21:57] Aquí tenemos Bueno, lo que les hablaba
+[0:21:59] un poco de cómo validar la red. Está
+[0:22:01] proof of work o proof of stake, entonces
+[0:22:04] vamos a a ir como uno por uno viendo
+[0:22:07] cómo funciona cada uno. Entonces,
+[0:22:09] eh primero que todo
+[0:22:11] con proof of work of work quien agrega
+[0:22:14] un
+[0:22:15] un bloque es quien resuelve primero un
+[0:22:17] acertijo de hash. Entonces,
+[0:22:19] eh esos acertijos de hash sirven para
+[0:22:21] asegurar la red. Por ejemplo, Bitcoin
+[0:22:23] usa proof of work o prueba de trabajo.
+[0:22:25] Entonces, eh con el de prueba de
+[0:22:28] trabajo, el primero en resolver ese
+[0:22:29] acertijo
+[0:22:30] recibe eh un incentivo
+[0:22:32] eh y agrega un bloque
+[0:22:35] para para agregar el bloque es que se
+[0:22:36] recibe el incentivo. Y con
+[0:22:38] son los validadores elegidos según su
+[0:22:41] según la cantidad o o si están haciendo
+[0:22:44] líderes o no.
+[0:22:45] Luego tenemos el costo de de la
+[0:22:48] seguridad.
+[0:22:49] En
+[0:22:50] es muy alto
+[0:22:52] eh porque van a
+[0:22:54] hardware y electricidad.
+[0:22:56] Y y al final de cuentas eh no o sea
+[0:23:01] poner a minar, que es que es como el
+[0:23:03] término más conocido, bitcoin, por
+[0:23:05] ejemplo,
+[0:23:06] termina siendo caro porque el cómputo
+[0:23:07] para ello
+[0:23:08] que sea óptimo es bastante caro.
+[0:23:11] Ah, y en
+[0:23:15] el capital bloqueado se puede perder, es
+[0:23:16] decir, lo que valía la red al final de
+[0:23:18] cuentas es capital que está
+[0:23:22] y podría perderse. Sin embargo, o sea,
+[0:23:24] si eso pasara, hace que la red podría
+[0:23:27] caerse y y bueno, nunca ha pasado
+[0:23:30] eh y difícilmente pase en algún momento.
+[0:23:33] El consumo de energía
+[0:23:35] es
+[0:23:36] increíblemente alto en
+[0:23:38] eh y en
+[0:23:39] es super bajo.
+[0:23:41] Y los ejemplos, bueno, ya ya hablé un
+[0:23:43] poco de de
+[0:23:45] que es bitcoin el más claro.
+[0:23:47] Y en
+[0:23:48] tenemos a
+[0:23:49] Por ahí también hay otro
+[0:23:51] eh método de consenso que es el
+[0:23:55] consensus protocol, que lo utilizan
+[0:23:57] otras blockchains, eh y está bastante
+[0:24:00] bueno porque no se basa ni en dinero ni
+[0:24:04] en ni en para ponerse de acuerdo, sino
+[0:24:07] que
+[0:24:08] cada nodo hace como sus propios para
+[0:24:11] confiar entre ellos,
+[0:24:12] que bueno, es un es un
+[0:24:15] es un poco más matemático que estos dos,
+[0:24:17] pero a través de ciertos algoritmos
+[0:24:18] logran confiar entre nodos y ver eh
+[0:24:21] la la veracidad de cierta data.
+[0:24:25] Eh, y bueno,
+[0:24:27] evidentemente proof of stake es el
+[0:24:28] estándar, más barato y más rápido.
+[0:24:31] Por eso es que Ethereum y Solana un
+[0:24:33] montón, porque son baratos y rápidos.
+[0:24:36] Eh, a diferencia de Bitcoin que las
+[0:24:38] transacciones son ya pues bastante
+[0:24:40] caras.
+[0:24:42] Y aquí viene
+[0:24:44] eh un poco lo que se habla del dilema o
+[0:24:46] trilema de la Bitcoin.
+[0:24:48] De la blockchain, perdón. Eh,
+[0:24:50] entonces tenemos como tres
+[0:24:52] características que cualquier blockchain
+[0:24:54] busca, que son eh ser segura, ser
+[0:24:57] descentralizada y poder escalar.
+[0:25:00] Y al final de cuentas
+[0:25:02] para tener las tres siempre hay o sea,
+[0:25:05] para tener un poco de las tres hay que
+[0:25:06] sacrificar un poco de alguna, porque no
+[0:25:08] es difícil tener las tres y cumplirlas
+[0:25:10] al 100%.
+[0:25:12] Por ejemplo, Bitcoin eh es lo más
+[0:25:14] descentralizado posible,
+[0:25:15] eh pero es de super bajo rendimiento por
+[0:25:18] diseño. Para para Bitcoin se gastan
+[0:25:21] eh montón montones de de electricidad
+[0:25:24] por año para poder asegurarlo y eso no
+[0:25:26] es óptimo.
+[0:25:27] Eh, Ethereum Ethereum es como que está
+[0:25:29] más en el medio porque es más
+[0:25:31] conservador. Ehm,
+[0:25:33] si bien es más rápido que Bitcoin, sigue
+[0:25:36] siendo lento para aplicaciones ya como a
+[0:25:39] a escala grande, entonces esa escala lo
+[0:25:42] que hicieron fue moverla a rollups de
+[0:25:44] layer 2, entonces eh ahí es donde entran
+[0:25:47] en juego las las layer 2 como por
+[0:25:49] ejemplo Base, Arbitrum,
+[0:25:52] ehm
+[0:25:53] Celo, las cuales eh son mucho más
+[0:25:55] rápidas, pero al final de cuentas
+[0:25:57] terminan eh subiendo
+[0:25:59] eh la data a Ethereum. Son como una capa
+[0:26:02] eh abajo de Ethereum.
+[0:26:04] Y luego está Solana que eh escala la
+[0:26:07] propia base y los los validadores sí
+[0:26:09] necesitan un hardware potente,
+[0:26:11] pero eh también está por otro lado proof
+[0:26:13] of stake que eh con capital también se
+[0:26:15] valida la misma blockchain, entonces por
+[0:26:17] ese lado
+[0:26:19] eh yo diría que Solana
+[0:26:21] cumple bastante las tres, Ethereum
+[0:26:25] cumple
+[0:26:26] descentralización y seguro
+[0:26:28] y Bitcoin cumple muchos
+[0:26:30] descentralización y seguro,
+[0:26:32] pero es caro tanto, eh,
+[0:26:35] porque al final de cuentas se se se ha
+[0:26:36] hecho muy caro hacer transacciones en
+[0:26:38] Ethereum y,
+[0:26:40] por ejemplo, si está pensado para ser
+[0:26:41] una red de pagos, nadie quiere estar
+[0:26:43] pagando muchísimo en fees para
+[0:26:45] transferir plata.
+[0:26:47] Al final la idea es que la fee sea
+[0:26:48] superbarata.
+[0:26:49] Eh,
+[0:26:50] y, por ejemplo, en Solana eso es
+[0:26:51] posible.
+[0:26:54] Eh, contratos inteligentes y programas.
+[0:26:56] Esto es importante porque no todas las
+[0:26:58] blockchains tienen contratos
+[0:26:59] inteligentes o programas. Eh, por
+[0:27:02] ejemplo, Bitcoin no los tiene.
+[0:27:03] Ethereum eh fue la primera en tenerlos,
+[0:27:07] luego Solana y ahí han ido pues llegando
+[0:27:11] nuevas blockchains que también tienen
+[0:27:12] contratos inteligentes.
+[0:27:14] Que al final de cuentas
+[0:27:16] es como una de las
+[0:27:17] partes más importantes de las
+[0:27:19] blockchains porque le añaden esa
+[0:27:21] facilidad de programabilidad,
+[0:27:24] de yo poder poner mi código en algún
+[0:27:26] lado para correr y
+[0:27:28] y conforme, o sea, conforme lo que hay
+[0:27:30] en la blockchain también poder validar
+[0:27:32] este
+[0:27:33] data, eh,
+[0:27:35] poder hacer todo transparente y poder
+[0:27:37] demostrar a mis usuarios que lo que yo
+[0:27:39] estoy haciendo no está en un servidor
+[0:27:41] privado, que solo yo puedo ver, sino que
+[0:27:43] también está en publicado en la
+[0:27:45] blockchain corriendo y que ellos pueden
+[0:27:46] ver eh cada paso de esa ejecución.
+[0:27:49] Eh,
+[0:27:51] entonces eh si un contrato inteligente
+[0:27:53] es básicamente código que vive en la
+[0:27:55] cadena y corre igual en cada validador.
+[0:27:58] Y y básicamente
+[0:28:00] es código que yo dejo y puedo correr en
+[0:28:02] cualquier momento, cualquier persona
+[0:28:04] puede correrlo dependiendo de qué
+[0:28:06] programe yo, ¿verdad? Si yo programo que
+[0:28:08] solo una persona desde una wallet puede
+[0:28:10] acceder a ese contrato,
+[0:28:11] se puede.
+[0:28:13] Eh, y realmente el contrato
+[0:28:15] puede hacer lo que uno le diga que haga.
+[0:28:17] Eh, evidentemente mientras no viole las
+[0:28:19] reglas de de blockchain,
+[0:28:21] eh, porque en ese caso pues retornaría
+[0:28:24] un un error.
+[0:28:25] Pero normalmente pues
+[0:28:28] el contrato inteligente
+[0:28:29] eh
+[0:28:31] uno puede escribirle
+[0:28:33] muchísimas cosas que haga y y el pues
+[0:28:35] nada más está ejecutando. Y
+[0:28:37] evidentemente él ejecuta lo que uno
+[0:28:39] programa.
+[0:28:41] Es decir, si ustedes programan algo, por
+[0:28:42] ejemplo, financiero, no sé, hm protocolo
+[0:28:45] DeFi
+[0:28:46] y el protocolo DeFi está hecho de cierta
+[0:28:48] manera y se le encuentra una
+[0:28:50] vulnerabilidad,
+[0:28:51] al final de cuentas
+[0:28:52] el programa va a ejecutar lo que tiene
+[0:28:54] escrito y si esa vulnerabilidad que
+[0:28:57] puede ser explotada, pues el programa no
+[0:29:00] se va a oponer, o sea, va a hacer lo que
+[0:29:02] literalmente le escribiera.
+[0:29:03] Por eso es también donde entran temas de
+[0:29:05] auditorías y y es como más hay que ser
+[0:29:08] más cuidadoso porque es muy abierto
+[0:29:10] porque cualquier persona podría
+[0:29:11] interactuar
+[0:29:12] eh con nuestro contrato, entonces hay
+[0:29:14] que hay que prestarle cuidado a eso.
+[0:29:18] Ehm
+[0:29:20] pues por ese lado ya vemos eh los
+[0:29:21] contratos inteligentes y los programas.
+[0:29:24] Eh, ¿para qué sirven? Bueno,
+[0:29:26] para transferencias, aunque al final de
+[0:29:28] cuentas
+[0:29:30] para transferencias uno puede usar
+[0:29:32] la blockchain normal sin necesidad de
+[0:29:33] los contratos, aunque hay ciertas
+[0:29:35] transferencias que se quieren
+[0:29:37] como programar así, entonces por eso
+[0:29:39] están los swaps o los de que es como
+[0:29:42] para yo poder intercambiar activos
+[0:29:44] dentro de una misma blockchain, entonces
+[0:29:46] eh si tengo un activo de de por ejemplo,
+[0:29:49] tengo Solana y quiero
+[0:29:52] a través de los swaps es que se logra
+[0:29:53] hacer ese intercambio, antes se tenían
+[0:29:55] que hacer
+[0:29:57] o sea, yo preguntarle a una persona que
+[0:29:59] tenía si quería comprarme Solana,
+[0:30:01] lo cual pues no es nada efectivo.
+[0:30:06] Luego tenemos los NFTs que bueno, fueron
+[0:30:08] muy famosos en cierto momento
+[0:30:10] eh ya no tanto o
+[0:30:13] sí son, o sea, sí son muy utilizados,
+[0:30:15] pero ya no se venden como lo que era al
+[0:30:17] inicio que era como puro arte digital,
+[0:30:19] sino que hay como otros usos más
+[0:30:20] importantes inclusive,
+[0:30:22] pero ya el NFT como como concepto ya no
+[0:30:26] suena tanto porque al final de cuentas
+[0:30:27] se venden como credenciales verificables
+[0:30:29] eh y bueno, muchos casos de uso que
+[0:30:31] tienen ahorita.
+[0:30:32] Eh, créditos y votos en una DAO que
+[0:30:35] bueno, es como para descentralización,
+[0:30:37] para votar descentralizadamente eh en
+[0:30:41] alguna comunidad o bueno,
+[0:30:43] miles de casos de uso en alguna DAO.
+[0:30:47] Eh, y bueno, ¿qué hace Solana diferente?
+[0:30:49] Entonces, ya ya les he contado un poco
+[0:30:50] de que bueno, es
+[0:30:52] eh
+[0:30:54] parte
+[0:30:57] Eh,
+[0:30:58] el rendimiento, o sea, realmente pocas
+[0:31:00] redes se asemejan al al rendimiento que
+[0:31:03] tiene Solana porque procesan un nuevo
+[0:31:05] bloque cada 400 milisegundos,
+[0:31:07] cosa que en Bitcoin creo que son cada 10
+[0:31:09] minutos, o sea, la diferencia es
+[0:31:10] abismal.
+[0:31:11] Eh, las comisiones son superbajas, so la
+[0:31:14] comisión base es de 5,000 lamports que
+[0:31:18] que es superpoco.
+[0:31:20] Y tiene un estado global que
+[0:31:23] todo todo el mundo tiene el mismo
+[0:31:25] estado, o sea, si yo estoy en Japón y
+[0:31:27] por ejemplo tengo a alguien en Estados
+[0:31:29] Unidos, él va a ver exactamente la misma
+[0:31:31] data que yo estoy viendo.
+[0:31:32] Sin fragmentarlo en
+[0:31:34] que es lo que pasa con Ethereum. Eh, la
+[0:31:36] data en Ethereum pues dura más en
+[0:31:38] viajar.
+[0:31:40] Eh,
+[0:31:43] Ya por aquí vimos
+[0:31:45] el no, sería esto es como un resumen de
+[0:31:47] todo lo que vimos. Entonces, eh una
+[0:31:49] blockchain es un registro compartido,
+[0:31:52] eh ¿qué hacen los validadores?
+[0:31:53] inteligentes, eh por qué Solana y eh
+[0:31:59] lo de los estados. Entonces, ya ahora
+[0:32:00] vamos a pasar un poco al siguiente
+[0:32:05] que sería CLI, RPC y exploradores.
+[0:32:08] Entonces, vamos a a entrarnos un poco
+[0:32:10] más y vamos a
+[0:32:12] a instalar el CLI de Solana que es con
+[0:32:14] el que se programan los contratos. Hoy
+[0:32:16] no vamos a programar un contrato como
+[0:32:17] tal, sino que vamos a a experimentar un
+[0:32:19] poco con ese CLI.
+[0:32:22] Eh, entonces vamos a abrir acá
+[0:32:26] y vamos a eh ver un poco qué es cada
+[0:32:29] concepto. Entonces, por ejemplo, el CLI
+[0:32:32] eh básicamente es la la terminal.
+[0:32:34] Entonces desde Bueno, o sea, cómo usamos
+[0:32:36] Solana desde la terminal. Entonces, está
+[0:32:37] el Solana eh CLI donde simplemente
+[0:32:40] [resoplido] podemos tener una wallet,
+[0:32:41] ver transacciones, eh consultar
+[0:32:43] balances,
+[0:32:44] eh y eso es más para desarrolladores.
+[0:32:46] Normalmente uno no usa una wallet eh en
+[0:32:49] la terminal. Es
+[0:32:50] de la experiencia de usuario no es la
+[0:32:52] mejor,
+[0:32:53] pero cuando uno está testeando pues
+[0:32:54] conviene bastante para hacer deployments
+[0:32:56] y bueno, para automatizar inclusive el
+[0:32:58] testing.
+[0:32:59] Luego tenemos el RPC que es, como les
+[0:33:01] explicaba, el que lee el ledger. Es como
+[0:33:04] decir el servidor que lee la base de
+[0:33:06] datos. Entonces, la base de datos sería
+[0:33:08] la blockchain y el RPC es ese servidor
+[0:33:10] que está leyendo, haciendo consultas y
+[0:33:12] escribiendo.
+[0:33:13] Eh, al final de cuentas lo que hace es
+[0:33:15] enviar transacciones también. Entonces,
+[0:33:17] nosotros le mandamos una transacción que
+[0:33:18] queremos que se ejecute en la blockchain
+[0:33:21] y el RPC la la termina de ejecutar.
+[0:33:24] Y el explorer lo que hace es indexar.
+[0:33:26] Eh, la indexación fue una necesidad que
+[0:33:30] que se ha dado en la mayoría de
+[0:33:31] blockchains y es que hay bloques que ya
+[0:33:33] son bastante antiguos y para
+[0:33:34] consultarlos
+[0:33:36] se puede demorar un montón. Entonces hay
+[0:33:37] hay que buscar la manera en cual la
+[0:33:39] indexamos para que esa data sea
+[0:33:41] asequible rápido rápidamente porque si
+[0:33:44] no pues los usuarios
+[0:33:46] eh digamos que tener que estar esperando
+[0:33:47] un montón de tiempo para poder ver data
+[0:33:50] que posiblemente necesitaban ver rápido.
+[0:33:52] Eh, además muestra y verifica.
+[0:33:57] Entonces, si la wallet desaparece mañana
+[0:34:00] eh uno o sea, aquí la pregunta es como
+[0:34:02] si si la wallet desapareciera mañana,
+[0:34:05] ¿uno perdería los SOL?
+[0:34:07] Y la respuesta es que no. O sea,
+[0:34:08] realmente
+[0:34:10] la wallet lo que hace es
+[0:34:11] darle una interfaz gráfica
+[0:34:13] y y una manera de hacer login, pero
+[0:34:17] realmente el dinero está en la
+[0:34:19] blockchain.
+[0:34:21] Ahí en la blockchain se guarda el saldo
+[0:34:22] y la cuenta. Es decir, si si por ejemplo
+[0:34:24] mi wallet, no sé, Phantom deja de
+[0:34:27] funcionar mañana,
+[0:34:29] yo puedo migrar mi wallet teniendo
+[0:34:32] obviamente el seed phrase y abriéndolo
+[0:34:33] en otra wallet. Entonces, eh no somos
+[0:34:36] dependientes de una wallet como tal.
+[0:34:39] Eh, por ejemplo Phantom. O sea, podría
+[0:34:41] cambiarse Eh, es y esa es la idea, o
+[0:34:43] sea, que que yo no dependa de un solo
+[0:34:44] proveedor, sino que puedo ser
+[0:34:45] cualquiera.
+[0:34:46] Eh, y hacerlo pues de manera sencilla.
+[0:34:50] Eh.
+[0:34:54] Aquí, bueno, esas son como las tres
+[0:34:55] maneras de interactuar con Solana o con
+[0:34:58] la opción de Solana,
+[0:35:00] que bueno, está el CLI,
+[0:35:02] que es lo que les decía, desde la
+[0:35:03] terminal podemos interactuar y es más
+[0:35:05] como para desarrolladores.
+[0:35:07] La aplicación que es como desde una
+[0:35:08] wallet, desde una eh desde una DApp o
+[0:35:11] desde el explorador, por ejemplo, con
+[0:35:15] El nodo RPC es como el puente donde
+[0:35:18] hacemos la consulta o la escribimos y el
+[0:35:25] Eh, los clusters, eso es como los
+[0:35:27] ambientes, diría yo. Entonces tenemos
+[0:35:29] varios ambientes. Tenemos eh
+[0:35:34] que básicamente es producción con
+[0:35:35] usuarios reales donde hay dinero real.
+[0:35:38] Eh, entonces
+[0:35:40] normalmente uno cuando está programando
+[0:35:42] siempre primero lo hace en local o en
+[0:35:45] por ejemplo, y ya luego cuando ya ha
+[0:35:48] probado, auditado y hecho todo eso, ya
+[0:35:51] pasa a porque si no pues en en podríamos
+[0:35:54] estar perdiendo pues dinero real y no es
+[0:35:57] la idea. Entonces eh estos son los
+[0:35:59] cuatro eh ambientes,
+[0:36:02] y el es como el más normal a utilizar
+[0:36:05] día a día. Se usa di para aprender y
+[0:36:07] probar las apps y bueno, nosotros
+[0:36:09] trabajamos en esta.
+[0:36:11] Eh, el dinero acá pues y es gratis con
+[0:36:13] un
+[0:36:14] o sea, es dinero de mentiras, entonces
+[0:36:17] pues no sirve para nada más que para
+[0:36:19] probar.
+[0:36:21] Eh, luego se que es prueba de software
+[0:36:23] de validadores, entonces eh a diferencia
+[0:36:25] de otros que llaman
+[0:36:27] o sea,
+[0:36:29] tiene su diferencia a la diferencia de
+[0:36:30] otras blockchains que que no hay no hay
+[0:36:32] diferencia.
+[0:36:33] Eh, y aquí también el dinero es gratis y
+[0:36:35] con
+[0:36:36] Y el
+[0:36:37] eh básicamente es correr una blockchain
+[0:36:40] dentro de la computadora, entonces eh es
+[0:36:43] dinero ilimitado, o sea, yo podría
+[0:36:45] imprimirme
+[0:36:46] 30,000 solanas y
+[0:36:48] y puedo utilizarlos obviamente solo
+[0:36:50] dentro de la blockchain local. Eh, todas
+[0:36:52] de cuentas pues es dinero de mentira.
+[0:36:56] Eh, y aquí bueno, vamos a
+[0:37:00] a instalar el CLI de Solana desde cero,
+[0:37:02] entonces
+[0:37:03] ehm
+[0:37:05] lo lo primero es bueno, venirse a la
+[0:37:07] documentación de Solana que es bueno,
+[0:37:08] solana.com eh / es / docs
+[0:37:12] intro installation, entonces aquí eh nos
+[0:37:14] venimos a buscar, en mi caso yo utilizo
+[0:37:17] Mac, entonces vamos a buscar
+[0:37:19] para Mac ehm
+[0:37:22] cómo instalarlo.
+[0:37:32] Ah, bueno, tiene aquí una guía.
+[0:37:34] Vamos a apuntarle a la guía de Solana,
+[0:37:35] entonces
+[0:37:51] Bien, entonces aquí ya nos nos tiró
+[0:37:53] esto. Igual bueno, la documentación
+[0:37:55] estaba pero el la herramienta igual está
+[0:37:57] superbuena. Entonces eh con este comando
+[0:38:00] nos vamos a la terminal
+[0:38:04] y aquí dentro de la terminal
+[0:38:06] eh pegamos este comando
+[0:38:08] y ahí pues empieza a hacer la
+[0:38:10] instalación
+[0:38:12] y luego de esto sería nada más probar.
+[0:38:14] Eh, a veces puede suceder que uno tiene
+[0:38:16] que reiniciar la terminal para
+[0:38:18] poder probarlo como tal, entonces eh
+[0:38:20] esperamos que se descargue.
+[0:38:22] Eh, en este caso yo
+[0:38:24] lo desinstalé para poder hacer la
+[0:38:26] instalación desde cero y que quede
+[0:38:27] también en la grabación por si alguien
+[0:38:28] lo
+[0:38:30] lo quisiera haber grabado de nuevo.
+[0:38:32] Eh, pero en realidad es bastante
+[0:38:33] sencillo, o sea, nada más es un comando
+[0:38:35] pegarlo en la terminal y ya quedaría
+[0:38:37] instalado en la en la computadora.
+[0:39:17] Eh, pero bueno, esta es la documentación
+[0:39:19] oficial, entonces aquí igual eh vienen
+[0:39:21] como
+[0:39:22] más detallado qué se puede hacer, cómo
+[0:39:25] integrarlo en el frontend, los SDKs,
+[0:39:28] eh codear con agentes, entonces también
+[0:39:30] si van a utilizar agentes para codear.
+[0:39:32] Eh, está el Solana MCP que está súper
+[0:39:34] bueno. Eh,
+[0:39:37] ahí yo creo que tal vez en alguna de las
+[0:39:39] clases puedo explicarles
+[0:39:41] cómo conectar el MCP a
+[0:39:43] o a Codex
+[0:39:44] y y básicamente tiene como toda la data
+[0:39:47] de cómo utilizar eh Solana y también
+[0:39:49] está la aunque eh
+[0:39:51] es más eficiente utilizar el MCP.
+[0:39:55] Eh, vamos a revisar por acá.
+[0:40:06] Y aquí nos dice
+[0:40:11] que entonces para poder probarlo hay dos
+[0:40:14] maneras.
+[0:40:15] O reiniciamos la terminal o corremos ese
+[0:40:18] comando.
+[0:40:19] Pues yo ya corrí el comando, vamos a dar
+[0:40:22] y vamos a venir acá y vamos a probar
+[0:40:24] Solana
+[0:40:25] guion guion
+[0:40:27] Y se supone que ya debería funcionar.
+[0:40:29] Y ya ahí tenemos Solana
+[0:40:31] en la versión 4.3.2.
+[0:40:33] Eh, entonces en ese sentido pues súper
+[0:40:36] bien, ya tenemos esa
+[0:40:38] eh esa instalado y ahora vamos a
+[0:40:43] para ver qué es lo que vamos a hacer.
+[0:40:45] Eh, entonces eh cuando uno va a empezar
+[0:40:47] a trabajar en la terminal eh con el
+[0:40:49] [carraspeo]
+[0:40:49] Siempre es importante, primero que todo,
+[0:40:51] setear en qué ambiente vamos a trabajar.
+[0:40:53] Entonces, teníamos estos cuatro
+[0:40:54] ambientes,
+[0:41:05] más porque en este hay que poner a
+[0:41:07] correr la
+[0:41:08] Eh, si no me equivoco en un entonces
+[0:41:10] habría que
+[0:41:11] en ese caso.
+[0:41:23] Entonces ya aquí eh bueno, muy
+[0:41:25] importante el comando eh tiene que ir
+[0:41:27] separado. Yo aquí lo lo pegué pero lo
+[0:41:29] estaba pegado, pero
+[0:41:31] hay que ponerlo en espacio para que
+[0:41:32] entienda que ese es el parámetro.
+[0:41:34] Y entonces ya aquí en el archivo de
+[0:41:36] configuración y bueno,
+[0:41:40] todo esto ya él sabe que está en
+[0:41:42] Por ejemplo, es el público de Solana,
+[0:41:45] entonces eh como les decía, para
+[0:41:47] programar y para el curso está más que
+[0:41:50] bien si ya van a hacer un producto de
+[0:41:52] Solana en el cual
+[0:41:55] pues consideren
+[0:41:56] eh utilizar uno propio.
+[0:41:59] Entonces ya tenemos esto acá, pues ya ya
+[0:42:01] lo tenemos configurado en entonces vamos
+[0:42:03] a
+[0:42:04] seguir al siguiente paso que sería este.
+[0:42:15] Entonces eh aquí bueno,
+[0:42:19] parece que
+[0:42:20] el comando no debería funcionar porque
+[0:42:24] Sí, es que hay que poner espacios.
+[0:42:26] Entonces eh aquí un espacio, aquí lo
+[0:42:31] Aquí lo
+[0:42:35] Pongo otro espacio por acá.
+[0:42:37] Este comando lo que va a hacer es
+[0:42:38] crearnos una
+[0:42:40] y aquí le vamos a decir dónde guardarlo.
+[0:42:42] Entonces en este caso eh ya
+[0:42:47] Y ya ahí nos creó un
+[0:42:49] es eh un o sea, la llave privada y la
+[0:42:52] llave pública. Entonces, son un par de
+[0:42:54] llaves y entonces por eso
+[0:42:57] Ah,
+[0:42:59] y nos pide una contraseña eh
+[0:43:02] entonces
+[0:43:04] voy a poner algo
+[0:43:06] básico, voy a poner Solana
+[0:43:09] Trust
+[0:43:13] Voy a hacerlo de nuevo porque
+[0:43:18] Eh, evidentemente cuando hagan la clave
+[0:43:20] no no lo
+[0:43:22] no lo muestro. En este caso pues es una
+[0:43:23] clave que va a ser local en y no no voy
+[0:43:25] a a utilizar
+[0:43:27] fuera de entonces no importa.
+[0:43:35] Entonces ahí copio
+[0:43:37] y vamos a entonces con el comando pasado
+[0:43:41] y pegamos la contraseña.
+[0:43:44] Volvemos a pegar la contraseña.
+[0:43:46] Y ya ahí tenemos nuestro
+[0:43:48] Entonces tenemos la llave pública
+[0:43:50] y la eh la
+[0:43:53] que
+[0:43:55] Eh, en el caso de que ya esto pues algo
+[0:43:57] de de por ejemplo
+[0:44:00] ya
+[0:44:01] esto pues debería de tratar con
+[0:44:03] muchísimo cuidado inclusive
+[0:44:05] si usan una terminal que guarda el
+[0:44:06] historial
+[0:44:07] ese historial debería quedar borrado
+[0:44:09] porque ese es el acceso, o sea, estas
+[0:44:11] son las llaves de su casa literalmente,
+[0:44:13] entonces si alguien tiene acceso a esto
+[0:44:14] y puede entrar y llevar sus fondos,
+[0:44:17] sus
+[0:44:18] o o inclusive el control de cualquier
+[0:44:19] aplicación que ustedes eh estén usando
+[0:44:22] en Solana. Por lo tanto es muy
+[0:44:24] importante que le den el cuidado
+[0:44:27] y esa
+[0:44:28] realmente no no es tan importante. Vamos
+[0:44:30] a irnos al
+[0:44:31] y vamos a revisarlo.
+[0:44:35] Acá en
+[0:44:37] Eh, ponemos la
+[0:44:39] la
+[0:44:40] Eh, creo que hay que buscar
+[0:44:46] Hm.
+[0:44:47] Bueno, y aquí nos sale la la cuenta.
+[0:44:50] Eh, no tiene nada balance porque no
+[0:44:52] hemos pedido el
+[0:44:54] pero por aquí voy a configurar el sí.
+[0:45:01] Entonces, dentro de pues aquí ya está la
+[0:45:04] la ahora hay que fondearla. Entonces,
+[0:45:06] para fondearla
+[0:45:09] borrar esto. Yo no voy a guardar esa
+[0:45:10] clave porque no no quiero la la
+[0:45:14] Eh, vamos a
+[0:45:16] Bueno, tenemos el comando
+[0:45:19] Ese es para dar la dirección, nada más.
+[0:45:21] No no es como nada
+[0:45:24] eh extra. Entonces, si en algún momento
+[0:45:26] ustedes están eh o sea, ocupan su clave
+[0:45:29] pública
+[0:45:30] con la cual
+[0:45:31] por ejemplo,
+[0:45:33] nada más
+[0:45:34] y les va a devolver la clave pública.
+[0:45:37] Eh, y luego con este comando, bueno,
+[0:45:39] este vamos a borrar. Y con el comando
+[0:45:42] Solana
+[0:45:46] dos
+[0:45:48] vamos a recibir fondos. Entonces, eh
+[0:45:49] pues al dos es como la cantidad que nos
+[0:45:51] está pidiendo.
+[0:45:58] Eh, vamos a poner entonces.
+[0:46:01] A ver uno a ver qué pasa.
+[0:46:04] Eh.
+[0:46:10] No
+[0:46:20] Sigue teniendo balance cero.
+[0:46:28] Okay, si no vamos a usar entonces el
+[0:46:31] oficial.
+[0:46:34] Eh,
+[0:46:36] en sí y vamos a pegar la Entonces, por
+[0:46:39] ejemplo, en este caso ponemos la
+[0:46:40] entonces vamos a correr
+[0:46:43] Vamos a copiar aquí la dirección
+[0:46:45] pública, la vamos a pegar.
+[0:46:47] Eh,
+[0:46:48] el
+[0:46:50] digamos cinco y
+[0:46:52] Aquí nos pide una verificación. Eh.
+[0:47:04] Autenticamos con
+[0:47:15] Y se supone que ya debería funcionar.
+[0:47:21] y vemos que ya tenemos como
+[0:47:23] el comando
+[0:47:25] Voy a revisar qué pasa, pero ah, creo
+[0:47:27] que no está funcionando, tal vez está
+[0:47:29] muy
+[0:47:31] ehm
+[0:47:33] O sea, está muy congestionado.
+[0:47:36] Ahora después de la clase les aviso qué
+[0:47:37] pasó.
+[0:47:38] Eh, vamos a revisar el balance, entonces
+[0:47:40] para eso ponemos el comando
+[0:47:44] Y aquí nos dice que tenemos cinco sol.
+[0:47:48] Eh, y por ahí hay otras funciones, por
+[0:47:50] ejemplo tenemos la de transfer,
+[0:47:57] Eh, sí.
+[0:47:59] Aquí está.
+[0:48:04] Eh, entonces
+[0:48:05] y ponemos un
+[0:48:07] entonces vamos a crear otra solo para
+[0:48:08] recibir.
+[0:48:10] Ehm.
+[0:48:19] Aquí.
+[0:48:38] Okay, aquí vamos a ponerle
+[0:48:56] Voy a copiarlo.
+[0:48:58] Más fácil.
+[0:49:09] Entonces esta es la otra
+[0:49:13] Entonces
+[0:49:16] eh y íbamos a hacer el
+[0:49:29] Entonces
+[0:49:33] Entonces esta es la nueva la nueva
+[0:49:34] wallet que creamos, es solo para pasar
+[0:49:36] de una wallet a otra, entonces vamos a
+[0:49:38] hacer el
+[0:49:39] de la de la wallet original
+[0:49:41] a esta nueva. Entonces vamos a hacer el
+[0:49:48] Eh aquí se pasa como para el otro
+[0:49:52] entonces la wallet que queremos pasarle.
+[0:49:54] Eh
+[0:50:10] Y ya ahí sería enviar vamos a mandarle
+[0:50:12] un poco más. Vamos a darle
+[0:50:17] Y
+[0:50:47] Entonces ya ahí se hace la
+[0:50:50] la
+[0:50:54] Entonces aquí tenemos la firma
+[0:50:57] y
+[0:51:04] y
+[0:51:06] y le copiamos el
+[0:51:08] Entonces, eh básicamente esto lo que
+[0:51:11] vamos a hacer es el primer paso, que es
+[0:51:13] el
+[0:51:14] lo que hacía era preparar la transacción
+[0:51:16] y se daba una firma válida y con el
+[0:51:20] eh
+[0:51:21] confirm lo que hacíamos es mandarle la
+[0:51:23] transacción a la blockchain para que ya
+[0:51:25] eso quede inmutable.
+[0:51:28] Todo eso aquí nos da la la data aquí en
+[0:51:31] el
+[0:51:33] de los datos de la transacción.
+[0:51:35] Entonces, por ejemplo,
+[0:51:36] el balance de la primera wallet pasó de
+[0:51:38] 5 a 3.995
+[0:51:40] es no es cuatro por los que es el del
+[0:51:44] que les hablaba. Entonces,
+[0:51:45] eh siempre hay que tomar en cuenta que
+[0:51:47] va a haber un
+[0:51:48] y ahora la wallet eh uno tiene como
+[0:51:51] balance
+[0:51:53] eh tenía antes cero y ahora uno.
+[0:51:57] Vamos a buscar el
+[0:52:00] Entonces, con el
+[0:52:01] podemos irnos a aquí a
+[0:52:09] Y
+[0:52:20] vamos a revisar la la wallet
+[0:52:21] directamente en las transacciones de la
+[0:52:23] wallet.
+[0:52:28] Entonces, aquí
+[0:52:32] Entonces, aquí tenemos la transacción
+[0:52:34] que fue por un Solana
+[0:52:35] que bueno, ahí también les da el precio
+[0:52:37] de Solana. En este caso ahorita vale
+[0:52:38] 95.44
+[0:52:41] eh dice que está confirmada. Aquí dice
+[0:52:43] el block y el
+[0:52:45] eh entonces sería el bloque que ya son
+[0:52:48] un montón de bloques en Solana.
+[0:52:50] Eh y el tiempo en que se hace
+[0:52:53] ah y aquí más abajo los detalles, por
+[0:52:55] ejemplo, el que es el
+[0:52:58] eh de cuánto cómputo consume y bueno,
+[0:53:01] más detalles eh
+[0:53:04] como tal de la sesión.
+[0:53:07] Ah, entonces por ese lado ya ya tenemos
+[0:53:10] lo del o sea, lo de si el aire igual, o
+[0:53:12] sea, es como lo más básico, hay
+[0:53:15] muchísimas cosas que se pueden hacer
+[0:53:16] más.
+[0:53:18] Eh,
+[0:53:19] pero eso lo vamos a ir viendo en en el
+[0:53:22] Eh, esos son los cinco campos que tiene
+[0:53:24] una una cuenta.
+[0:53:27] que es la cantidad de Solana que tiene,
+[0:53:28] en este caso eh
+[0:53:30] y sería este, por ejemplo.
+[0:53:33] Eh, en data
+[0:53:35] eh básicamente
+[0:53:37] es como para decirlo,
+[0:53:39] o sea, cuánta data hay y el código del
+[0:53:41] programa.
+[0:53:42] eh y básicamente quién es el dueño.
+[0:53:45] Eh, eh
+[0:53:48] eh bueno, eso depende, ¿verdad?
+[0:53:51] y el
+[0:53:52] que es si está exento de del que es de
+[0:53:55] lo lo que se paga por la cuenta.
+[0:54:00] Esto se me desconfiguró un poco, vamos a
+[0:54:02] correrlo.
+[0:54:04] Eh, bueno, entonces la anatomía de una
+[0:54:06] transacción, entonces eh
+[0:54:09] ¿cómo es una transacción?
+[0:54:11] Digamos, hecha desde cero lo que hicimos
+[0:54:13] ahorita.
+[0:54:14] Pero eh pues ocurren más cosas por
+[0:54:16] debajo. Primero, o sea, empieza cuando
+[0:54:19] se hace la firma. Entonces, una vez
+[0:54:20] tenemos la firma
+[0:54:22] eh
+[0:54:24] pasa al
+[0:54:25] que es el el bloque en el que entraría.
+[0:54:29] Luego pasa la comisión, que es lo que se
+[0:54:31] paga
+[0:54:33] Igual todo eso es automático, o sea,
+[0:54:34] realmente uno no lo ve, simplemente se
+[0:54:37] hace.
+[0:54:38] Las cuentas eh si es
+[0:54:43] Las instrucciones en este caso es
+[0:54:46] entonces
+[0:54:47] la o sea, puede haber otra instrucción
+[0:54:49] dependiendo del programa, en este caso
+[0:54:50] pues nada más es transferir.
+[0:54:52] Los
+[0:54:53] que es la manera en la cual uno puede
+[0:54:55] ver qué se ha hecho en una cuenta y es
+[0:54:57] como, para decirlo, una manera de
+[0:54:59] auditarlo.
+[0:55:00] Los
+[0:55:01] que es la cantidad de de de computación
+[0:55:03] que usa y los saldos como cambian.
+[0:55:05] Entonces, por ejemplo, ahora que un
+[0:55:07] solana de una vuelta a otra menos uno o
+[0:55:10] bueno, menos uno punto cero menos uno.
+[0:55:13] Punto cero cero cero cero cero cinco y
+[0:55:16] en la otra más cero punto uno.
+[0:55:18] Eh, y el el cero cero cero cinco iría
+[0:55:23] a pagar
+[0:55:24] no iría a la otra bueno.
+[0:55:26] Eh, y los mismos datos se pueden ver en
+[0:55:30] y al final de cuentas el la fuente de la
+[0:55:32] verdad. Eh, no no hay otra otra manera
+[0:55:36] de saber o sea de verificar la data más
+[0:55:38] allá del
+[0:55:39] que igual como les explicaba pues hay
+[0:55:41] montones.
+[0:55:44] Eh,
+[0:55:46] bueno, aquí tenemos
+[0:55:50] Eh, ¿por qué cuando uno envía sí lo que
+[0:55:53] les explicaba? Porque cuando uno envía
+[0:55:54] cero punto diez eh o cero punto uno eh
+[0:55:58] sol eh termina enviando cero punto diez
+[0:56:01] cero cero cero cero cinco y es por la
+[0:56:03] comisión de los
+[0:56:04] entonces
+[0:56:06] pues tener cuidado con eso porque al
+[0:56:08] final de cuentas la comisión se cobra
+[0:56:09] automáticamente.
+[0:56:12] Eh,
+[0:56:13] ya ya lo vimos.
+[0:56:15] Ahm.
+[0:56:17] ¿Cómo hablar con el nodo sin librerías?
+[0:56:19] Eso es
+[0:56:21] eh una manera en la cual podemos
+[0:56:23] consultar
+[0:56:24] eh básicamente desde la terminal.
+[0:56:26] Entonces aquí con con que es una
+[0:56:29] librería para hacer
+[0:56:31] consultas podemos
+[0:56:39] Y aquí pues con el
+[0:56:42] eh podemos hacer una consulta a la API
+[0:56:45] de entonces voy a tener que ir copiando
+[0:56:46] esto línea por línea.
+[0:56:49] Eh.
+[0:56:50] Acá
+[0:56:53] ¿Qué pasó ahí?
+[0:56:57] Hm.
+[0:57:17] Okay.
+[0:57:22] Vamos a
+[0:57:23] pegar en la terminal.
+[0:57:25] Pues aquí está
+[0:57:27] el
+[0:57:28] la wallet, bueno, en este en este
+[0:57:31] se pasa como parámetro la wallet que
+[0:57:33] estamos usando, que es la que termina en
+[0:57:34] X R.
+[0:57:35] Y aquí lo que vamos a preguntarle o el
+[0:57:38] método que vamos a llamar es el de
+[0:57:40] Entonces vamos a obtener el balance de
+[0:57:41] esa wallet.
+[0:57:43] Entonces aquí nos devuelve una
+[0:57:44] respuesta, eh viene estructurada, o sea,
+[0:57:46] no no nos van a ir
+[0:57:49] Pero aquí viene el dato.
+[0:57:51] Eh que sería eh
+[0:57:54] di básicamente cuatro solanas.
+[0:57:56] Bueno, un poquito menos, pero
+[0:57:58] pero sí.
+[0:58:00] Eh y la idea es que bueno, cuando uno
+[0:58:02] está construyendo, por ejemplo, un front
+[0:58:03] end y esta data
+[0:58:05] la la a plan un poco para que el usuario
+[0:58:08] pueda verla. Entonces, por ejemplo, eh
+[0:58:10] aquí viene sin decimales, pues sí.
+[0:58:12] Eh este monto debería tener un punto
+[0:58:14] acá, pero eh por eficiencia la o sea, el
+[0:58:17] RPC y bueno, la blockchain manejan los
+[0:58:19] números de esta manera, que son
+[0:58:22] es un tipo dato distinto, entonces eh
+[0:58:25] básicamente sirve pues más
+[0:58:28] eh
+[0:58:30] para mandarlos rápido, pero igual digo,
+[0:58:32] uno tiene que mostrar al usuario que
+[0:58:34] tiene tres solanas, porque dicen mostrar
+[0:58:36] que tenía 3,000 3 millones no sé cuánto.
+[0:58:40] Eh di sería pues una catástrofe y el
+[0:58:43] usuario podría intentar gastar 3
+[0:58:45] millones que no tiene, tiene tres
+[0:58:46] solanas eh y un poco más.
+[0:58:49] Ah entonces ya por ahí vimos eso.
+[0:58:53] Bueno, esta es la respuesta, en este
+[0:58:54] caso bueno, el valor cambia porque no
+[0:58:56] era la misma wallet.
+[0:58:57] Eh eh ah bueno, sí, este valor está en
+[0:59:00] este que está acá. Entonces habría que
+[0:59:02] hacer la conversión de
+[0:59:04] a solana. Entonces y si copiamos, por
+[0:59:06] ejemplo, este valor
+[0:59:09] down
+[0:59:13] Zoom.
+[0:59:20] Y ya nos da que tenemos 3.9999995
+[0:59:25] Solana.
+[0:59:27] Ah,
+[0:59:28] vamos a ver qué más falta.
+[0:59:32] Commitment, velocidad versus certeza,
+[0:59:36] ya lo hemos visto.
+[0:59:39] Sí, esto esto es lo que
+[0:59:41] más atrás
+[0:59:42] eh cuando conviene usar uno público y
+[0:59:44] cuando conviene usar un proveedor como
+[0:59:46] Helius, Triton, QuickNode, Alchemy.
+[0:59:49] Ehm,
+[0:59:50] entonces sí, como les decía, si ustedes,
+[0:59:52] por ejemplo, van a hacer una hackathon,
+[0:59:55] podría convenir, o sea, puede que tal
+[0:59:57] vez no,
+[0:59:58] pero si quieren como que el juez tenga
+[0:59:59] una experiencia rápida, pueden usar un
+[1:00:01] proveedor que que tienen planes gratis,
+[1:00:03] sirve para startups, entonces también
+[1:00:05] sirve un montón.
+[1:00:07] Hm, y creo que la experiencia sería
+[1:00:08] mejor para la persona que va a probar la
+[1:00:10] aplicación, entonces pues
+[1:00:12] está esa opción.
+[1:00:14] Ehm, y bueno, el RPC público tiene muy
+[1:00:17] estrictos porque literal cualquier
+[1:00:19] persona puede hacerle consultas y la
+[1:00:22] idea es que se use para aprender nada
+[1:00:23] más, no no en casos
+[1:00:25] tan de producción, por ejemplo.
+[1:00:29] Eh, el bloque hash
+[1:00:30] vence cada 150 bloques, o sea, como en 1
+[1:00:34] minuto, entonces también hay que tomar
+[1:00:35] en cuenta.
+[1:00:37] Eh, esto del ejercicio no lo íbamos a
+[1:00:39] hacer porque ya les habíamos dejado un
+[1:00:40] ejercicio.
+[1:00:43] Eh, y esto era un reto opcional.
+[1:00:46] Eh,
+[1:00:55] En Ethereum, un contrato verificado
+[1:00:57] permite ver el código fuente del
+[1:00:58] contrato en Solana. Eh, sí.
+[1:01:03] Este, vamos a buscar cómo se puede.
+[1:01:06] Ehm,
+[1:01:07] vamos a ver, vamos a ver.
+[1:01:09] Bueno, tenemos que buscar primero un
+[1:01:11] programa, qué programa
+[1:01:24] ¿Qué programa puedo usar?
+[1:01:45] Lo único es eh
+[1:01:47] que a diferencia con también eh el
+[1:01:49] código vive en
+[1:01:51] O sea, no no
+[1:01:53] no se publica como tal. Eh,
+[1:01:57] por aquí encontré uno de
+[1:02:04] Programa que lo detecta.
+[1:02:08] Eh,
+[1:02:15] y ¿dónde se podrá ver eso?
+[1:02:20] Bueno, es una que
+[1:02:23] es bastante bueno.
+[1:02:30] Hm.
+[1:02:49] Ya, entonces por acá
+[1:02:53] Entonces, el el este campo lo que hace
+[1:02:55] es llevarnos igual aquí al
+[1:02:57] y el código este de acá. Entonces,
+[1:02:59] eh aquí dentro del
+[1:03:02] nos metemos aquí
+[1:03:03] y aquí está el contrato escrito.
+[1:03:05] Entonces,
+[1:03:06] dentro del
+[1:03:08] pues ya podemos ver cómo se escribió el
+[1:03:09] contrato.
+[1:03:10] Eh, bueno, el programa. Entonces, eh de
+[1:03:13] esa manera se puede verificar
+[1:03:15] el código fuente del contrato.
+[1:03:17] Eh, y bueno, es opcional, o sea, no todo
+[1:03:20] el mundo tiene que verificarlo, pero
+[1:03:21] bueno, para protocolos DeFi y wallets o
+[1:03:24] así, pues es superconveniente porque
+[1:03:26] entonces cualquier persona puede
+[1:03:27] verificar que no haya como
+[1:03:30] como algún O sea, algo raro o o alguna
+[1:03:34] manera en la cual los puedan hackear,
+[1:03:35] por ejemplo, o auditarlo porque lo va a
+[1:03:38] usar una compañía, por ejemplo.
+[1:03:40] Ehm,
+[1:03:43] entonces ya habíamos quedado por acá.
+[1:03:55] Eh, bueno, este si si quieren igual
+[1:03:57] hacerlo después de clase, pueden. Eh,
+[1:04:03] Pero bueno, entonces eh básicamente la
+[1:04:04] idea es que ustedes hagan algo parecido
+[1:04:07] a lo que yo hice.
+[1:04:08] Se creen una wallet en la terminal,
+[1:04:10] ehm bueno, que creen dos y que de una se
+[1:04:13] pase a la otra
+[1:04:14] y revisen que o sea, cuántos
+[1:04:17] utilizaron eh
+[1:04:19] y hagan una transacción de
+[1:04:21] eh
+[1:04:23] y sí.
+[1:04:25] Hm, básicamente
+[1:04:27] ahí quedaríamos por hoy.
+[1:04:29] Ehm, eso sería la semana uno, realmente
+[1:04:32] de la idea de esta semana que fuera lo
+[1:04:34] más
+[1:04:37] y básica posible, pero bueno, hoy tenía
+[1:04:39] que programar un poco porque teníamos
+[1:04:40] dos
+[1:04:41] Eh, entonces si alguno quedó con alguna
+[1:04:43] duda igual puede puede hablarme por
+[1:04:45] Telegram y este con mucho gusto les
+[1:04:48] puedo ayudar.
+[1:04:50] Ehm, y sí.
+[1:04:52] Este siéntanse libres igual de compartir
+[1:04:54] unos feedback, si tenían alguna
+[1:04:55] pregunta. Vi que ya varios de hecho
+[1:04:57] subieron el el
+[1:04:59] entonces sí, muy bien por ese lado.
+[1:05:01] Eh, creo que los tres que estaban ya
+[1:05:03] estaban pasando el entonces excelente.
+[1:05:06] Ehm, y sí, la la la idea es este que
+[1:05:09] igual sigamos con sigamos haciendo la la
+[1:05:12] tarea semanal,
+[1:05:13] que sea lo más sencillo posible y que
+[1:05:14] ustedes al final de cuentas puedan
+[1:05:16] recibir el
+[1:05:17] el
+[1:05:18] título que
+[1:05:20] o el batch eh dentro de la plataforma.
+[1:05:22] Eh, entonces, muchísimas gracias por
+[1:05:24] estar hoy y y nos estamos viendo la
+[1:05:27] próxima semana.

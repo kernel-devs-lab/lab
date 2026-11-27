@@ -1,0 +1,2006 @@
+# Transcripción: Session 6
+URL: https://www.youtube.com/watch?v=cXijCUOqnII
+
+[0:00:06] Jim, Jim, um, so just I will put you as
+[0:00:10] host because I need
+[0:00:12] to jump into another meeting to get my
+[0:00:15] Okay, okay.
+[0:00:16] something for just to let you know.
+[0:00:19] Okay, okay. All good.
+[0:00:21] Bye.
+[0:00:22] Bye.
+[0:03:20] Hola, hola.
+[0:03:22] Eh, di, yo creo que demos unos 2 minutos
+[0:03:25] más,
+[0:03:26] 2 3 minutos más y y vamos empezando
+[0:03:29] porque no no se ha metido solo estás
+[0:03:30] metido vos, entonces
+[0:03:32] eh por si acaso.
+[0:03:38] Hola, buenas tardes, ¿cómo estás?
+[0:03:42] Todo bien, todo bien, ¿y vos?
+[0:03:47] Hm, ¿se me escucha? Ah, sí, se me
+[0:03:49] escucha.
+[0:03:49] Super.
+[0:03:56] Ya están ya no los los
+[0:04:00] Eh,
+[0:04:02] hm sí, el de la vez pasada sí, voy a voy
+[0:04:04] a subir el de esta el de esta clase en
+[0:04:05] realidad un toque.
+[0:04:09] Si quieres demos como hasta las 12 y 7 y
+[0:04:11] y empezamos. Bueno, 4 minutos 3 minutos
+[0:04:14] más y empezamos.
+[0:04:33] Hola, hola, por si acaso empezamos a las
+[0:04:34] 12 y 7 para ver si se une alguien más.
+[0:05:20] Eh, ¿qué qué recomiendo para manejar
+[0:05:22] fiat de una app? Bueno,
+[0:05:24] digamos, por ejemplo, si yo tengo una
+[0:05:26] fiat,
+[0:05:28] o sea, manejar fiat como tal al menos yo
+[0:05:30] nunca lo he hecho, lo que yo sí he usado
+[0:05:32] es
+[0:05:34] que lo que hacen es que pasan
+[0:05:36] cambiando pesos a dólares por USDT o
+[0:05:39] SOLs.
+[0:05:41] Para manejar fiat en una app
+[0:05:44] tipo
+[0:05:46] yo pienso que
+[0:05:49] manejar fiat
+[0:05:50] no sé, nunca lo he pensado la verdad. Al
+[0:05:52] menos sé que en Costa Rica, por ejemplo,
+[0:05:54] al menos sé que en mi país, porque eso
+[0:05:55] depende de la moneda también y dónde va
+[0:05:57] a estar tipo la custodia del fiat.
+[0:05:59] Pero, por ejemplo, sé que en Costa Rica
+[0:06:01] sí hay eh startups que están registradas
+[0:06:05] como neobanco. Entonces eh también, o
+[0:06:08] sea, ellos pueden tener dinero ellos.
+[0:06:11] Entonces si uno puede tener fiat, por
+[0:06:14] ejemplo, en la en las cuentas de ellos
+[0:06:16] eh es porque ellos tienen la ellos
+[0:06:19] mantienen el dinero, no es como un
+[0:06:21] proveedor externo que puede mantener
+[0:06:23] fiat.
+[0:06:23] Lo que sí se hace mucho
+[0:06:26] si no les habría que tener que repetir
+[0:06:27] la acción de ir a para comprar
+[0:06:29] Ah, okay. Para eso, bueno, voy a
+[0:06:31] compartir voy a ir compartiendo
+[0:06:32] pantalla. Eh,
+[0:06:34] un momento para pasar esto para acá, que
+[0:06:37] hoy estoy con doble monitor.
+[0:06:38] Entonces ya
+[0:06:42] Eh,
+[0:06:44] para eso hay algo que se llaman
+[0:06:47] bueno,
+[0:06:48] se llaman y también se le llaman
+[0:06:50] Entonces bueno, no sé si se le llaman
+[0:06:53] Solana, yo sé que en otras se le llama
+[0:06:54] así,
+[0:06:55] pero
+[0:06:56] eh a ver
+[0:06:58] eh
+[0:07:00] Solana.
+[0:07:02] Básicamente, sí.
+[0:07:03] Básicamente esto es para que el usuario
+[0:07:06] no tenga que pasar de ir a un
+[0:07:09] comprar
+[0:07:10] y luego volver a la app.
+[0:07:12] Entonces, ¿qué es lo que hace esto? Esto
+[0:07:14] eh
+[0:07:15] supongamos que yo estoy
+[0:07:17] bueno, tal vez en Costa Rica, supongamos
+[0:07:19] que este es
+[0:07:21] Este, por ejemplo, está en
+[0:07:24] bueno, o sea, no está en no está en
+[0:07:26] Latam.
+[0:07:27] Pero bueno, busquemos uno de Latam. Eh,
+[0:07:34] okay, vean este,
+[0:07:36] Ah, eh bueno, di, no sé por qué estoy
+[0:07:38] bloqueado, pero bueno.
+[0:07:39] Básicamente aquí entonces yo puedo pasar
+[0:07:41] pesos mexicanos y eso funciona como una
+[0:07:43] rampa donde
+[0:07:45] yo pongo pesos mexicanos
+[0:07:48] y eso se pasa a eh a Solana o a
+[0:07:54] Ahora, eso no pasa por
+[0:07:56] sino que se hace dentro de la misma app.
+[0:07:58] Es decir, que dentro de la misma app
+[0:07:59] está la función de yo depositar fiat y
+[0:08:02] que me llegue como
+[0:08:03] ¿Cómo hacen ellos esto? Normalmente es
+[0:08:06] que tienen un partner bancario.
+[0:08:08] Entonces, yo que sé, por ejemplo,
+[0:08:10] no sé, no me acuerdo de qué país eras,
+[0:08:12] tal vez no lo has dicho, pero la verdad
+[0:08:14] es que no me acuerdo,
+[0:08:15] pero por ejemplo, si si yo estoy en
+[0:08:17] Costa Rica
+[0:08:18] y yo quiero pasar de colones a
+[0:08:23] Algo Lima, Perú. Okay, en Perú se usaban
+[0:08:26] los soles. Entonces, ehm
+[0:08:29] Chiva, Perú, yo he he ido a Perú en
+[0:08:31] realidad.
+[0:08:32] Ehm, entonces eh digamos si yo tengo
+[0:08:36] soles
+[0:08:37] hay puede ser que haya yo algún banco
+[0:08:40] que le interesa tener
+[0:08:42] tener Solana, por ejemplo. Entonces
+[0:08:44] existe el
+[0:08:45] perdón, al revés, le sirve tener plata
+[0:08:48] en soles
+[0:08:49] y no tener Solana, por ejemplo, si
+[0:08:51] tuviesen. Tiene que ser como un banco
+[0:08:52] moderno. Entonces, ¿qué es un es cuando
+[0:08:55] yo agarro mis mis soles, se los doy al
+[0:08:57] banco y el banco me da su equivalente en
+[0:09:00] Solana. Entonces el banco tiene que
+[0:09:02] tener liquidez tanto de Solana y de BTC
+[0:09:06] por eh perdón, de BTC, de
+[0:09:09] por ejemplo,
+[0:09:10] y eh
+[0:09:12] yo le doy la moneda local a como, por
+[0:09:15] ejemplo, está el
+[0:09:16] donde es más bien que yo les doy Solana
+[0:09:20] o les doy
+[0:09:21] y ellos me dan su equivalente en moneda
+[0:09:22] local. Entonces esto se le llama
+[0:09:26] Entonces básicamente yo aquí puedo
+[0:09:28] seleccionar el país, entonces, por
+[0:09:29] ejemplo, si nosotros venimos aquí a Perú
+[0:09:32] está
+[0:09:33] Entonces si yo me meto a
+[0:09:35] no sé por qué no
+[0:09:36] no ay
+[0:09:40] a ver
+[0:09:43] por ejemplo.
+[0:09:44] Entonces si yo me meto aquí a
+[0:09:47] bueno, es que no encuentro ninguno que
+[0:09:49] que me deje entrar, pero básicamente es
+[0:09:52] como que
+[0:09:55] digamos ellos tienen partners bancarios
+[0:09:57] donde yo deposito una cuenta y al ratito
+[0:10:01] me llega
+[0:10:02] por ejemplo
+[0:10:04] eh hay una que se llama
+[0:10:06] que tiene Bueno, esa esa sí la la tengo
+[0:10:09] clara. Vamos a ver.
+[0:10:15] Eh, ya les enseño. Etherfuse, primero
+[0:10:17] que todo, algo interesante de Etherfuse,
+[0:10:19] yo sé que no tiene mucho que ver con con
+[0:10:21] el tema, pero
+[0:10:22] tiene Real World Assets. ¿Qué es un Real
+[0:10:24] World Asset? Un Real World Asset es
+[0:10:26] cuando es un activo que existe en la
+[0:10:28] vida real, nada más que se pasa a la
+[0:10:29] blockchain. Y entonces, ¿cómo se pasa a
+[0:10:31] la blockchain? Es que cuando está en la
+[0:10:33] blockchain tiene una representación
+[0:10:35] física, o sea, en la vida real hay una
+[0:10:37] representación.
+[0:10:38] Perdón, el está la lo que yo quiero
+[0:10:40] tener en la blockchain. ¿Y qué es lo que
+[0:10:42] hace? En la blockchain yo tokenizo, es
+[0:10:44] decir, hago que un token de esto vale
+[0:10:46] esto. Entonces,
+[0:10:48] un Real World Asset o un activo del
+[0:10:50] mundo real es cuando yo agarro ese ese
+[0:10:53] token y digo, este token está respaldado
+[0:10:56] por esto. Por ejemplo, está este
+[0:10:57] Etherfuse.
+[0:10:59] Ellos tokenizan eh bonos de deuda del
+[0:11:02] Estado. Entonces, por ejemplo, yo puedo
+[0:11:04] comprar aquí bonos del del Tesoro
+[0:11:07] brasileño, es decir, bonos del gobierno
+[0:11:09] de Brasil, que dan, por ejemplo, un 12%
+[0:11:11] de retorno. Y entonces, si yo tengo 1000
+[0:11:13] tokens de esos, represento una cierta
+[0:11:15] cantidad de certificados de bono. O tal
+[0:11:19] vez no un certificado completo porque
+[0:11:20] esos bonos normalmente son más caros,
+[0:11:22] pero representan cierto porcentaje.
+[0:11:24] Eh, y Etherfuse, que era lo que les iba
+[0:11:27] a decir,
+[0:11:28] tiene esto, el FX el Etherfuse FX, que
+[0:11:31] es básicamente de que eh si yo, por
+[0:11:35] ejemplo, paso por Etherfuse para hacer
+[0:11:37] para pasar de
+[0:11:39] de pesos mexicanos a a dólares,
+[0:11:44] eh ellos lo que hacen es que, digamos,
+[0:11:45] yo les paso pesos mexicanos a una cuenta
+[0:11:47] de Banco de México
+[0:11:49] y ellos me dan dólares en la blockchain.
+[0:11:52] Entonces, básicamente eh ellos di pues
+[0:11:55] le sirve puesto que obviamente te cobran
+[0:11:59] un fee por hacer eso y con ese fee
+[0:12:01] ganan, pero tienen liquidez tanto en la
+[0:12:03] blockchain, tipo en USDT, USDC, en
+[0:12:05] Solana,
+[0:12:07] como lo tienen en en un banco con
+[0:12:10] partner bancario que también le sirve
+[0:12:12] tener dólares así. Obviamente te cobran
+[0:12:14] comisiones porque de
+[0:12:17] de obviamente no lo van a hacer de
+[0:12:18] gratis. ¿Tienen KYC? Sí.
+[0:12:20] Para esto sí tienen que pedir KYC.
+[0:12:22] Bueno, en realidad aquí ven cómo se
+[0:12:23] integra. Por ejemplo, esto está
+[0:12:25] integrado para la blockchain de Stellar,
+[0:12:27] pero tienen un tienen un
+[0:12:31] o sea, están en varias chains. Uno tiene
+[0:12:33] que pedir tipo que le den una demo, pero
+[0:12:35] sí. Yo este sí lo he probado, este sí lo
+[0:12:37] eso sí lo he utilizado.
+[0:12:38] Ehm,
+[0:12:49] con un banco y entonces tipo si yo te
+[0:12:51] voy a pasar dinero a una cuenta de
+[0:12:53] banco, ya ahí sí necesitan verificar que
+[0:12:56] yo soy quien digo ser. Sí, por ejemplo,
+[0:12:58] en la blockchain de
+[0:13:00] como sabemos es inmutable, es anónima, o
+[0:13:03] sea, no es como que mi nombre sale en mi
+[0:13:05] en mi dirección, entonces di, no hay
+[0:13:07] ningún problema. ¿Pero qué pasa cuando
+[0:13:09] hago un banco? En un banco sí tienen que
+[0:13:11] saber por procesos di legales y todo
+[0:13:14] quién soy yo. Entonces pues ahí sí es
+[0:13:16] importante tenerse en cuenta.
+[0:13:19] Pero sí, eso eso es básicamente como
+[0:13:21] funciona. Sorry si se me ve un toque
+[0:13:23] lagueada la cámara. Más bien voy a
+[0:13:24] quitar el
+[0:13:26] el ay, no, mentira, eso no era.
+[0:13:32] Listo, así.
+[0:13:34] Más diez.
+[0:13:36] Okay.
+[0:13:37] Hoy vamos a hablar entonces del Solana
+[0:13:40] Kit. ¿Qué es el Solana Kit? Es
+[0:13:42] básicamente una forma de construir,
+[0:13:44] simular, enviar y confirmar
+[0:13:45] transacciones en TypeScript. Entonces eh
+[0:13:48] TypeScript para los que no lo conocen es
+[0:13:51] un lenguaje de programación
+[0:13:52] que realmente es muy parecido a
+[0:13:54] JavaScript. En realidad son lenguajes
+[0:13:56] casi que hermanos, pero tiene una
+[0:13:58] ventaja que es que es tipado. ¿Qué
+[0:14:00] quiere decir que es un lenguaje tipado?
+[0:14:02] Un lenguaje tipado es un lenguaje que yo
+[0:14:05] tengo que definir los tipos por fuerza.
+[0:14:07] Es decir, eh nos vamos a dar cuenta que
+[0:14:09] el Solana Kit es super tipado. Bueno, no
+[0:14:12] es super, o o no se no existe palabra
+[0:14:14] supertipado,
+[0:14:15] pero es tipado fuertemente
+[0:14:18] porque em por ejemplo, si yo quiero
+[0:14:21] definir una transacción o quiero definir
+[0:14:24] algo, me va a pedir exactamente las
+[0:14:26] cosas que tengo que hacer. Entonces
+[0:14:28] vamos a ver cómo funciona.
+[0:14:30] Entonces,
+[0:14:32] hoy vamos a ver los conceptos clave,
+[0:14:33] vamos a construir una transacción, vamos
+[0:14:36] a simular, vamos a firmar y luego vamos
+[0:14:37] a hacer una demo.
+[0:14:39] Eh, vamos a ir haciendo esto, tipo lo
+[0:14:41] hacemos en la presentación, lo vemos en
+[0:14:43] el código y así vamos, ¿okay? Entonces,
+[0:14:47] conceptos clave. Primero que todo, el
+[0:14:49] Solana Kit es el SDK que les acabo de
+[0:14:51] decir, es un un SDK es un
+[0:14:55] eh es el sucesor de uno que es eh Solana
+[0:15:00] que realmente
+[0:15:02] bueno, esta clase
+[0:15:03] eh voy a ir enseñándoles de todo.
+[0:15:06] Entonces, vamos a meternos acá.
+[0:15:13] Ah, bueno, no me salió.
+[0:15:20] Este es el legacy, realmente esto ya no
+[0:15:23] se está usando tanto.
+[0:15:25] Eh, como pueden ver, hay varias formas,
+[0:15:27] o sea, hay varios SDKs para Solana. Está
+[0:15:28] el Solana Kit, que es como el que ellos
+[0:15:30] usan. Hay uno en React, tipo si ustedes,
+[0:15:32] por ejemplo, están haciendo algo en
+[0:15:33] React, le recomiendo este. Está el
+[0:15:36] plugin de RPCs, que trae más cosas,
+[0:15:38] designer de wallets, están los program
+[0:15:41] clients, que eso es lo que vamos a
+[0:15:42] hablar ahorita más adelante, pero
+[0:15:44] eh está el Solana
+[0:15:48] el Solana
+[0:15:50] que es básicamente el original,
+[0:15:53] pero que está en mantenimiento y ya ya
+[0:15:55] no
+[0:15:56] o sea, ya no se usa tanto. No, mentira,
+[0:15:58] sí se usa mucho,
+[0:16:00] pero
+[0:16:01] ya no tiene tanto tanto mantenimiento.
+[0:16:03] Ya existe el el Solana
+[0:16:06] tres, la versión tres,
+[0:16:08] y ahora todo el mundo o la idea sería
+[0:16:10] que todo el mundo migre al web, perdón,
+[0:16:12] al kit. ¿Por qué al kit? Porque el kit
+[0:16:14] es más modular y es tal vez no más fácil
+[0:16:17] de usar, pero ahora vamos a ver que me
+[0:16:20] da más configurabilidad y más cosas que
+[0:16:21] podemos hacer. En realidad, yo pienso
+[0:16:23] que el Web3.js es más fácil, pero bueno,
+[0:16:26] el kit es como más modular. Entonces,
+[0:16:29] tiene tres características muy útiles.
+[0:16:30] Primero que es tree-shakable, que es
+[0:16:32] básicamente que yo solo importo las
+[0:16:34] funciones que a mí me sirven. Es decir,
+[0:16:36] si yo ocupo usar cuatro funciones, yo
+[0:16:39] solo importo esas cuatro funciones y ya.
+[0:16:42] Entonces, esto nos sirve para hacer
+[0:16:43] bundles más pequeños. Entonces, por
+[0:16:44] ejemplo, nosotros estamos usando byte.
+[0:16:47] Byte que es un framework para para
+[0:16:50] ehm o sea, un framework para hacer
+[0:16:52] frontend y esas cosas.
+[0:16:54] Eh, digamos, eso va a ser los bundles
+[0:16:58] más pequeño, entonces por ende va a
+[0:16:59] tener mayor rendimiento, va a ser más
+[0:17:01] rápida la página, etcétera. Luego,
+[0:17:03] además es funcional, que es que las
+[0:17:04] funciones son simples, los datos son
+[0:17:06] inmutables y no usamos clases grandes. Y
+[0:17:09] finalmente es algo que es type safe, que
+[0:17:11] realmente es lo mismo que
+[0:17:14] ehm que TypeScript, que es que es type
+[0:17:16] safe. Entonces, si falta un fee payer o
+[0:17:18] si falta un signer o el tiempo de vida,
+[0:17:21] todo eso lo va a detectar el compilador
+[0:17:23] porque es tipado. Entonces, en el Solana
+[0:17:27] Kit podemos ver algunas diferencias con
+[0:17:29] el Web3.js si ya lo hemos usado, que es
+[0:17:31] que en el Web3.js ocupamos hacer un new
+[0:17:33] connection con una URL y en el kit es
+[0:17:35] más bien create Solana RPC. Eh, lo mismo
+[0:17:38] con el public key, el generate keeper,
+[0:17:40] eso lo vamos a ver más adelante, ¿okay?
+[0:17:44] Entonces, otra cosa es que tiene como un
+[0:17:46] ecosistema de paquetes. ¿Qué es un
+[0:17:47] ecosistema de paquetes? Es que el Solana
+[0:17:50] Kit es el núcleo. Entonces, aquí
+[0:17:52] nosotros podemos ver cosas de RPCs que
+[0:17:56] no me acuerdo si ya habíamos visto qué
+[0:17:57] es un RPC, si no ya casi se lo recuerdo.
+[0:18:00] Luego, cosas de direcciones, de llaves,
+[0:18:02] perdón, de claves, eh de mensajes de
+[0:18:05] transacciones y de códecs. Un códec
+[0:18:07] básicamente es como lo que codifica y
+[0:18:09] decodifica las cosas que nosotros
+[0:18:11] enviamos, pero bueno.
+[0:18:12] Y además algo útil, por eso es un
+[0:18:14] ecosistema, es que tiene clientes de
+[0:18:16] programa. ¿Qué son clientes de programa?
+[0:18:17] Son cosas que
+[0:18:19] eh nosotros necesitamos para hacer cosas
+[0:18:21] básicas. Por ejemplo, si queremos
+[0:18:22] transferir Solana y crear cuentas,
+[0:18:24] usamos el Solana Program System.
+[0:18:27] Si queremos hacer de tokens, queremos
+[0:18:30] hacer cuentas de tokens, queremos hacer
+[0:18:31] transferencias, usamos el Solana Program
+[0:18:35] y, finalmente, si queremos hacer
+[0:18:38] eh queremos encontrar el límite de los
+[0:18:40] No sé si se acuerdan que ayer, por
+[0:18:42] ejemplo, en el Explorer
+[0:18:43] eh empezamos a revisar como Digamos, yo
+[0:18:46] podía elegir un límite de unidades de
+[0:18:48] cómputo que se puede agarrar por
+[0:18:49] transacciones, comisiones de prioridad,
+[0:18:52] todo ese tipo de cosas. Todo eso se
+[0:18:53] puede manejar con los clientes de
+[0:18:54] programa. Ahora,
+[0:18:56] hay algo que se llama
+[0:18:57] que es básicamente que genera los
+[0:18:59] clientes de programa a partir del IDL de
+[0:19:02] cada programa. Entonces, ustedes se
+[0:19:03] preguntarán, bueno,
+[0:19:05] aquí me estás hablando de más de cosas
+[0:19:07] más que no sabemos. Okay, recuerden que
+[0:19:10] un programa
+[0:19:11] es lo que le añade programabilidad a la
+[0:19:13] blockchain. Entonces, ¿qué es un IDL
+[0:19:17] de programa?
+[0:19:18] Es básicamente
+[0:19:20] la interfaz o lo que define
+[0:19:23] cómo se ve el programa. Entonces,
+[0:19:26] eh
+[0:19:27] por si acaso, la documentación de Solana
+[0:19:29] siempre va a ser su su mejor amigo. Está
+[0:19:32] muy bien hecha.
+[0:19:34] En realidad, ustedes aquí pueden hasta
+[0:19:35] abrir el
+[0:19:36] o pueden preguntarle a la IA aquí si
+[0:19:38] tienen alguna duda. A veces siempre hay
+[0:19:40] dudas, entonces está muy bien.
+[0:19:42] Eh, entonces, ¿qué es un IDL?
+[0:19:43] Básicamente Bueno, es el
+[0:19:48] que básicamente define la interfaz del
+[0:19:50] programa. Entonces,
+[0:19:52] en un programa yo tengo que tener
+[0:19:54] funciones, yo voy a tener parámetros
+[0:19:57] para esas funciones y más cosas.
+[0:19:59] Entonces, ¿qué es lo bueno? Que entonces
+[0:20:01] en este IDL,
+[0:20:03] como se describe la interfaz del
+[0:20:04] programa, yo voy a poder saber qué
+[0:20:06] parámetros voy a pedir, qué cosas van a
+[0:20:09] tener, qué instrucciones hay, si hay
+[0:20:11] datos de cuenta, si hay errores creados
+[0:20:14] específicamente para un programa.
+[0:20:16] Entonces, nos da la posibilidad de
+[0:20:18] generar clientes
+[0:20:20] como estos O sea, con esto que se llama
+[0:20:23] se generan los clientes a partir de cada
+[0:20:25] programa. Entonces, a partir de las
+[0:20:27] instrucciones, de los errores tipados,
+[0:20:28] de los features, yo básicamente esos
+[0:20:31] esos clientes del programa salen para
+[0:20:33] hacer esas cosas. Entonces, el programa
+[0:20:36] le añade programabilidad y a partir de
+[0:20:39] ese IDL se generan los clientes del
+[0:20:40] programa. En en el ejemplo de hoy vamos
+[0:20:43] a usar un cliente de programa, pero no
+[0:20:46] es porque vamos a hacer un programa como
+[0:20:47] tal, eso lo vamos a hacer la próxima
+[0:20:48] semana. O bueno, al menos la próxima
+[0:20:50] semana Santi les va a explicar un poco
+[0:20:52] más de eso. Yo creo que solo voy a tener
+[0:20:53] una clase la próxima semana,
+[0:20:55] pero ehm vamos a ver sobre Anchor y esas
+[0:20:57] cosas, ¿okay?
+[0:20:59] Ahora, hablemos entonces de un RPC.
+[0:21:02] ¿Qué es un RPC? Un RPC es básicamente
+[0:21:04] con lo que yo hago lecturas, hago envíos
+[0:21:07] de cosas y hago simulaciones. Entonces,
+[0:21:11] ehm
+[0:21:13] Igual yo creo que eso ahorita lo
+[0:21:14] explico, sale en la presentación, pero
+[0:21:17] bueno.
+[0:21:18] Entonces, ¿qué es un RPC? Un RPC es
+[0:21:20] básicamente lo que nos da métodos para
+[0:21:22] yo poder leer el estado de la de la red,
+[0:21:25] mandar transacciones, simular y otras
+[0:21:28] cosas. Entonces, ¿cómo funciona?
+[0:21:30] Eh, voy a hacerlo así.
+[0:21:33] Esta es mi aplicación. Entonces, yo
+[0:21:35] tengo un backend que hice en TypeScript.
+[0:21:39] Aunque, bueno, ahorita les voy a
+[0:21:40] explicar que hay alternativas a Solana
+[0:21:42] aquí, depende del lenguaje de
+[0:21:43] programación en el que estén. Pero
+[0:21:45] bueno.
+[0:21:47] Entonces, yo tengo mi backend y me
+[0:21:49] comunico con HTTP a un endpoint del RPC.
+[0:21:52] ¿Qué es HTTP? Básicamente es ehm o sea,
+[0:21:57] eh la forma de comunicación que se usa
+[0:21:58] en las en las API más comunes. Eh,
+[0:22:01] básicamente si ustedes usan un API casi
+[0:22:03] siempre que usan HTTP es para
+[0:22:05] comunicarse. Entonces, ustedes se
+[0:22:07] comunican con el endpoint del RPC,
+[0:22:09] que lo que hace es que puede leer y
+[0:22:12] enviar data de los validadores y puede
+[0:22:15] enviarme cosas de la red, puede enviarme
+[0:22:18] simular cosas, puede enviar
+[0:22:19] transacciones, etcétera. Y además esto
+[0:22:21] por debajo usa WebSockets, que
+[0:22:22] WebSockets es básicamente una forma como
+[0:22:24] de recibir
+[0:22:25] updates de algo, digamos.
+[0:22:27] Entonces eh es bastante útil y bueno, no
+[0:22:31] es bastante útil, o sea, es necesario
+[0:22:33] que usemos RPCs porque eh sin RPCs
+[0:22:36] nosotros no nos podemos comunicar con la
+[0:22:38] red. Entonces la forma de comunicarme
+[0:22:41] con la red es con estos métodos HTTP.
+[0:22:44] Entonces como pueden ver una vez yo
+[0:22:46] tengo un un RPC, aquí a la izquierda
+[0:22:48] pueden ver
+[0:22:49] tengo un montón de métodos. Entonces eh
+[0:22:53] yo puedo ver get account info, entonces
+[0:22:55] aquí yo es un método donde yo le paso de
+[0:22:58] parámetro una dirección
+[0:23:02] y me va a dar
+[0:23:03] data de la información. Perdón,
+[0:23:05] información de la cuenta. Y lo mismo, si
+[0:23:09] si yo quiero recibir el el último block
+[0:23:11] hash, si yo quiero recibir múltiples
+[0:23:15] accounts
+[0:23:17] eh o sea, hay un montón de cosas, están
+[0:23:19] los web sockets. Si yo quiero, por
+[0:23:20] ejemplo, enviar una transacción
+[0:23:23] esto es para enviar una transacción,
+[0:23:24] ahorita lo vamos a ver. ¿Qué tengo que
+[0:23:26] mandar? Tengo que mandar la transacción
+[0:23:28] firmada y, por example aquí, algo
+[0:23:31] bastante útil de esto, les voy a mandar
+[0:23:33] esto
+[0:23:34] por el chat.
+[0:23:37] Eh, voy un toque para cerrar esto que es
+[0:23:39] que siento que se me está lagueando
+[0:23:41] levemente.
+[0:23:44] Eh,
+[0:23:46] listo. ¿Okay?
+[0:23:48] Aquí, por ejemplo, yo puedo ver cómo se
+[0:23:50] hace con curl, puedo ver con el Solana
+[0:23:53] Kit cómo lo hago. Entonces aquí, por
+[0:23:55] ejemplo, puedo ver que
+[0:23:58] di, crearlo es bastante sencillo, es
+[0:24:00] crear enviar una transacción es bastante
+[0:24:02] sencillo, es create Solana RPC. Esto lo
+[0:24:05] que hace es que crea la conexión con el
+[0:24:07] RPC y aquí, bueno, yo ya tengo una
+[0:24:09] transacción firmada. Más adelante vamos
+[0:24:11] a ver cómo llegamos a este punto y luego
+[0:24:13] nada más firmo la transacción.
+[0:24:16] Perdón, firmo no, eh nada más le paso al
+[0:24:18] RPC, le hago send transaction, le paso
+[0:24:21] la transacción y que se envíe.
+[0:24:23] Y el resultado va a ser la el signature,
+[0:24:25] que es decir la transacción ya en la
+[0:24:28] red. Y, por ejemplo, aquí también me
+[0:24:29] enseña cómo funciona con Web3.js, es
+[0:24:32] decir, cómo se hace.
+[0:24:33] Y en Rust cómo se hiciese,
+[0:24:36] ehm si lo quieren hacer en Rust, ¿okay?
+[0:24:38] Pero bueno, nosotros ahorita mismo vamos
+[0:24:40] a estar más enfocados en el Solana Kit.
+[0:24:42] Entonces, básicamente eso es lo de la
+[0:24:45] RPC, cómo se comunica uno con la red.
+[0:24:48] Entonces,
+[0:24:50] ehm sí. Entonces, ¿cómo se comunica uno
+[0:24:53] con la red? Primero que todo hay que
+[0:24:55] importar estas cosas, el import create
+[0:24:57] Solana RPC, create Solana RPC
+[0:24:59] subscriptions
+[0:25:01] from Solana Kit.
+[0:25:03] El Solana Kit entonces va a ser un
+[0:25:07] ehm
+[0:25:09] una dependencia de TypeScript que
+[0:25:11] nosotros tenemos que instalar. Luego,
+[0:25:14] para hacerle una petición primero lo
+[0:25:16] primero lo primero que tengo que hacer
+[0:25:17] es definir el RPC, o sea, hago create
+[0:25:19] Solana RPC. Luego, si yo quiero
+[0:25:23] ehm recibir actualizaciones, tipo
+[0:25:26] confirmaciones de las cosas,
+[0:25:28] yo tengo que suscribirme al a las
+[0:25:31] suscripciones, digamos, perdón, no,
+[0:25:33] tengo que suscribirme al RPC y eso se
+[0:25:35] hace con WebSockets, es decir, que yo
+[0:25:37] recibo
+[0:25:39] la actualización de cuando una
+[0:25:40] transacción se confirma y básicamente lo
+[0:25:42] que hace hace el send es de que
+[0:25:46] básicamente envía, entonces para que
+[0:25:48] sepan.
+[0:25:49] Eh, pero nada se nada llega a la red
+[0:25:51] hasta que yo llamo al send, es decir,
+[0:25:53] hasta que no se haga el send no se envía
+[0:25:55] a la red. Entonces,
+[0:25:59] empecemos a ver cómo funciona el Solana
+[0:26:01] Kit porque ya eso que ya les les pareció
+[0:26:04] interesante.
+[0:26:05] Entonces, eh bueno, toque nada más para
+[0:26:09] eh si estoy compartiendo pantalla
+[0:26:10] completa.
+[0:26:13] Ehm voy a cerrar cursor
+[0:26:18] y voy a pegar esto acá.
+[0:26:21] Es que aquí tengo cómo cómo debería de
+[0:26:23] irse viendo el código para tener una
+[0:26:24] idea, entonces para que sepan.
+[0:26:27] Y
+[0:26:29] [resoplido] okay.
+[0:26:35] ¿Okay?
+[0:26:36] Excelente. Entonces,
+[0:26:39] vamos a venir aquí,
+[0:26:41] New Window.
+[0:26:43] Listo. Entonces,
+[0:26:45] este es curso eh podemos usar el ID que
+[0:26:48] quieran. Si se ve muy pequeño, me
+[0:26:49] avisan. Creo que puede ser que sí se vea
+[0:26:51] muy pequeño, entonces
+[0:26:54] eh
+[0:26:55] primero que todo creen un proyecto.
+[0:26:57] Entonces, eh vamos a abrir un folder.
+[0:27:02] No sé por qué se me está lagueando
+[0:27:03] tanto, la verdad.
+[0:27:06] Eh y le voy a llamar semana 2 bootcamp.
+[0:27:15] Y vamos a abrir esto. Entonces,
+[0:27:17] una vez tenemos esto
+[0:27:21] eh por momento
+[0:27:23] voy a cerrar esto también.
+[0:27:29] Okay.
+[0:27:30] Eh y voy a cerrar estas pestañas por
+[0:27:33] mientras.
+[0:27:36] Sí, sorry que se me está lagueando
+[0:27:37] tanto, la verdad. No sé no sé qué es,
+[0:27:39] pero bueno.
+[0:27:40] Eh entonces,
+[0:27:45] primero que todo,
+[0:27:47] como estamos usando TypeScript, tenemos
+[0:27:49] que usar algo para manejar los paquetes.
+[0:27:51] Y entonces, ¿qué tenemos que hacer?
+[0:27:53] Tenemos que instalar usar NPM o algo
+[0:27:56] así. Entonces, no voy a usar
+[0:27:59] no voy a usar la terminal que uso
+[0:28:00] siempre para que todos vean la misma
+[0:28:01] pantalla y voy a hacer todo un poco más
+[0:28:03] grande
+[0:28:04] para que si están en una pantalla más
+[0:28:06] pequeña se vea claro.
+[0:28:07] Y entonces, tengo que empezar el
+[0:28:09] paquete. Entonces, tengo que hacer NPM
+[0:28:11] init.
+[0:28:12] Entonces, ¿qué es lo que hace esto?
+[0:28:14] Eh
+[0:28:16] el package name, digamos, le voy a poner
+[0:28:17] esto y que esté así.
+[0:28:20] O sea, esto es nada más como
+[0:28:21] bases ahí que tiene que tener.
+[0:28:24] Y entonces, esto crea un package.json
+[0:28:26] donde yo entonces ahora puedo añadir
+[0:28:28] dependencias. Entonces, primero que
+[0:28:30] todo, voy a crear un archivo de
+[0:28:33] TypeScript. Entonces, a ponerle clase de
+[0:28:36] hoy. Bueno, clase punto ts.
+[0:28:39] Punto ts es el de TypeScript. Entonces
+[0:28:42] lo que podemos hacer es ir viendo el
+[0:28:44] código de acá y ir replicándolo.
+[0:28:46] Entonces dice
+[0:28:49] Este nos va a servir para crear el rpc.
+[0:28:52] Y luego
+[0:28:54] que es para las actualizaciones.
+[0:28:55] Entonces vamos a ver
+[0:28:59] Create Solana
+[0:29:04] No, perdón.
+[0:29:06] y luego el
+[0:29:11] Y no es del
+[0:29:13] es del
+[0:29:16] Entonces
+[0:29:18] Eh, básicamente con esto ya ahorita esto
+[0:29:21] se ve en gris es porque no está no está
+[0:29:23] instalada la dependencia. Si nos damos
+[0:29:25] cuenta
+[0:29:26] Bueno, y además tampoco está usada y no
+[0:29:28] se encuentra el módulo. Ahorita lo
+[0:29:29] vemos. Entonces, ¿cómo hago esto? Hago
+[0:29:35] Y entonces, ¿qué es lo que me pide
+[0:29:36] luego? Me pide la URL. Entonces yo le
+[0:29:38] voy a poner la URL. En este caso, ¿cuál
+[0:29:40] va a ser la URL?
+[0:29:42] Ya lo vamos a ver. Eso estaba en la
+[0:29:44] próxima.
+[0:29:45] Básicamente
+[0:29:47] eh cuando nosotros tenemos un rpc
+[0:29:49] ehm
+[0:29:51] hay dos diferencias. Está el endpoint
+[0:29:53] público
+[0:29:54] y un proveedor.
+[0:29:56] ¿Qué es la diferencia? La diferencia es
+[0:29:57] que si nosotros o sea el el API funciona
+[0:30:00] igual, todo todo es exactamente lo
+[0:30:01] mismo.
+[0:30:03] Básicamente el en el endpoint público
+[0:30:05] hay un límite de peticiones, no hay
+[0:30:07] garantía de disponibilidad, a veces se
+[0:30:08] bloquea cuando hay un tráfico alto y es
+[0:30:11] muy buena para aprender, pero si
+[0:30:12] nosotros hacemos un producto que ya está
+[0:30:14] en producción y todo
+[0:30:15] no es escalable porque puede ser que
+[0:30:17] lleguemos a esos límites. En cambio, si
+[0:30:19] nosotros en algún momento ya tenemos un
+[0:30:21] producto en producción y todo podemos
+[0:30:23] empezar a buscar a proveedores de rpcs.
+[0:30:25] ¿Qué es lo que tienen? Pues tienen
+[0:30:26] límites más altos, tienen mejor entrada
+[0:30:28] de transacciones, tienen APIs extra, que
+[0:30:31] es por ejemplo para historial indexado,
+[0:30:34] que eso es otra cosa interesante.
+[0:30:35] Eh, cuando la red ya pasa mucho tiempo,
+[0:30:38] digamos, ya ya tiene años, obviamente,
+[0:30:42] lo que está más abajo en la red va a ser
+[0:30:44] más difícil de encontrar. Entonces,
+[0:30:46] porque hay que pasar por muchas
+[0:30:48] transacciones. Entonces, ¿qué se puede
+[0:30:50] hacer? Se puede indexar. ¿Qué es
+[0:30:52] indexar? Es básicamente tipo bueno, o
+[0:30:54] sea, el el el verbo indexar,
+[0:30:57] nada más que en la blockchain. Entonces,
+[0:31:00] eh pues yo puedo indexar y tengo un
+[0:31:03] indexador. ¿Qué es un indexador?
+[0:31:05] Básicamente indexa las transactions.
+[0:31:08] Entonces, es más fácil de encontrar las
+[0:31:09] cosas, es más rápido, etcétera. ¿Okay?
+[0:31:12] Y para cualquier cosa real, pues es la
+[0:31:14] mejor opción. Eh, esto tiene mejor
+[0:31:17] soporte, tiene para webhooks, etcétera.
+[0:31:20] Y normalmente es buena idea
+[0:31:23] eh guardar la URL del RPC en una
+[0:31:26] variable de entorno. ¿Qué es una
+[0:31:27] variable de entorno? Es básicamente
+[0:31:29] cuando yo tengo un archivo .env donde
+[0:31:32] mis variables de entorno se guardan ahí
+[0:31:34] y yo nunca la subo a GitHub y todo lo
+[0:31:36] mantengo en ese archivo.
+[0:31:38] Eh, ¿por qué? Porque las URLs pagadas
+[0:31:40] normalmente van con una API key y si
+[0:31:43] todo el mundo puede ver esa API key,
+[0:31:44] todo el mundo te va a robar el proveedor
+[0:31:45] de RPCs. Entonces,
+[0:31:48] eh vamos a hacer lo siguiente.
+[0:31:53] Eh, bueno, vamos a regresar acá y vamos
+[0:31:55] a hacer esto. Entonces, rápidamente
+[0:31:57] vamos a usar el
+[0:31:59] eh
+[0:32:01] el proveedor público.
+[0:32:07] Y recuerden
+[0:32:10] aquí me falta ajá, esto. Y bueno, ahí me
+[0:32:12] puso todo. Entonces, básicamente vamos a
+[0:32:14] crear un create Solana RPC subscriptions
+[0:32:18] y bueno, esto lo vamos a hacer con
+[0:32:19] WebSockets. Entonces, nada más vamos a
+[0:32:22] hacer esto.
+[0:32:24] Eh,
+[0:32:30] ¿y entonces qué va a hacer esto?
+[0:32:31] Sorry. [carraspeo]
+[0:32:32] ¿Qué va a hacer esto? Básicamente nos va
+[0:32:34] a permitir recibir
+[0:32:37] eh actualizaciones de confirmaciones.
+[0:32:40] Entonces, por example, si yo ahorita
+[0:32:41] hago
+[0:32:42] igual
+[0:32:53] cuando se confirma una transacción nos
+[0:32:54] va a recordar, o sea, nos va a llegar.
+[0:32:56] Y entonces, bueno, sigamos.
+[0:33:00] Hablemos
+[0:33:01] Bueno, les pregunto, ¿por qué creen que
+[0:33:02] esto sirve? Esto sirve para si yo, por
+[0:33:04] example, confirmo una transacción o algo
+[0:33:06] así,
+[0:33:07] para o sea,
+[0:33:08] tener constancia de que se de que se
+[0:33:10] hace. Entonces es útil. Entonces, ahora
+[0:33:13] vamos sobre los conceptos clave como las
+[0:33:15] direcciones, los
+[0:33:16] esas cosas. Entonces,
+[0:33:19] ehm primero que todo los
+[0:33:22] normalmente di los escriben ahí.
+[0:33:25] Obviamente la idea es que ya en una app
+[0:33:28] ustedes tengan un espacio donde el
+[0:33:29] usuario pone su su
+[0:33:32] y ustedes les envían dinero o para
+[0:33:35] enviar de uno a otro no no va a estar
+[0:33:37] ¿verdad? Entonces,
+[0:33:39] eh pues hay que tener eso. Entonces,
+[0:33:41] ¿cómo se hace? Pues para enviar un pago
+[0:33:43] se hace
+[0:33:44] se hace una constante tu
+[0:33:47] donde yo pongo un
+[0:33:50] y pongo el ahí. Me lo está poniendo como
+[0:33:53] si fuera
+[0:33:54] Es que el el autocompletado de este no
+[0:33:55] es tan bueno.
+[0:33:56] Entonces, vamos a venir, por example, a
+[0:33:58] esta
+[0:33:59] de Phantom.
+[0:34:02] Ahí.
+[0:34:08] Y, por example, esta
+[0:34:10] que está en vamos a ponerla acá.
+[0:34:14] Okay.
+[0:34:15] Luego
+[0:34:16] y me va a decir desde qué cuenta va a
+[0:34:18] enviar. Entonces, pero antes eso no lo
+[0:34:20] vamos a hacer
+[0:34:21] porque vamos a hacerlo con un ahorita lo
+[0:34:24] vamos a ver.
+[0:34:25] Y me va a pedir
+[0:34:27] Entonces, el va a ser
+[0:34:28] y va a ser esta cantidad. Y ahora les
+[0:34:30] pregunto, ¿por qué creen que esto me
+[0:34:32] está saliendo
+[0:34:34] en en rojo?
+[0:34:37] Si alguno
+[0:34:39] puede responder,
+[0:34:41] ¿alguna idea?
+[0:34:49] Import, sí, me falta el import.
+[0:34:51] Entonces, ¿qué es lo que tengo que
+[0:34:52] hacer? Por ejemplo, si yo aquí pongo
+[0:34:54] coma y pongo ¿qué pasa?
+[0:34:57] Ah, se resuelve, ¿verdad? Y es porque eh
+[0:35:00] bueno, ahorita ahorita hago el para que
+[0:35:02] vean eso.
+[0:35:03] Eh y bueno, voy a poner los
+[0:35:06] Es básicamente que ese tipo no estaba
+[0:35:08] importado, entonces di,
+[0:35:10] hay que hacer eso.
+[0:35:12] Si quieren hagamos esto, vamos a hacer
+[0:35:14] un
+[0:35:20] Y como pueden ver
+[0:35:23] [resoplido]
+[0:35:25] Bueno, si no ahorita lo revisamos.
+[0:35:27] Eh
+[0:35:29] básicamente el
+[0:35:30] pues tiene sus tipos y sus funciones.
+[0:35:33] Entonces eh básicamente
+[0:35:37] con lo con esto lo que yo hago es pedir
+[0:35:39] que ese tipo esté en mi programa, porque
+[0:35:42] si yo, por ejemplo, lo hago así, di,
+[0:35:45] va a estar vas a decir tú y me va a
+[0:35:47] pedir un y me va a decir, ah, bueno, y
+[0:35:49] di,
+[0:35:50] ¿y qué? O sea, qué es eso. Entonces no
+[0:35:52] puede, ¿verdad? Entonces por fuerza
+[0:35:53] tengo que tener este
+[0:35:55] ¿Okay? Entonces para hacer esta
+[0:35:58] transacción, que es relativamente
+[0:36:00] sencilla,
+[0:36:02] ya tenemos a quién se la vamos a hacer,
+[0:36:04] ya tenemos el
+[0:36:07] ¿Qué nos falta? Ah, bueno, ya tenemos el
+[0:36:11] Eh y ahorita vamos a regresar acá para
+[0:36:14] ver lo que nos podría faltar.
+[0:36:17] Esto aquí en esta parte eh bueno, ahí se
+[0:36:20] me quedó la
+[0:36:22] Eh
+[0:36:24] en esta parte aquí estamos haciendo un
+[0:36:28] entonces si quieren lo podemos hacer
+[0:36:30] así, si no lo podemos hacer de otra
+[0:36:32] forma que tal vez es un poco más
+[0:36:34] sencilla.
+[0:36:36] Ahorita lo vemos.
+[0:36:37] Entonces como recuerden el es tipado,
+[0:36:40] entonces si algo falla acá
+[0:36:42] lo lo dice. Luego los lamports,
+[0:36:45] recuerden que los lamports un Solana era
+[0:36:47] un billón de lamports, 1000 1000
+[0:36:49] millones de lamports.
+[0:36:52] Eh, y recuerden que los signers, que
+[0:36:55] bueno, aquí ahorita no estamos hablando
+[0:36:57] de signers, aunque aquí hacemos un
+[0:36:58] generate keeper signer,
+[0:37:00] eh tienen una llave pueden firmar eh y
+[0:37:03] el address de la llave pública.
+[0:37:05] Entonces,
+[0:37:07] cuando nosotros estamos haciendo una
+[0:37:08] transferencia tenemos que darnos cuenta
+[0:37:10] de algunas cosas.
+[0:37:11] La primera cosa que nos tenemos que dar
+[0:37:12] cuenta es de di, ver si el balance
+[0:37:15] del que va a enviar
+[0:37:18] eh es suficiente. Entonces, primero
+[0:37:21] entonces tenemos que ver cómo hacemos el
+[0:37:23] de la persona que va a enviar. Entonces,
+[0:37:25] revisamos eso.
+[0:37:27] Porque
+[0:37:28] recordemos algo. Eh, voy a voy a ver si
+[0:37:31] por aquí estaba.
+[0:37:34] Ah, bueno, sí, sí, yo les había dicho
+[0:37:35] igual.
+[0:37:36] Recuerden que para que una transacción
+[0:37:39] se envíe tiene que haber una firma.
+[0:37:41] Entonces, alguien tiene que firmar para
+[0:37:44] que eso se haga. Entonces, si yo voy a
+[0:37:46] firmar
+[0:37:48] el que tiene que firmar es el que se le
+[0:37:50] van a ir los fondos, ¿verdad? O sea,
+[0:37:52] si el que va a mandar la transacción
+[0:37:54] es el que el que va a enviar el dinero.
+[0:37:59] Entonces, ese es quien tiene que firmar
+[0:38:00] la transacción. Entonces, ahí es algo
+[0:38:02] bastante importante porque no es como
+[0:38:05] que, por ejemplo, ustedes con esta
+[0:38:07] dirección que es pública pueden venir y
+[0:38:10] firmar por mí. No pueden. Ustedes ocupan
+[0:38:13] la
+[0:38:15] no no lo que no es la llave pública, que
+[0:38:18] es como la llave privada, digamos, donde
+[0:38:21] digamos, ustedes pueden tener mi llave
+[0:38:23] pública, todo bien, y eso no hay ningún
+[0:38:25] problema. Yo le puedo pasar mi llave
+[0:38:26] pública a todo el mundo, pero con esa
+[0:38:28] llave pública ellos no pueden hacer
+[0:38:29] nada. No me pueden sacar dinero, no
+[0:38:31] pueden hacer nada. ¿Por qué? Porque esa
+[0:38:33] llave es justamente para eso, para que
+[0:38:35] sea pública. Entonces, ¿cómo se firman
+[0:38:36] las transacciones? Se firman
+[0:38:39] con una forma que es privada. Entonces,
+[0:38:43] digamos, yo no puedo mandar algo sin
+[0:38:46] registrar una firma antes. Y la firma,
+[0:38:48] obviamente, de quién va a hacer la
+[0:38:51] transacción y, por ejemplo, si alguien
+[0:38:52] se le
+[0:38:53] quita dinero, del que se le quita el
+[0:38:55] dinero. Entonces,
+[0:38:57] eh ahorita vemos esto. Es básicamente
+[0:39:00] como se construye la transferencia. Ya
+[0:39:02] vimos que se pueden leer datos, se
+[0:39:03] pueden tener direcciones, se pueden
+[0:39:04] tener signers.
+[0:39:06] Eh, vamos a leer datos rápidamente.
+[0:39:08] Hm,
+[0:39:10] pero primero tenemos que tener un payer,
+[0:39:11] entonces no.
+[0:39:13] Bueno, sí, puede ser. Entonces, vamos al
+[0:39:14] código.
+[0:39:16] Y entonces ya tenemos a quién le vamos a
+[0:39:17] enviar el amount y entonces ahora
+[0:39:19] tengamos un payer.
+[0:39:20] Entonces, ¿quién es el payer?
+[0:39:22] O el que envía el dinero, es que
+[0:39:25] no se me ocurre otro nombre, pero bueno,
+[0:39:26] supongamos el payer
+[0:39:29] const payer.
+[0:39:33] Es decir, aquí yo lo que quiero ver es
+[0:39:35] quién va a pagar, es decir, de de dónde
+[0:39:38] va a salir el Solana,
+[0:39:41] de la persona que va a pagar. Entonces,
+[0:39:45] eh aquí hay algo bastante interesante,
+[0:39:48] que es que existe esto que se llama
+[0:39:52] Bueno, primero
+[0:39:53] vamos a esto.
+[0:39:55] Vamos a pegar esto que es fresh, que lo
+[0:39:57] que va a hacer es generar
+[0:39:59] un keeper signer. Esto se hace aquí.
+[0:40:02] Bueno, aquí me lo recomendó Cursor,
+[0:40:04] pero entonces esto lo que hace es que
+[0:40:07] genera un keeper aleatorio.
+[0:40:09] Luego, el secret eh básicamente uno
+[0:40:13] puede sacar un keeper del Solana CLI,
+[0:40:16] que se lo voy a enseñar de una vez.
+[0:40:18] El Solana CLI es lo siguiente.
+[0:40:21] Después de que ustedes instalaron esto,
+[0:40:23] que eh si ocupan ayuda con instalación,
+[0:40:25] me avisan.
+[0:40:26] Eh, eso igual está en la parte de
+[0:40:28] environment settings de
+[0:40:30] del curso, pero
+[0:40:32] a nivel de usuario cuando la app debería
+[0:40:34] pagarlo
+[0:40:38] Eh, buena pregunta.
+[0:40:40] Yo pienso que depende también de la app.
+[0:40:42] Por ejemplo, si yo estoy haciendo algo
+[0:40:44] como un swap o algo así,
+[0:40:47] si mi objetivo es
+[0:40:49] de un usuario normal,
+[0:40:51] criptouser, un web 3, de puede pagar el
+[0:40:55] fiel.
+[0:40:56] Pero si, por ejemplo, donde yo sí he
+[0:40:58] visto que es muy bueno que sea gasless,
+[0:41:00] es decir, que yo cubra el fee.
+[0:41:02] Bueno, por si acaso, para los que no
+[0:41:03] saben de esto de de las transacciones,
+[0:41:06] es que todas las transacciones tienen
+[0:41:08] una comisión, ¿verdad?
+[0:41:10] Y entonces yo puedo o hay formas de
+[0:41:12] hacer de que
+[0:41:13] la transacción no la pague el usuario,
+[0:41:16] sino que la pague yo. Es decir,
+[0:41:18] por debajo hace que la comisión la pague
+[0:41:20] yo.
+[0:41:21] Entonces, por ejemplo, un caso de uso
+[0:41:23] que al menos yo sí he usado es, por
+[0:41:25] ejemplo, para usuarios que están con
+[0:41:26] Privi.
+[0:41:27] Que Privi es una forma de autenticar. No
+[0:41:30] me acuerdo
+[0:41:31] quién me había preguntado algo de Privi.
+[0:41:34] Ya Ah, bueno, había sido
+[0:41:36] Ah, sí, había sido eh
+[0:41:39] eh donde, digamos,
+[0:41:41] un usuario que usa Privi
+[0:41:42] posiblemente existe el chance que no sea
+[0:41:44] tan nativo a la a los conceptos de
+[0:41:48] blockchain. Entonces ahí sí sería útil
+[0:41:50] pagarle la comisión.
+[0:41:51] O si usted o si, por ejemplo, eh al
+[0:41:54] menos yo lo he usado Yo tengo una
+[0:41:55] startup, en realidad,
+[0:41:56] eh donde, por ejemplo, nosotros le
+[0:41:58] pagamos los fees a la gente que entra
+[0:42:01] con correo y que no sabe tanto. Los que
+[0:42:03] ya saben más y conectan su propia
+[0:42:05] wallet, que cada uno pague los fees de
+[0:42:06] ellos. Nosotros ahí no nos metemos. Pero
+[0:42:08] si si no sabes tanto, por ejemplo, si
+[0:42:10] estás con el mobile app
+[0:42:12] y
+[0:42:13] no sé, por ejemplo, yo pienso en el caso
+[0:42:16] de que si, por ejemplo, mi mi papá se
+[0:42:19] mete a la app, le va a parecer extraño
+[0:42:21] que si envía dinero le cobren una
+[0:42:22] comisión por algo. Porque, por ejemplo,
+[0:42:24] al menos en Costa Rica hay un sistema
+[0:42:26] para enviar de forma gratuita dinero
+[0:42:29] eh con banco.
+[0:42:31] Y hay límites y todo y después cobran,
+[0:42:33] pero o sea,
+[0:42:34] es gratis al inicio.
+[0:42:35] Entonces le va a parecer raro
+[0:42:38] que de la nada empiecen a cobrar.
+[0:42:40] Entonces por eso siento que ahí hay un
+[0:42:42] caso de uso donde se podría usar. Pero
+[0:42:44] eso depende totalmente de la app. O sea,
+[0:42:46] hay apps que hacen eso siempre,
+[0:42:48] hay apps que del todo no lo hacen,
+[0:42:49] etcétera.
+[0:42:52] Okay.
+[0:42:53] Hm.
+[0:42:56] Eh, okay. Entonces, aquí lo que vamos a
+[0:42:58] generar es un nuevo keeper. Y luego,
+[0:43:01] entonces, el payer
+[0:43:03] eh bueno, esto
+[0:43:04] vamos a ponerlo así. Bueno, aquí
+[0:43:06] ocupamos el secret, eso es otra cosa.
+[0:43:08] Entonces, ahorita les hablo de este
+[0:43:09] secret
+[0:43:10] y el payer pues se genera
+[0:43:12] aleatoriamente. Entonces,
+[0:43:16] eh veamos lo del Solana CLI
+[0:43:18] El Solana CLI es lo siguiente. Vamos a
+[0:43:21] volver a hacer esto para acá.
+[0:43:23] Es que no sé por qué me está yendo tan
+[0:43:25] lagueado todo.
+[0:43:28] El Solana CLI es lo siguiente. Vamos a
+[0:43:31] quitar esto.
+[0:43:36] Okay, básicamente el Solana CLI es
+[0:43:39] una forma de yo tener
+[0:43:42] eh
+[0:43:44] acceso a cosas de Solana
+[0:43:46] con un CLI. ¿Qué es un CLI? Un CLI es un
+[0:43:50] command line prompt.
+[0:43:52] Eh, perdón, eh sí, command line
+[0:43:54] interface, sorry. Eh, entonces, que es
+[0:43:56] donde yo
+[0:43:58] puedo interactuar tipo con comandos
+[0:44:01] eh con todo. Entonces,
+[0:44:05] eh ¿qué puedo hacer con el Solana CLI?
+[0:44:07] Pues un montón de cosas. Puedo hacer
+[0:44:09] manage de keepers, que eso es lo que
+[0:44:11] quería que revisáramos. Y un montón de
+[0:44:13] cosas más. Primero que todo, ¿qué es un
+[0:44:14] keeper?
+[0:44:15] Un keeper es ehm
+[0:44:18] el la el par de llave valor que habíamos
+[0:44:23] visto hace unas clases que yo les había
+[0:44:25] dicho, es como, por ejemplo, la
+[0:44:27] la
+[0:44:28] la que usa Python.
+[0:44:31] O sea, obviamente no es así, pero en
+[0:44:32] Python existen los diccionarios y es
+[0:44:34] como el mismo concepto y todo el mundo
+[0:44:36] Bueno, no voy a decir que todo el mundo,
+[0:44:38] pero mucha gente sabe de Python.
+[0:44:40] Entonces, vamos a hacer algo.
+[0:44:42] Eh, bueno, esto lo voy a hacer para aquí
+[0:44:45] arriba otra vez.
+[0:44:47] Usemos el Solana CLI tipo para probar y
+[0:44:50] crear un keeper. Entonces, yo puedo
+[0:44:52] hacer Solana y esto me va a dar las
+[0:44:55] cosas que puedo hacer, ¿verdad? Tipo los
+[0:44:57] subcomandos, los flags, etcétera.
+[0:44:59] Entonces, como pueden ver, yo puedo ver
+[0:45:03] el air, o sea, yo puedo hacer un airdrop
+[0:45:05] de un faucet, puedo ver balances, puedo
+[0:45:08] ver accounts, etcétera. Entonces, por
+[0:45:09] ejemplo, si yo aquí hago Solana
+[0:45:12] account,
+[0:45:14] me falta el config path, entonces no
+[0:45:16] tengo el address tampoco, entonces no
+[0:45:18] importa. Vamos a crear un nuevo keeper.
+[0:45:20] Entonces, yo puedo hacer Solana
+[0:45:23] new.
+[0:45:24] ¿Qué va a hacer eso? Ah, bueno, es que
+[0:45:26] ya tengo una cuenta configurada yo,
+[0:45:28] entonces eh debe haber un flag para
+[0:45:32] editar eso.
+[0:45:36] Hm.
+[0:45:38] Voy voy a voy a preguntar aquí
+[0:45:39] rápidamente sorry.
+[0:45:41] Eh,
+[0:45:50] que la verdad no me acuerdo, pero esto
+[0:45:52] es básicamente lo que yo voy a hacer
+[0:45:54] aquí
+[0:45:55] es que voy a crear un keeper
+[0:45:58] donde se crea uno nuevo. Entonces, a
+[0:46:00] ver, un toque, ¿quiero?
+[0:46:09] Okay, sí.
+[0:46:10] Eh, básicamente
+[0:46:12] aquí
+[0:46:14] eh les voy a enseñar algo. Ahorita no se
+[0:46:16] va a ver como quería que se viera, pero
+[0:46:17] bueno. Es que básicamente cuando uno
+[0:46:20] crea un keeper,
+[0:46:22] esto les va a dar un una llave, perdón,
+[0:46:27] una un address
+[0:46:28] y también muy importante les va a dar
+[0:46:32] sus 12 palabras. Entonces, por ejemplo,
+[0:46:34] si ustedes hacen esto, les va a decir
+[0:46:36] que pongan un passphrase, un
+[0:46:39] un 39 passphrase.
+[0:46:42] Entonces, ustedes ponen ahí un
+[0:46:43] passphrase y les va a generar un keeper
+[0:46:45] y este keeper se va a guardar en config
+[0:46:48] en
+[0:46:51] en sus computadoras. Entonces, eh pues
+[0:46:54] sí. Eh, ese keeper se guarda
+[0:46:58] y entonces el public key
+[0:47:00] se los van a dar y les van a dar el seed
+[0:47:02] phrase. Recuerden que
+[0:47:04] yo creo que esto lo habían hablado con
+[0:47:06] Santi la vez pasada,
+[0:47:08] pero recuerden que el seed phrase es lo
+[0:47:09] que les da acceso a su wallet y es
+[0:47:11] básicamente lo que hacen que
+[0:47:13] o sea, su public key sea posible, que
+[0:47:15] ustedes puedan firmar cosas, todo eso se
+[0:47:17] basa
+[0:47:18] desde el seed phrase. Entonces, si
+[0:47:20] quieren hagamos esto, podemos hacerlo en
+[0:47:22] mi compu.
+[0:47:23] Yo yo en mi compu tengo una una wallet,
+[0:47:27] digamos, ya creada,
+[0:47:28] pero o sea, no importa, no no la uso,
+[0:47:30] entonces podemos podemos ver.
+[0:47:32] Entonces,
+[0:47:34] vamos a devolvernos
+[0:47:36] Ay.
+[0:47:37] aquí
+[0:47:39] y eh si no me equivoco yo podría hacer
+[0:47:42] aquí
+[0:47:44] eh no,
+[0:47:46] punto config.
+[0:47:47] Ajá.
+[0:47:48] Y aquí entonces ven que ahora tengo
+[0:47:50] Solana. Yo sé que esto es más como algo
+[0:47:52] más técnico, pero es como para
+[0:47:53] enseñarles cómo se puede ver y luego
+[0:47:56] porque ocupamos un archivo que que da
+[0:47:57] esto, entonces por eso también lo estoy
+[0:47:59] haciendo. Entonces yo me meto a Solana y
+[0:48:01] si se dan cuenta ahora voy a tener un
+[0:48:03] hm id.json. Entonces, ¿qué es este
+[0:48:06] id.json?
+[0:48:07] Es básicamente un archivo
+[0:48:09] que a mí me deja
+[0:48:11] eh
+[0:48:12] el el keeper. Entonces, esto tiene o
+[0:48:16] sea, está no está encriptado como tal,
+[0:48:18] pero me va a dejar
+[0:48:20] yo poder usar este keeper que estoy
+[0:48:22] generando con el Solana CLI.
+[0:48:23] Entonces, eh lo que tengo que hacer es
+[0:48:26] agarrar ese archivo, entonces yo por
+[0:48:28] ejemplo puedo hacer cursor
+[0:48:30] id.json, eso debería funcionar.
+[0:48:32] Es para abrir ese archivo
+[0:48:34] y como pueden ver este archivo es este.
+[0:48:36] Entonces ustedes se preguntarán, bueno,
+[0:48:38] ¿qué es ese archivo? Ese archivo es
+[0:48:39] básicamente lo que te genera el Solana
+[0:48:42] CLI
+[0:48:43] cuando creas una wallet. Entonces yo voy
+[0:48:45] a agarrar este y lo voy a meter aquí
+[0:48:46] aquí. Obviamente jamás hagan esto en
+[0:48:48] producción.
+[0:48:49] Obviamente esto en en producción sería
+[0:48:52] diferente, esto es nada más para la
+[0:48:53] prueba,
+[0:48:54] donde yo pongo el ID
+[0:48:56] y yo meto este id.json acá y entonces
+[0:48:59] cuando yo genero un nuevo
+[0:49:01] Bueno, me está diciendo que es
+[0:49:03] No estoy seguro que sea así, pero bueno.
+[0:49:05] Eh, entonces vamos a poner el
+[0:49:07] Y ahora ya sirve lo que yo iba a poner
+[0:49:09] acá.
+[0:49:10] Como ven,
+[0:49:11] yo ocupaba un secreto. Entonces, ¿qué es
+[0:49:13] el es como
+[0:49:15] de del el es de de lo que se crea,
+[0:49:18] digamos.
+[0:49:19] Y
+[0:49:20] entonces es un
+[0:49:22] es decir, esto esto es un archivo
+[0:49:24] ¿verdad?
+[0:49:25] Y va a ser un
+[0:49:26] de
+[0:49:29] Entonces, eh este
+[0:49:30] esto es algo de
+[0:49:33] Entonces, nada más tengo que hacer esto.
+[0:49:35] No, ¿cómo es? Eh, FS.
+[0:49:38] Bueno, es que no no lo he importado.
+[0:49:39] Ahorita ahorita lo hacemos.
+[0:49:41] Eh, esto es igual
+[0:49:45] ¿Cómo es? [carraspeo]
+[0:49:51] Esto
+[0:49:52] si lo quieren hacer, háganlo. Eso es
+[0:49:54] básicamente para que se pueda hacer el
+[0:49:58] de esto.
+[0:49:59] Y por alguna razón esto sigue saliendo
+[0:50:01] en rojo. Ahorita lo vemos. Y ah, bueno,
+[0:50:03] aquí tengo que añadir el
+[0:50:10] Luego, entonces ya tengo el secreto.
+[0:50:11] Entonces, ¿qué es lo que tengo que
+[0:50:12] hacer? Aquí esto se llama
+[0:50:16] Y finalmente entonces tengo que tener un
+[0:50:18] ¿Qué es el
+[0:50:19] Es cuando yo agarro este secreto
+[0:50:21] y creo un
+[0:50:24] basado en ese secreto.
+[0:50:26] Entonces, pues cómo cómo funciona. Nada
+[0:50:29] más hago esto.
+[0:50:31] Y eso es una
+[0:50:32] Recuerden que
+[0:50:34] bueno, si han trabajado con
+[0:50:37] eh Bueno.
+[0:50:39] Ahí.
+[0:50:40] Eh, si han trabajado con
+[0:50:43] Recuerden bueno, y con JavaScript
+[0:50:45] también, que hay
+[0:50:47] son promesas. Es decir, esto es O sea,
+[0:50:49] es como una promesa de que
+[0:50:53] y te va a dar este secreto, va a llegar.
+[0:50:55] Entonces, ¿qué significa esto? Esto lo
+[0:50:57] que va a hacer es que eh va a
+[0:51:01] permitir que desde estos bits, bytes,
+[0:51:04] porque como ven, o sea, di, no tiene
+[0:51:07] nada, o sea, ustedes ven esto y no tiene
+[0:51:08] nada,
+[0:51:09] se pueda generar un payer y entonces
+[0:51:12] este payer se va a volver un firmador de
+[0:51:15] la transacción.
+[0:51:17] Entonces, ehm pues sí, eso es como eso.
+[0:51:21] Ahora,
+[0:51:23] para leer datos, aquí esto es
+[0:51:25] básicamente si lo quieren hacer
+[0:51:27] es como que si quieren leer datos de
+[0:51:29] cuánto balance tiene una wallet,
+[0:51:31] eh si quieren información de esa wallet
+[0:51:35] y etcétera.
+[0:51:36] Una cosa importante, bueno, aquí como
+[0:51:38] ven
+[0:51:39] el solo funciona para es decir, solo
+[0:51:42] para Solana. El
+[0:51:44] eh es la cuenta sin procesar,
+[0:51:47] pero o sea, literalmente nada le da nada
+[0:51:48] más le da los bytes, entonces pues que
+[0:51:51] lo tengan en cuenta.
+[0:51:53] Y este esto es más que todo para si
+[0:51:55] ustedes ya están usando el Solana
+[0:51:57] Program Token, para que ustedes puedan
+[0:51:59] hacer el del
+[0:52:01] y digamos que ustedes puedan ya con eso
+[0:52:04] recibir información de tokens extra,
+[0:52:06] porque como les dije ahora al principio,
+[0:52:08] este
+[0:52:09] solo sirve para Solana, para
+[0:52:12] Entonces, si ustedes quieren saber
+[0:52:13] cuánto tiene una persona
+[0:52:15] con esto no les va a servir, eso lo
+[0:52:17] tienen que hacer con el
+[0:52:19] Entonces,
+[0:52:21] si quieren vamos a leer el valor nada
+[0:52:23] más del payer
+[0:52:25] por hacerlo porque realmente esta wallet
+[0:52:27] ya tenía Solana.
+[0:52:29] Entonces, ehm aquí lo que vamos a hacer
+[0:52:33] es que este payer, recuerden que es
+[0:52:34] bastante entonces este payer tiene un
+[0:52:37] Entonces,
+[0:52:38] primero que todo no sé por qué este
+[0:52:40] no me estaba funcionando.
+[0:52:43] Voy.
+[0:52:47] A ver si esto sirve.
+[0:52:56] Bueno, si no por mientras vamos pasando.
+[0:52:59] Ehm
+[0:53:02] en
+[0:53:03] en el Solana Kit se usa mucho algo que
+[0:53:06] se llama el patrón pipe, que es que creo
+[0:53:08] que te falta uf, sí,
+[0:53:11] Gracias. [resoplido]
+[0:53:22] Entonces, eh nada más voy un toque y voy
+[0:53:25] a decirle como
+[0:53:26] instala dependencias.
+[0:53:29] Sorry que lo haga así, pero es que es
+[0:53:31] para agilizar, porque igual igual O sea,
+[0:53:35] lo hice como si fuese JavaScript,
+[0:53:36] entonces de obviamente no no iba a
+[0:53:38] servir. Tiene razón ahí
+[0:53:41] Ah, bueno. Ya que igual ya
+[0:53:43] ya iba.
+[0:53:45] Okay, eh entonces Uy.
+[0:53:49] Está todo lagueado esto.
+[0:53:52] Okay, entonces eh con respecto al patrón
+[0:53:55] pipe, es que básicamente eh es algo que
+[0:53:57] se usa mucho. Es básicamente para
+[0:53:59] construir
+[0:54:01] transa transacciones. Entonces, por
+[0:54:02] ejemplo, yo tengo que empezar con
+[0:54:07] Entonces, es como que se crea el
+[0:54:09] mensaje. Recuerden que habíamos visto
+[0:54:10] que la transacción tenía un mensaje que
+[0:54:12] tenía varias cosas. Entonces, empezamos
+[0:54:14] con un mensaje vacío.
+[0:54:16] Luego
+[0:54:17] eh yo tengo que setear quién es el que
+[0:54:19] paga el fee.
+[0:54:22] Entonces, aquí quién es el que paga.
+[0:54:24] Luego
+[0:54:24] el lifetime eh
+[0:54:27] ¿Qué significa eso? Eso significa que
+[0:54:29] Recuerden que yo les había dicho que en
+[0:54:30] el mensaje incluyamos el block hash
+[0:54:33] el de los más recientes para evitar
+[0:54:35] repetir. Aquí también algo que tenemos
+[0:54:38] que tener en cuenta es saber cuándo va a
+[0:54:40] expirar. Si habíamos visto la vez
+[0:54:42] pasada, eh expiraba
+[0:54:44] en alrededor de 250 bloques. Entonces,
+[0:54:47] ahí hay que tener en cuenta cuánto
+[0:54:49] cuándo va a expirar la transacción.
+[0:54:51] Y finalmente,
+[0:54:53] eh tenemos el paso de
+[0:54:55] que es básicamente donde nosotros
+[0:54:56] ponemos las instrucciones de qué va a
+[0:54:59] hacer esta transacción. Entonces,
+[0:55:01] básicamente sí es como se ve.
+[0:55:03] Eh, podemos hacer esto.
+[0:55:08] Si quieren quitamos este este get
+[0:55:11] balance porque igual no lo vamos a usar.
+[0:55:13] Entonces,
+[0:55:14] aquí entonces yo voy a tener un valor
+[0:55:16] que va a ser el
+[0:55:18] que vamos a sacar de RPC
+[0:55:20] el
+[0:55:23] Entonces,
+[0:55:24] eh nosotros vamos a pedir el último
+[0:55:28] pero ahí ya ya me hizo esto.
+[0:55:31] Bueno, al final
+[0:55:34] Hm, okay. Sí, está bien.
+[0:55:36] Entonces,
+[0:55:37] eh
+[0:55:39] esto qué es lo que va a hacer, va a
+[0:55:40] pedir al RPC que le dé el último
+[0:55:43] y va a hacer el Recuerden que el es lo
+[0:55:44] que hace que se que se mande
+[0:55:46] porque si no pues no va a servir.
+[0:55:48] Entonces, eh por alguna razón esto me
+[0:55:50] está saliendo en rojo.
+[0:55:53] Ah, me falta una S.
+[0:55:56] Ahora sí. Eh entonces
+[0:55:59] eh esto lo que va a hacer es que le va a
+[0:56:00] pedir el último
+[0:56:01] y luego entonces yo tengo que
+[0:56:04] eh generar la instrucción de lo que
+[0:56:06] vamos a hacer. Entonces,
+[0:56:09] para yo poder hacer esto, digamos enviar
+[0:56:12] esta transacción, yo ahora ocupo la
+[0:56:15] nueva pendencia de
+[0:56:18] Recuerden que esto es el que
+[0:56:23] es el programa que tiene todo. Entonces,
+[0:56:25] ¿qué es lo que voy a hacer? Voy a
+[0:56:27] primero importar eso.
+[0:56:32] Eh bueno, voy a dejarlo así.
+[0:56:33] Eh
+[0:56:35] el
+[0:56:36] at Solana
+[0:56:40] program
+[0:56:42] Entonces,
+[0:56:43] básicamente este es el
+[0:56:46] que va a tener esta instrucción.
+[0:56:47] Entonces, yo voy a hacer esto.
+[0:56:53] Ahí. Esto tenía que ir acá. Mala mía.
+[0:56:58] Este
+[0:56:59] también y esto va acá, lo quito. Okay.
+[0:57:04] Ahorita esto está en rojo porque
+[0:57:07] ahora sí.
+[0:57:08] Y esto lo voy a quitar.
+[0:57:11] Entonces aquí básicamente lo que yo voy
+[0:57:13] a crear es el transfer instruction, el
+[0:57:17] de transferir Solana. Entonces, ¿qué es
+[0:57:19] lo que voy a hacer?
+[0:57:21] Bueno, aquí me está dando la
+[0:57:22] información.
+[0:57:23] Vamos a poner esto así, pero antes
+[0:57:26] quiero que lo veamos
+[0:57:29] así. Entonces, aquí vamos a crear la
+[0:57:31] instrucción de transferencia. Entonces,
+[0:57:34] ¿qué es esto? Es la
+[0:57:36] eh de dónde se va a enviar. Entonces,
+[0:57:38] tengo el
+[0:57:40] que recuerde que el
+[0:57:41] es esto ya no lo voy a ocupar, por
+[0:57:43] cierto.
+[0:57:45] Ahí.
+[0:57:49] Eh, entonces tengo el
+[0:57:52] que
+[0:57:53] recuerden que el entonces es un tipo que
+[0:57:55] si yo, por ejemplo, meto acá, va a tener
+[0:57:57] un
+[0:57:58] Entonces, el de quién va a pagar.
+[0:58:01] Luego, el
+[0:58:02] es a quien le voy a enviar. Entonces,
+[0:58:04] eso es el
+[0:58:05] es decir, el al que yo le voy a enviar
+[0:58:07] el dinero.
+[0:58:09] Bueno, los perdón. Luego, los es la
+[0:58:11] cantidad de Recuerden que tiene que
+[0:58:13] estar en Entonces, yo aquí voy a
+[0:58:14] mandarle 10 millones de
+[0:58:17] y esta N que pongo al final es como para
+[0:58:18] sugerir que ahí terminó. Yo también
+[0:58:20] puedo quitar esto por si acaso, o sea,
+[0:58:21] no es como que es necesariamente así,
+[0:58:23] pero
+[0:58:24] a mí me gusta ponerlo así
+[0:58:26] como para notar y que sea más fácil.
+[0:58:28] Luego, el
+[0:58:30] yo tengo que poner el más más reciente.
+[0:58:33] ¿De dónde lo saco? Lo saco de una
+[0:58:35] llamada al
+[0:58:37] y finalmente el
+[0:58:41] es básicamente la altura del del último
+[0:58:43] bloque. Todo eso sale del
+[0:58:46] Entonces,
+[0:58:47] eh pues para que sepan,
+[0:58:49] el último realmente es bastante
+[0:58:51] importante porque siempre te pide la
+[0:58:53] altura del último bloque y también cuál
+[0:58:55] fue el último
+[0:58:57] Entonces, con todo eso yo ya tengo la
+[0:59:01] instrucción de transferencia de Solana.
+[0:59:03] Y recuerden que entonces se complementa
+[0:59:05] bastante el Solana
+[0:59:07] con los clientes de programa.
+[0:59:10] Entonces, ahora que tengo esta
+[0:59:11] transacción,
+[0:59:13] eh perdón, transferencia, ya puedo hacer
+[0:59:15] el pipe, que que es lo que les dije
+[0:59:18] eh un momento.
+[0:59:27] Ahora sí.
+[0:59:29] Y entonces ya se hace el pipe. El pipe
+[0:59:31] es básicamente lo que va a mandar la
+[0:59:33] transacción. También hay formas de
+[0:59:34] hacerlo sin el pipe
+[0:59:37] eh
+[0:59:38] pero bueno, vamos a hacerlo con pipe.
+[0:59:41] Entonces aquí, primero que todo tengo
+[0:59:43] que setear el crear el
+[0:59:46] Entonces yo aquí creo el mensaje de la
+[0:59:48] transacción.
+[0:59:49] Luego, ¿qué es lo que tengo que hacer?
+[0:59:51] Tengo que poner
+[0:59:53] Entonces pongo
+[0:59:55] Luego, ¿qué tengo que poner?
+[1:00:00] Entonces pongo el
+[1:00:01] Y luego, ¿qué es lo último que tengo que
+[1:00:03] poner? Tengo que hacer un
+[1:00:06] que
+[1:00:07] Bueno, básicamente lo de la O sea, como
+[1:00:09] Aquí tengo que poner la lista de cosas
+[1:00:11] que yo quiero que se hagan.
+[1:00:18] Eh
+[1:00:19] O sea, al menos yo sé de este patrón O
+[1:00:24] sea, sé que hay otras formas de hacerlo
+[1:00:25] más sencillo
+[1:00:26] pero
+[1:00:28] tal vez sí sea
+[1:00:30] O sea, es que si lo vemos así En
+[1:00:32] realidad a mí se me ocurre Me gusta
+[1:00:33] verlo así. Vean, tengo una idea.
+[1:00:37] Metámonos a
+[1:00:42] No sé No sé si No sé si el pipe es el
+[1:00:44] común. O sea, al menos a mí di el pipe
+[1:00:47] para mí es como lo normal, digamos,
+[1:00:49] donde yo tengo que crear mensaje y tengo
+[1:00:51] que crear todo. De fijo debe haber
+[1:00:53] alguna forma
+[1:00:54] de O sea, de fijo hay formas de no
+[1:00:56] hacerlo con el pipe
+[1:00:57] pero eh O sea, por ejemplo, yo lo veo
+[1:01:00] así.
+[1:01:01] Tipo es casi que esto, esto mismo, donde
+[1:01:04] yo
+[1:01:06] O sea, creo la la lista de
+[1:01:08] instrucciones, los detalles, pero
+[1:01:09] también tengo que crear el mensaje y
+[1:01:10] tengo que crear el y todo eso.
+[1:01:13] Eh
+[1:01:14] Yo pensaría
+[1:01:16] O sea, yo sé que esto se usa, pero y y
+[1:01:19] además, bueno, otra cosa es que te da
+[1:01:20] más control. Tipo, si yo quiero cambiar
+[1:01:23] el
+[1:01:24] o si quiero poner más todo eso se puede
+[1:01:25] poner desde acá.
+[1:01:27] Eso sí sé que por ese lado todo bien.
+[1:01:30] Eh, pero o sea, yo este es el approach
+[1:01:33] que uso. Puedo Posiblemente hay otro
+[1:01:35] approach, nada más que te habría como
+[1:01:37] que revisarlo y y ver cuál es. Pero sí.
+[1:01:42] Eh, esto ya no se va a usar.
+[1:01:46] Toque.
+[1:01:52] Eh, y bueno, voy por revisar aquí
+[1:01:55] rápidamente algo.
+[1:02:00] Y bueno, pues esto lo Recuerden que
+[1:02:02] entonces yo tengo que poner
+[1:02:04] estas cosas acá
+[1:02:07] para lo del
+[1:02:09] y me faltó el
+[1:02:14] El
+[1:02:15] está este. Me parece raro eso. Vamos a
+[1:02:17] ver.
+[1:02:19] Aquí tengo que setear el
+[1:02:23] Tengo que setear el estos y eso se queda
+[1:02:26] ahí. Ahora sí. Okay. Eh, más bien
+[1:02:30] revisemos
+[1:02:33] que ya me dejaste con dudas si esto es
+[1:02:35] como el estándar.
+[1:02:41] Eh,
+[1:02:42] Solana
+[1:02:46] Ah, bueno, por si acaso.
+[1:02:49] Ehm,
+[1:02:51] o sea, tiene
+[1:02:53] entonces
+[1:03:04] O sea, yo yo siempre he usado el
+[1:03:05] No sé. O sea, fijo hay otras formas,
+[1:03:07] pero pero sí. Si no si no lo que puedo
+[1:03:09] hacer es que la próxima clase
+[1:03:12] Sí, la si no lo que podemos hacer si la
+[1:03:13] próxima clase ver
+[1:03:15] otra forma de hacerlo,
+[1:03:18] porque además esto es más modular, eso
+[1:03:19] es como
+[1:03:21] o sea, es como una de las ventajas de
+[1:03:22] Solana Kit, que es que es modular,
+[1:03:24] entonces sí, eso es otra cosa. Pero sí,
+[1:03:27] fijo definitivamente hay otra forma.
+[1:03:29] Ahora hablemos de firmar y obtener
+[1:03:30] firmas. Eh, entonces ya para ir
+[1:03:33] terminando porque me pasé de tiempo. Eh,
+[1:03:39] todas las transacciones se o sea, ahí yo
+[1:03:42] ya tengo el mensaje de la transacción,
+[1:03:43] pero yo tengo que firmarlo porque di, si
+[1:03:45] no no tiene sentido. Entonces, ¿qué es
+[1:03:46] lo que voy a hacer? Yo voy a crear una
+[1:03:49] una una parte donde yo voy a firmar el
+[1:03:51] mensaje. Entonces, como pueden ver
+[1:03:53] este es el mensaje de la transacción,
+[1:03:55] ¿verdad? Este ahorita lo pongo.
+[1:03:57] Eh, y el
+[1:04:00] esto lo que voy a hacer es
+[1:04:04] que se lo está a firmar y el
+[1:04:07] es lo que vamos a hacer es recibir el
+[1:04:10] Entonces
+[1:04:11] eh y bueno, ahí podemos hacer un
+[1:04:14] como esto dice
+[1:04:16] y
+[1:04:23] que
+[1:04:27] Ahora sí.
+[1:04:28] Entonces eh
+[1:04:31] aquí como ven, entonces ¿qué es lo que
+[1:04:32] hice? Pues aquí es firmar y obtener la
+[1:04:35] firma. Entonces aquí firma por cada
+[1:04:38] y eh tengo el ID de la transacción.
+[1:04:41] Y finalmente, ¿qué es lo que tengo que
+[1:04:42] hacer?
+[1:04:43] Simular la transacción y
+[1:04:45] confirmarla. Ahora
+[1:04:48] adelante más adelante aquí mencioné, tal
+[1:04:50] vez esto ya sea un poco más
+[1:04:52] que no no tiene mucho que ver ahorita,
+[1:04:55] pero es que puede haber límite de de
+[1:04:58] cómputo y simulaciones de
+[1:05:00] perdón, y comisiones de propiedad de
+[1:05:02] prioridad. Entonces digamos, yo podría
+[1:05:05] poner
+[1:05:06] eh
+[1:05:07] entre las instrucciones tipo ponerle
+[1:05:13] eh o sea, yo puedo añadir límites de
+[1:05:16] eh comisiones de prioridad
+[1:05:19] y más cosas que se cobran sobre el
+[1:05:20] límite, que no es un subreal, pero que
+[1:05:23] me sirven para hacer la transacción, o
+[1:05:24] sea, para que le vaya mejor, digamos.
+[1:05:27] Esa es una de las ventajas del Solana
+[1:05:28] Kit es que es muy modular.
+[1:05:30] Eh, y entonces tengo que simular antes
+[1:05:31] de enviar.
+[1:05:32] Entonces, pues aquí lo que hago es
+[1:05:34] simular la transacción y el value que yo
+[1:05:37] mando es el, digamos el
+[1:05:40] base64 del transaction, de la
+[1:05:42] transacción firmada, por si acaso.
+[1:05:45] Y luego nada más envío y confirmo.
+[1:05:46] Entonces, ¿qué es lo que hago para
+[1:05:47] enviar y confirmar? Pues hay una función
+[1:05:49] que se envía por, ehm, básicamente se la
+[1:05:52] envío al RPC
+[1:05:54] donde yo envío y puedo escuchar a, eh,
+[1:05:57] por WebSockets al subscriptions.
+[1:05:59] Entonces, ¿qué es lo que hace el
+[1:06:00] subscriptions? Recuerden que
+[1:06:01] subscriptions lo que hacía era avisarme
+[1:06:04] de las cosas. Entonces envío y me envía
+[1:06:06] la confirmación de vuelta, digamos.
+[1:06:09] Y entonces
+[1:06:10] ¿qué es este await? Ay, ¿qué hace este
+[1:06:12] último await? Lo que hace es que envía y
+[1:06:14] confirma y el commitment final va a ser
+[1:06:16] el confirmado, confirmed.
+[1:06:19] Eh, luego con respecto a commitment,
+[1:06:21] expiración y reintentos, ahorita
+[1:06:22] regresamos al ejercicio propiamente.
+[1:06:24] Eh, básicamente
+[1:06:27] eh, estas son tres cosas que hay, que es
+[1:06:30] que hay processed, hay confirmed y hay
+[1:06:32] finalized. Entonces, ¿qué es esto? Que
+[1:06:35] es que eh, una transacción primero es
+[1:06:37] procesada, luego es confirmada y luego
+[1:06:40] es procesada. ¿Qué quiere decir eso?
+[1:06:42] Perdón, finalizada.
+[1:06:43] ¿Qué quiere decir eso? Que cuando está
+[1:06:44] procesada es que aún se puede revertir.
+[1:06:47] Cuando está confirmada es que ya se
+[1:06:50] votó, digamos entre, ya se, ya, o sea,
+[1:06:52] ya la transacción está ahí. Y finalized
+[1:06:55] es que cuando ya es irreversible.
+[1:06:56] Entonces, si yo envío dinero ya ahí ya
+[1:06:58] no se puede hacer nada.
+[1:06:59] Y si se expira, por ejemplo el block
+[1:07:01] hash,
+[1:07:02] pues nosotros tenemos, podemos hacer un
+[1:07:04] for donde básicamente hacemos,
+[1:07:07] probamos y probamos y probamos y donde
+[1:07:10] revisamos
+[1:07:11] si, ehm, para mandar si expira el block
+[1:07:14] hash. Entonces,
+[1:07:16] también otra cosa que les iba a enseñar
+[1:07:18] hoy, pero no me dio tiempo, es lo del
+[1:07:19] manejo de errores. Igual esto lo vamos a
+[1:07:20] seguir viendo el próximo lunes
+[1:07:22] Ehm, sobre tipo cómo usamos esto ya con
+[1:07:25] programas, pero sobre manejo de errores,
+[1:07:29] pues nosotros podemos manejar errores.
+[1:07:31] Hay un montón de errores que podemos
+[1:07:32] manejar. Podemos ver fallos de
+[1:07:34] preflight, es decir, si la simulación
+[1:07:36] falló.
+[1:07:38] Ehm, di, no, no nos va a cobrar
+[1:07:40] comisión, eso es algo bueno. Entonces
+[1:07:42] podemos poner logs, podemos poner
+[1:07:45] código personalizado. Entonces tipo
+[1:07:47] podemos hay hay diferentes tipos de
+[1:07:49] errores en el system que están como
+[1:07:51] seteados
+[1:07:53] por defecto. Entonces, por ejemplo, el
+[1:07:54] 0x1 es lamports insuficientes. Es como y
+[1:07:58] bueno, aquí se supone que íbamos a ver
+[1:07:59] esto, pero o sea, lo estamos haciendo
+[1:08:01] durante la clase.
+[1:08:02] Y este es el repositorio de GitHub del
+[1:08:05] kit por si les interesa, aunque
+[1:08:07] realmente está más chiva la
+[1:08:08] documentación.
+[1:08:09] Y entonces regresamos acá.
+[1:08:11] Entonces tenemos el signature
+[1:08:13] y tenemos que
+[1:08:15] ehm simular la transacción, o sea,
+[1:08:17] simular la transacción
+[1:08:20] y luego tenemos que enviarla. Entonces,
+[1:08:23] si quieren, porque llevamos un
+[1:08:24] toquecillo tarde, voy a decirle que
+[1:08:27] termine de simular
+[1:08:36] Entonces, ¿qué es lo que va a hacer
+[1:08:37] esto? Básicamente lo que va a hacer es
+[1:08:40] el proceso de la parte de simulación de
+[1:08:42] la transacción y del envío de la
+[1:08:45] transacción.
+[1:08:46] Eh, con respecto a lo que dijo
+[1:08:49] del pipe,
+[1:08:50] o sea, sí,
+[1:08:52] si usas el Solana Kit, yo creo que sí es
+[1:08:54] el estándar, pero si estás usando, por
+[1:08:55] ejemplo,
+[1:08:56] eh y me cambió todo, que era no no era
+[1:08:58] lo que quería, pero bueno, si no ahorita
+[1:09:01] ahorita lo vemos. Ehm,
+[1:09:04] si nosotros usamos el Solana Kit, la
+[1:09:06] idea es que sea más modular. Entonces
+[1:09:07] tal vez sí es un poco más complejo. O
+[1:09:08] sea, eso posiblemente sí,
+[1:09:11] pero es porque yo tengo más
+[1:09:12] programabilidad. O sea, tipo
+[1:09:14] yo puedo elegir las cosas que puedo
+[1:09:16] hacer. Entonces eso eso es un lado
+[1:09:18] positivo si lo queremos ver por ahí.
+[1:09:20] Ehm,
+[1:09:22] pero sí. Aquí, por ejemplo,
+[1:09:26] eh ya ya han visto todo. Ahorita lo lo
+[1:09:29] revisamos esto,
+[1:09:30] pero vamos a hacerle un
+[1:09:32] para revisar. Y bueno, primero que todo
+[1:09:34] me acomodo esto porque estaba un poco
+[1:09:36] incómodo
+[1:09:37] y eh
+[1:09:39] esto lo mantuve igual. Ah, nada más que
+[1:09:41] puse todo en un main, eso es eso es
+[1:09:43] importante, eso no lo hice, eh
+[1:09:44] [carraspeo] en en una función main donde
+[1:09:47] era síncrono, que recuerden que síncrono
+[1:09:50] es para que la funcione.
+[1:09:52] Entonces, em
+[1:09:54] hasta aquí todo bien. Esto, bueno, me
+[1:09:56] cambió esto, entonces ahora solo tenemos
+[1:09:57] un que es el que va a enviar,
+[1:10:00] perdón, el que va a pagar, una un
+[1:10:02] destino, que es el que le va a llegar el
+[1:10:03] dinero y un que recordemos que el va a
+[1:10:05] ser los
+[1:10:07] Luego tenemos el
+[1:10:09] y em tenemos el
+[1:10:12] que es donde se va a firmar.
+[1:10:14] Luego tenemos un
+[1:10:16] que básicamente es de que
+[1:10:19] nosotros el que la transacción esté en
+[1:10:21] el en el
+[1:10:23] Es digamos, si nosotros tenemos el
+[1:10:25] tenemos que verificar que está en ese
+[1:10:26] tiempo de vida.
+[1:10:27] Y finalmente el
+[1:10:29] es la transacción firmada que se hizo
+[1:10:31] acá.
+[1:10:31] Y entonces, ¿cómo se simula? Es lo que
+[1:10:33] vimos en la presentación.
+[1:10:35] Donde la simulación es el
+[1:10:39] y yo lo que le mando es el
+[1:10:42] pero
+[1:10:44] Y entonces yo le paso esto y el
+[1:10:47] y recuerden poner el
+[1:10:51] Eh, sí, la transmisión la la pasan como
+[1:10:54] 1 hora después, 1 o 2 horas después,
+[1:10:57] pero eso no no lo hago yo, pero pero sí
+[1:10:58] sí, voy a verificar que la suban.
+[1:11:01] Y el ya casi lo pongo también, que ya lo
+[1:11:03] tengo listo pero no lo he subido.
+[1:11:04] Luego eh me puso en el
+[1:11:08] el resultado de la simulación, entonces
+[1:11:10] si hubo un error, pues error, las
+[1:11:12] unidades consumidas y los
+[1:11:14] Entonces,
+[1:11:15] aquí ¿qué es lo que pasa? Si hay un
+[1:11:17] error en la simulación,
+[1:11:19] aquí pues va a hacer manejo de errores,
+[1:11:20] pero si no nada más hace un
+[1:11:23] que es eso, que agarra del
+[1:11:26] tipo agarra el RPC y el
+[1:11:28] y hace una
+[1:11:29] Entonces, ¿qué es el
+[1:11:30] que manda la transacción y luego,
+[1:11:33] idealmente, si todo funciona bien, me
+[1:11:35] manda un console log
+[1:11:37] donde eh se confirma la transacción y me
+[1:11:39] pone el es decir, la firma de la
+[1:11:42] transacción
+[1:11:43] y luego eh me pone en el
+[1:11:47] cuál sería
+[1:11:48] y finalmente pone aquí un esto es para
+[1:11:50] esto mismo, ¿okay?
+[1:11:51] Entonces,
+[1:11:53] eh revisémoslo. Pero primero que todo
+[1:11:55] tenemos que fondear la
+[1:11:57] eh que no está fondeada, entonces vamos
+[1:11:59] a fondearla rápidamente.
+[1:12:01] Vamos a meternos a el
+[1:12:04] Esto se Por si acaso esta que no está
+[1:12:05] fondeada, recuerden que va a ser la que
+[1:12:08] creamos con el con el
+[1:12:10] Entonces, perdón, creamos con el
+[1:12:13] Entonces, le va a pasar 0.5 Solanas.
+[1:12:16] Esto ya lo habíamos hecho el proceso de
+[1:12:18] ayer, pero es como para recordarlo.
+[1:12:23] Eh.
+[1:12:36] Y ahí va.
+[1:12:38] No sé. O sea, es que Ahora sí, ya se
+[1:12:41] subió.
+[1:12:42] Perdón, ya se mandó. Entonces, ¿qué es
+[1:12:44] lo que tenemos que hacer finalmente? Eh,
+[1:12:46] bueno, voy a cerrar esto ya no no es
+[1:12:48] necesario.
+[1:12:51] Entonces, ahora ya para correr esto,
+[1:12:53] bueno, primero que todo me tengo que
+[1:12:54] volver
+[1:12:55] Bueno, nada más voy a crear otra
+[1:12:56] terminal
+[1:12:57] que esté aquí.
+[1:12:59] Pero bueno, entonces hago
+[1:13:02] y nada más hago
+[1:13:04] Entonces, ¿qué es lo que va a hacer
+[1:13:05] esto?
+[1:13:07] Va a armar la transacción y
+[1:13:10] eh todo bien.
+[1:13:12] Vi esto y y creí que se había
+[1:13:16] Pero no
+[1:13:17] Eh, entonces, ¿qué qué fue lo que pasó
+[1:13:19] aquí?
+[1:13:20] Primero, le íbamos a enviar tipo ya como
+[1:13:23] resumen de todo.
+[1:13:25] Nos conectamos al RPC.
+[1:13:27] Luego,
+[1:13:28] le íbamos a enviar dinero a esta wallet.
+[1:13:31] Luego le vamos a enviar entonces 10
+[1:13:33] millones de lamports.
+[1:13:35] Entonces agarramos el secret de este
+[1:13:37] id.json que esto nunca debería ir
+[1:13:39] comiteado en un repositorio, jamás lo
+[1:13:41] hagan. Esto es algo como que está ahí
+[1:13:44] por estar. Bueno, no no está ahí por
+[1:13:45] estar, sino que
+[1:13:47] cuando está
+[1:13:48] local está bien para testear, pero en la
+[1:13:50] vida real ustedes jamás pueden poner eso
+[1:13:53] porque cualquiera nada más podría usar
+[1:13:54] entonces esta función y robarle su su
+[1:13:57] wallet. Entonces jamás hagan eso.
+[1:13:59] Pero bueno,
+[1:14:00] ehm entonces
+[1:14:03] ustedes una vez hicieron eso
+[1:14:05] eh ya tienen el secret, entonces ahora
+[1:14:08] agarran el último block hash,
+[1:14:10] hacen la instrucción de la transacción,
+[1:14:12] la ponen en el pipe donde definen el
+[1:14:13] mensaje, el fee payer, el lifetime del
+[1:14:17] block hash y finalmente las
+[1:14:18] instrucciones las ponen en una lista.
+[1:14:21] Luego
+[1:14:22] eh firma la transacción que es esta
+[1:14:24] parte, la simulan,
+[1:14:26] envían la envían la simulación.
+[1:14:28] Una vez les retorna, como ven aquí este
+[1:14:31] console log fue el que me me confundió
+[1:14:32] un toque porque creí que había fallado,
+[1:14:34] pero como pueden ver
+[1:14:36] significa que no hubo error, entonces
+[1:14:38] todo bien.
+[1:14:38] Luego las unidades que consumió, el
+[1:14:40] compute units, los logs.
+[1:14:43] Entonces todo bien, como pueden ver hizo
+[1:14:45] llamó al programa 1111 que si recuerdan
+[1:14:47] es el system
+[1:14:49] y si había un error pues me iba a
+[1:14:52] reportar, pero como no hubo error, ¿qué
+[1:14:54] fue lo que pasó? Hizo un send and
+[1:14:55] confirm, entonces envió y confirmó la
+[1:14:58] transacción
+[1:14:59] y entonces como pueden ver se confirmó.
+[1:15:01] Y si yo me meto acá
+[1:15:04] que esto sería
+[1:15:06] la transacción que hicimos usando el
+[1:15:07] Solana Kit. Entonces
+[1:15:09] como pueden ver este es el signature, el
+[1:15:11] fee payer fue la wallet digamos que
+[1:15:13] usamos como el Solana CLI, bueno, la el
+[1:15:16] address.
+[1:15:17] Pueden ver que la cantidad de compute
+[1:15:20] units fue 150
+[1:15:23] y entonces aquí puedo ver las cuentas
+[1:15:25] que se hicieron que se usaron, fue esta
+[1:15:28] que fue el fee payer, fue el signer,
+[1:15:30] esta que fue la que recibió
+[1:15:33] y el system program
+[1:15:35] y eh pues aquí podemos ver más
+[1:15:37] información tipo si les interesa.
+[1:15:39] Y em pues logs y esas cosas, ¿okay?
+[1:15:43] Entonces básicamente así es como se hace
+[1:15:44] una transacción.
+[1:15:46] Yo entiendo que puede ser confuso y la
+[1:15:49] verdad es que, o sea, para mí,
+[1:15:50] honestamente,
+[1:15:51] también a veces puede ser confuso.
+[1:15:54] Específicamente esto del porque
+[1:15:55] normalmente no o sea, o sea, normalmente
+[1:15:58] uno no hace esto de poner un
+[1:16:00] en un
+[1:16:01] y después tener que pasarlo de
+[1:16:03] a un
+[1:16:05] Pero bueno,
+[1:16:06] así es como se hace localmente, digamos.
+[1:16:09] Así funciona el Solana
+[1:16:10] Si ustedes dicen, bueno, pero es que me
+[1:16:12] da pereza importar todas estas cosas y
+[1:16:14] siento como que tengo que importar
+[1:16:15] mucho,
+[1:16:16] eso es algo bueno del Solana digamos que
+[1:16:18] es que di, al fin y al cabo solo importo
+[1:16:20] lo que necesito y pues hay demasiadas
+[1:16:23] cosas que puedo hacer con el Solana
+[1:16:24] entonces estas son solo algunas del
+[1:16:26] montón de cosas. Entonces también tipo
+[1:16:28] para terminar
+[1:16:30] eh vimos que existían los
+[1:16:32] los eh clientes de programa que por
+[1:16:36] ejemplo aquí me sirve para recibir la
+[1:16:38] instrucción del transferir dinero,
+[1:16:40] perdón, el transferir Solanas. Entonces
+[1:16:42] eso es bastante útil.
+[1:16:43] Igual eh en el
+[1:16:47] ese, obviamente los incito a que si no
+[1:16:49] no lo hicieron durante la clase
+[1:16:51] lo vayan haciendo.
+[1:16:53] Eh no sé, el fin de semana prueben a
+[1:16:55] hacer una transacción o algo así.
+[1:16:58] Y eh ¿cómo manejaría los estados de la
+[1:17:00] transacción
+[1:17:06] Buena pregunta.
+[1:17:07] Eh
+[1:17:08] básicamente los estados de la
+[1:17:10] transacción, tipo el
+[1:17:13] y todo eso, yo lo puedo manejar desde el
+[1:17:15] Solana
+[1:17:16] Eh porque di, digamos una vez yo lo
+[1:17:19] mando
+[1:17:20] eh está el
+[1:17:23] y está el
+[1:17:24] en realidad está por aquí.
+[1:17:31] Eh
+[1:17:32] entonces digamos yo eso lo puedo manejar
+[1:17:34] desde ahí, bien.
+[1:17:36] Ehm, igual puedes usar
+[1:17:39] porque digamos es útil
+[1:17:41] para manejo de estados justamente, eh
+[1:17:44] pero
+[1:17:45] el Solana Kit ya lo tiene, entonces
+[1:17:48] o sea, lo puedes usar por encima, tipo
+[1:17:49] puedes hacerle como un al Solana Kit
+[1:17:52] que estaría bien,
+[1:17:54] pero
+[1:17:55] hm di, si ya lo tiene por defecto, o
+[1:17:57] sea, no no vería por qué lo tendrías que
+[1:18:00] usar. O sea, el
+[1:18:02] el
+[1:18:03] sí se sí sirve mucho
+[1:18:05] para otros tipos de estado, pero
+[1:18:07] específicamente para un estado que yo
+[1:18:09] saco
+[1:18:10] de la blockchain y de una transacción
+[1:18:13] no
+[1:18:14] no veo cómo tiene tantísima utilidad.
+[1:18:17] Hm, entonces ahí preferiría usar el
+[1:18:19] Solana Kit, pero igual el
+[1:18:22] es útil para otros para manejar otros
+[1:18:23] tipos de estados en la app.
+[1:18:26] Eh, sí.
+[1:18:28] Y sí, yo creo que con eso
+[1:18:30] terminamos por hoy. Sorry si fue una
+[1:18:32] clase tal vez más abstracta donde
+[1:18:34] teníamos que hacer más cosas y tal vez
+[1:18:35] me confundí y todo, eh pero es que
+[1:18:38] realmente es un es un poquillo más más
+[1:18:41] técnico y hay cosas como que obviamente
+[1:18:44] la documentación es enorme, pueden ir a
+[1:18:46] revisar la documentación. Ehm, nos faltó
+[1:18:49] de ver una presentación que era de
+[1:18:52] Pero yo creo que entonces también lo
+[1:18:53] vamos a ver la próxima semana, porque es
+[1:18:55] que esta semana estaba muy cargado, o
+[1:18:57] sea, hay muchas cosas, en tres clases
+[1:18:59] estaba muy difícil. Entonces sí, eh ya
+[1:19:01] casi subo el quiz de la clase de hoy, va
+[1:19:03] a ser sobre un poquito de cosas básicas
+[1:19:05] de esto.
+[1:19:07] Realmente no es nada muy complicado y
+[1:19:10] recuerden que si les interesa pues
+[1:19:11] pueden ir haciendo las transacciones por
+[1:19:13] su propia cuenta usando el Solana Kit,
+[1:19:16] apoyándose de y todo, ¿okay?
+[1:19:18] Entonces si quieren lo dejamos por aquí
+[1:19:20] y nos vemos en la próxima.
+[1:19:23] Bueno,
+[1:19:24] chao.

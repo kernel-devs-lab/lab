@@ -1,0 +1,1376 @@
+# Transcripción: Session 9
+URL: https://www.youtube.com/watch?v=DTPszga9W9Y
+
+[0:02:51] Hola hola, ¿todo bien?
+[0:02:53] Eh bueno, veo que ya se fue Solen,
+[0:02:55] entonces eso que ya podemos ir empezando
+[0:02:58] con la clase de hoy.
+[0:03:00] Eh hoy vamos a ver sobre
+[0:03:05] Bueno, vamos a ver cómo hacer
+[0:03:07] de programas. Entonces, eh bueno, voy a
+[0:03:09] compartir pantalla rápidamente.
+[0:03:14] Eh no no había visto el chat, por eso es
+[0:03:16] que estaba
+[0:03:21] Eh sí, básicamente lo que dijo ahí Solen
+[0:03:23] es que eh la próxima semana
+[0:03:26] vamos vamos a tener como una preparación
+[0:03:28] para la pero vamos a hacer tres.
+[0:03:29] Entonces, tipo va a ser Santiago, que es
+[0:03:31] el que ha estado dando algunas clases,
+[0:03:33] yo,
+[0:03:33] y también
+[0:03:35] que es uno de los de India.
+[0:03:38] Entonces, perdón, de de inglés y es de
+[0:03:41] India. Entonces, él también va a estar
+[0:03:43] ayudando en eso. Eh las clases van a ser
+[0:03:45] en inglés, si no me equivoco, pero
+[0:03:47] bueno.
+[0:03:47] Eh entonces ahí para que también ahí
+[0:03:50] estén estén atentos. Voy a compartir
+[0:03:52] pantalla. Eh
+[0:03:54] que
+[0:03:55] Eh pues solo esto no
+[0:03:58] confundí.
+[0:04:01] Listo. ¿Qué vamos a hacer hoy? Entonces
+[0:04:02] hoy vamos a aprender cómo hacer, perdón,
+[0:04:06] cómo hacer deploy de programas en
+[0:04:08] Solana. Entonces, primero, un toque, es
+[0:04:11] que estoy compartiendo todo eh voy
+[0:04:15] no quería compartir todo.
+[0:04:18] Listo, okay, entonces ahora sí.
+[0:04:22] Hoy vamos a hacer deploy de programas.
+[0:04:24] Entonces, ¿qué son los programas? Los
+[0:04:26] programas, recordemos que es básicamente
+[0:04:27] como nosotros le añadimos
+[0:04:29] programabilidad a la blockchain.
+[0:04:31] Entonces,
+[0:04:32] nosotros le añadimos programabilidad a
+[0:04:34] la blockchain y normalmente usamos un
+[0:04:36] framework que es para hacer programas
+[0:04:38] que se llama Anchor, o bueno, es al
+[0:04:40] menos el que hemos visto en el curso.
+[0:04:41] Recordemos que Anchor, voy a buscarlo
+[0:04:43] acá. Hoy hoy me voy a basar más en las
+[0:04:46] en la documentación de Solana porque eso
+[0:04:48] es algo que que tenemos que aprender a
+[0:04:50] hacer bastante, que es guiarnos bastante
+[0:04:51] en esta documentación.
+[0:04:53] Eh entonces, bueno, eh voy a quitar esto
+[0:04:56] rápidamente. Bueno, aquí tengo la
+[0:04:58] presentación también, pero es que no no
+[0:05:00] la voy a no la voy a ir siguiendo porque
+[0:05:02] la verdad es que hay muchas cosas que no
+[0:05:03] siento que son de muchísima utilidad.
+[0:05:06] Entonces, hoy vamos a ver cómo hacer
+[0:05:07] deploys de programas. Entonces, como les
+[0:05:09] estaba diciendo, si nosotros nos metemos
+[0:05:11] a la documentación de Anchor, igual yo
+[0:05:13] creo que Santi ya les explicó todo esto,
+[0:05:14] les explicó lo del testing, les explicó
+[0:05:16] lo de Anchor, entonces ya van a saber
+[0:05:18] las básicas, cómo funciona la estructura
+[0:05:20] del programa, los PW, los PDAs, perdón,
+[0:05:23] entonces si nosotros metemos a program
+[0:05:24] structure, recordemos que hay que
+[0:05:26] especificar el ID del del del programa.
+[0:05:30] Luego, o sea, que nosotros teníamos un
+[0:05:32] hashtag program que donde tenemos un
+[0:05:34] super y tenemos las funciones que se
+[0:05:36] pasaban las cosas con contexto
+[0:05:39] eh y se daban resultados. También
+[0:05:40] recordemos las primeras clases que
+[0:05:41] tuvimos de Rust, donde en las primeras
+[0:05:44] clases de Rust
+[0:05:46] aprendimos sobre que, por ejemplo, los
+[0:05:48] resultados se podían dar de esta forma.
+[0:05:50] Nosotros poníamos okay, recordemos que,
+[0:05:52] por ejemplo, un return que es para
+[0:05:53] devolver un resultado,
+[0:05:55] no le ponía era poner una variable sin
+[0:05:57] el punto y coma, por ejemplo. Entonces
+[0:05:59] eso hacía el return y básicamente todo
+[0:06:01] ese tipo de cosas ya nos van a servir
+[0:06:03] para Anchor, recordemos eso. Y eh bueno,
+[0:06:05] un toque que esto lo tengo por acá,
+[0:06:08] ahora sí.
+[0:06:09] Eh, entonces recordemos eso, eso es
+[0:06:10] bastante importante. Y también
+[0:06:12] recordemos que pues algo que vimos en la
+[0:06:14] semana dos, ya como para ir
+[0:06:15] recapitulando todo, eran las cuentas. Y
+[0:06:18] entonces recordemos que las cuentas
+[0:06:20] básicamente eran todo, entonces
+[0:06:22] las cuentas eran tanto nosotros como los
+[0:06:25] programas y todo. Entonces pues es
+[0:06:27] bastante útil.
+[0:06:28] Vamos a ver un programa que bastante
+[0:06:31] sencillo y lo que vamos a hacer hoy es,
+[0:06:33] bueno, ya les dije, es hacer el deploy.
+[0:06:36] Ahora, si se preguntan qué es un deploy,
+[0:06:38] o sea, qué es, cómo funciona, qué
+[0:06:40] significa.
+[0:06:42] Deploy es hacer que el contrato vaya a
+[0:06:44] la red, porque hasta ahorita hemos
+[0:06:46] estado haciendo programas de Solana.
+[0:06:48] Bueno, los últimos dos dos días han
+[0:06:50] estado haciendo programas de Solana,
+[0:06:51] pero esos programas se quedan
+[0:06:53] localmente. O sea, ninguna persona
+[0:06:55] aparte de los tests que también vieron
+[0:06:58] cómo se hacían tests eh unit testing, o
+[0:07:00] sea, probar cada función, verificar que
+[0:07:02] no tenga bugs, etcétera.
+[0:07:06] Ese unit testing, de y, no no funciona
+[0:07:08] on-chain. ¿Qué es lo que pasa? No es
+[0:07:10] como que el contrato se sube a la red y
+[0:07:12] yo lo pruebo en la red, aunque se puede
+[0:07:14] hacer, claramente se puede hacer, pero
+[0:07:16] el ese tipo de testing, pues no tengo el
+[0:07:19] chat abierto, por si acaso alguien
+[0:07:20] escribió para anotar.
+[0:07:21] Eh,
+[0:07:23] este tipo de testing es más testing del
+[0:07:25] contrato y básicamente verificar que
+[0:07:27] todas las funciones
+[0:07:29] funcionen como debería de ser.
+[0:07:31] Entonces pues
+[0:07:34] sí, así es como funciona. ¿Qué es lo que
+[0:07:36] pasa ahora? Que nosotros cuando hacemos
+[0:07:37] deploys lo que estamos haciendo es subir
+[0:07:39] el contrato a la red. Entonces si yo
+[0:07:40] tengo el contrato en mi compu, ahora lo
+[0:07:42] estoy subiendo a la red donde ya todo
+[0:07:45] mundo que esté en la red, en este caso
+[0:07:47] en Devnet, porque recordemos que habían
+[0:07:48] dos redes, estaba Devnet
+[0:07:50] bueno, habían varias. Sucede, uno puede
+[0:07:52] correr un nodo local, por ejemplo, y
+[0:07:54] hacer las cosas localmente. Uno puede
+[0:07:56] hacerlo en Mainnet, que es donde
+[0:07:57] trabajamos con fondos reales. Uno lo
+[0:07:59] puede hacer en Devnet, donde trabajamos
+[0:08:00] con fondos de mentiras, digamos, para
+[0:08:02] probar.
+[0:08:04] Y entonces nosotros hoy vamos a deployar
+[0:08:06] que bueno, realmente deployar no un
+[0:08:08] verbo, hacer deploy no es un verbo, pero
+[0:08:10] bueno, así se le dice en español, a es
+[0:08:11] desplegar.
+[0:08:13] Entonces vamos a subir el el programa a
+[0:08:15] la red y lo vamos a testear. Entonces
+[0:08:17] les voy a enseñar dos formas, la forma
+[0:08:19] difícil, más o menos,
+[0:08:21] y la forma fácil, pero que solo sirve
+[0:08:23] para testing. Entonces vamos a empezar
+[0:08:25] con la forma difícil.
+[0:08:26] Eh bueno, les recuerdo que esta es la
+[0:08:28] documentación de Anchor. Algo muy
+[0:08:29] importante, no sé si se los había
+[0:08:31] mencionado Santi,
+[0:08:32] pero algo que Solana tiene muy útil es
+[0:08:34] que tiene un playground. ¿Qué es un
+[0:08:36] playground? El playground es como un
+[0:08:38] IDE, un IDE, un
+[0:08:41] un IDE como tipo VS Code o Cursor o Zed,
+[0:08:44] el que ustedes usen,
+[0:08:46] nada más que eh online y con todas las
+[0:08:49] cosas de Solana ya hechas. Eso es súper
+[0:08:51] útil. Realmente nosotros no les
+[0:08:52] explicamos mucho de esto porque solo
+[0:08:54] sirve más para testing y realmente a
+[0:08:57] escala o tipo para una hackathon si es
+[0:09:00] mucho mejor que si ustedes tienen que
+[0:09:01] tener los contratos los tengan en su
+[0:09:02] propio repositorio donde tienen todas
+[0:09:04] las cosas, pero playground es súper útil
+[0:09:07] porque nos da como una muy buena base y
+[0:09:09] una muy buena forma de subir programas.
+[0:09:11] Entonces vamos a ver cómo funciona.
+[0:09:13] Playground es esto, es beta.solpg.io.
+[0:09:18] Entonces, ¿qué es el playground? El
+[0:09:19] playground vamos a ver que primero tiene
+[0:09:20] un montón de resources. Aquí yo puedo
+[0:09:21] ver, por ejemplo, el cookbook de cosas
+[0:09:24] de Solana, de cómo construir
+[0:09:25] aplicaciones, detalles, la documentación
+[0:09:28] oficial, tenemos Seahorse, tenemos
+[0:09:31] Anchor, tenemos Metaplex, etcétera.
+[0:09:33] Eh Metaplex, por si acaso es para
+[0:09:35] trabajar con NFTs.
+[0:09:36] Un NFT es un non-fungible token,
+[0:09:39] entonces tal vez los han visto, tal vez
+[0:09:40] los han escuchado, es un tema bastante
+[0:09:41] interesante.
+[0:09:43] Y pues el cookbook son explicaciones, eh
+[0:09:45] SolDev es un agregador de contenido para
+[0:09:49] development
+[0:09:50] y pues hay otras cosas como Seahorse que
+[0:09:52] es para eh escribir programas en Python
+[0:09:56] que son Anchor compatibles, que en
+[0:09:58] realidad es bastante útil. Si algo si
+[0:09:59] les interesa alguna vez pueden darle
+[0:10:01] aquí a learn more
+[0:10:02] y aquí aprenden pues cómo funciona.
+[0:10:04] Bueno, y el dominio no funciona. Okay.
+[0:10:07] Entonces,
+[0:10:09] una vez lo que tenemos que hacer es a
+[0:10:11] create project. Bueno, eso es para esto
+[0:10:13] si ustedes quieren.
+[0:10:15] Vamos a hacer la prueba de la forma
+[0:10:16] sencilla. Primero vamos a vemos a ver
+[0:10:18] que hay un explorer,
+[0:10:20] que hay un test, que hay tutorials y hay
+[0:10:23] programas. Entonces yo me voy a meter a
+[0:10:25] un explorer
+[0:10:26] y voy a crear un nuevo programa, voy a
+[0:10:28] crear el programa con Anchor y le voy a
+[0:10:30] poner
+[0:10:31] probando.
+[0:10:32] Entonces nosotros una vez hacemos eso,
+[0:10:34] aquí nos pone un un programa de prueba.
+[0:10:38] Eh, primero que todo cosas útiles de del
+[0:10:42] del playground es que, o sea, te pone
+[0:10:44] una prueba. Como pueden ver aquí ya en
+[0:10:45] el source me pone un lib.rs y en el
+[0:10:48] client me pone pues un client ahí random
+[0:10:50] y los tests, ¿okay? Entonces, ¿qué es
+[0:10:53] qué es este lib.rs? Obviamente un hello
+[0:10:56] Anchor, es como hacer un hello world,
+[0:10:58] digamos. Entonces eh y esto, digamos,
+[0:11:02] se va a inicializar el contrato
+[0:11:05] con la data que yo le mande y luego nada
+[0:11:07] más se va a cambiar el mensaje. Entonces
+[0:11:08] yo puedo ir le cambiando la data.
+[0:11:10] Entonces como le cambié la data a tal
+[0:11:12] cosa, le cambié la data a tal cosa.
+[0:11:14] Entonces este mensaje va a aparecer en
+[0:11:17] los logs de las transacciones. Entonces
+[0:11:18] básicamente es un programa sencillo
+[0:11:20] sobre esto.
+[0:11:21] En este caso pueden ver que pues esto
+[0:11:23] que yo creo que ya lo habían visto con
+[0:11:25] Santi y todo eso, pero bueno.
+[0:11:26] Entonces, ¿cómo se hace el build de
+[0:11:28] forma sencilla? Ustedes aquí hay dos
+[0:11:30] formas. Primero ustedes podrían decir,
+[0:11:33] ah, bueno,
+[0:11:34] eh yo tengo ya mi programa en un
+[0:11:36] repositorio de GitHub, voy a hacer lo
+[0:11:38] siguiente. Entonces ustedes pueden venir
+[0:11:39] acá
+[0:11:41] y ustedes pueden poner el URL de GitHub
+[0:11:44] y el proyecto puede ser importado.
+[0:11:46] Entonces eso es algo bastante chido. Por
+[0:11:48] ejemplo, pueden ver aquí en Anchor un
+[0:11:50] create account. Entonces yo puedo darle
+[0:11:52] open, digamos.
+[0:11:57] Y pues este es un contrato de create
+[0:11:59] account, es un es algo temporal, o sea,
+[0:12:01] no es no es como que lo vamos a usar y
+[0:12:03] me quiero volver al pasado. Ahora sí.
+[0:12:05] Entonces esto ustedes lo que tienen que
+[0:12:06] hacer es crear un proyecto y si quieren
+[0:12:08] poner sus archivos aquí los pueden
+[0:12:09] poner. Yo este paso, o sea, este es un
+[0:12:12] la forma tipo sencilla de hacerla,
+[0:12:14] pero no es como la recomendada, puesto
+[0:12:16] que no te da tanta customización
+[0:12:18] [resoplido] como podrías tener usando la
+[0:12:21] otra herramienta que les voy a enseñar
+[0:12:22] luego.
+[0:12:23] Que bueno, ya lo habíamos visto, es el
+[0:12:25] Solana CLI y ehm otras formas de hacerlo
+[0:12:28] tipo relacionadas al
+[0:12:30] más a CLI y a comandos que con una
+[0:12:33] interfaz de usuario.
+[0:12:34] Entonces, una vez hacemos eso, lo
+[0:12:36] primero que tenemos que hacer, el primer
+[0:12:37] paso, podemos ver la documentación de
+[0:12:39] Solana. Aquí, bueno, aquí básicamente va
+[0:12:41] diciendo como qué es lo que se tiene que
+[0:12:42] hacer,
+[0:12:43] pero lo primero primero que se tiene que
+[0:12:44] hacer es, esto nos lo saltamos,
+[0:12:47] es el build. ¿Qué es el build? Es cuando
+[0:12:50] nosotros agarramos nuestro programa de
+[0:12:51] Solana
+[0:12:52] y lo damos, lo volvemos, digamos,
+[0:12:55] démosle build, vamos a ver que aquí se
+[0:12:56] está haciendo un building.
+[0:13:00] Eh, ahí debería de ir.
+[0:13:02] Eso normalmente dura un toque más porque
+[0:13:04] di, nosotros no es que tenemos Rust
+[0:13:06] instalado en la compu. Bueno, o sea, yo
+[0:13:08] lo tengo instalado, pero ustedes no es
+[0:13:09] necesario que lo tengan instalado en la
+[0:13:11] compu para que funcione esto. Esto
+[0:13:12] funciona, o sea, no funciona con los
+[0:13:14] recursos de la compu.
+[0:13:16] Entonces, ahora una vez que hiciste el
+[0:13:17] build, ¿qué es lo que va a generar el
+[0:13:19] build? Va a generar un archivo .so.
+[0:13:21] Ahora ustedes se preguntarán, bueno,
+[0:13:23] ¿qué es el archivo .so?
+[0:13:25] Es el ejecutable del programa que es
+[0:13:27] compilado. Entonces, ehm
+[0:13:31] aquí no se puede ver muy claramente
+[0:13:33] porque di, realmente, como les digo,
+[0:13:36] esto no es tan customizable, entonces yo
+[0:13:37] no puedo ver toda la información. Pero,
+[0:13:40] ¿qué es lo que pasa? Ahorita vamos a ver
+[0:13:41] cómo funciona ese archivo ya en código
+[0:13:43] donde se ve mejor. Entonces, ustedes le
+[0:13:45] pueden dar deploy
+[0:13:47] y eh ahí les va a pedir si quieren
+[0:13:49] conectar una wallet o no quieren
+[0:13:51] conectar una wallet. Si ustedes, lo
+[0:13:53] recomendable es que conecten una wallet,
+[0:13:55] entonces yo le voy a dar yes.
+[0:13:57] Y entonces, aquí eh yo puedo hacer un
+[0:14:00] import keeper y yo podría poner un
+[0:14:02] keeper de Solana como el que habíamos
+[0:14:05] visto tipo que
+[0:14:06] no sé si recuerdan.
+[0:14:08] Voy a compartir pantalla completa
+[0:14:09] rápidamente.
+[0:14:11] Ahora sí.
+[0:14:12] No sé si recuerdan que habíamos visto
+[0:14:15] eh control T? Ah, sí. No sé si recuerdan
+[0:14:18] que nosotros habíamos visto el Solana
+[0:14:20] CLI y que si uno se metía, uno puede
+[0:14:22] hacer Solana
+[0:14:25] que básicamente esto creaba una wallet
+[0:14:28] eh, bueno, un un address
+[0:14:30] y que uno puede hacer Solana airdrop
+[0:14:32] también para tipo pasarle un un poquito
+[0:14:35] de Solana para para fondear esa esa
+[0:14:37] dirección.
+[0:14:38] Eh, ¿recuerdan eso? Básicamente no sé si
+[0:14:41] recuerdan que se generaba un
+[0:14:44] un archivo con keepers
+[0:14:46] en la en la carpeta punto Solana, que
+[0:14:49] bueno, si quieren lo podemos hacer así,
+[0:14:51] que era que uno, voy a hacer esto un
+[0:14:52] poco más grande,
+[0:14:54] era tipo que si uno entraba acá y uno
+[0:14:56] hacía LS, uno puede hacer CD eh, Solana.
+[0:15:00] No.
+[0:15:01] Eh, ¿cómo era? ¿Cómo era? CD, voy un
+[0:15:04] toque.
+[0:15:07] Hm.
+[0:15:13] Me acuerdo. Pero o sea, básicamente hay
+[0:15:15] un Ahorita busco exactamente dónde es
+[0:15:17] que se guardaba, pero sé que hay una
+[0:15:20] carpeta de Solana.
+[0:15:22] Eh, CD punto CD punto Solana.
+[0:15:27] No. Bueno, en fin, hay una hay una
+[0:15:28] carpeta
+[0:15:29] de Solana donde se guarda ese keeper.
+[0:15:32] Recordemos, lo hemos hecho en una clase,
+[0:15:34] en realidad lo hemos hecho conmigo,
+[0:15:36] eh, donde habíamos visto cómo se podía
+[0:15:37] sacar ese keeper. Ese es el keeper que
+[0:15:39] ustedes en este caso, por ejemplo,
+[0:15:40] importarían acá.
+[0:15:41] Estoy
+[0:15:42] seguro que si ustedes hacen un deploy y
+[0:15:44] le dan no,
+[0:15:46] pues di, obviamente no va a servir.
+[0:15:48] Entonces, vamos a
+[0:15:50] conseguir ese ese keeper. Entonces,
+[0:15:53] eh,
+[0:15:55] bueno, ese keeper lo vamos a hacer de la
+[0:15:57] siguiente forma.
+[0:15:59] Eh, bueno, el que yo voy a enseñar es el
+[0:16:01] de el mío de Devnet, ¿verdad? Así por si
+[0:16:03] acaso, o sea, si
+[0:16:04] si ustedes quieren probar con ese,
+[0:16:06] preferiblemente háganlo con sus compus
+[0:16:07] porque di, ese es el mío. Obviamente yo
+[0:16:09] ya al final del bootcamp ya voy a cerrar
+[0:16:11] eso y bueno, no no cerrar, o sea, nada
+[0:16:13] más ya dejo de usar eso
+[0:16:15] porque di, obviamente es un riesgo de
+[0:16:18] pero bueno, está bien.
+[0:16:19] Eh,
+[0:16:31] LS CD Solana
+[0:16:34] No.
+[0:16:36] Eh,
+[0:16:37] CD bin, a ver.
+[0:16:39] CD Solana No.
+[0:16:42] Básicamente hay un archivo. Voy a voy a
+[0:16:44] tener que preguntarle a Cloud
+[0:16:44] rápidamente y más bien sorry
+[0:16:47] por tener que preguntarle a Cloud.
+[0:16:56] Básicamente le estoy preguntando
+[0:16:57] rápidamente que dónde es que está el
+[0:16:58] archivo Solana. Se lo he preguntado por
+[0:17:00] 5.5.
+[0:17:02] Pero básicamente Ah, okay, es punto
+[0:17:04] config
+[0:17:05] Solana. Okay, entonces
+[0:17:08] eh entonces nos vamos a vamos a abrir
+[0:17:11] una nueva de estas
+[0:17:13] y nos vamos a meter a CD punto punto CD
+[0:17:16] punto punto y aquí nos vamos a meter CD
+[0:17:18] punto config.
+[0:17:20] Por si acaso CD es como que vos te vas a
+[0:17:22] meter a ese archivo. Entonces para que
+[0:17:25] sepan, eso es Si hago CD LS es para
+[0:17:27] listar todas las cosas y voy a hacer
+[0:17:29] esto un toque más grande.
+[0:17:31] Eh, y entonces ahora una vez que estamos
+[0:17:33] aquí en config, si yo le hago LS para
+[0:17:34] ver todo, ahora sí, va a salir Solana.
+[0:17:37] Entonces yo me meto a Solana
+[0:17:39] y vamos a ver que ahora yo tengo un ID
+[0:17:41] punto JSON. Eso es lo que yo les decía
+[0:17:44] que ustedes tienen que importar en el
+[0:17:45] playground para testear. Entonces eh
+[0:17:48] ¿cómo pueden hacer esto?
+[0:17:50] Eh, yo lo voy a hacer de la siguiente
+[0:17:52] forma. Voy a hacer esto
+[0:17:54] y básicamente eso es lo que me da la
+[0:17:56] ruta en donde estoy. Entonces voy a
+[0:17:57] agarrar esto, luego voy a venir al
+[0:17:59] Solana playground
+[0:18:02] y si no me equivoco yo pongo esto acá.
+[0:18:04] Uy, se me puso en el zoom.
+[0:18:06] Ah, es que no lo puedo copiar.
+[0:18:09] Un momento que es que tengo el chat
+[0:18:10] abierto, entonces me copian el chat.
+[0:18:14] Igual no me deja escribir, pero bueno,
+[0:18:15] qué raro.
+[0:18:16] En fin, eh si no puedo hacer lo
+[0:18:19] siguiente.
+[0:18:22] Si uno se mete aquí al Finder,
+[0:18:24] si alguno está con Finder,
+[0:18:32] Si no le voy a decir, si no voy a hacer
+[0:18:33] lo siguiente. Vean, voy a decirle a
+[0:18:35] Cloud que me dé el archivo porque es que
+[0:18:36] no no lo puedo sacar ahorita.
+[0:18:38] Ah, bueno, no no, ya sé cómo puedo
+[0:18:39] sacar. Mentira, mentira. Usemos Cloud.
+[0:18:42] Eh, lo que podemos hacer es esto,
+[0:18:44] podemos entrar y voy a darle set punto,
+[0:18:46] ese es el ID que uso, pero como pueden
+[0:18:48] ver este es mi ID,
+[0:18:49] eso es como la lo que yo tengo que
+[0:18:51] mandarle. Entonces voy a copiarlo
+[0:18:52] rápidamente.
+[0:18:54] Nunca hagan esto, ¿verdad? Nunca La idea
+[0:18:55] es que nunca enseñen este archivo, pero
+[0:18:57] bueno, todo bien. Igual es porque di,
+[0:18:59] ustedes están en la clase todavía.
+[0:19:02] Y no lo copié.
+[0:19:05] Set punto.
+[0:19:06] Y entonces van a venir, van a copiar el
+[0:19:08] archivo. Bueno, lo voy a revelar en el
+[0:19:10] Finder, lo voy a copiar, lo voy a pegar
+[0:19:12] en descargas.
+[0:19:14] Como pueden ver ahí está, entonces eh
+[0:19:19] Y bueno, ya lo tenía en descargas.
+[0:19:20] Entonces ahora vamos a darle a import.
+[0:19:22] Vamos a venir a descargas y le vamos a
+[0:19:24] dar a ID punto JSON. Entonces ahora ya
+[0:19:26] importamos el y van a ver que me va a
+[0:19:28] salir el address que yo importé. Le voy
+[0:19:30] a dar save
+[0:19:32] y me va a guardar
+[0:19:34] el JSON del
+[0:19:36] Y entonces ahora le voy a dar continue.
+[0:19:38] Y entonces aquí esto eh
+[0:19:44] Eh, bueno, yo ya le había hecho
+[0:19:47] yo ya le había hecho un es decir, ya le
+[0:19:49] había pasado Solana, entonces eso iba a
+[0:19:51] fallar. Todo bien.
+[0:19:52] Entonces ahora vamos a hacer el
+[0:19:54] Entonces el
+[0:19:55] es básicamente
+[0:20:00] Y bueno, pues falló. Entonces revisamos
+[0:20:02] a ver qué fue lo que falló. Me dice que
+[0:20:05] el
+[0:20:06] está cerrado para este
+[0:20:08] Requiere eh haga
+[0:20:10] Solana en en esta. Entonces si recuerdan
+[0:20:12] había que hacer el No sé por qué me está
+[0:20:14] pidiendo que lo haga otra vez, lo voy a
+[0:20:15] hacer otra vez, todo bien. Tal vez fue
+[0:20:17] que se reseteó
+[0:20:19] o No, mentira, no, no se reseteó
+[0:20:22] Pero en fin, básicamente no no me está
+[0:20:23] funcionando. Entonces, qué es lo que
+[0:20:24] puedo hacer.
+[0:20:26] Voy a venir y voy a darle connect.
+[0:20:29] No, connect.
+[0:20:31] Y me voy a meter a la wallet rápidamente
+[0:20:33] y voy a ver que
+[0:20:35] mi mi dirección es esta.
+[0:20:38] Y eh voy a darle copy address. Entonces,
+[0:20:41] una vez yo copio el address, voy a venir
+[0:20:44] acá y voy a pedirme que me pasen
+[0:20:47] 0.5 Solana de prueba.
+[0:20:50] Recuerden que aquí tienen que conectar
+[0:20:51] la cuenta de GitHub
+[0:20:53] porque si no no le sirve.
+[0:20:56] Y si no me equivoco, ya todo debería de
+[0:20:58] funcionar bien.
+[0:21:00] Entonces, ya se hizo el airdrop,
+[0:21:01] entonces yo vengo acá
+[0:21:03] y le doy deploy otra vez,
+[0:21:05] debería de funcionar.
+[0:21:09] Ah, okay, es que no tengo suficiente.
+[0:21:11] Como pueden ver, el inicio del
+[0:21:13] deployment de esto me está pidiendo 1.06
+[0:21:15] Solanas, pero yo solo tengo 0.99.
+[0:21:18] Entonces, voy a pedirle 0.5 Solana más
+[0:21:20] otra vez al airdrop.
+[0:21:25] Y
+[0:21:35] Listo, ya se hizo el airdrop, entonces
+[0:21:37] ahora yo puedo venir acá
+[0:21:39] y voy a darle no.
+[0:21:41] Un toque, voy a darle clear rápidamente
+[0:21:43] para hacer el clear y ahora voy a hacer
+[0:21:44] el deploy. Pues esta vez ya debería
+[0:21:46] funcionar.
+[0:21:47] Ahora esto depende del tamaño del
+[0:21:48] programa y la congestión que tenga el
+[0:21:51] network. Entonces, por ejemplo, voy a
+[0:21:53] quitar esto.
+[0:21:54] Eh, por ejemplo, piensen que si tenemos
+[0:21:56] si el network está tipo hay demasiadas
+[0:21:58] cosas,
+[0:21:59] eh pues va a durar más. Como pueden ver,
+[0:22:01] ahorita pegó el rate limit, entonces va
+[0:22:03] a tener que esperarse. Entonces, o sea,
+[0:22:05] esto puede tardar, depende de la
+[0:22:08] o sea, depende de
+[0:22:11] cuántos bloques, no cuántos bloques
+[0:22:12] hayan, sino la
+[0:22:14] la cantidad de transacciones que haya en
+[0:22:16] los bloques. Entonces, eso es de
+[0:22:18] esperar. Entonces, por mientras mientras
+[0:22:20] nosotros esperamos a ver cómo va eso,
+[0:22:22] vamos a ir a los
+[0:22:24] cómo se hace tipo sin sin el
+[0:22:28] sin el
+[0:22:29] y cómo lo hacemos más bien con con
+[0:22:31] comandos, que yo creo que es un poco más
+[0:22:33] sencillo. Entonces,
+[0:22:37] aquí vamos a ver la documentación de
+[0:22:40] Solana.
+[0:22:41] Entonces,
+[0:22:43] vamos a ver que primero nos menciona
+[0:22:44] unos conceptos claves como el program
+[0:22:46] ID, el program account, el program data
+[0:22:48] account, el y el program authority.
+[0:22:52] Entonces,
+[0:22:54] les recuerdo que básicamente hay un
+[0:22:55] authority en todos los programas,
+[0:22:57] que es quien tiene permiso de hacerle
+[0:22:58] update o de cerrar el programa.
+[0:23:00] Entonces, por defecto,
+[0:23:03] por defecto siempre que nosotros estamos
+[0:23:05] trabajando
+[0:23:07] eh un toque, por defecto siempre que
+[0:23:08] nosotros estamos trabajando con el
+[0:23:12] con hacer las cosas con el CLI,
+[0:23:14] siempre la autoridad por defecto va a
+[0:23:16] ser la wallet del CLI. Entonces, ¿qué es
+[0:23:18] lo que tenemos que hacer? Primero,
+[0:23:21] tener el Solana CLI instalado. Ustedes
+[0:23:23] ya lo deberían de tener instalado porque
+[0:23:24] estaba en el environment setup y además
+[0:23:27] yo creo que se pedía,
+[0:23:29] pero bueno, eh deberían de tenerlo
+[0:23:31] instalado. Eh, un toque.
+[0:23:35] Eh,
+[0:23:42] eh okay.
+[0:23:43] Luego [resoplido] tenemos que hacer el
+[0:23:44] setup de la wallet que
+[0:23:46] yo creo que ya lo deberían de tener
+[0:23:48] hecho el setup
+[0:23:49] porque pues ya lo habíamos visto en la
+[0:23:51] clase anterior y si no es lo mismo que
+[0:23:52] les acabo de enseñar del Solana
+[0:23:54] luego tienen que configurar el cluster,
+[0:23:56] muy importante, que eh por ejemplo, si
+[0:23:59] yo me meto acá y pongo Solana cluster
+[0:24:02] get, perdón, Solana cluster Solana
+[0:24:04] config get, perdón,
+[0:24:07] esto me va a dar el RPC al que yo estoy
+[0:24:10] conectado y van a ver que aquí hay pues
+[0:24:12] un problema, que
+[0:24:14] ahorita yo estoy en mainnet beta.
+[0:24:18] Entonces,
+[0:24:19] hay un hay un problema, ¿verdad?
+[0:24:21] Entonces, yo puedo elegir ir cambiando
+[0:24:23] el cluster según necesito.
+[0:24:25] Entonces, yo me voy a cambiar al cluster
+[0:24:27] de devnet, que es en la que estamos
+[0:24:28] trabajando. Entonces hago
+[0:24:30] Solana config set,
+[0:24:31] config set
+[0:24:32] guion guion URL Devnet.
+[0:24:35] Hago esto y como pueden ver ya ahora
+[0:24:37] estoy en el RPC de Devnet otra vez.
+[0:24:39] Entonces voy superbién.
+[0:24:41] Ahora, ¿qué es lo siguiente que tenemos
+[0:24:43] que hacer? Tenemos que fondear la
+[0:24:45] wallet.
+[0:24:46] Ahora,
+[0:24:47] ya deberíamos de tener la wallet
+[0:24:48] fondeada, pero voy a hacerlo otra vez,
+[0:24:49] entonces yo debería poder hacer Solana
+[0:24:51] airdrop
+[0:24:52] dos.
+[0:24:53] Entonces yo hago un airdrop,
+[0:24:56] ahorita mismo falla, ¿por qué? Porque
+[0:24:57] estamos pegando en el rate limit.
+[0:24:59] ¿Alguno en el en el chat se acuerda
+[0:25:02] cómo era que llegábamos al rate limit o
+[0:25:04] por qué llegamos a eso?
+[0:25:06] Había una restricción
+[0:25:08] que tenía usar algo público que nos
+[0:25:11] hacía que llegáramos más fácil, no sé si
+[0:25:12] se acuerda alguno, ¿una idea?
+[0:25:16] Igual yo creo que igual tenemos Solana,
+[0:25:18] sí, tenemos balance, a ver.
+[0:25:20] Sí, igual ahí tenemos un poquito de
+[0:25:21] Solana que yo creo que con eso nos la
+[0:25:23] jugamos. Y si no estamos en problemas
+[0:25:25] porque si no
+[0:25:27] ya no tengo request para el airdrop.
+[0:25:31] Ehm.
+[0:25:39] ¿Alguna idea?
+[0:25:50] Bueno, no, entonces está bien.
+[0:25:53] Básicamente recordemos que eh una cosa
+[0:25:56] que había que tomar en cuenta es que
+[0:25:59] habían RPCs. Un RPC era con lo que
+[0:26:01] nosotros nos comunicábamos con la red.
+[0:26:03] Entonces recuerden que habían RPC
+[0:26:05] públicos y RPCs privados.
+[0:26:07] Bueno, no privados, sino como Bueno, sí,
+[0:26:09] privados, los que básicamente uno tiene
+[0:26:11] que pagar para tener el RPC.
+[0:26:14] ¿Qué es la diferencia? Es que en un RPC
+[0:26:16] público pues di todo el mundo va a tener
+[0:26:17] acceso y en el RPC privado no. Entonces
+[0:26:20] el público se puede sobrecargar y eso es
+[0:26:22] lo que está pasando ahorita. Entonces,
+[0:26:25] ¿qué es lo que está pasando? El rate
+[0:26:26] limit del RPC está está en lo máximo.
+[0:26:30] Entonces hay un problema, ¿qué es lo que
+[0:26:31] pasa? Que no estas transacciones no se
+[0:26:33] van a enviar. Entonces ahí estamos en un
+[0:26:35] problema. Como pueden ver, nos está
+[0:26:37] pasando lo mismo con esto, si no es que
+[0:26:38] ya se hizo el deploy. Uy.
+[0:26:40] Qué raro eso.
+[0:26:42] Listo, ahora sí.
+[0:26:43] Como pueden ver, nos está pasando
+[0:26:44] exactamente lo mismo.
+[0:26:46] Eh, entonces ahorita mismo estamos
+[0:26:49] por los RPCs públicos.
+[0:26:52] ¿Qué solución tenemos para resolver
+[0:26:53] esto?
+[0:26:55] O primero
+[0:26:56] pagar un RPC privado
+[0:26:59] que pues di
+[0:27:00] O sea, si ustedes Perdón. Eh, ahí tengo
+[0:27:03] una pregunta. Entonces debemos ir más a
+[0:27:04] lo privado dependiendo del entorno del
+[0:27:06] proyecto.
+[0:27:08] Ehm,
+[0:27:10] yo pienso que
+[0:27:12] depende, o sea,
+[0:27:14] tipo igual ahorita hay otras redes
+[0:27:17] públicas
+[0:27:18] que tal vez son más rápidas. Bueno, ya
+[0:27:20] ahí se hizo el deploy en realidad.
+[0:27:21] Ahorita lo vemos.
+[0:27:22] Ehm,
+[0:27:24] hay unas redes públicas, unas RPCs
+[0:27:26] públicas que tal vez son más rápidas.
+[0:27:28] Ahorita yo es que estoy usando la por
+[0:27:29] defecto de Solana que es
+[0:27:30] api.mainnet-beta
+[0:27:32] .solana.com. No.
+[0:27:35] Ya te digo.
+[0:27:37] Api
+[0:27:38] api.mainnet-beta.solana.com,
+[0:27:41] sí. Y en la de Devnet es api.devnet.
+[0:27:43] Entonces igual hay otros Digamos, hay
+[0:27:45] otras empresas que tienen RPCs privados
+[0:27:48] que hacen algunos públicos que
+[0:27:50] normalmente están menos saturados.
+[0:27:52] Entonces esos también son una buena
+[0:27:54] alternativa.
+[0:27:56] Yo recomiendo que para testing di usen
+[0:27:58] los públicos, está bien, ya que Pero si,
+[0:28:01] por ejemplo, ustedes están escalando un
+[0:28:02] producto y ya realmente es un problema
+[0:28:04] donde hay muchas transacciones que
+[0:28:06] fallan,
+[0:28:07] ahí sí deberían de ir pensando en un
+[0:28:10] nodo en un nodo privado.
+[0:28:12] Hay empresas como QuickNode, hay varias
+[0:28:15] empresas más que sí están O sea, que
+[0:28:17] trabajan en esos espacios
+[0:28:19] y realmente yo creo que sí es
+[0:28:21] recomendable
+[0:28:22] a cierta escala
+[0:28:24] eh porque realmente tampoco es barato. O
+[0:28:26] sea,
+[0:28:27] tener un nodo privado no es barato.
+[0:28:30] Algo que sí tienen muchas empresas que
+[0:28:31] es útil es que tienen tipo créditos para
+[0:28:33] startups. Entonces, eso funciona más
+[0:28:35] como por créditos de cuánto tiempo pues
+[0:28:37] cuántas transacciones llevas, cuánto
+[0:28:39] tiempo gastas, etcétera.
+[0:28:41] Eh, entonces algo que tienes que tomar
+[0:28:43] en cuenta
+[0:28:44] es que eh la cantidad de transacciones
+[0:28:46] que vas a tener, porque igual eso tiene
+[0:28:47] un costo base, obviamente. Costo base
+[0:28:49] más el costo según vaya escalando
+[0:28:51] cuántas transacciones es.
+[0:28:53] Y eh ahí pues el problema principal es
+[0:28:56] que es bastante caro. O sea, sí sí sé
+[0:28:58] que es caro. Algo bueno es que tienen
+[0:29:00] créditos gratis para startups. Entonces,
+[0:29:02] si vos sos una startup, por ejemplo,
+[0:29:04] bueno,
+[0:29:05] eh
+[0:29:06] si vos sos una startup,
+[0:29:08] ellos te pueden ayudar
+[0:29:10] por unos meses con créditos gratis para
+[0:29:12] que de obviamente para engancharte a que
+[0:29:14] uses el nodo privado y luego te empiecen
+[0:29:16] a cobrar, pero sí, eso eso se puede.
+[0:29:20] Eh,
+[0:29:21] y sí, eso es. Okay.
+[0:29:24] Recordemos entonces rápidamente eh
+[0:29:27] como pueden ver aquí se hizo el deploy
+[0:29:29] del contrato.
+[0:29:31] Como pueden ver duró 5 minutos 30 y yo y
+[0:29:33] ustedes me dirán, pero bueno, ¿no era
+[0:29:34] que las transacciones se hacían en en 1
+[0:29:37] segundo en Solana? O sea, sí, las
+[0:29:38] transacciones se hacen en 1 segundo,
+[0:29:40] pero nosotros no podemos hacer nada
+[0:29:41] cuando estamos
+[0:29:43] y no o sea, la hay demasiadas
+[0:29:45] transacciones.
+[0:29:46] Mi teoría por la cual ahorita estamos
+[0:29:48] es porque eh hay un evento muy grande de
+[0:29:51] Solana que está pasando ahorita mismo.
+[0:29:53] En realidad si estuviera en el puro
+[0:29:54] principio cuando Solana dijo que
+[0:29:57] que andaba en Londres, es porque ahorita
+[0:30:00] está haciendo está pasando este evento
+[0:30:02] pero el 2026, el Solana Solana
+[0:30:04] Breakpoint. Es básicamente un evento
+[0:30:06] bueno, o sea, no está ya pasó, pero hay
+[0:30:08] como
+[0:30:09] aún.
+[0:30:10] Entonces, es un evento que está haciendo
+[0:30:11] Solana Foundation, que lo hacen todos
+[0:30:13] los años. Es básicamente como una
+[0:30:15] conferencia de Solana donde se enseña lo
+[0:30:17] más nuevo, se dan actualizaciones, se
+[0:30:19] conoce gente, hacen boots, las las
+[0:30:21] wallets, Phantom, Solflare, etcétera.
+[0:30:23] Todas están ahí, está muy chiva y eh es
+[0:30:27] bastante o sea, a mí me gusta mucho.
+[0:30:29] Entonces, es bastante recomendado.
+[0:30:32] O sea, yo nunca he ido,
+[0:30:33] pero sí sé que está muy chiva.
+[0:30:35] He ido a otras conferencias, a estas no
+[0:30:37] he ido específicamente, pero esta sí sé
+[0:30:39] que está muy chida. Y el otro año es en
+[0:30:41] San Francisco, por si acaso. ¿Okay?
+[0:30:44] Eh, bueno.
+[0:30:46] Una vez vimos eso.
+[0:30:48] Hm, no tengo nada en el chat. No, está
+[0:30:49] bien.
+[0:30:51] Como podemos ver, entonces ya se hizo el
+[0:30:56] Eh.
+[0:30:59] Listo. Es que no puedo hacer esto más
+[0:31:00] pequeño. Como podemos ver, bueno, ya se
+[0:31:02] hizo el deployment. Eso quiere decir que
+[0:31:03] ya el contrato está en la red y está en
+[0:31:05] Devnet. Entonces, ¿cómo verificamos que
+[0:31:07] el contrato realmente está en la red?
+[0:31:09] Bueno, podemos agarrar el lo que metimos
+[0:31:11] en el declare ID, que iba a ser el ID
+[0:31:13] del del programa, el public key.
+[0:31:16] Lo podemos copiar y nos podemos ir a un
+[0:31:17] explorer. Entonces,
+[0:31:19] si nosotros nos metemos a un explorer,
+[0:31:21] que me voy a meter, por ejemplo, a
+[0:31:23] Solscan,
+[0:31:28] eh
+[0:31:29] y entonces
+[0:31:32] lo voy a poner en Devnet. Muy importante
+[0:31:34] porque si no no no va a funcionar. Por
+[0:31:35] ahí alguien tiene una pregunta.
+[0:31:38] Yo apenas en los programas aprendiendo.
+[0:31:41] Superbien, sí. O sea,
+[0:31:43] yo creo que igual fijo alguna empresa de
+[0:31:44] nodos tiene programas de student, sí,
+[0:31:46] como dices.
+[0:31:47] Porque igual, o sea, para yo tener un
+[0:31:50] nodo solo para transacciones, es que
+[0:31:51] tengo que tener demasiadísimas
+[0:31:54] demasiadísimas transacciones. O sea,
+[0:31:56] tendrían que yo ser una empresa muy
+[0:31:58] grande, una startup muy grande
+[0:32:00] o un proyecto muy grande para realmente
+[0:32:02] gastar un nodo yo solo. Sería algo
+[0:32:05] demasiado grande. Y di,
+[0:32:06] o sea, a veces es overkill. No es como
+[0:32:08] que yo si hago cinco cinco transacciones
+[0:32:11] por día, voy a tener un un nodo para mí
+[0:32:14] solo. O sea, tampoco. Hay que hay que
+[0:32:16] tipo de mencionar que como
+[0:32:18] hasta cuándo hasta qué punto es
+[0:32:20] necesario.
+[0:32:21] Entonces, nos vamos a meter al explorer
+[0:32:23] y vamos a poner el ID Uy.
+[0:32:25] Y vamos a poner el ID y vamos a ver que
+[0:32:27] ahora sale. Y me va a salir como que es
+[0:32:28] un programa.
+[0:32:30] Entonces, eh pues aquí me va a decir que
+[0:32:32] es ejecutable, que es
+[0:32:34] y que la autoridad de upgrade
+[0:32:38] eh soy yo. ¿Cómo sé que soy yo? Si yo
+[0:32:40] vengo acá y me vengo a
+[0:32:42] ven que esta termina en 6YX.
+[0:32:45] Entonces, si yo vengo acá es 6YX.
+[0:32:49] Y bueno, acá hay un poco más de
+[0:32:50] información sobre que si tiene un
+[0:32:52] security txt, que es básicamente eh una
+[0:32:55] forma de yo darle
+[0:32:58] el contacto tipo si encuentran bugs para
+[0:33:00] que me contacten.
+[0:33:02] Eh, el programa no está verificado ni
+[0:33:04] nada de eso, pero como pueden ver la
+[0:33:05] última transacción fue el deploy eh por
+[0:33:09] parte de este
+[0:33:11] y pues el fee que cobre todo eso.
+[0:33:12] Entonces,
+[0:33:14] una vez tenemos eso,
+[0:33:16] pues nuestro contrato ya está en la red
+[0:33:17] y ahora todo el mundo puede interactuar
+[0:33:20] con el contrato. Entonces, eso está
+[0:33:22] súper bien. Ya ahora todo el mundo puede
+[0:33:24] interactuar y pues pueden hacer le
+[0:33:26] transacciones. Ahora ustedes se
+[0:33:27] preguntarán,
+[0:33:28] y bueno, ¿cómo pueden hacerle cómo
+[0:33:30] pueden hacer transacciones
+[0:33:32] hacia ese contrato? Y esa es una
+[0:33:34] excelente pregunta.
+[0:33:35] Entonces, ¿cuál es la forma más
+[0:33:36] sencilla?
+[0:33:38] Lo que vimos en semana dos, el Solana
+[0:33:40] Kit. Entonces, ¿qué es el Solana Kit?
+[0:33:42] Recordemos que el Solana Kit es
+[0:33:44] básicamente el
+[0:33:46] de Solana que está hecho en TypeScript
+[0:33:49] para transacciones. Entonces, eh ustedes
+[0:33:52] de aquí pueden armar transacciones.
+[0:33:54] Luego eh si ustedes usan el Solana
+[0:33:57] Solana
+[0:33:58] el Solana Program, o sea, el
+[0:34:02] Ustedes básicamente pueden
+[0:34:04] usar programas en sus aplicaciones de
+[0:34:06] TypeScript. Entonces, esto es
+[0:34:08] absurdamente útil. Y se preguntarán,
+[0:34:10] bueno, entonces, ¿por qué es tan útil?
+[0:34:12] Bueno, es súper útil porque justamente
+[0:34:15] entonces de
+[0:34:16] mi aplicación ahora que está hecho en
+[0:34:18] TypeScript
+[0:34:19] va a poder usar el programa que yo hice
+[0:34:21] en Rust y entonces ya los combinamos y
+[0:34:23] entonces ya ahora sirve todo. Entonces,
+[0:34:25] básicamente así es como funcionan los
+[0:34:27] los protocolos de DeFi. O sea, al fin y
+[0:34:30] al cabo un protocolo de DeFi ¿qué es?
+[0:34:32] Varios programas juntos que bueno, no sé
+[0:34:34] si lo vieron con Santi, pero los
+[0:34:35] programas se pueden tipo llamar entre
+[0:34:37] sí. Es decir, yo puedo tener dos
+[0:34:38] programas
+[0:34:40] y que Digamos, yo puedo tener el
+[0:34:41] programa uno y el programa dos.
+[0:34:43] Y entonces yo puedo hacer que el
+[0:34:44] programa uno llame al dos y que el dos,
+[0:34:47] por ejemplo, llame al tres. Y así.
+[0:34:49] Entonces se puede hacer eso y entonces
+[0:34:50] yo puedo desplegar, por ejemplo, un
+[0:34:52] montón de programas
+[0:34:54] y ehm bueno, o sea, un montón no.
+[0:34:57] Realmente esto hay que hacerlo tipo con
+[0:34:59] cuidado
+[0:35:00] porque di, combinar un montón de
+[0:35:01] programas por combinarlos tampoco tiene
+[0:35:03] sentido, ¿verdad? Pero entonces sería
+[0:35:05] tipo
+[0:35:06] un un protocolo DeFi que use tres tres
+[0:35:10] programas. Yo podría hacer tres
+[0:35:13] programas diferentes,
+[0:35:15] conectarlos juntos y entonces
+[0:35:16] básicamente ya tengo un protocolo. Y ese
+[0:35:18] protocolo es súper útil puesto que di,
+[0:35:20] lo puedo usar un montón de gente y al
+[0:35:23] fin y al cabo otra cosa útil es que ese
+[0:35:25] protocolo
+[0:35:27] tiene una app, o sea, tiene una web app.
+[0:35:29] Y entonces, ¿cómo hago que la web app se
+[0:35:32] pueda conectar con el protocolo, con el
+[0:35:34] con el programa? Usando el Solana Kit o
+[0:35:37] usando cualquier otro SDK. Entonces, si
+[0:35:39] ustedes se meten aquí a SDKs,
+[0:35:41] yo creo que les había dicho la vez
+[0:35:42] pasada,
+[0:35:44] pero habían SDKs de Python, de
+[0:35:46] JavaScript, eh perdón, JavaScript de del
+[0:35:49] SDK de Java, de Go.
+[0:35:51] Y entonces, por ejemplo, si ustedes
+[0:35:52] quieren hacer algún Go, o sea, quieren
+[0:35:54] hacer servicios en Go y hacer un
+[0:35:56] frontend en React, pero no quieren usar,
+[0:35:58] por ejemplo, TypeScript el SDK
+[0:36:00] TypeScript, igual lo pueden hacer. O
+[0:36:02] sea, ustedes pueden agarrar el SDK de de
+[0:36:04] Go y como pueden ver aquí existe algo
+[0:36:07] que se llama
+[0:36:09] Anchor-Go.
+[0:36:11] Y entonces con esto pues di, ya pueden
+[0:36:14] hacer
+[0:36:15] eh Go Clients usando el Anchor los IDLs
+[0:36:19] de Anchor.
+[0:36:21] Eh no sé si esto Santi se los explicó.
+[0:36:24] Igual se los voy a explicar yo.
+[0:36:26] ¿Qué es un IDL de Anchor?
+[0:36:30] Un IDL de Anchor es el Interface
+[0:36:33] Description Language.
+[0:36:34] Es básicamente
+[0:36:36] lo que describe eh o sea, es un archivo
+[0:36:39] JSON. Yo yo les había explicado esto en
+[0:36:40] la segunda semana, pero eh es
+[0:36:43] básicamente algo, un archivo que
+[0:36:45] describe las instrucciones del programa
+[0:36:48] y las cuentas. Entonces, ustedes se
+[0:36:49] preguntarán, bueno, y de qué sirve esto.
+[0:36:51] Bueno, esto es absurdamente útil porque
+[0:36:54] a mí me sirve para que luego en yo pueda
+[0:36:56] saber los tipos exactamente de las
+[0:36:57] cosas. Entonces, si yo, por ejemplo, yo
+[0:36:59] cupo mandar un nombre y cupo, bueno,
+[0:37:01] cupo mandar un una serie de números, o
+[0:37:04] sea, un un un código.
+[0:37:06] Y el código tiene que ser por fuerza un
+[0:37:09] U32. Recuerden que un U32 en es un
+[0:37:14] Es básicamente un número que no está, o
+[0:37:17] sea, que no no tiene más ni menos, es
+[0:37:20] decir, solo positivo, de cero hasta
+[0:37:22] cierto número de 32 bits.
+[0:37:25] Recordemos eso. Eso lo habíamos visto en
+[0:37:26] la primera clase. Entonces, ¿qué es lo
+[0:37:28] que pasa?
+[0:37:29] Ahora yo con este IDL lo que puedo hacer
+[0:37:31] es hacer que
+[0:37:33] sepa que eso tiene que ser un U32.
+[0:37:35] Entonces, ya mismo yo lo puedo
+[0:37:38] yo lo puedo sacar, o sea, yo puedo darme
+[0:37:40] cuenta
+[0:37:41] y con eso pues a mí me sirve para yo
+[0:37:43] poder
+[0:37:44] hm
+[0:37:46] tipo mapearme mejor las cosas en
+[0:37:49] y hasta hay programas que con ese mismo
+[0:37:51] IDL te crean las funciones para vos
+[0:37:54] llamar las cosas. Entonces,
+[0:37:57] eh vamos a hacer eso rápidamente. Como
+[0:37:59] pueden ver,
+[0:38:00] aquí eh no, aquí no.
+[0:38:03] Aquí tengo un programa sencillito.
+[0:38:05] Es Voy a eliminar este target, ahorita
+[0:38:07] vemos por qué lo voy a eliminar.
+[0:38:10] Eh tengo un programa sencillo, es un un
+[0:38:12] contador.
+[0:38:13] Entonces, tengo un
+[0:38:15] para inicializar cuentas, tengo un
+[0:38:16] incremento para incrementar la cuenta,
+[0:38:19] tengo un decrement para
+[0:38:20] eh quitarle a la cuenta. Entonces, o
+[0:38:22] sea, esto básicamente lo que hace es que
+[0:38:24] se meta al contador, le suma uno,
+[0:38:26] luego pone un mensaje en los logs tipo
+[0:38:29] de la cuenta actual. Esto lo que hace es
+[0:38:31] decrementar más bien. Bueno, no sé si la
+[0:38:33] palabra incrementar existe, pero
+[0:38:34] básicamente prestarle uno al contador.
+[0:38:37] Y el inicializar es que lo inicializa en
+[0:38:39] cero.
+[0:38:40] Entonces,
+[0:38:42] eh bueno, tenemos esto y tenemos esta
+[0:38:44] parte que igual ya lo hemos visto. O
+[0:38:46] bueno, lo habían visto con
+[0:38:47] Entonces, así es como se ve
+[0:38:50] el programa. Entonces tiene un
+[0:38:52] tiene los tests,
+[0:38:54] tiene el cargo
+[0:38:56] y pues el
+[0:38:57] estas cosas, ¿okay?
+[0:38:59] Entonces,
+[0:39:00] ¿qué es lo primero que tenemos que hacer
+[0:39:01] para sacar el IDL y también como para
+[0:39:04] hacerlo en
+[0:39:06] Entonces, nosotros podemos venir acá eh
+[0:39:08] no
+[0:39:11] eh
+[0:39:19] Okay. Ahora estamos en el
+[0:39:22] Entonces,
+[0:39:24] entonces ahora una vez que estamos acá,
+[0:39:25] ¿qué es lo que tenemos que hacer?
+[0:39:26] Tenemos que hacer
+[0:39:28] ¿Qué es lo que
+[0:39:29] Lo escribí mal.
+[0:39:31] Eh
+[0:39:33] Esto lo que va a hacer es que va a hacer
+[0:39:36] un del contrato y vamos a ver qué es lo
+[0:39:38] del contrato, perdón, del programa.
+[0:39:40] Y vamos a ver qué es lo que nos tira.
+[0:39:46] Ahora que lo pienso, nunca revisamos si
+[0:39:48] funcionó el pasado, o sea, nunca lo
+[0:39:50] probamos más veces, pero bueno.
+[0:39:52] Entonces tenemos que esperar a que esto
+[0:39:54] haga Voy a revisar algún
+[0:39:56] toque.
+[0:40:12] Okay.
+[0:40:12] Esperemos.
+[0:40:21] Eso dura un toque porque es que hay es
+[0:40:23] que hay un montón de cosas que compilar.
+[0:40:25] Pero como podemos ver, podemos ir
+[0:40:26] viendo,
+[0:40:27] se va a crear esta carpeta
+[0:40:30] Básicamente esta carpeta es donde se
+[0:40:32] mantienen muchas de las cosas que nos
+[0:40:35] van a ser útiles para el
+[0:40:37] Entonces aquí se va a guardar el IDL, se
+[0:40:39] va a guardar el archivo
+[0:40:42] que es el que se usa.
+[0:40:43] Eh ahorita lo vemos.
+[0:40:45] Y más cosas. Entonces, para ir
+[0:40:47] explicando mientras eso carga,
+[0:40:50] recordemos que aquí en el deploy,
+[0:40:52] ¿cuánto tengo el celular? Lo tengo en
+[0:40:53] cuatro batería. Okay, un toque para
+[0:40:55] cargar el celular, que es que estoy
+[0:40:56] usando su internet.
+[0:40:59] Y no me traje el cargador.
+[0:41:02] Bueno, no
+[0:41:03] Eh, entonces,
+[0:41:06] em recordemos que después de fondear la
+[0:41:08] wallet había que hacer el build. Aquí
+[0:41:10] ellos lo hacen con cargo, yo lo hice con
+[0:41:12] Anchor, entonces va a dar lo mismo. Como
+[0:41:14] pueden ver el output dice que me da un
+[0:41:17] el
+[0:41:19] y el punto so ejecutable. Entonces, ¿qué
+[0:41:21] es el punto so? Como pueden ver aquí ya
+[0:41:23] se terminó,
+[0:41:25] Entonces, me va a dar un deploy y me va
+[0:41:28] a dar el
+[0:41:30] y me va a dar un punto so. El punto so
+[0:41:32] es un archivo
+[0:41:33] que nosotros no podemos leer, o sea, no
+[0:41:36] es como no es legible.
+[0:41:38] Eh, entonces es un archivo binario, no
+[0:41:40] es soportado, o sea, yo ni lo puedo
+[0:41:42] abrir aquí en
+[0:41:43] en SET, que es el ID que uso, entonces
+[0:41:45] vamos a dar por ahí, pero es lo que la
+[0:41:47] lo que a
+[0:41:48] le sirve para para los archivos.
+[0:41:50] Y luego tenemos el IDL. ¿Qué es el IDL?
+[0:41:52] Es básicamente toda la información del
+[0:41:54] contrato. Entonces podemos ver las
+[0:41:55] instrucciones, entonces que aquí tenemos
+[0:41:57] el
+[0:41:59] Luego tenemos el
+[0:42:01] Tenemos
+[0:42:04] O sea, tenemos un montón de cosas. Y
+[0:42:06] básicamente con este
+[0:42:08] yo ahora después
+[0:42:09] si se mueve un toque es que la mesa se
+[0:42:11] mueve un toque.
+[0:42:12] Eh, yo después me puedo guiar o bueno,
+[0:42:15] apenas o puedo guiar digamos a
+[0:42:18] usando este IDL, que básicamente le da
+[0:42:20] toda la información. O sea, yo sé que se
+[0:42:21] ve medio ilegible en el sentido pueden
+[0:42:23] ver se quedó por Anchor.
+[0:42:25] Se ve medio ilegible esto de los
+[0:42:27] y todo eso, pero bueno, o sea, eso es
+[0:42:29] básicamente eso le sirve a para hacer lo
+[0:42:31] que va a hacer. Entonces, una vez
+[0:42:32] hacemos eso,
+[0:42:34] ¿qué es el siguiente paso?
+[0:42:35] Es chequear el
+[0:42:37] el
+[0:42:38] y el costo. Entonces yo voy a venir acá
+[0:42:40] y puedo usar este comando
+[0:42:43] y eh
+[0:42:46] ¿Por qué me dice que no está el
+[0:42:52] Eh,
+[0:42:54] Ah, es que no se llama Hello World. Sí,
+[0:42:55] cierto.
+[0:43:00] Y vamos a ver que entonces esto es el
+[0:43:04] Y entonces la cantidad de solano para
+[0:43:07] este tamaño se puede calcular con el
+[0:43:11] Y bueno, y no sería de 18,504 sería más
+[0:43:14] bien de 123,656.
+[0:43:17] Y entonces el mínimo es 0.6288.
+[0:43:20] Ahora no lo vamos a poder desplegar este
+[0:43:22] segundo porque no tengo suficiente
+[0:43:24] solana y ya no tengo para hacer
+[0:43:26] Entonces no se va a poder hacer, pero
+[0:43:29] les voy a seguir enseñando el proceso.
+[0:43:31] Entonces para hacer el es bastante
+[0:43:32] sencillo
+[0:43:33] con el
+[0:43:34] Nada más hacemos
+[0:43:37] Y luego eh perdón, y luego ponemos nada
+[0:43:40] más el
+[0:43:41] es decir, la carpeta esta.
+[0:43:43] Luego el donde le está la subcarpeta de
+[0:43:46] y luego el
+[0:43:48] Entonces
+[0:43:52] Y esto no va a funcionar porque no tengo
+[0:43:53] suficiente solana.
+[0:43:55] Entonces, como pueden ver
+[0:43:57] esa cuenta tiene
+[0:43:59] Vamos a ver si me deja hacer un
+[0:44:04] Hm no, no me va a dejar.
+[0:44:07] Bueno,
+[0:44:09] ahorita mismo no vamos a poder hacer el
+[0:44:11] este porque ahorita estoy
+[0:44:13] entonces no puedo hacer nada.
+[0:44:14] Pero
+[0:44:16] eh que sepan que
+[0:44:18] pues aquí lo que hacen es que hacen un
+[0:44:21] y luego eh una vez hacen el pues es
+[0:44:24] exactamente lo mismo que vimos antes. Ya
+[0:44:26] que aquí el
+[0:44:28] el el programa va a quedar aquí en la
+[0:44:31] red.
+[0:44:32] Y luego más adelante ustedes usando el
+[0:44:34] solana
+[0:44:36] Perdón, el solana kit ya pueden llamar a
+[0:44:39] este programa a sus aplicaciones y
+[0:44:41] básicamente pueden crear un protocolo
+[0:44:43] o lo que sea que quieran crear. Entonces
+[0:44:46] eh y bueno, otra cosa que les quería
+[0:44:47] mencionar también ya para finalizar
+[0:44:50] era que ustedes también pueden
+[0:44:51] actualizar su programa. Entonces si
+[0:44:53] ustedes en algún momento quieren su
+[0:44:55] programa, siempre y cuando ustedes sean
+[0:44:57] la el programa autoritario, recuerden
+[0:44:58] que la que yo les dije al principio, que
+[0:45:01] cuando nosotros hacemos el deploy con el
+[0:45:02] Solana CLI, el autoritario iba a ser el
+[0:45:06] el autorizador, digamos, básicamente,
+[0:45:09] iba a ser el la wallet del CLI.
+[0:45:12] Ustedes nada más tendrían que hacer el
+[0:45:13] deploy del contrato otra vez.
+[0:45:16] Pero si ustedes ocupan más bytes de los
+[0:45:18] que ya se tienen, es decir, hicieron el
+[0:45:20] contrato más grande, por ejemplo, tienen
+[0:45:22] que extenderle la cantidad de espacio.
+[0:45:25] ¿Y cómo pueden sacar la cantidad de
+[0:45:27] espacio? La pueden sacar
+[0:45:29] eh ah usando esto que vimos acá.
+[0:45:32] Y entonces ustedes, por ejemplo, pueden
+[0:45:33] agarrar esto,
+[0:45:35] ven cuánto es, luego ven cuánto es el
+[0:45:37] nuevo, sacan la diferencia y nada más
+[0:45:39] extienden eso y luego hacen el deploy
+[0:45:41] otra vez, porque si no no va a servir.
+[0:45:43] Y eso es para básicamente para
+[0:45:45] actualizar el contrato, es decir, si
+[0:45:46] ustedes le quieren añadir algo, vieron
+[0:45:48] que había algo mal y quieren hacer que
+[0:45:50] incrementen en dos, es decir, de dos en
+[0:45:53] dos y que no sea de uno en uno, ese tipo
+[0:45:55] de cosas, ¿okay?
+[0:45:56] Eh y bueno, como program management,
+[0:45:59] pues
+[0:46:00] yo voy a probar esto en realidad.
+[0:46:02] Ustedes pueden hacer Solana Bueno, voy a
+[0:46:03] hacer clear. Pueden hacer Solana program
+[0:46:05] show y voy a poner este que fue el que
+[0:46:07] hicimos en devnet. Como pueden ver,
+[0:46:09] recuerden que al inicio puse que estaba
+[0:46:11] en el clúster de devnet cuando hice
+[0:46:12] Solana Solana config.
+[0:46:15] Entonces voy a hacer esto para que me
+[0:46:16] enseñe este programa y vamos a ver el
+[0:46:18] owner, que el owner va a ser el
+[0:46:21] updatable, luego el authority, que era
+[0:46:24] la wallet que terminaba en 6 Y X, el
+[0:46:27] balance que tiene, el length,
+[0:46:29] el last deploy, es decir, en el slot en
+[0:46:31] el que se desplegó.
+[0:46:33] O sea, esto esto incluye actualizaciones
+[0:46:36] y finalmente el program ID. Entonces
+[0:46:38] esto es como si nosotros tuviésemos un
+[0:46:40] un explorer usando el Solana CLI.
+[0:46:43] O sea, no es como Ethereum que tienes
+[0:46:44] que desplegar otro contrato nuevo si
+[0:46:46] quieres actualizar. Sí, no. O sea, yo
+[0:46:47] puedo actualizarlo,
+[0:46:49] o sea, yo puedo hacer que sea updatable.
+[0:46:51] Y entonces una vez es updatable, yo nada
+[0:46:53] más tengo que hacer como un deploy
+[0:46:55] del nuevo contrato, pero se mantiene el
+[0:46:57] mismo
+[0:46:58] Entonces sí, es no es como que yo tengo
+[0:47:00] que cambiar de contrato.
+[0:47:01] Eh, hay otras redes, por ejemplo, bueno,
+[0:47:03] en Solana lo que es es básicamente que
+[0:47:05] el archivo punto so este que tiene toda
+[0:47:07] la información que le sirve a la red
+[0:47:09] eh cambia, entonces yo nada más le doy
+[0:47:12] upgrade y pues va a cambiar y entonces
+[0:47:14] yo sí voy a ver obviamente se va a ver
+[0:47:15] que se cambió. No es como que no se ve
+[0:47:17] que cambió.
+[0:47:19] Eh, en Ethereum sí es como que tienes
+[0:47:21] que desplegar otro contrato, tienes que
+[0:47:22] hacerle deploy de otro contrato y, por
+[0:47:25] ejemplo, en otras redes como Stellar,
+[0:47:26] eso funciona de que Stellar te da el
+[0:47:28] archivo, bueno, el equivalente al
+[0:47:30] archivo punto so que es un archivo punto
+[0:47:31] wasm,
+[0:47:33] pero entonces lo que haces es que vos
+[0:47:35] cambias ese archivo y es algo parecido
+[0:47:37] en Solana. Es como que vos le caes por
+[0:47:39] encima al otro
+[0:47:40] siempre y cuando se mantengan las mismas
+[0:47:41] funciones y sean cambios mínimos, ¿okay?
+[0:47:44] Entonces básicamente así es como
+[0:47:46] funciona el upgrade en Solana.
+[0:47:48] Sí, es es bastante útil. Bueno,
+[0:47:52] a mí no me encanta así, honestamente. Yo
+[0:47:54] prefiero que sea como Ethereum porque
+[0:47:55] siento que me da un poco de me da como
+[0:47:57] cosa. No sé si eso se hizo en otros
+[0:47:59] países, pero me da como
+[0:48:01] incertidumbre lo que pueda hacer una
+[0:48:03] persona random de cualquier país, tipo
+[0:48:05] que podría crear un programa, mucha
+[0:48:08] gente confía y luego hace un upgrade y
+[0:48:10] saca plata. O sea, eso
+[0:48:12] no sé si se puede hacer exactamente como
+[0:48:14] tal porque tendría que cambiar muchas
+[0:48:15] funciones de la base y no va a dejar,
+[0:48:18] pero
+[0:48:19] pero di, o sea, la posibilidad existe.
+[0:48:21] Siempre y cuando el código esté auditado
+[0:48:22] eso puede existir esa posibilidad de que
+[0:48:24] di, en una
+[0:48:25] si pasa una auditoría y alguien se le
+[0:48:27] va, siempre existe la posibilidad. A mí
+[0:48:29] personalmente no me encanta esta
+[0:48:31] solución.
+[0:48:32] Podría ser, siento que podría ser el
+[0:48:34] proceso más corto.
+[0:48:35] Eh, no entendí bien. O sea, tipo el
+[0:48:37] proceso más corto sería este. Sí, o sea,
+[0:48:40] di, realmente es posible.
+[0:48:42] Eh, sí, o sea, yo siento que el proceso
+[0:48:44] más corto sí es este, es hacerlo así y
+[0:48:46] realmente es más sencillo para los
+[0:48:48] desarrolladores, pero sí siento que le
+[0:48:50] añade un toque de complejidad o más como
+[0:48:52] incertidumbre al usuario que está usando
+[0:48:54] el programa porque di, si le añaden una
+[0:48:57] función nueva que pueda afectarlo en
+[0:48:58] algún sentido,
+[0:49:00] di, eso hay que tomarlo en cuenta. Por
+[0:49:02] eso es que en realidad muchos protocolos
+[0:49:04] deciden no hacerlos
+[0:49:06] es decir, como que le dan las la
+[0:49:09] certidumbre a la persona, es decir, le
+[0:49:10] dicen, vea, yo nunca voy a actualizar
+[0:49:12] los contratos,
+[0:49:13] digo, perdón, los programas, entonces
+[0:49:14] hacen que no se pueda actualizar y que
+[0:49:16] una vez está el contrato ahí, el
+[0:49:18] programa ahí, ya se queda así.
+[0:49:19] Entonces eso se le añade como una capa
+[0:49:21] de confianza de, okay, vea, yo nunca le
+[0:49:23] voy a cambiar las funciones porque no
+[0:49:24] puedo. Entonces eso también se puede,
+[0:49:26] ¿okay?
+[0:49:27] Eh, pues sí. Básicamente eso es el
+[0:49:30] hoy hubiésemos hecho el
+[0:49:33] solo lo hicimos con el
+[0:49:35] Eh, pero sí.
+[0:49:37] Eh, con esto terminamos por esta semana
+[0:49:40] y la próxima semana recuerden que eh ya
+[0:49:43] es la semana de preparación para la
+[0:49:46] Entonces en esa semana ya pues vamos a
+[0:49:48] hablar un poco más sobre cómo usar
+[0:49:50] herramientas de IA para codear con en
+[0:49:53] Solana, que hay bastantes que están pues
+[0:49:54] específicamente hechas para Solana.
+[0:49:57] Luego vamos a ver como cosas de como
+[0:49:59] desarrollo full stack ya tipo todo
+[0:50:01] completo
+[0:50:02] y finalmente vamos a hablar de unas
+[0:50:03] cosas de producto. Entonces tipo si les
+[0:50:06] interesa vamos a hablar sobre ideación
+[0:50:09] de producto, cómo resolver un problema
+[0:50:11] real usando Solana,
+[0:50:12] en qué casos la blockchain tiene mucha
+[0:50:14] utilidad y en qué casos no. Y finalmente
+[0:50:18] eh vamos a hacer como unos
+[0:50:20] para
+[0:50:21] Entonces ahí para que estén atentos y
+[0:50:24] pues sí.
+[0:50:26] Eh, terminamos por hoy.
+[0:50:28] Eh, si tiene alguna duda pueden decirme
+[0:50:30] ahora y si no terminamos.
+[0:50:39] Sí,
+[0:50:39] lo de ideación de producto es super útil
+[0:50:42] porque, o sea, está muy bien hacer
+[0:50:44] programas de Solana y hacer Solana, o
+[0:50:47] sea, hacer cosas, pero di, si nosotros
+[0:50:49] lo hacemos y al final nadie lo usa, pues
+[0:50:51] di, ahí hay un problema. Entonces esa
+[0:50:52] parte de producto está está buenísima.
+[0:50:57] Mhm. Y di, yo creo que todo bien
+[0:51:00] entonces. Eh, igual recuerden que
+[0:51:04] con gusto. Igual recuerden que el
+[0:51:07] Telegram ahí está activo, entonces si
+[0:51:09] tienen alguna duda o algo así, no duden
+[0:51:11] en escribirme en escribirme o
+[0:51:13] escribirnos y con gusto les ayudamos, ya
+[0:51:15] sea de producto, de
+[0:51:18] de código, algo que no les quedó claro,
+[0:51:20] lo que sea, ¿okay?
+[0:51:22] Entonces si quieren quedamos por aquí y
+[0:51:24] nos vemos en la próxima.
+[0:51:25] Bueno.
+[0:51:26] Chao, gracias.
+[0:51:28] Bye.

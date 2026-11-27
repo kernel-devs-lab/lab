@@ -1,0 +1,1378 @@
+# Transcripción: Session 7
+URL: https://www.youtube.com/watch?v=Ea57RxASgJA
+
+[0:06:27] Bueno, eh hola a todos eh
+[0:06:30] que bueno tenerlos por acá, ya en la
+[0:06:31] semana tres de del curso.
+[0:06:35] Eh vamos a estar hablando un poco de
+[0:06:36] Anchor ya entrándonos como ya más
+[0:06:38] directamente en cómo construir programas
+[0:06:40] en Solana.
+[0:06:41] Eh
+[0:06:43] bueno, al final de cuentas es
+[0:06:46] eh bueno, pregunta de que para la
+[0:06:49] hackathon cuántos miembros es el mínimo.
+[0:06:52] Eh no estoy seguro, eh voy a preguntarle
+[0:06:54] a Solem y por el grupo les les confirmo
+[0:06:58] eh ese dato.
+[0:07:14] Eh pero bueno, como les decía, vamos a
+[0:07:15] estar viendo un poco de de Anchor y eh
+[0:07:19] para qué para qué sirve, por qué lo
+[0:07:21] utilizamos
+[0:07:22] eh y escribiendo también programas, lo
+[0:07:25] cual es bastante interesante y bueno, es
+[0:07:27] es todo un mundo. Eh vamos a empezar por
+[0:07:29] lo más básico y bueno,
+[0:07:31] ya pues
+[0:07:32] eh
+[0:07:33] cada quien se especializa, digamos, en
+[0:07:35] lo que quiera hacer. Hay gente que
+[0:07:36] especializa en en hacer programas muy
+[0:07:39] con un enfoque muy financiero
+[0:07:41] para hacer eh protocolos de
+[0:07:43] intercambios, hay otros que lo hacen más
+[0:07:45] eh no tanto el lado financiero, sino el
+[0:07:48] lado verificable. Eh y bueno, hay
+[0:07:51] montones de casos de uso, pero pero eh
+[0:07:54] vamos a ver como de de la base cómo
+[0:07:56] crear esos programas y
+[0:07:58] y las mejores prácticas para crearlos.
+[0:08:00] Eh y por eso también estamos utilizando
+[0:08:02] Anchor.
+[0:08:15] Okay.
+[0:08:28] Pues vamos a empezar a presentar
+[0:08:31] eh para el día de hoy entonces venimos
+[0:08:32] con Anchor.
+[0:08:36] esto.
+[0:08:37] Aquí está
+[0:08:41] Okay.
+[0:08:43] Eh, entonces bueno,
+[0:08:46] eh Anchor básicamente es un un framework
+[0:08:51] como por así decirlo, imaginémoslo en
+[0:08:53] algo en TypeScript que nos facilita
+[0:08:55] alguna herramienta que nos facilite, por
+[0:08:57] ejemplo, eh crear módulos de UI más
+[0:09:00] sencillos. Eh, al final de cuentas eso
+[0:09:03] es lo que viene a ser Anchor.
+[0:09:05] Eh,
+[0:09:06] viene a a simplificar el crear programas
+[0:09:10] eh en en Solana.
+[0:09:12] Eh, y bueno, entonces eso es lo que
+[0:09:14] vamos a estar viendo hoy.
+[0:09:15] Eh, ¿por qué utilizar eh Anchor?
+[0:09:18] Realmente
+[0:09:19] eh la razón principal
+[0:09:22] es porque menos
+[0:09:23] menos boilerplate
+[0:09:25] y menos bugs de cuentas. Entonces, con
+[0:09:27] boilerplate me refiero a que es menos
+[0:09:29] código repetido, o sea, no tenemos que
+[0:09:31] estar repitiendo la misma estructura
+[0:09:32] para crear algo.
+[0:09:34] Eh, y al final de cuentas no si uno
+[0:09:37] puede ahorrarse escribir algo, pues es
+[0:09:39] lo mejor, porque al final de cuentas hay
+[0:09:41] una capa ahí en la cual se pueden
+[0:09:42] cometer errores y bueno, la idea es
+[0:09:44] dejar de como la menor cantidad o
+[0:09:47] reducir la posibilidad de que uno cometa
+[0:09:48] un error en alguna etapa, entonces
+[0:09:50] eh teniendo menos boilerplate también es
+[0:09:51] una es una muy buena práctica.
+[0:09:54] Eh,
+[0:09:56] y por otro lado también este O sea, ¿qué
+[0:10:00] qué nos ofrece Anchor? Primero validar
+[0:10:01] las cuentas, entonces revisa quién es el
+[0:10:03] owner, quién es el firmante, y
+[0:10:06] que se corrija el código. Luego tenemos
+[0:10:08] el y el cliente, que básicamente un
+[0:10:10] build que da tests y apps eh en una
+[0:10:13] interfaz tipada, que esto está súper o
+[0:10:15] sea, súper interesante. Y más seguros.
+[0:10:18] Entonces, todo el tema de serialización,
+[0:10:20] errores, eh
+[0:10:23] y tipados es muchísimo mejor. Entonces,
+[0:10:25] básicamente es un framework que nos
+[0:10:26] ayuda a desarrollar más rápido, con más
+[0:10:28] seguridad eh y también con con muchas
+[0:10:31] mejores prácticas.
+[0:10:33] Ahm.
+[0:10:35] Vamos a seguir.
+[0:10:41] Cuando se crea un programa
+[0:10:44] tenemos datos, normalmente. Porque al
+[0:10:46] final de cuentas si
+[0:10:47] lo que hacemos es terminar escribiendo
+[0:10:48] datos. Entonces, hay dos lugares donde
+[0:10:51] los datos viven. En el programa
+[0:10:53] o en la cuenta.
+[0:10:55] Y esto bueno eh va a variar dependiendo
+[0:10:57] de lo que se está haciendo.
+[0:10:59] Eh, cuando es un uso muy financiero
+[0:11:00] normalmente se escribe en la cuenta
+[0:11:02] eh porque al final de cuentas
+[0:11:05] eh
+[0:11:06] o sea, todos los balances y todo todo lo
+[0:11:08] que al usuario le interesa ver debería
+[0:11:09] estar en la cuenta y a nivel de código
+[0:11:11] es mucho más sencillo escribirlo en la
+[0:11:13] cuenta.
+[0:11:14] Eh, y tal vez hay otras hay otros este
+[0:11:17] datos que más bien se escriben dentro
+[0:11:18] del programa. Entonces, el el mismo
+[0:11:20] programa sirve como, por así decir, una
+[0:11:22] base de datos donde podemos eh tener esa
+[0:11:24] data.
+[0:11:26] Entonces, este
+[0:11:28] eh por ese lado el el programa que es
+[0:11:30] sin estado y la cuenta que es 100% con
+[0:11:32] estado. Entonces, eso pues es eh
+[0:11:35] importante tomarlo en cuenta.
+[0:11:39] Vamos a revisar.
+[0:11:42] Básicamente este es el esqueleto de un
+[0:11:43] programa.
+[0:11:45] Eh, y bueno, o sea, no por usar no es
+[0:11:49] que estamos dejando de utilizar
+[0:11:52] eh Rust, todo lo contrario, más bien
+[0:11:54] eh estamos utilizando Rust y lo que hace
+[0:11:58] es traernos ciertas herramientas para
+[0:12:00] desarrollar más rápido.
+[0:12:01] Eh, y no tener que estar escribiendo
+[0:12:03] siempre como las mismas
+[0:12:05] este
+[0:12:07] las mismas líneas de código que hay que
+[0:12:09] escribir, sino que las podemos editar
+[0:12:10] utilizando
+[0:12:11] Entonces, eh bueno, ahí por ejemplo este
+[0:12:15] se hace
+[0:12:16] el use de Anchor. Tenemos el
+[0:12:18] que es para declarar el el ID del
+[0:12:20] programa. Declaramos programa y dentro
+[0:12:23] de dentro del programa pues es que todas
+[0:12:25] las las instrucciones.
+[0:12:27] Eh y también tenemos el que es para la
+[0:12:30] para la cuenta que se va a utilizar
+[0:12:31] dentro de ese programa.
+[0:12:33] Eh entonces eh sí, el el numeral
+[0:12:37] programa lo que hace es marcar el módulo
+[0:12:38] de instrucciones. Entonces ahí es donde
+[0:12:40] va a estar todo el código que vamos o
+[0:12:41] sea que se va a poder ejecutar
+[0:12:42] dependiendo cómo lo escriban. Eh y e
+[0:12:45] idealmente pues ya es como código que
+[0:12:47] está muy expuesto, entonces siempre hay
+[0:12:48] que aplicarle como una capa de seguridad
+[0:12:50] y entender qué es lo que se está
+[0:12:51] haciendo porque podría quedar expuesto y
+[0:12:53] pues no es la idea, ¿no?
+[0:12:55] Eh la semana
+[0:12:58] creo que la la primera semana habíamos
+[0:13:00] instalado
+[0:13:03] el CLI de Solana.
+[0:13:05] Entonces voy a compartirles
+[0:13:09] en la terminal porque con ese CLI viene
+[0:13:11] Anchor
+[0:13:12] eh instalado de solo. Entonces si
+[0:13:14] ustedes eh
+[0:13:15] pues hicieron esa instalación ya
+[0:13:17] deberían tenerlo.
+[0:13:18] Entonces vamos a
+[0:13:20] compartir de nuevo la terminal.
+[0:13:28] Y aquí
+[0:13:31] se pone
+[0:13:33] Anchor
+[0:13:37] y aquí nos aparece el Anchor CLI y la
+[0:13:39] versión 1.1.2.
+[0:13:42] Entonces eh en ese caso eso es lo que se
+[0:13:46] eh
+[0:13:47] lo que digamos lo lo que sucede cuando
+[0:13:49] uno instala el CLI también se instala el
+[0:13:51] Anchor. Entonces ya ahí estamos listos
+[0:13:53] para empezar a programar eh programas en
+[0:13:55] Solana.
+[0:13:56] Ahora vamos a irnos
+[0:13:58] al Voy a compartir la pantalla completa.
+[0:14:06] Okay, vamos a buscar
+[0:14:09] aquí
+[0:14:10] cursor.
+[0:14:12] Y bueno, aquí tengo el programa todas
+[0:14:14] las anotaciones.
+[0:14:17] Entonces, eh
+[0:14:19] esto no. Esto es el como el esqueleto
+[0:14:21] que le dejé.
+[0:14:23] Entonces,
+[0:14:25] vamos a revisar.
+[0:14:28] Okay.
+[0:14:29] Entonces,
+[0:14:31] básicamente
+[0:14:32] eh como vimos en las clases pasadas era
+[0:14:34] como básicamente realizábamos, o sea,
+[0:14:37] dejábamos un archivo donde tenía como
+[0:14:38] todos los todos y todo lo que había
+[0:14:39] implementar
+[0:14:40] eh y luego veíamos otro archivo donde ya
+[0:14:42] estaba todo implementado. Entonces,
+[0:14:43] vamos a revisar primero este.
+[0:14:44] Eh, este primero que vamos a hacer es un
+[0:14:46] contador, básicamente un programa el
+[0:14:47] cual va contando y va dejando eh el dato
+[0:14:51] de cuánta o sea, de de cuánto se ha
+[0:14:52] sumado o eh on chain eh dentro del
+[0:14:55] programa.
+[0:14:56] Entonces, bueno, esto que siempre se
+[0:14:58] llama, que es para traer las macros y
+[0:15:00] los tipos de anchor, entonces esto
+[0:15:01] cuando vayamos a anchor pues siempre es
+[0:15:03] necesario.
+[0:15:04] Aquí el ID que es la dirección on chain
+[0:15:06] del programa, entonces siempre es
+[0:15:07] importante tenerla.
+[0:15:09] El program que bueno, ya aquí es donde
+[0:15:10] vamos a empezar a escribir
+[0:15:11] instrucciones, entonces es
+[0:15:12] importantísimo tenerlo.
+[0:15:14] Y aquí ya declaramos counter.
+[0:15:17] Entonces aquí eh lo que se declara pues
+[0:15:19] es, por así decirlo, el nombre del
+[0:15:20] programa en anchor. Entonces, en este
+[0:15:22] caso el nombre es counter.
+[0:15:24] Eh, este
+[0:15:25] es nada más para usar tipos y macros del
+[0:15:27] del archivo raíz.
+[0:15:29] Y aquí ya empezamos a declarar un par de
+[0:15:31] funciones. Entonces, las funciones que
+[0:15:33] vamos a dejar expuestas que bueno, son
+[0:15:34] las que están dentro del program, van a
+[0:15:36] ser initialize e increment. Entonces,
+[0:15:39] eh dependiendo como ustedes crean el
+[0:15:41] programa, cualquier wallet, si eso está
+[0:15:43] publicado on chain podría entrar por con
+[0:15:44] esto. Es por eso que hay que diseñar
+[0:15:47] toda una arquitectura y también eh
+[0:15:49] revisar que que cumpla con lo que
+[0:15:51] queremos hacer.
+[0:15:52] Entonces, básicamente eh tenemos el
+[0:15:54] initialize que es para inicializar un
+[0:15:56] counter, entonces se inicializa un
+[0:15:58] conteo, por así decirlo, desde cero.
+[0:16:00] Eh,
+[0:16:02] y el increment que es básicamente una
+[0:16:04] función para llamarla y sumarle uno eh o
+[0:16:07] bueno, podría ser cualquier cantidad, en
+[0:16:08] realidad eso depende mucho de de de lo
+[0:16:11] que se quiera hacer.
+[0:16:12] Pero eh
+[0:16:14] lo que hace es incrementarlo. También se
+[0:16:15] podría decrementar, o sea, ahí realmente
+[0:16:18] es la lógica que ustedes quieren
+[0:16:19] añadirle mientras no viole ninguna eh
+[0:16:23] ninguna ley de de datos o bueno, también
+[0:16:26] dentro del blockchain que que que no
+[0:16:28] sobreescriba un balance porque bueno,
+[0:16:29] eso sí no va a funcionar.
+[0:16:31] Eh, dentro de account que eh básicamente
+[0:16:33] sería el serializado como cuenta on
+[0:16:35] chain.
+[0:16:36] Vamos también el el drift, básicamente
+[0:16:39] lo que hace es calcular el tamaño en
+[0:16:41] bytes del struct.
+[0:16:43] Eh, tenemos el struct del counter que
+[0:16:45] básicamente es el estado de la cuenta,
+[0:16:46] entonces básicamente es, por así
+[0:16:47] decirlo, la estructura en la cual se van
+[0:16:49] a guardar estos datos. En este caso eh
+[0:16:52] tiene dos campos que es el authority que
+[0:16:54] es quién controla el contador
+[0:16:57] y la cuenta que es o sea, cuál es el
+[0:16:58] valor de ese contador. Entonces en este
+[0:17:00] caso, como pueden ver, eh el authority
+[0:17:02] es un public key, o sea, el tipo de
+[0:17:04] datos public key, pero bueno, al final
+[0:17:05] de cuentas es un
+[0:17:07] es eh las las public keys que hemos
+[0:17:09] venido viendo y el contador es un 64.
+[0:17:13] En este caso es un 564 porque no
+[0:17:15] ocupamos eh ningún signo, realmente es
+[0:17:18] todo positivo, entonces en ese caso
+[0:17:21] eh conviene utilizarlo.
+[0:17:23] Tenemos
+[0:17:25] el accounts que lo que hace es validar
+[0:17:26] las cuentas que pasa eh a initialize.
+[0:17:30] Y aquí tenemos como algunas funciones
+[0:17:32] que se llaman eh desde otras partes,
+[0:17:34] entonces por ejemplo aquí crea una
+[0:17:35] cuenta,
+[0:17:36] setea el payer authority y le sumamos eh
+[0:17:39] ocho eh a a la variable de datos.
+[0:17:43] Aquí eh esto lo que hace es setear una
+[0:17:45] cuenta nueva, entonces básicamente si
+[0:17:48] uno tiene varios contadores eh lo que
+[0:17:51] hace es iniciar un contador nuevo
+[0:17:53] con ese o sea, con el debido authority,
+[0:17:54] entonces es como que yo pueda tener
+[0:17:56] varios contadores dentro de un mismo
+[0:17:57] programa con eh este counter.
+[0:18:00] Eh, luego tenemos esto que lo que o sea,
+[0:18:03] el account que lo que hace al final de
+[0:18:05] cuentas es para que firmar y pagar
+[0:18:07] de renta. Eh, este código de acá es como
+[0:18:10] muy repetitivo y realmente no no implica
+[0:18:12] muchísima lógica, sino que es como más
+[0:18:14] el boilerplate que les decía un poco.
+[0:18:16] Eh, pero bueno, este sí hay que
+[0:18:17] configurar, o o sí es configurable y si
+[0:18:19] es como custom, entonces no no no se
+[0:18:21] puede como ahorrar, pero al final de
+[0:18:23] cuentas es código que que no requiere
+[0:18:26] tantísima lógica, sino nada más es como
+[0:18:28] crear las cuentas eh y la estructura que
+[0:18:31] tiene este cada este función.
+[0:18:35] Eh,
+[0:18:36] que de hecho aquí pueden ver que esas
+[0:18:38] las inicializamos con esos
+[0:18:40] entonces básicamente lo que lo que lo
+[0:18:42] utilizamos como para así decirlo para
+[0:18:44] tipar ese
+[0:18:46] esa función.
+[0:18:48] Eh, entonces el inicio de
+[0:18:51] y también tiene el
+[0:18:53] que es el el el programa para crear la
+[0:18:56] cuenta.
+[0:18:58] Eh, que esto es más un tema como tal y
+[0:19:00] normalmente siempre se utiliza, o sea,
+[0:19:02] esta línea siempre va a estar.
+[0:19:05] Y el
+[0:19:06] eh bueno, el siguiente que es para el
+[0:19:09] eh y valida las cuentas que pasa el
+[0:19:11] si tiene el
+[0:19:12] para escribirlo.
+[0:19:14] Eh,
+[0:19:16] y o sea, que sí, básicamente aquí lo que
+[0:19:18] lo que tenemos es eh la cuenta
+[0:19:23] porque bueno, no no todos los van a ser
+[0:19:25] el mismo y la entonces quién debe firmar
+[0:19:28] ese incremento, porque si no es la
+[0:19:30] persona correcta no va a funcionar.
+[0:19:33] Eh, entonces
+[0:19:35] en este caso ya ahí tenemos el el
+[0:19:37] programa
+[0:19:39] sin realizar, o sea, tenemos ahí como el
+[0:19:41] esqueleto.
+[0:19:42] Sin embargo, no está listo.
+[0:19:45] Eh, ah bueno, se me se me olvidó
+[0:19:48] mencionares que
+[0:19:49] para crear un programa
+[0:19:53] eh hay que seguir los siguientes pasos.
+[0:19:55] Eh,
+[0:19:58] vamos a buscarlos.
+[0:20:08] Vamos a darle
+[0:20:10] Vamos a irnos a
+[0:20:14] documents
+[0:20:17] directorio
+[0:20:20] test Solana
+[0:20:23] bootcamp
+[0:20:26] y vamos a entrar.
+[0:20:34] Bien, entonces eh el primer paso es el
+[0:20:37] anchor init
+[0:20:43] counter. Entonces eh en este caso
+[0:20:46] las primeras dos son como
+[0:20:48] palabras reservadas que que son como las
+[0:20:50] instrucciones, el comando.
+[0:20:52] Y el el el tercero, el counter, puede
+[0:20:55] cambiar, entonces podrían cambiar el
+[0:20:57] nombre dependiendo de qué es lo que
+[0:20:58] estén haciendo. Si están haciendo, no
+[0:20:59] sé, un
+[0:21:00] un dex, entonces anchor init dex. O
+[0:21:03] están haciendo un oracle, entonces van a
+[0:21:04] poner anchor init oracle. Eh y bueno, o
+[0:21:07] sea, depende mucho de lo que estén
+[0:21:08] haciendo, pero eh saber que que eso es
+[0:21:11] configurable, el tercero.
+[0:21:12] Entonces vamos a iniciar el counter.
+[0:21:15] Ahí ya se inicializó
+[0:21:17] eh y bueno, voy a
+[0:21:20] abrirlo solo para que lo veamos.
+[0:21:24] Entonces aquí ya tenemos el counter y
+[0:21:26] nos crea esta
+[0:21:28] esta carpeta
+[0:21:31] y tenemos estos este
+[0:21:35] y también estos archivos. Entonces eh
+[0:21:38] bueno, está el git ignore que lo que
+[0:21:39] hace es ignorar de ciertos archivos que
+[0:21:41] siempre se o sea, se se van a escribir
+[0:21:43] como node modules y bueno, todo eso.
+[0:21:45] Eh y por ahí también están este otros
+[0:21:48] archivos que no toma en cuenta.
+[0:21:50] El target también que es, por así
+[0:21:52] decirlo, el node modules de Rust y el
+[0:21:54] programs counter que bueno, aquí es
+[0:21:56] donde viene básicamente el
+[0:22:00] el programa. Entonces en este caso
+[0:22:03] divide muy bien eh o sea, como este ya
+[0:22:05] es como, por así decirlo, un programa
+[0:22:07] que que está escrito para
+[0:22:10] para testear eh cuando uno crea el
+[0:22:12] programa. Entonces básicamente ya viene
+[0:22:14] como muy muy dividido por archivos.
+[0:22:16] Entonces esto es una es una estructura
+[0:22:17] muy recomendada cuando uno está creando
+[0:22:19] programas, dividirlo por archivos y no
+[0:22:20] hacer todo el todo el programa en uno
+[0:22:22] solo porque se puede volver muy tedioso.
+[0:22:24] Entonces
+[0:22:25] ehm
+[0:22:27] bueno, sí, el el primer paso que hicimos
+[0:22:29] que fue este,
+[0:22:30] traemos eh
+[0:22:33] o sea, lo que tenemos que enfocarnos
+[0:22:34] realmente dentro de este código es eh en
+[0:22:38] la en el apartado Programs
+[0:22:40] y específicamente en Counters, que fue
+[0:22:41] el que creamos. Dentro de tenemos estos
+[0:22:43] cinco archivos y vamos a ir uno por uno
+[0:22:45] eh teniendo cuál es cada uno.
+[0:22:47] Entonces, eh por ejemplo, aquí en
+[0:22:50] Constants vamos a declarar todo tipo de
+[0:22:52] constantes que necesitemos. Un Counter
+[0:22:55] Seat,
+[0:22:56] el
+[0:22:58] y el Max Count. Entonces, estos son
+[0:23:00] constantes que yo necesito
+[0:23:02] dependiendo de mis requerimientos. En en
+[0:23:04] este caso, en el momento que vayan a
+[0:23:06] hacer el programa, siempre entiendan
+[0:23:08] cuáles son las constantes y declárenlas
+[0:23:09] acá y bueno, es como más por orden y
+[0:23:11] arquitectura del código que están
+[0:23:12] realizando.
+[0:23:13] Tenemos los errores. Eh, esto es muy muy
+[0:23:16] importante a la hora de estar haciendo
+[0:23:18] un programa eh cuando queremos que algún
+[0:23:21] otro desarrollador, una API o o sea,
+[0:23:23] quien sea, integre este programa, es muy
+[0:23:26] importante tipar muy bien los datos y
+[0:23:28] explicarle al desarrollador que lo está
+[0:23:29] llamando qué es lo que está haciendo mal
+[0:23:31] o también a la persona o al usuario eh
+[0:23:34] devolverle un error el cual no solo nos
+[0:23:37] nos lance
+[0:23:38] este un error de Rust, porque al final
+[0:23:40] de cuentas esto no es algo que que
+[0:23:43] debería suceder y realmente mientras más
+[0:23:45] expliquemos cuál es el error y cómo no
+[0:23:48] cómo hacer que no suceda ese error, eh
+[0:23:50] pues mejor. Entonces, aquí uno puede
+[0:23:52] declarar sus propios errores. Por
+[0:23:53] ejemplo, aquí tenemos el Count Overflow.
+[0:23:56] Entonces, este error básicamente lo que
+[0:23:58] hace es ir lo que lo que nos dice es que
+[0:24:00] el contador ya llegó a su a su máximo
+[0:24:02] valor, entonces ya no se puede seguir
+[0:24:04] incrementando. Entonces, la persona ya
+[0:24:05] va a entender esto y no le va a llegar
+[0:24:07] un error de Rust rarísimo que
+[0:24:08] posiblemente no vaya a entender.
+[0:24:10] Eh, entonces siempre declarar buenos
+[0:24:13] errores es una muy buena práctica y al
+[0:24:16] final de cuentas vale muchísimo la pena.
+[0:24:19] Tenemos los Instructions que básicamente
+[0:24:20] es para poder llamar eh a bueno, este
+[0:24:23] este archivo lo que hace es básicamente
+[0:24:25] declarar estos dos archivos
+[0:24:28] eh en este root, entonces cualquier
+[0:24:30] cualquier otro archivo puede llamarlos.
+[0:24:32] Entonces ahora vamos a ver como en lib
+[0:24:33] los los importamos.
+[0:24:35] Entonces aquí está instructions,
+[0:24:37] entonces ya podemos llamar instructions
+[0:24:39] y cualquiera de los dos, el initialize o
+[0:24:41] el
+[0:24:43] eh el
+[0:24:45] eh entonces aquí uno, igual lo que les
+[0:24:48] decía, esta esta línea casi que siempre
+[0:24:50] se usa para llamar los tipos.
+[0:24:53] Eh tenemos constants que bueno es lo que
+[0:24:55] les decía ahora, instructions y state y
+[0:24:58] aquí declaramos el ID.
+[0:25:00] Eh eso ya se crea cuando hacemos el el
+[0:25:03] anchor, entonces cuando hacemos el
+[0:25:04] anchor init
+[0:25:06] counter ya aquí se se crea la la
+[0:25:08] dirección pública.
+[0:25:10] Y aquí declaramos el programa, entonces
+[0:25:12] como les he explicado dentro de programa
+[0:25:14] van todas las funciones que se exponen y
+[0:25:17] que se pueden utilizar. Entonces en este
+[0:25:18] caso
+[0:25:19] declaramos el counter, es el es el
+[0:25:21] nombre del programa,
+[0:25:22] eh esto que siempre se utiliza para
+[0:25:24] igual para traer tipados y poder llamar
+[0:25:26] a a otras funciones.
+[0:25:28] Y declaramos la función initialize y la
+[0:25:31] función increment. Entonces
+[0:25:33] eh
+[0:25:35] como pueden ver bueno aquí se le a la o
+[0:25:37] sea a este context se le pasa o sea se
+[0:25:41] le pone como
+[0:25:42] como
+[0:25:44] o sea por decirlo el tipo de increment y
+[0:25:47] al otro también el initialize,
+[0:25:48] dependiendo.
+[0:25:50] Y aquí lo lo que se hace es llamar a la
+[0:25:53] función, entonces en este caso
+[0:25:55] estamos trayendo desde instructions
+[0:25:58] eh la función initialize y la handle
+[0:26:01] initialize. Entonces si nos vamos aquí
+[0:26:02] instructions vamos a ver que estamos
+[0:26:10] ponemos este
+[0:26:11] al initialize.
+[0:26:12] Pues dentro de initialize tenemos
+[0:26:15] bueno primero se declara la la cuenta
+[0:26:18] y se declara la estructura initialize.
+[0:26:20] Entonces la estructura initialize qué
+[0:26:21] trae? Trae el payer
+[0:26:24] eh que es el que paga la la comisión, el
+[0:26:27] counter y y system program que es bueno
+[0:26:30] de todos estos bueno, el system program
+[0:26:32] siempre se pone y el payer también. El
+[0:26:34] que cambia es el counter porque, bueno,
+[0:26:36] ya es como algo custom del código que
+[0:26:37] estamos desarrollando.
+[0:26:39] Y el handle initialize que básicamente
+[0:26:41] es la función que exponemos y la que se
+[0:26:42] llama desde el programa. Entonces aquí
+[0:26:46] esta es la función que estamos llamando,
+[0:26:47] el handle initialize.
+[0:26:50] Y esta función entonces básicamente eh
+[0:26:53] la llamamos y le pasamos el eh parámetro
+[0:26:56] que necesita. Entonces en este caso
+[0:26:58] lo primero que hace es poner la cuenta
+[0:27:00] en cero
+[0:27:02] y luego eh también setea la autoridad eh
+[0:27:06] y también quién paga.
+[0:27:08] También aquí los CPI accounts
+[0:27:09] básicamente es para setear las las
+[0:27:11] cuentas. Este
+[0:27:14] eh bueno, esto es como más boilerplate
+[0:27:16] que siempre se pone.
+[0:27:17] Y aquí también añadimos como este
+[0:27:19] mensaje para poner Hello World eh count
+[0:27:22] initializer.
+[0:27:23] Y ya ahí este finaliza esta función.
+[0:27:26] Entonces básicamente eh lo que hicimos
+[0:27:29] en este caso pues fue simplemente
+[0:27:31] inicializar el contador
+[0:27:33] eh con una cuenta.
+[0:27:34] Entonces ya ahí pues tomamos en cuenta
+[0:27:37] ehm
+[0:27:40] quién la inicializó,
+[0:27:41] este y que se inicializa en cero el
+[0:27:44] contador.
+[0:27:46] Ahora vamos a ir a increment. Entonces
+[0:27:48] vamos, hacemos lo mismo, entramos aquí
+[0:27:50] en increment.
+[0:27:51] Y como pueden ver igual
+[0:27:53] un poco más de de de boilerplate en
+[0:27:55] esto, o sea, es casi que lo mismo.
+[0:27:58] Y declaran el struct increment.
+[0:28:01] Y el struct increment tiene ehm
+[0:28:04] dos este campos que sería counter y
+[0:28:07] authority. Entonces counter
+[0:28:09] ya saben es el la la cuenta que está
+[0:28:11] llevando y el authority básicamente es
+[0:28:14] quién tiene el permiso de cambiar esa
+[0:28:16] data.
+[0:28:17] Y el handle increment que ya es la eh o
+[0:28:20] sea, la la ejecución de incrementar.
+[0:28:22] Entonces básicamente aquí le pasan como
+[0:28:24] contexto el increment.
+[0:28:26] Eh este require keys lo que hace es
+[0:28:28] validar que sea la cuenta
+[0:28:31] ehm
+[0:28:33] hm o sea, básicamente la la la cuenta
+[0:28:35] que está o sea, que que tiene los
+[0:28:37] permisos para poder eh cambiarlo.
+[0:28:40] Y el otro lo que hace es revisar que no
+[0:28:42] tenga un overflow. Si ya es o sea, si ya
+[0:28:45] hay un overflow, eh pues ahí sería pues
+[0:28:47] un un problema que devuelve.
+[0:28:49] Eh y eso va más del lado eh
+[0:28:53] de si hay un o sea, si si estamos
+[0:28:55] seteando un máximo
+[0:28:57] o si el tipado de del dato también lleva
+[0:29:00] un máximo, porque por ejemplo, con 64
+[0:29:02] llegamos hasta cierto número
+[0:29:04] y ya más de ese número no se puede
+[0:29:06] escribir. Entonces también eso toma en
+[0:29:08] cuenta.
+[0:29:10] Y lo que hace es reescribir ese estado y
+[0:29:13] lo escribe en uno. Bueno, o sea, le suma
+[0:29:15] uno. Entonces básicamente cada vez le
+[0:29:17] vamos a ir sumando uno. Esto podría
+[0:29:18] cambiarse, yo podría poner dos y
+[0:29:20] entonces va de dos en dos. Entonces iría
+[0:29:22] la primera vez cero, la segunda dos,
+[0:29:24] cuatro y así sucesivamente.
+[0:29:27] Eh
+[0:29:28] y aquí este mensaje lo que hace es
+[0:29:30] escribir eh hola mundo, el contador es
+[0:29:32] ahora y le pasamos eh la cuenta.
+[0:29:34] Entonces
+[0:29:36] eh eso es lo que hace por ese lado
+[0:29:38] el este el handle increment.
+[0:29:42] Eh ahora
+[0:29:44] volviendo un poco entonces al programa,
+[0:29:47] ya tendríamos básicamente eh o sea, el
+[0:29:50] programa literalmente solo es esto.
+[0:29:52] Eh y esas son las dos variables que se
+[0:29:53] pueden llamar y ejecutar.
+[0:29:55] Y tenemos state
+[0:29:57] que es para manejar el estado. Entonces
+[0:29:59] básicamente el struct counter se se crea
+[0:30:02] como un estado
+[0:30:03] con estos dos campos, que ya los
+[0:30:05] habíamos explicado, que era el U64 y el
+[0:30:07] Pub Authority,
+[0:30:08] que era la eh autoridad sobre ese mismo.
+[0:30:13] Eh
+[0:30:14] ¿qué más es importante dentro de esto?
+[0:30:16] Bueno,
+[0:30:17] normalmente este Pub lo dejan ahí para
+[0:30:19] que ustedes puedan construir una
+[0:30:19] interfaz. Entonces eh
+[0:30:23] o sea, cuando lo vayan a hacer, aquí
+[0:30:25] mismo pueden escribir el
+[0:30:26] el frontend y integran directamente acá.
+[0:30:30] Eh me parece que es mucho más sencillo
+[0:30:32] implementarlo desde acá, pero ya es ya
+[0:30:34] es ya es como
+[0:30:37] gusto de cada desarrollador eh donde
+[0:30:39] pone su puede que sean repositorios
+[0:30:42] separados y no hay problema con eso.
+[0:30:46] Eh, ¿qué más? Vamos a revisar Ah, no.
+[0:30:49] Los tests.
+[0:30:51] Entonces, eh los tests dicen nuestros
+[0:30:52] normales. Eh, en este caso estos ya
+[0:30:54] vienen como por así decirlo decirlo
+[0:30:56] automatizados, entonces básicamente
+[0:30:58] eh son los tests para probar que
+[0:31:01] funcionan bien las dos las dos
+[0:31:03] funciones. Entonces vamos a revisar,
+[0:31:05] primero tenemos el test
+[0:31:09] Eh, y es el único test que hay de hecho.
+[0:31:12] Entonces aquí, bueno, testea que el
+[0:31:14] funcione de funcione bien
+[0:31:16] y eh si no funcionara bien, pues nos
+[0:31:19] lanza un error. Entonces aquí uno
+[0:31:21] escribe todos los tests que quiera. Si
+[0:31:22] quisiéramos hacer un test
+[0:31:24] eh
+[0:31:26] también se podría.
+[0:31:28] Eh, este
+[0:31:31] lo que hace es declarar eh
+[0:31:33] todos los paquetes que necesitamos, las
+[0:31:35] dependencias
+[0:31:36] eh bueno, y y realmente sí, eso todo
+[0:31:40] eso. También, bueno, hay como ciertas
+[0:31:42] cosas que se pueden configurar, por
+[0:31:44] ejemplo el nombre del del programa, en
+[0:31:46] este caso
+[0:31:47] la versión que está utilizando, la
+[0:31:49] descripción, en este caso deja hasta
+[0:31:53] pero bueno, no podría cambiarla.
+[0:31:56] no lo puede poner
+[0:31:57] dependiendo de de qué prefieran y el
+[0:32:00] también lo lo puede manejar. [resoplido]
+[0:32:04] Este también bueno,
+[0:32:06] eh que también esto es como
+[0:32:07] configurable, las dependencias que esto
+[0:32:09] es como para poner qué dependencias
+[0:32:11] estamos utilizando, en este caso
+[0:32:12] nosotros lo estamos utilizando
+[0:32:13] eh
+[0:32:15] y las dependencias de
+[0:32:17] que básicamente está
+[0:32:19] que bueno, de hecho lo habíamos visto en
+[0:32:21] una clase, hablamos un poco de
+[0:32:25] y el
+[0:32:26] Entonces son librerías externas que
+[0:32:28] estamos utilizando
+[0:32:29] dentro de el repositorio.
+[0:32:33] Eh, y me parece que por ahí estaríamos.
+[0:32:36] Por aquí hay otros
+[0:32:37] eh que bueno, o sea lo que hacen lo que
+[0:32:40] hacen es declarar también otras este
+[0:32:42] dependencias que utilizan. Por ejemplo,
+[0:32:43] aquí usamos Rust, FMT y Clippy.
+[0:32:46] Eh y el anchor.toml que es como un o
+[0:32:49] sea, es para configurar el anchor eh
+[0:32:52] global del del counter. Entonces, en
+[0:32:54] este caso
+[0:32:55] dejamos por acá el ID del programa eh y
+[0:32:59] pues ahí hay otras cosas como scripts y
+[0:33:02] también el provider que en este caso es
+[0:33:04] para la forma.
+[0:33:06] Ehm,
+[0:33:08] entonces bueno, de esa manera es que se
+[0:33:10] inicializa un un programa.
+[0:33:13] Eh volviendo un poco aquí a la terminal,
+[0:33:15] vamos a
+[0:33:19] vamos a hacer este comando que es anchor
+[0:33:21] keys sync.
+[0:33:31] Ah, bueno, tenemos que iniciar
+[0:33:33] eh o sea, entrar dentro del counter.
+[0:33:35] Y ahora sí dentro del counter, entonces
+[0:33:37] vamos a hacerlo acá.
+[0:33:41] Y bueno, ya aquí tenemos las eh keys
+[0:33:44] sincronizadas, entonces básicamente ahí
+[0:33:45] los sincronizamos.
+[0:33:47] Eh igual me parece que ya estaba
+[0:33:50] sincronizado.
+[0:33:51] Que esté sincronizado básicamente es que
+[0:33:53] este ID acá
+[0:33:56] coincida con el ID que está acá.
+[0:33:59] Pues ya lo copié.
+[0:34:09] Copiar.
+[0:34:10] Pues aquí
+[0:34:11] pegamos.
+[0:34:13] Y como pueden ver coincide. Sí, lo
+[0:34:15] encontró. Entonces eh están
+[0:34:17] sincronizadas los keys.
+[0:34:19] Eh eso podría pasar en algún momento que
+[0:34:21] se desincronicen y bueno, podría
+[0:34:23] causarles errores, entonces hay que
+[0:34:24] tener cuidado con eso.
+[0:34:26] Vamos a limpiarlo para que nos quede
+[0:34:27] limpio.
+[0:34:28] Aquí bueno,
+[0:34:30] tenemos el comando build que es ya para
+[0:34:33] para por así decirlo
+[0:34:35] compilar el el programa, entonces en
+[0:34:37] este caso hacemos anchor build.
+[0:34:39] Eh muy importante, el build tiene que
+[0:34:41] correrse dentro del este creo que eso
+[0:34:44] fue el error que me dio H.
+[0:34:58] Vamos a revisar el
+[0:35:05] Dice
+[0:35:23] Okay, y él me dice
+[0:35:35] Okay, vamos a ver.
+[0:35:36] Con esto se debería solucionar.
+[0:35:39] Sí.
+[0:35:42] Entonces, eh me parece que es por la
+[0:35:44] versión,
+[0:35:45] pero eh ahorita reviso
+[0:35:48] cuando se instala cómo dejar la versión
+[0:35:50] correcta. Bueno, aquí lo que está
+[0:35:52] haciendo es compilar todo, o sea, todos
+[0:35:54] los programas y dependencias que tiene,
+[0:35:56] pues ahí lo va corriendo y eh puede que
+[0:35:59] a veces
+[0:36:00] no sé, lleguen a 120 y en algún momento
+[0:36:03] falle porque alguna de esas no compiló,
+[0:36:05] entonces también
+[0:36:06] eh podría pasar, pero en este caso ya ya
+[0:36:09] ahí está.
+[0:36:14] Eh.
+[0:36:16] Vamos a esperar a que funcione.
+[0:36:24] Entonces bueno,
+[0:36:28] aquí ya finalizó, dice
+[0:36:34] Bueno, ese menos entonces no no hacía
+[0:36:36] falta ponerlo
+[0:36:38] por lo visto.
+[0:36:40] Y vamos a poner anchor.
+[0:36:43] Y este comando que vamos a utilizar para
+[0:36:45] correr los tests. Entonces, cuando
+[0:36:46] ustedes escriban los tests, van a
+[0:36:48] revisar que pasen los tests. Si no pasa,
+[0:36:51] hay que revisar el contrato y reescribir
+[0:36:53] el programa y reescribir
+[0:36:55] ehm
+[0:36:56] el código de nuevo.
+[0:36:59] Ah, okay, el mismo error.
+[0:37:03] Tampoco. Vamos a revisar qué es.
+[0:37:38] Y creo que es con este, pero eh voy a
+[0:37:41] revisar cómo arreglarlo porque si esto
+[0:37:43] no no daría a suceder que
+[0:37:51] Okay.
+[0:37:53] Entonces, ya aquí tenemos los tests.
+[0:37:57] Ehm
+[0:38:04] Entonces, aquí corrí un test
+[0:38:06] eh y el resultado es uno pasó, cero
+[0:38:09] fallaron, cero se ignoraron, cero se
+[0:38:10] midieron y cero se filtraron.
+[0:38:13] Y terminó en 0.03 segundos. El
+[0:38:16] y va
+[0:38:19] Pasemos
+[0:38:19] a limpiar la terminal.
+[0:38:22] Ehm
+[0:38:26] Okay.
+[0:38:27] Entonces, ya ya con eso tenemos, por así
+[0:38:29] decirlo, como la primera parte que sería
+[0:38:31] compilarlo y testearlo.
+[0:38:34] Y ahora vendría la parte más importante,
+[0:38:36] que sería desplegarlo. Entonces,
+[0:38:39] ehm
+[0:38:41] como hicimos en la clase del Solana CLI,
+[0:38:42] vamos a borrar este comando por acá y
+[0:38:45] vamos a
+[0:38:46] Se configura eh en devnet
+[0:38:50] el entorno, entonces vamos a poner aquí
+[0:38:51] devnet.
+[0:38:53] Ya aquí eh nos confirma que queda
+[0:38:55] configurado el devnet.
+[0:39:02] Aquí ya teníamos una wallet registrada,
+[0:39:04] entonces vamos a pedir un airdrop, creo
+[0:39:06] que el airdrop sigue sin funcionar,
+[0:39:08] entonces nos va a tocar irnos a la
+[0:39:09] página, pero vamos a probar.
+[0:39:11] Sí, falla.
+[0:39:12] Eh
+[0:39:26] Entonces vamos a tener que
+[0:39:28] ver el comando Solana X.
+[0:39:33] Eh
+[0:39:39] Ahí está, sí.
+[0:39:41] Pues vamos a pedir un airdrop para
+[0:39:43] este.
+[0:39:44] Entonces
+[0:39:52] vamos al faucet,
+[0:39:54] pedimos aquí el Solana,
+[0:39:57] tenemos 2.5,
+[0:40:12] Y se supone que ya se hizo. Vamos a ver
+[0:40:14] esto.
+[0:40:19] Aquí el devnet, muy bien.
+[0:40:21] Y y
+[0:40:23] veamos el address.
+[0:40:27] Y se nos pasaron los Solana. En este
+[0:40:30] caso, ah bueno, las dos hicieron, de
+[0:40:31] hecho.
+[0:40:34] Tengo 8.99
+[0:40:36] sols eh
+[0:40:39] de balance.
+[0:40:41] Y volviendo acá,
+[0:40:49] y volvemos con lo que estábamos, que era
+[0:40:50] para desplegarlo. Entonces, ¿qué nos
+[0:40:53] faltaba?
+[0:40:54] Hacer el
+[0:41:20] Entonces aquí se pasa como parámetro.
+[0:41:27] Ah, bueno, ya preguntaba que si los
+[0:41:28] tests se hacen con
+[0:41:30] Eh, sí, sí se utilizan.
+[0:41:32] Eh, o sea, sí se utiliza para los tests.
+[0:41:35] Eh, de hecho ahí en el código
+[0:41:37] se ha llamado
+[0:41:41] Eh, y sí, o sea, es el estándar para
+[0:41:42] hacerlo.
+[0:41:55] Para el o sea, para los tests
+[0:41:58] el patrón
+[0:42:00] eh
+[0:42:02] o sea, si hay varios patrones de de
+[0:42:03] testing
+[0:42:04] los cuales se recomiendan seguir en
+[0:42:05] Solana.
+[0:42:07] Eh, vamos a revisarlos.
+[0:42:14] Pero bueno, o sea, eh depende mucho del
+[0:42:16] contrato. Por ejemplo, hay muchos
+[0:42:17] contratos que ya están seteados. Por
+[0:42:19] ejemplo, los contratos que son un
+[0:42:20] estándar.
+[0:42:21] El lo que hace es crear otros contratos.
+[0:42:23] Entonces, por ejemplo,
+[0:42:24] eh
+[0:42:27] Vamos a revisar.
+[0:42:32] Bueno, creo que lo dice
+[0:42:34] no son patrones como tal, sino como qué
+[0:42:36] es lo que se usan normalmente. Entonces,
+[0:42:38] que siempre se utiliza más que todo por
+[0:42:40] por tipados y porque que entiende
+[0:42:43] directamente
+[0:42:44] Solana.
+[0:42:46] Pero no es eso lo que quería ver.
+[0:42:49] Aquí está.
+[0:42:51] Patrones eh o, o sea, patrones para
+[0:42:54] diseñar las testing específicos de
+[0:42:56] Solana. Y, bueno, en realidad son muy
+[0:42:59] utilizados también en otras blockchains.
+[0:43:02] Eh, la inyección directa al estado.
+[0:43:03] Entonces, básicamente esto lo que hace
+[0:43:05] es,
+[0:43:06] por así decirlo, mokear una cuenta en la
+[0:43:08] blockchain. Entonces,
+[0:43:10] eh no hay como que hacer un testing, o
+[0:43:12] sea, como un
+[0:43:14] o crear una cuenta de cero, sino que ya
+[0:43:15] el mismo testing crea la cuenta. Eh, no
+[0:43:18] necesariamente tiene que ser una cuenta
+[0:43:19] creada en Devnet o en Mainnet o o en
+[0:43:22] cualquiera de las de las redes, sino que
+[0:43:25] puede ser una cuenta creada solo para el
+[0:43:27] testing y eso ya se hace
+[0:43:28] automatizadamente.
+[0:43:31] Eh,
+[0:43:32] y uno puede, o sea, lo lo lo que permite
+[0:43:34] por ejemplo es escribir los bytes
+[0:43:36] directamente. Entonces, eso está muy
+[0:43:37] bueno porque, o sea, yo puedo casi que
+[0:43:40] mokear la data, como dicen. Eh, entonces
+[0:43:43] no necesito como ir y crear todo el el
+[0:43:45] ambiente y poner los balances exactos,
+[0:43:48] sino que utilizando ya puedo hacerlo.
+[0:43:51] Eh, está el de manipulación del
+[0:43:54] Este nunca lo he utilizado, pero vamos a
+[0:43:55] ver para qué es.
+[0:43:57] Para problemas con
+[0:44:04] Sí, no, este está buenísimo porque eh,
+[0:44:06] por ejemplo, cuando uno va a hacer un un
+[0:44:08] oráculo
+[0:44:09] eh y ocupa
+[0:44:11] ver temas de tiempos, eh o sea, es
+[0:44:14] superconveniente alterar el Entonces,
+[0:44:16] uno
+[0:44:17] testeando
+[0:44:18] poder
+[0:44:20] cambiar los horarios, cambiar la hora, o
+[0:44:22] sea, cambiar qué hora es,
+[0:44:23] eh para ver cómo se comporta el programa
+[0:44:25] dependiendo de la hora y y también bueno
+[0:44:27] cuando se está utilizando estas
+[0:44:29] validaciones.
+[0:44:30] Es importante.
+[0:44:32] Pruebas de control de acceso y cuentas
+[0:44:34] maliciosas,
+[0:44:39] Sí, bueno, esto esto realmente no es
+[0:44:40] algo estándar, o sea, no no es estándar
+[0:44:42] meramente Solana, sino en general que
+[0:44:43] cuando uno está haciendo test siempre es
+[0:44:44] importante hacer pruebas de control de
+[0:44:46] acceso y cuentas maliciosas.
+[0:44:49] Eh, intentar romper eh lo más posible
+[0:44:52] las validaciones y si se logran romper,
+[0:44:55] reescribir código porque la idea es que
+[0:44:57] la variación no se pueda romper de
+[0:44:58] ninguna manera. [resoplido]
+[0:45:00] Ehm, qué qué qué se hace normalmente, se
+[0:45:03] pasa a una cuenta con el owner
+[0:45:04] incorrecto que bueno eso es suplantación
+[0:45:06] de una cuenta.
+[0:45:07] Eh, si no pasa esto, lo más básico es la
+[0:45:09] variación está hecha de su mala manera,
+[0:45:11] entonces hay que revisarla.
+[0:45:13] El enviar una
+[0:45:15] derivada con válidas, pero perteneciente
+[0:45:17] a otro usuario, entonces también esto es
+[0:45:19] como por así decirlo hacerse pasar por
+[0:45:20] alguien eh, pero al final de cuentas las
+[0:45:23] firmas no van a coincidir, entonces esto
+[0:45:25] si es una o sea si están utilizando
+[0:45:27] eh, las funciones debidas y el test
+[0:45:29] incorrecto no debería suceder.
+[0:45:32] Eh, omitir la firma eh, en cuentas
+[0:45:36] administrativas, entonces sí o no, esto
+[0:45:38] es como ya más
+[0:45:40] más para si si está si hay algún admin
+[0:45:42] del programa omitir esas firmas porque
+[0:45:44] al final de cuentas eso no es lo que se
+[0:45:46] quiere testear
+[0:45:47] y reutilizar cuentas cerradas en la
+[0:45:49] misma transacción.
+[0:45:51] Que no estoy muy seguro de eso, nunca
+[0:45:52] nunca la he visto.
+[0:45:57] Perfilado con
+[0:46:00] Bueno no sé, esos son como algunos
+[0:46:02] estándares que se utilizan.
+[0:46:05] Eh, igual podemos ver cómo esos
+[0:46:07] estándares están dentro del código.
+[0:46:09] Vamos a volver a
+[0:46:12] y dentro de los tests
+[0:46:14] eh, vamos a revisar. Entonces bueno,
+[0:46:17] aquí como les decía importa
+[0:46:21] y
+[0:46:28] vamos a revisar dónde se utiliza algo de
+[0:46:41] Bueno, por ejemplo aquí se se llama y se
+[0:46:43] hace un
+[0:46:45] todo esto es
+[0:46:46] entonces básicamente pues es como uno de
+[0:46:47] los usos que se le da a
+[0:46:49] Entonces aquí
+[0:46:51] y ya con eso se pueden hacer llamadas a
+[0:46:52] las funciones y bueno, revisar todo eso.
+[0:46:56] Ahm, pero también para ahí que estar el
+[0:46:58] account. ¿Ven? Aquí está.
+[0:47:02] Entonces, al
+[0:47:04] se le llama al
+[0:47:06] Entonces, básicamente aquí lo que
+[0:47:07] estamos haciendo es mockear la cuenta
+[0:47:08] directamente.
+[0:47:09] Eh, y aquí lo que hace Bueno, ya ya se
+[0:47:11] habían quedado más arriba, si no si no
+[0:47:13] me equivoco, ya se había creado la
+[0:47:14] cuenta.
+[0:47:15] Pero eh lo que hace esta función es
+[0:47:17] traer la cuenta, entonces eh me imagino
+[0:47:19] que le trae el el
+[0:47:21] si no me equivoco.
+[0:47:22] Eh, entonces bueno, para eso se usa
+[0:47:24] más que todo eh dentro del de este test,
+[0:47:27] pero no hay varios esos que tienen
+[0:47:38] Eh, y preguntó de nuevo.
+[0:47:43] Pues no alcanzo a ver bien ahí, voy a
+[0:47:44] revisar aquí el chat.
+[0:47:48] Si se ha hecho suficientes pruebas, ya
+[0:47:50] se puede ir con un auditor.
+[0:47:52] Eh, sí, o sea, realmente
+[0:47:54] eh idealmente antes de ir con un auditor
+[0:47:58] eh o sea,
+[0:48:00] lo
+[0:48:01] lo ideal es
+[0:48:03] que el código ya vaya como preauditado
+[0:48:06] por o sea, por la misma empresa, que no
+[0:48:08] es una auditoría válida para nada, solo
+[0:48:09] que es o sea, idealmente para agilizar
+[0:48:11] este proceso.
+[0:48:13] Porque los procesos de auditoría se
+[0:48:14] pueden volver muy caros y conforme más
+[0:48:16] tiempo lo requiera el auditor, más caro
+[0:48:18] va a salirle a la persona que paga.
+[0:48:20] Entonces, idealmente
+[0:48:22] cuando o sea, cuando vayamos a
+[0:48:23] auditoría, el programa tiene que estar
+[0:48:25] ya bastante pulido. Posiblemente, o sea,
+[0:48:28] casi 100% asegurado, le van a encontrar
+[0:48:30] vulnerabilidades porque los auditores eh
+[0:48:34] o sea, siempre encuentran algo o algún
+[0:48:36] problema o algo que puede pasar o alguna
+[0:48:38] vulnerabilidad supergrave.
+[0:48:40] Eh, pero sí, realmente o sea, al auditor
+[0:48:44] no hay que no hay que llegarle con
+[0:48:46] vulnerabilidades super
+[0:48:48] básicas, o sea, que uno podría corregir
+[0:48:51] eh simplemente entendiendo bien cómo
+[0:48:54] realizar una auditoría básica dentro de
+[0:48:55] la empresa, que repito, no es una
+[0:48:57] auditoría válida porque las auditorías
+[0:48:59] la idea es que siempre sea una empresa
+[0:49:00] externa que la haga.
+[0:49:03] Pero eh para agilizar el proceso, por
+[0:49:05] supuesto que sí es eh pues
+[0:49:07] mucho más eficiente eh
+[0:49:10] llegar con un código ya validado y mejor
+[0:49:12] pensado
+[0:49:13] que simplemente hacer el hacer el
+[0:49:14] programa y decir que ya está listo para
+[0:49:17] ir a auditoría porque en realidad no es
+[0:49:19] lo estándar. Normalmente la la auditoría
+[0:49:21] tiene que ser lo más ágil posible y no
+[0:49:23] son no son o sea no son nada ágiles
+[0:49:25] realmente. Aunque sea una auditoría
+[0:49:26] sencilla toma tiempo y por eso queremos
+[0:49:29] agilizar.
+[0:49:31] Eh volvamos por un momento a
+[0:49:39] Ah bueno, estábamos deployando.
+[0:49:42] Entonces aquí
+[0:49:44] ya empieza el deploy. Eh eso se hace con
+[0:49:47] la wallet que ustedes ya tienen
+[0:49:47] configurada, que bueno lo habíamos visto
+[0:49:49] en la semana del Solana
+[0:49:51] CLI. Entonces si ya tiene una wallet eh
+[0:49:53] configurada ya pues ahí se va
+[0:49:56] se va a deployar automáticamente con
+[0:49:57] eso. Entonces aquí estamos deployando el
+[0:49:58] counter el programa counter.
+[0:50:01] Ehm y bueno aquí se se hizo el
+[0:50:04] deployment. Aquí dice
+[0:50:08] Sí, lo del realmente
+[0:50:10] eh no lo ocupamos ahorita.
+[0:50:12] Este ya esto es
+[0:50:14] como cuando se vaya a hacer en términos
+[0:50:16] como de producción o de mainnet.
+[0:50:18] Ehm entonces no hace falta de momento.
+[0:50:22] Y nos dice que se deployó en el cluster
+[0:50:24] de devnet.
+[0:50:32] Vamos a hacer caso.
+[0:50:34] Igual lo deployó pero
+[0:50:36] seguramente hay algo
+[0:50:38] por ahí que
+[0:51:02] Vamos a ver qué error nos tiró.
+[0:51:15] Bueno, está esto está raro, voy a
+[0:51:17] revisar qué es, pero con el otro ya nos
+[0:51:19] había funcionado, entonces podemos
+[0:51:20] buscarlo en
+[0:51:28] Y bueno, aquí aquí nos mandó
+[0:51:30] directamente a la cuenta que teníamos en
+[0:51:31] la terminal, pero aquí podemos ver que
+[0:51:33] se hizo el y la firma.
+[0:51:36] Ehm.
+[0:51:43] Pues este es el
+[0:51:44] y aquí podemos ver básicamente eso. El
+[0:51:48] como vieron no se no se publicó, no es
+[0:51:50] público.
+[0:51:51] En no hay nada, en tampoco y en tampoco.
+[0:51:56] Entonces ya aquí tenemos esto
+[0:51:59] y
+[0:52:01] queremos interactuar con el contrato
+[0:52:02] ahora. Entonces
+[0:52:09] Vamos a interactuar, pero antes vamos a
+[0:52:12] revisar bueno, aquí lo que nos dice es
+[0:52:14] bueno, el
+[0:52:16] y el que es que no publicó, que es la
+[0:52:18] cuenta que ya teníamos.
+[0:52:20] El bloque
+[0:52:22] hm
+[0:52:27] Ah, bueno, aquí está Bueno, esto es muy
+[0:52:29] importante si está verificado o no. Eh,
+[0:52:32] para eso hay que creo que hay que correr
+[0:52:34] un par de O sea, vincular el repositorio
+[0:52:37] si no me equivoco.
+[0:52:39] Igual acá el
+[0:52:41] que no lo tiene, pero bueno, como es un
+[0:52:43] programa básico no no no lo ocupamos.
+[0:53:01] Vamos a devolvernos un poco a la
+[0:53:02] presentación para ver que
+[0:53:05] nos faltaba. Bueno, la presentación la
+[0:53:07] dejamos atrás hace un rato.
+[0:53:09] Eh,
+[0:53:16] bueno, sí, ese ese patrón no lo
+[0:53:17] expliqué, pero es muy importante.
+[0:53:19] Siempre
+[0:53:19] ideal
+[0:53:21] siempre primero leemos, luego validamos
+[0:53:23] y luego escribimos eh en este orden,
+[0:53:25] porque si se hace de otra manera podemos
+[0:53:27] resultar en errores que que no queremos
+[0:53:30] y y que la data pueda confundirse o
+[0:53:32] algún estado puede que en algún momento
+[0:53:34] lo leamos y no sea el estado indicado
+[0:53:37] eh y bueno, vamos a terminar teniendo
+[0:53:39] errores, entonces siempre es importante
+[0:53:41] hacerlo de esta manera.
+[0:53:43] Eh, ¿qué más? Resumen de
+[0:53:47] esto ya lo vimos.
+[0:53:51] Raro porque esto sale así.
+[0:53:55] Bueno, aquí está lo de
+[0:53:57] que ya lo acabamos de hacer.
+[0:54:00] Eh, la seguridad, validar antes de
+[0:54:02] confiar. Entonces bueno, el firmante que
+[0:54:04] es el único que tiene la autoridad para
+[0:54:05] hacer la transacción, el que es el que
+[0:54:08] valida, o sea, bueno, o sea, el valida
+[0:54:10] que el programa sea dueño de la cuenta.
+[0:54:12] Y el eh que básicamente es probar que la
+[0:54:16] la dirección esperada, entonces que no
+[0:54:18] nadie vaya a suplantar una identidad,
+[0:54:23] Ahora con este comando
+[0:54:33] Vamos a terminar la presentación.
+[0:54:37] Entonces bueno,
+[0:54:38] esto es lo que tenemos de presentación
+[0:54:39] por hoy. Eh, de ancla en cuatro pasos,
+[0:54:42] pero ahora vamos a revisar el tema del
+[0:54:44] que habíamos quedado pendientes.
+[0:54:49] Y aquí está.
+[0:54:51] Entonces para interactuar con el
+[0:54:53] contrato de la terminal hay que seguir
+[0:54:54] estos pasos. Bueno, primero tenemos el
+[0:54:56] que es para
+[0:55:04] Voy a cerrar la
+[0:55:06] Ahí
+[0:55:20] Esperamos, esperamos y aquí está
+[0:55:21] trayendo la data del programa. Entonces,
+[0:55:24] el programa ID, quién es el dueño,
+[0:55:27] eh el programa data address, la
+[0:55:29] autoridad, en este caso la wallet local
+[0:55:31] que tenemos,
+[0:55:33] la deployed, eh el data length
+[0:55:37] y el balance que tiene 0.75 SOL.
+[0:55:40] Eh en este caso pues tenemos eso. Aquí
+[0:55:44] podemos ver logs del programa, entonces
+[0:55:46] básicamente como para depurar sería
+[0:55:48] bastante bueno
+[0:55:49] eh revisar esto.
+[0:55:52] Eh
+[0:55:53] y me parece que no van a dar logs más
+[0:55:55] allá de de cuando se deployó, si es que
+[0:55:57] hace un No estoy seguro si hace un log
+[0:55:59] cuando deployo.
+[0:56:01] Eh
+[0:56:02] bueno, ahí duró un poco porque tenía que
+[0:56:04] llamar al
+[0:56:50] Hm, bueno, ahí está, ya, ahí está.
+[0:56:56] Ah, okay. Sí, no, no, es Esto lo que
+[0:56:58] hace más bien es como un streaming de
+[0:56:59] los logs, entonces eh si pasa y ocurre
+[0:57:01] algo en el momento en este momento pues
+[0:57:04] se va a loguear.
+[0:57:05] Pero no.
+[0:57:06] No ha sucedido nada pues
+[0:57:09] Eh creo que por ahí tenemos el
+[0:57:36] Aquí vamos a irnos por un momento.
+[0:57:47] Vamos a este ya estamos.
+[0:57:50] Okay, y aquí vamos a Esto es un programa
+[0:57:54] que ya aquí está escrito.
+[0:57:58] Dentro
+[0:57:59] de scripts eh es muy importante, o sea,
+[0:58:02] cuando se setea el environment uno puede
+[0:58:03] setear aquí
+[0:58:05] los scripts, no me acuerdo dónde es que
+[0:58:06] se se ponían, creo que era acá, no.
+[0:58:12] Acá, sí, en el
+[0:58:13] para correr estos scripts, entonces uno
+[0:58:15] puede
+[0:58:16] literalmente interactuar directamente
+[0:58:18] con el programa utilizando eso.
+[0:58:21] Entonces, por ejemplo,
+[0:58:26] y así podemos ver
+[0:58:27] que eh
+[0:58:30] o sea, qué se puede hacer. Entonces, en
+[0:58:31] este caso este
+[0:58:32] lo que hace
+[0:58:34] que en el código
+[0:58:36] lo primero que hace
+[0:58:37] es
+[0:58:38] inicializar el el programa, entonces por
+[0:58:41] aquí está el
+[0:58:52] Aquí está.
+[0:58:54] Ahí llamo al
+[0:58:55] y en por acá
+[0:58:59] lo incrementa.
+[0:59:01] Entonces, básicamente
+[0:59:03] eso es lo que hace.
+[0:59:04] Eh, aquí escribe la wallet, que es esta,
+[0:59:07] ¿verdad? el
+[0:59:09] Eh, aquí ya nos dice que el control
+[0:59:11] existe o sea, ya ya inicializamos un
+[0:59:12] control
+[0:59:13] entonces.
+[0:59:15] Eso ya lo tiene. El transaction
+[0:59:17] incremento entonces aquí lo incrementa,
+[0:59:19] entonces aquí ya podemos revisar esto
+[0:59:21] por acá.
+[0:59:27] Y aquí dentro del
+[0:59:28] esto.
+[0:59:32] Eh, podemos ver la transacción y qué es
+[0:59:34] lo que hace.
+[0:59:35] Entonces en este caso, bueno esto es la
+[0:59:37] firma
+[0:59:38] eh
+[0:59:40] y el cambio que le hace. Entonces vamos
+[0:59:43] a irnos al programa.
+[0:59:49] Y vemos que aquí dentro del programa se
+[0:59:52] llamó la bueno
+[0:59:54] se inicializó
+[0:59:56] y se le le sale de hecho tres
+[0:59:57] incrementos porque estaba probándolo.
+[0:59:59] Eh, y aquí dentro bueno
+[1:00:01] sale.
+[1:00:03] que debería salir eso.
+[1:00:06] Hm.
+[1:00:24] El bueno el la la variable de o sea de
+[1:00:27] debería salir el
+[1:00:30] o sea la la cuenta. Aquí bueno podemos
+[1:00:32] intuir que hay o sea que se ha
+[1:00:34] incrementado tres veces, entonces se
+[1:00:35] inicia en cero, aquí sería uno, dos,
+[1:00:36] tres, entonces la cuenta iría por tres.
+[1:00:38] Pero no sé si en el
+[1:00:40] se puede o sea se puede ver, sí casi
+[1:00:42] seguro que sí se podía.
+[1:01:15] No recuerdo exactamente dónde es que se
+[1:01:17] tenía que ver,
+[1:01:18] pero
+[1:01:21] voy a revisar y les les paso un el como
+[1:01:24] como la parte de donde se donde se puede
+[1:01:27] ver.
+[1:01:28] Eh, pero igual si no simplemente pueden
+[1:01:31] dentro del o sea dentro del les va a
+[1:01:33] devolver la cuenta, entonces aquí ya
+[1:01:34] está.
+[1:01:35] Eh,
+[1:01:37] cuántas veces se ha incrementado
+[1:01:39] eh
+[1:01:40] y si en algún momento llegaran al límite
+[1:01:41] les va a tirar error.
+[1:01:43] Entonces en ese caso
+[1:01:46] eh básicamente esto sería
+[1:01:49] crear un programa dentro de Solana
+[1:01:51] eh utilizando Anchor
+[1:01:53] eh lo cual pues
+[1:01:55] fue bastante sencillo realmente. Podemos
+[1:01:57] revisar los pasos
+[1:01:59] eh
+[1:02:01] empezando por el paso número uno que fue
+[1:02:04] este,
+[1:02:05] que fue inicializar el
+[1:02:07] luego de eso bueno abrimos la el que en
+[1:02:09] este caso yo uso
+[1:02:11] eh el
+[1:02:12] normalmente se utiliza para sincronizar,
+[1:02:15] luego entramos a la variable que fue la
+[1:02:17] que se creó. Dentro de
+[1:02:19] corremos de nuevo el porque lo habíamos
+[1:02:20] corrido fuera de este, entonces ahí no
+[1:02:22] iba a funcionar.
+[1:02:24] Está luego el
+[1:02:25] en este caso en mi computadora eh tengo
+[1:02:28] que correrlo con esto porque creo que
+[1:02:29] hay algún error de alguna versión,
+[1:02:31] entonces ahora lo hizo eso para que solo
+[1:02:33] corra que es lo ideal.
+[1:02:35] Luego corremos los tests eh igual aquí
+[1:02:37] bueno tuve que agregarle eso para que
+[1:02:39] corriera el test.
+[1:02:41] Eh, aquí configuramos el la red en
+[1:02:45] Luego pedimos el en este caso el bueno
+[1:02:47] este este no está funcionando, entonces
+[1:02:50] hay que ir a pedir el
+[1:02:51] Eh, los Solana bueno
+[1:02:53] el perdón, este que no no no funciona no
+[1:02:56] es una no es un comando válido.
+[1:02:58] Eh, el lo que hace básicamente es
+[1:03:00] devolver la la clave pública.
+[1:03:03] Eh, aquí lo desplegamos.
+[1:03:06] Eh,
+[1:03:08] tengo que revisar el versionado de
+[1:03:09] Anchor porque el deploy no me funcionó,
+[1:03:12] eh no sí me funcionó pero lo hice lo
+[1:03:14] hicimos con o sea con una versión
+[1:03:16] deprecated del comando. En el comando
+[1:03:19] actualizado
+[1:03:20] entonces tuve que revisar para poder
+[1:03:22] utilizar ese comando nuevo.
+[1:03:24] Luego tenemos el
+[1:03:27] que es para traer la data de ese
+[1:03:28] programa, pues este es el ID del
+[1:03:29] programa
+[1:03:30] y trae solo lo único que hicimos fue
+[1:03:32] traer esa data.
+[1:03:34] Eh, los logs eh que es para ver los logs
+[1:03:36] que pasan en tiempo real.
+[1:03:44] Eh, y bueno, este
+[1:03:46] que lo corrí, bueno, o sea, lo realicé
+[1:03:48] yo,
+[1:03:49] que básicamente es un paquete de de para
+[1:03:52] testear
+[1:03:53] eh que se inicialice el y que se
+[1:03:56] implemente. Entonces en este caso ya
+[1:03:58] este se realizó todo desde la terminal y
+[1:04:00] bueno, este programa importa la firma
+[1:04:02] que está en la terminal
+[1:04:04] eh de la wallet que tenemos dentro de la
+[1:04:05] terminal. Entonces en este caso eh eso
+[1:04:08] sería por hoy.
+[1:04:10] Eh, muchísimas gracias a todos por eh su
+[1:04:12] atención. Este como pueden ver, o sea,
+[1:04:16] en tan solo
+[1:04:17] 30 minutos logramos
+[1:04:20] un un programa utilizando es un súper
+[1:04:24] sencillo eh y realmente pues no no es no
+[1:04:28] es nada complejo
+[1:04:30] eh hacerlo.
+[1:04:32] Si alguno tiene dudas puede escribirme,
+[1:04:33] preguntarme. Eh,
+[1:04:36] yo sé que tal vez se puede hacer un poco
+[1:04:37] abstracto al inicio, pero al final de
+[1:04:39] cuentas con con el tiempo se se hace
+[1:04:41] algo súper mecánico y súper sencillo de
+[1:04:42] hacer.
+[1:04:43] Eh, entonces sin más eh que decir que
+[1:04:46] vamos por acá, si alguno tiene una duda
+[1:04:47] también puede puede decirme. Muchas
+[1:04:49] gracias.
