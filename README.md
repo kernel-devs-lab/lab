@@ -32,6 +32,9 @@ lab/
 │   └── transcripciones/
 │       └── transcripcion_rust_session_1..13.txt
 │
+├── quizzes/                                # Cuestionarios resueltos y justificados
+│   └── 01-arquitectura-y-wallets.md        # Quiz 1: Wallets, firmas, seguridad y renta
+│
 ├── .gitignore
 └── README.md
 ```
@@ -60,3 +63,6 @@ lab/
 * 🤖 **[Sesión 11 - Vibecode your first app on Solana](./rust%20bootcamp/resumen/11-vibecode-solana.md)** ([Transcripción](./rust%20bootcamp/transcripciones/transcripcion_rust_session_11.txt))
 * ⚡ **[Sesión 12 - Micro-payments with x402 on Solana](./rust%20bootcamp/resumen/12-x402-micropagos-solana.md)** ([Transcripción](./rust%20bootcamp/transcripciones/transcripcion_rust_session_12.txt))
 * 🏆 **[Sesión 13 - Best tips for your first hackathon](./rust%20bootcamp/resumen/13-best-tips-hackathon.md)** ([Transcripción](./rust%20bootcamp/transcripciones/transcripcion_rust_session_13.txt))
+
+### 3. Quizzes Resueltos
+* 📝 **[Quiz 01 - Arquitectura y Wallets](./quizzes/01-arquitectura-y-wallets.md):** Respuestas justificadas con enlaces a los resúmenes.
