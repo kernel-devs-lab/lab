@@ -33,7 +33,8 @@ lab/
 │       └── transcripcion_rust_session_1..13.txt
 │
 ├── quizzes/                                # Cuestionarios resueltos y justificados
-│   └── 01-arquitectura-y-wallets.md        # Quiz 1: Wallets, firmas, seguridad y renta
+│   ├── 01-arquitectura-y-wallets.md        # Quiz 1: Wallets, firmas, seguridad y renta
+│   └── 02-transacciones-y-cuentas.md       # Quiz 2: Atomicidad, fees, blockhash y commitment
 │
 ├── .gitignore
 └── README.md
@@ -66,3 +67,4 @@ lab/
 
 ### 3. Quizzes Resueltos
 * 📝 **[Quiz 01 - Arquitectura y Wallets](./quizzes/01-arquitectura-y-wallets.md):** Respuestas justificadas con enlaces a los resúmenes.
+* 📝 **[Quiz 02 - Transacciones y Cuentas](./quizzes/02-transacciones-y-cuentas.md):** Atomicidad, comisiones, *blockhash*, *commitment* e instrucciones.
