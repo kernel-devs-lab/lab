@@ -14,23 +14,21 @@ lab/
 │   ├── 03-solana-y-arquitectura.md         # Red, validadores, PoH, Sealevel y modelo de cuentas
 │   └── 04-por-que-rust.md                  # Rol de Rust, SBF, ausencia de GC y Framework Anchor
 │
-├── hackaton/                               # Charlas y recursos estratégicos del Hackathon
+├── rust bootcamp/                          # Rust Bootcamp (Dev3pack x Solana)
 │   ├── resumen/
-│   │   ├── 01-product-ideation.md          # Cómo encontrar ideas reales y validarlas (Dev3pack)
-│   │   ├── 02-best-tips-hackathon.md       # Checklist ganador, errores eliminatorios y entrega
-│   │   ├── 03-x402-micropagos-solana.md    # Protocolo HTTP 402 para micropagos e IA en Solana
-│   │   └── 04-vibecode-solana.md           # Flujo de AI Engineering, Noah AI y requisito on-chain
+│   │   ├── 01-rust-basics-solana.md        # Sesión 1: Variables, ownership, Option/Result
+│   │   ├── 02-rust-basics-solana.md        # Sesión 2: Rust Basics #2
+│   │   ├── 10-product-ideation.md          # Sesión 10: Product Ideation: how to find real ideas
+│   │   ├── 11-vibecode-solana.md           # Sesión 11: Vibecode your first app on Solana
+│   │   ├── 12-x402-micropagos-solana.md    # Sesión 12: Enable micro-payments with x402 on Solana
+│   │   └── 13-best-tips-hackathon.md       # Sesión 13: Best tips for your first hackathon
 │   └── transcripciones/
-│       ├── transcripcion_product_ideation.txt # Transcripción completa con marcas de tiempo
-│       ├── transcripcion_best_tips_hackathon.txt # Transcripción completa con marcas de tiempo
-│       ├── transcripcion_x402_solana.txt   # Transcripción completa con marcas de tiempo
-│       └── transcripcion_vibecode_solana.txt # Transcripción completa con marcas de tiempo
-│
-├── rust bootcamp/                          # Bootcamp oficial de Solana en Español
-│   ├── resumen/
-│   │   └── 01-rust-basics-solana.md        # Guía técnica, código y sintaxis de Rust para Solana
-│   └── transcripciones/
-│       └── transcripcion_rust_session_1.txt # Transcripción completa con marcas de tiempo
+│       ├── transcripcion_rust_session_1.txt
+│       ├── transcripcion_rust_session_2.txt
+│       ├── transcripcion_rust_session_10.txt
+│       ├── transcripcion_rust_session_11.txt
+│       ├── transcripcion_rust_session_12.txt
+│       └── transcripcion_rust_session_13.txt
 │
 ├── .gitignore
 └── README.md
@@ -46,16 +44,10 @@ lab/
 * ⚡ **[¿Qué es Solana y cómo funciona su arquitectura?](./conceptos/03-solana-y-arquitectura.md):** Proof of History (PoH), procesamiento paralelo Sealevel, y el modelo de cuentas (Accounts Model).
 * 🦀 **[¿Por qué Rust en Solana?](./conceptos/04-por-que-rust.md):** Ausencia de Garbage Collector, seguridad de memoria a costo cero y el framework Anchor.
 
-### 2. Preparación para el Hackathon (Dev3pack)
-* 💡 **[Ideación de Producto: Cómo encontrar ideas reales](./hackaton/resumen/01-product-ideation.md):** Consejos de los organizadores, validación con proyectos de Colosseum y oportunidades para LATAM/Argentina.
-* 🏆 **[Mejores Consejos para tu Primer Hackathon](./hackaton/resumen/02-best-tips-hackathon.md):** Errores eliminatorios, preparación previa (Devnet/wallets) y checklist de entrega.
-* ⚡ **[Micropagos con x402 en Solana](./hackaton/resumen/03-x402-micropagos-solana.md):** Monetización de APIs, herramientas MCP pagas y pagos autónomos para Agentes de IA.
-* 🤖 **[Vibecoding en Solana](./hackaton/resumen/04-vibecode-solana.md):** Estrategia 50/50 de *AI Engineering*, uso de Noah AI y requisito obligatorio de *Solana Program*.
-* 📄 **[Transcripción - Product Ideation](./hackaton/transcripciones/transcripcion_product_ideation.txt):** Transcripción íntegra en inglés con timestamps.
-* 📄 **[Transcripción - Best Tips for your First Hackathon](./hackaton/transcripciones/transcripcion_best_tips_hackathon.txt):** Transcripción íntegra en inglés con timestamps.
-* 📄 **[Transcripción - x402 Micro-payments on Solana](./hackaton/transcripciones/transcripcion_x402_solana.txt):** Transcripción íntegra en inglés con timestamps.
-* 📄 **[Transcripción - Vibecode your first app on Solana](./hackaton/transcripciones/transcripcion_vibecode_solana.txt):** Transcripción íntegra en inglés con timestamps.
-
-### 3. Bootcamp de Rust para Solana
-* 📘 **[Resumen Técnico - Sesión 1](./rust%20bootcamp/resumen/01-rust-basics-solana.md):** Variables, mutabilidad, ownership, borrowing, `Option` y `Result`.
-* 📄 **[Transcripción Completa - Sesión 1](./rust%20bootcamp/transcripciones/transcripcion_rust_session_1.txt):** Registro textual íntegro con timestamps de la clase.
+### 2. Bootcamp de Rust y Solana (Dev3pack)
+* 📘 **[Sesión 1 - Rust Basics #1](./rust%20bootcamp/resumen/01-rust-basics-solana.md)** ([Transcripción](./rust%20bootcamp/transcripciones/transcripcion_rust_session_1.txt))
+* 📘 **[Sesión 2 - Rust Basics #2](./rust%20bootcamp/resumen/02-rust-basics-solana.md)** ([Transcripción](./rust%20bootcamp/transcripciones/transcripcion_rust_session_2.txt))
+* 💡 **[Sesión 10 - Product Ideation](./rust%20bootcamp/resumen/10-product-ideation.md)** ([Transcripción](./rust%20bootcamp/transcripciones/transcripcion_rust_session_10.txt))
+* 🤖 **[Sesión 11 - Vibecode your first app on Solana](./rust%20bootcamp/resumen/11-vibecode-solana.md)** ([Transcripción](./rust%20bootcamp/transcripciones/transcripcion_rust_session_11.txt))
+* ⚡ **[Sesión 12 - Micro-payments with x402 on Solana](./rust%20bootcamp/resumen/12-x402-micropagos-solana.md)** ([Transcripción](./rust%20bootcamp/transcripciones/transcripcion_rust_session_12.txt))
+* 🏆 **[Sesión 13 - Best tips for your first hackathon](./rust%20bootcamp/resumen/13-best-tips-hackathon.md)** ([Transcripción](./rust%20bootcamp/transcripciones/transcripcion_rust_session_13.txt))

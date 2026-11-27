@@ -1,7 +1,8 @@
 # 🤖 Vibecoding en Solana: De Idea a DApp en Devnet con IA
 
-Basado en el workshop práctico de **Dev3pack Hackathon**: **Vibecode your first app on Solana** (por Santiago y Solène).  
-Transcripción completa en inglés guardada en: [`../transcripciones/transcripcion_vibecode_solana.txt`](../transcripciones/transcripcion_vibecode_solana.txt)
+Basado en la sesión 11 del **Rust Bootcamp (Dev3pack)**: **Vibecode your first app on Solana** (por Santiago y Solène).  
+🎥 Video original: [Vibecode your first app on Solana](https://www.youtube.com/watch?v=cMhjoZOhM0Q)  
+Transcripción completa en inglés guardada en: [`../transcripciones/transcripcion_rust_session_11.txt`](../transcripciones/transcripcion_rust_session_11.txt)
 
 ---
 

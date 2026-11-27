@@ -1,7 +1,8 @@
 # 💡 Ideación de Producto: Cómo Encontrar Ideas Reales para el Hackathon
 
-Basado en la sesión de **Dev3pack Hackathon**: **Product Ideation: how to find real ideas** (con Divish y Solène).  
-Transcripción completa en inglés guardada en: [`../transcripciones/transcripcion_product_ideation.txt`](../transcripciones/transcripcion_product_ideation.txt)
+Basado en la sesión 10 del **Rust Bootcamp (Dev3pack)**: **Product Ideation: how to find real ideas** (con Divish y Solène).  
+🎥 Video original: [Product Ideation: how to find real ideas](https://www.youtube.com/watch?v=yM6HUVMjxdI)  
+Transcripción completa en inglés guardada en: [`../transcripciones/transcripcion_rust_session_10.txt`](../transcripciones/transcripcion_rust_session_10.txt)
 
 ---
 

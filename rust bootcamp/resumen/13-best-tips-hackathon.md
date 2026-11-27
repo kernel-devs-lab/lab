@@ -1,7 +1,8 @@
 # 🏆 Mejores Consejos para tu Primer Hackathon (Checklist Ganador)
 
-Basado en la sesión de **Dev3pack Hackathon**: **Best tips for your first hackathon** (con Solène, ganadora de +35 premios en hackathones).  
-Transcripción completa en inglés guardada en: [`../transcripciones/transcripcion_best_tips_hackathon.txt`](../transcripciones/transcripcion_best_tips_hackathon.txt)
+Basado en la sesión 13 del **Rust Bootcamp (Dev3pack)**: **Best tips for your first hackathon** (con Solène, ganadora de +35 premios en hackathones).  
+🎥 Video original: [Best tips for your first hackathon](https://www.youtube.com/watch?v=S9LyP7V82UQ)  
+Transcripción completa en inglés guardada en: [`../transcripciones/transcripcion_rust_session_13.txt`](../transcripciones/transcripcion_rust_session_13.txt)
 
 ---
 

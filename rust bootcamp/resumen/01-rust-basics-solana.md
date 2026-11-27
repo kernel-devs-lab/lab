@@ -1,6 +1,7 @@
 # Guía de Estudio: Rust Basics para Solana (Sesión 1)
 
 Basado en la clase oficial: **Session 1 - Rust Basics #1 (Bootcamp de Solana en Español)**  
+🎥 Video original: [Session 1 - Rust Basics #1](https://www.youtube.com/watch?v=xeeDlL8thPw)  
 Transcripción completa guardada en: [`../transcripciones/transcripcion_rust_session_1.txt`](../transcripciones/transcripcion_rust_session_1.txt)
 
 ---

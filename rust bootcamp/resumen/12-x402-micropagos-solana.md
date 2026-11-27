@@ -1,7 +1,8 @@
 # ⚡ Micropagos en Solana con el Protocolo x402
 
-Basado en el workshop técnico de **Dev3pack Hackathon**: **Enable micro-payments with x402 on Solana** (por Fabián).  
-Transcripción completa en inglés guardada en: [`../transcripciones/transcripcion_x402_solana.txt`](../transcripciones/transcripcion_x402_solana.txt)
+Basado en la sesión 12 del **Rust Bootcamp (Dev3pack)**: **Enable micro-payments with x402 on Solana** (por Fabián).  
+🎥 Video original: [Enable micro-payments with x402 on Solana](https://www.youtube.com/watch?v=BoqpFVoYWQg)  
+Transcripción completa en inglés guardada en: [`../transcripciones/transcripcion_rust_session_12.txt`](../transcripciones/transcripcion_rust_session_12.txt)
 
 ---
 
