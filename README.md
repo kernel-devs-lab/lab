@@ -16,9 +16,11 @@ lab/
 │
 ├── hackaton/                               # Charlas y recursos estratégicos del Hackathon
 │   ├── resumen/
-│   │   └── 01-product-ideation.md          # Cómo encontrar ideas reales y validarlas (Dev3pack)
+│   │   ├── 01-product-ideation.md          # Cómo encontrar ideas reales y validarlas (Dev3pack)
+│   │   └── 02-best-tips-hackathon.md       # Checklist ganador, errores eliminatorios y entrega
 │   └── transcripciones/
-│       └── transcripcion_product_ideation.txt # Transcripción completa con marcas de tiempo
+│       ├── transcripcion_product_ideation.txt # Transcripción completa con marcas de tiempo
+│       └── transcripcion_best_tips_hackathon.txt # Transcripción completa con marcas de tiempo
 │
 ├── rust bootcamp/                          # Bootcamp oficial de Solana en Español
 │   ├── resumen/
@@ -42,7 +44,9 @@ lab/
 
 ### 2. Preparación para el Hackathon (Dev3pack)
 * 💡 **[Ideación de Producto: Cómo encontrar ideas reales](./hackaton/resumen/01-product-ideation.md):** Consejos de los organizadores, validación con proyectos de Colosseum y oportunidades para LATAM/Argentina.
+* 🏆 **[Mejores Consejos para tu Primer Hackathon](./hackaton/resumen/02-best-tips-hackathon.md):** Errores eliminatorios, preparación previa (Devnet/wallets) y checklist de entrega.
 * 📄 **[Transcripción - Product Ideation](./hackaton/transcripciones/transcripcion_product_ideation.txt):** Transcripción íntegra en inglés con timestamps.
+* 📄 **[Transcripción - Best Tips for your First Hackathon](./hackaton/transcripciones/transcripcion_best_tips_hackathon.txt):** Transcripción íntegra en inglés con timestamps.
 
 ### 3. Bootcamp de Rust para Solana
 * 📘 **[Resumen Técnico - Sesión 1](./rust%20bootcamp/resumen/01-rust-basics-solana.md):** Variables, mutabilidad, ownership, borrowing, `Option` y `Result`.

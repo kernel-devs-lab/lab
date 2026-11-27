@@ -1,0 +1,820 @@
+# Transcripción: Best tips for your first hackathon
+URL: https://www.youtube.com/watch?v=S9LyP7V82UQ
+
+[0:00:26] Jim Jim so we're gonna wait just a bit
+[0:00:29] as usual
+[0:00:31] I will put the message into the chat.
+[0:01:23] Um
+[0:01:26] sorry we're waiting a bit that I'm not
+[0:01:28] joining I will put the message and
+[0:01:32] yeah today I'm gonna lead the session
+[0:01:34] before tomorrow tomorrow is the big day.
+[0:01:38] [laughter]
+[0:01:39] Um
+[0:02:03] >> up. I just send it.
+[0:02:09] So I hope I'm not going to crash because
+[0:02:11] some sometimes I'm just crashing,
+[0:02:14] which is not cool.
+[0:02:24] Okay.
+[0:02:44] All right.
+[0:02:46] What are you doing? Are you ready for
+[0:02:49] tomorrow?
+[0:02:50] Um
+[0:03:07] Yeah.
+[0:03:08] Okay.
+[0:03:09] So I'm going to start I guess um
+[0:03:14] because it's a bit rush on my end so
+[0:03:18] um anyway it's recorded as well so
+[0:03:22] yeah.
+[0:03:26] Uh I'm not in charge of the up
+[0:03:28] confirmation uh like it's the local host
+[0:03:32] that is in charge of it uh
+[0:03:34] and maybe it's just because they don't
+[0:03:37] have more space. Like it's very very uh
+[0:03:40] active in some
+[0:03:42] in some uh
+[0:03:44] local like build station uh they already
+[0:03:48] reach
+[0:03:49] the limit. [laughter] So so that's why.
+[0:03:55] Okay.
+[0:04:03] Uh
+[0:04:04] What's that?
+[0:04:08] Let me share my screen then.
+[0:04:10] Is it your first hackathon?
+[0:04:13] Like
+[0:04:14] for who is your first hackathon?
+[0:04:17] Feel free to put like me into the chat.
+[0:04:20] Um
+[0:04:22] or if you are used to.
+[0:04:28] Like
+[0:04:30] who
+[0:04:32] Okay, first hackathon for you.
+[0:04:34] All right. Good good start. Um at the
+[0:04:37] beginning I was like
+[0:04:39] when I participated into my first
+[0:04:41] hackathon I was like, oh my god,
+[0:04:43] who I'm going to handle that? But for
+[0:04:45] real,
+[0:04:47] it just like do it
+[0:04:50] and that's all. But I will provide you
+[0:04:51] some tips because
+[0:04:53] I've done
+[0:04:54] I don't know how many hackathon but I
+[0:04:57] won more than 35 prizes. It's it was
+[0:05:01] like around 80k.
+[0:05:03] Um
+[0:05:04] and and
+[0:05:06] I never lose on a hackathon and I think
+[0:05:09] I really want like just to provide some
+[0:05:12] tips around how you can really under
+[0:05:15] this one. Not like Excel but I mean just
+[0:05:19] mixing properly for your first
+[0:05:21] hackathon.
+[0:05:22] So let's go.
+[0:05:25] Wait.
+[0:05:30] Um um
+[0:05:32] if
+[0:05:39] Wait.
+[0:05:58] Okay.
+[0:06:00] Sorry. I was speaking French. [laughter]
+[0:06:04] All right. All right. All
+[0:06:07] So, um best tips to master the
+[0:06:10] hackathon. Uh actually it's really for
+[0:06:13] this one. So, uh there's different step.
+[0:06:16] The first one is like find the team um
+[0:06:19] and then start
+[0:06:20] about what you want to build.
+[0:06:23] Execute uh so it's about the development
+[0:06:26] staff. Submit um and then we gonna judge
+[0:06:31] and then I will explain what's next
+[0:06:33] after the hackathon.
+[0:06:35] Um so find the team actually
+[0:06:38] into into your
+[0:06:41] your dashboard.
+[0:06:42] You have like a section here called
+[0:06:44] team.
+[0:06:46] So you can create a team
+[0:06:49] or like request to join one. For example
+[0:06:52] here
+[0:06:53] uh it's like five teams that looks like
+[0:06:55] a strong fit for me. So you maybe have
+[0:06:58] like something similar with different
+[0:07:00] projects.
+[0:07:01] Or other teams that you can check and
+[0:07:04] click on request um request to join to
+[0:07:08] to make sure you are um
+[0:07:11] getting access to like I mean to make
+[0:07:13] sure they receive a request they have to
+[0:07:15] approve you or not.
+[0:07:17] Um and and yeah. But
+[0:07:21] overall every time people find the team
+[0:07:23] uh otherwise you can also ask into the
+[0:07:25] Telegram group but yeah that's uh that's
+[0:07:29] chill.
+[0:07:30] Um
+[0:07:32] all right so it's what I I just told
+[0:07:34] you.
+[0:07:35] So for the ideation uh before starting I
+[0:07:38] will just present uh a few things. So
+[0:07:42] here is like price tracked. It's it's
+[0:07:45] about uh the price available for the
+[0:07:47] hackathon. So you can see uh what's
+[0:07:50] going on uh basically.
+[0:07:52] Here it's explaining what you need to
+[0:07:54] do.
+[0:07:55] Uh qualification requirement. So
+[0:07:58] like very very important like to respect
+[0:08:00] that. Um each each sponsors are their
+[0:08:04] own requirement.
+[0:08:06] Um and so sometimes it's also Heidi.
+[0:08:10] Uh, so you can
+[0:08:12] take a look at all of that. So per
+[0:08:15] per things here for example fire cool
+[0:08:18] these ID
+[0:08:19] uh 11 labs uh
+[0:08:22] ID
+[0:08:24] ID
+[0:08:26] I mean um just take a look at that uh
+[0:08:28] and that will uh be useful. Uh I always
+[0:08:32] suggest to to take
+[0:08:33] really um
+[0:08:35] a look of all all tracks available
+[0:08:38] to make sure you
+[0:08:40] you you will found something that is
+[0:08:43] maybe suitable to to you. And of course
+[0:08:45] all tracks you can apply for all tracks
+[0:08:48] but
+[0:08:49] um not making sense at all to be honest
+[0:08:52] like try to be focusing to one narrative
+[0:08:54] uh because otherwise you will disperse
+[0:08:56] yourself so much.
+[0:08:59] So uh how you can find the right ID um
+[0:09:02] basically
+[0:09:04] uh what's going on is that
+[0:09:08] yes all apps need two things a user or
+[0:09:12] liquidity
+[0:09:14] because otherwise you cannot be uh
+[0:09:16] viable. So
+[0:09:18] um
+[0:09:20] I always said
+[0:09:22] try to
+[0:09:24] to think about an application um
+[0:09:27] where you can
+[0:09:29] uh
+[0:09:30] have influence in.
+[0:09:32] Uh that's mean
+[0:09:34] you have maybe uh specialization into
+[0:09:38] a one area
+[0:09:39] uh that no one has.
+[0:09:41] Uh that can be on the medical space or
+[0:09:43] whatever.
+[0:09:45] It just think about that and think about
+[0:09:48] how you can make impact because you have
+[0:09:50] this expertise. This how you you can
+[0:09:53] really have concrete use cases because
+[0:09:56] otherwise everyone will build the same
+[0:09:58] thing. It's very not interesting.
+[0:10:01] [laughter] I mean you will be uh
+[0:10:04] putting in in the
+[0:10:07] in aside if so. So that why I always
+[0:10:10] encourage you to
+[0:10:13] to think about you, your personality,
+[0:10:15] maybe your country. There is something
+[0:10:18] that you can do and that no one can do
+[0:10:20] maybe in US. Think like this, you know.
+[0:10:23] Uh just have influence on what you can
+[0:10:26] build.
+[0:10:27] Um
+[0:10:29] on my hand like basically I have
+[0:10:30] influence on what I'm building with Dev
+[0:10:32] to Pi because uh I mean I know builders.
+[0:10:36] Uh
+[0:10:36] I'm very close to woman and to the
+[0:10:39] space, all of that, you know. So it's
+[0:10:42] like pretty easy for me to build things.
+[0:10:44] Uh so think about that.
+[0:10:47] Um
+[0:10:48] if no ideas um
+[0:10:52] actually if no ideas so you still have
+[0:10:54] to build something and so you can think
+[0:10:56] about your daily favorite application
+[0:10:59] such like BeReal, um
+[0:11:02] what you can uh
+[0:11:04] something you
+[0:11:06] you play on on on your phone like your
+[0:11:09] gaming things. I don't know it just like
+[0:11:11] try to explore uh what you are using
+[0:11:14] every day that might be useful to
+[0:11:18] uh
+[0:11:20] add
+[0:11:21] add the blockchain part itself.
+[0:11:24] Um this Colosseum uh who has like a
+[0:11:28] tool, normally you already saw that on
+[0:11:32] like
+[0:11:34] Monday.
+[0:11:35] Um so what you should do uh is just like
+[0:11:38] set up Copilot and then you can ask
+[0:11:41] for example I'm from Nigeria, what's
+[0:11:44] trending there? Uh what we can build uh
+[0:11:47] that can be useful for the Solana
+[0:11:49] ecosystem or something like this, you
+[0:11:51] know. Uh and then that will check
+[0:11:54] everything that I've been um
+[0:11:57] built before and gives you like some
+[0:12:00] insights, you know. Very very useful uh
+[0:12:03] itself.
+[0:12:05] Then you can also study this past
+[0:12:07] winner. So this is like different
+[0:12:09] things. Uh so still still about that.
+[0:12:13] You can take a look at what's trending.
+[0:12:16] Um basically let's say Frontier was the
+[0:12:18] previous hackathon they are they asked
+[0:12:20] and you can like click on that
+[0:12:23] to show
+[0:12:25] what are the the best
+[0:12:27] the best apps that have been rewarded.
+[0:12:29] Um so like this that will give you more
+[0:12:31] [clears throat] insight on the trending
+[0:12:34] what you can build. Um but as I said too
+[0:12:38] it's not because someone built that that
+[0:12:41] you should build it.
+[0:12:42] Is if they build that is be and win is
+[0:12:45] because they managed to get users um and
+[0:12:50] have this impact into this area
+[0:12:53] to make sure they can grow. That's why
+[0:12:56] they won. [laughter]
+[0:12:57] It's not because it's just like
+[0:12:59] innovative is it's more than that you
+[0:13:01] know.
+[0:13:04] Uh Solana mobile winner too.
+[0:13:06] I mean you can I will give you the slide
+[0:13:09] at the end anyway.
+[0:13:10] Uh benchmark apps on other ecosystem.
+[0:13:13] So
+[0:13:15] let's say I already saw
+[0:13:18] like send you
+[0:13:20] for example an example in
+[0:13:24] on Monday about
+[0:13:26] the prediction lives I mean the live
+[0:13:29] prediction market.
+[0:13:31] This one is available on Monad but this
+[0:13:33] one is not available on Solana
+[0:13:35] basically.
+[0:13:36] Um so try to check the difference
+[0:13:39] blockchain ecosystem such as base uh
+[0:13:42] remain hood
+[0:13:44] um I don't know Stellar um
+[0:13:48] like different things
+[0:13:50] and check what's missing
+[0:13:52] itself.
+[0:13:53] Um like what's missing on Solana that is
+[0:13:57] available on other chain.
+[0:14:00] Uh if you are building a DeFi project I
+[0:14:03] will suggest you to go to DeFi Lama
+[0:14:06] um because
+[0:14:07] DeFi Lama.
+[0:14:11] So it's like
+[0:14:13] analytics dashboard uh but you see for
+[0:14:16] example the trending wait I will just
+[0:14:21] here you can see for example
+[0:14:24] projects from different ecosystem such
+[0:14:27] as like
+[0:14:29] on Solana basically
+[0:14:31] which protocol are really trending are
+[0:14:34] doing as
+[0:14:37] generating real liquidity
+[0:14:41] and check on base for example as well.
+[0:14:45] To that you can have maybe
+[0:14:48] some
+[0:14:51] insights on what's missing to like cross
+[0:14:55] cross research let's say both things can
+[0:14:58] be useful
+[0:15:00] just for define
+[0:15:05] um
+[0:15:08] so yeah something as well
+[0:15:11] I will always encourage into web
+[0:15:14] is that
+[0:15:16] I always saw some people
+[0:15:19] build hub
+[0:15:21] but without
+[0:15:23] where usage of
+[0:15:25] of the Solana blockchain or like of the
+[0:15:27] of the blockchain itself. When we say it
+[0:15:29] on the blockchain is not just
+[0:15:33] like accepting crypto payment is like
+[0:15:36] going beyond that
+[0:15:38] how you can leverage other
+[0:15:40] infrastructure
+[0:15:42] to make sure to to provide
+[0:15:45] a great application.
+[0:15:49] And the last thing about ideation is
+[0:15:51] that you can talk with Monto for
+[0:15:53] feedback of course on Telegram but also
+[0:15:55] using the CIs so that I I showcased
+[0:15:58] yesterday as well. So here I will add
+[0:16:01] more context
+[0:16:03] a lot of resources
+[0:16:05] for example of IDs etc.
+[0:16:08] to make sure you can discuss
+[0:16:10] properly
+[0:16:12] with
+[0:16:15] with the Monto
+[0:16:17] and you can ask anything. You can ask
+[0:16:19] like hey, I want to build that.
+[0:16:23] Could you?
+[0:16:27] Yeah.
+[0:16:28] Like could you could you help me please?
+[0:16:37] I mean it will be a design for the
+[0:16:39] hackathon from tomorrow. So you can get
+[0:16:42] some feedback like this if one mentor
+[0:16:44] cannot reply. All right?
+[0:16:50] Where can we see we know of previous
+[0:16:51] hackathon?
+[0:16:53] Yes, I sent already I mean not send but
+[0:17:05] is that
+[0:17:11] I always put all the recording
+[0:17:15] all slides
+[0:17:17] here
+[0:17:18] for the hackathon.
+[0:17:22] Just here.
+[0:17:23] And from tomorrow you're gonna just see
+[0:17:25] like we're gonna change that.
+[0:17:28] Oh, I need to put it on my to do.
+[0:17:45] Okay.
+[0:17:47] Tac tac tac. So right now in term of
+[0:17:49] execution.
+[0:17:50] So make sure to set up a wallet. So you
+[0:17:53] can use Phantom, you can use Sol Flare.
+[0:17:58] The most common one with with Solana.
+[0:18:02] And
+[0:18:03] before
+[0:18:05] before starting
+[0:18:06] like maybe my best tips
+[0:18:09] [laughter]
+[0:18:09] because I always saw people at the last
+[0:18:12] minute struggling,
+[0:18:13] depriving their contract etc. just
+[0:18:16] because they don't have
+[0:18:19] token on devnet.
+[0:18:20] So, um make sure
+[0:18:23] before the hackathon
+[0:18:25] to um
+[0:18:28] get them, got them,
+[0:18:30] [laughter]
+[0:18:30] to be able to deploy uh things. Um so
+[0:18:35] basically you can use that. You can
+[0:18:37] already start claiming right now
+[0:18:40] because it's going to be like crazy. So
+[0:18:43] you can you will maybe miss um
+[0:18:46] like I mean everyone will
+[0:18:48] will want to
+[0:18:50] to to to get some um token
+[0:18:53] at the same moment and so it's going to
+[0:18:56] be uh
+[0:18:58] voted kind of. So um um make sure to do
+[0:19:01] it right now. Will be great.
+[0:19:06] Um you can buy code on Solana.
+[0:19:10] So of course like you can set up your
+[0:19:12] environment um or otherwise just
+[0:19:14] directly buy on Solana using No AI.
+[0:19:17] So uh I already sent on Tuesday, yeah,
+[0:19:22] the form about No AI. So right now the
+[0:19:26] limit have been reached. Uh they cannot
+[0:19:28] provide more. Um so
+[0:19:31] if you have been selected by them
+[0:19:35] normally
+[0:19:36] on your dashboard you can see like um
+[0:19:40] credits,
+[0:19:41] credits available. Let me check.
+[0:19:44] I'm trying No AI. Trying No AI.
+[0:19:53] Wait, wait, wait.
+[0:19:56] Here normally you can see things
+[0:20:01] that you
+[0:20:03] you got uh your credits
+[0:20:05] here
+[0:20:06] took
+[0:20:07] and then you can you can start.
+[0:20:09] Um but yeah not everyone uh will get
+[0:20:12] them. So actually as I said those who
+[0:20:15] already apply at the beginning uh
+[0:20:17] normally you are in.
+[0:20:19] Um but right now they receive
+[0:20:23] 40k
+[0:20:24] 40k answer
+[0:20:27] and we we we cross
+[0:20:30] we cross
+[0:20:32] emails from the hackathon to
+[0:20:35] on
+[0:20:36] so yeah we managed to send some but not
+[0:20:39] to everyone.
+[0:20:41] All right, so you can launch
+[0:20:44] application very fast because on
+[0:20:47] is very design
+[0:20:49] with like everything you need
+[0:20:52] from like yes smart contract from then
+[0:20:55] as the login part also a lot of
+[0:20:57] integration with Solana related partners
+[0:21:00] so which make everything smoother.
+[0:21:05] It's
+[0:21:07] something very very important if you
+[0:21:09] want
+[0:21:11] the judge
+[0:21:13] [laughter]
+[0:21:13] the judge to be able to
+[0:21:18] how to say that
+[0:21:19] to judge to judge your project basically
+[0:21:22] you need to put your GitHub
+[0:21:25] project in public.
+[0:21:27] Don't don't do that in private because
+[0:21:29] otherwise you we were not able to judge
+[0:21:31] it. So it's it's a very stupid
+[0:21:36] things
+[0:21:38] but a lot of people missing that and so
+[0:21:41] that means they are just directly
+[0:21:42] eliminated. So if you are doing that you
+[0:21:46] are already I don't know at the middle.
+[0:21:50] So just make sure to do the
+[0:21:52] as I said it's very stupid but
+[0:21:55] don't miss that.
+[0:21:56] All right?
+[0:21:57] And I always suggest to use another
+[0:22:01] wallet
+[0:22:03] for development
+[0:22:04] like on so flare or or on Phantom you
+[0:22:07] can
+[0:22:08] maybe create another one
+[0:22:11] to make sure to not mix things with your
+[0:22:14] own personal finance
+[0:22:17] because of hack.
+[0:22:20] There's a lot of hack into the ecosystem
+[0:22:22] so you already saw that I will not talk
+[0:22:24] more about it
+[0:22:25] and it's a way to protect yourself a
+[0:22:27] minimum. So yeah, I saw a lot of people
+[0:22:31] hacking with their own wallets.
+[0:22:34] And of course, this one has been drained
+[0:22:37] and they didn't notice it because
+[0:22:40] because of they didn't
+[0:22:45] split
+[0:22:46] personal and different stuff.
+[0:22:49] All right.
+[0:22:51] So I will go
+[0:22:54] into things. So the first thing is that
+[0:22:57] you can see a lot of guides, guides,
+[0:23:00] guides, guides here.
+[0:23:02] If you want just to
+[0:23:08] yeah, to to get
+[0:23:11] some documentation about what you want
+[0:23:13] to build. So by playing checklist,
+[0:23:16] project ideation.
+[0:23:18] So here basically what I said about the
+[0:23:20] past winners, you can take a look at
+[0:23:21] that here that will give you some ideas.
+[0:23:26] Durable resources.
+[0:23:28] So everything that you can use to top
+[0:23:31] your environment,
+[0:23:32] blah blah blah.
+[0:23:35] I mean a lot of things.
+[0:23:37] And then on price tracks, every time
+[0:23:40] there's like
+[0:23:41] resources available there very
+[0:23:44] specifically to rated to the track.
+[0:23:46] Let's say for example, Solana Mobile.
+[0:23:48] On Solana Mobile,
+[0:23:50] all their resources are there located
+[0:23:52] there.
+[0:23:54] They are providing IDs, what is the
+[0:23:56] qualification requirement very very
+[0:23:59] important again.
+[0:24:01] And they are very sympathetic because
+[0:24:03] they put what gets rejected.
+[0:24:06] [clears throat] So
+[0:24:08] at least to you know a bit what to
+[0:24:11] expect.
+[0:24:12] They will not check your
+[0:24:14] your submission if
+[0:24:16] already you are doing things that are
+[0:24:19] rejected, you know.
+[0:24:21] So yeah, each track has their own
+[0:24:25] resources. All All All good?
+[0:24:29] Okay.
+[0:24:32] It will be uh we have
+[0:24:34] um local judges
+[0:24:36] actually
+[0:24:38] for for the hackathon.
+[0:24:40] Uh and AI.
+[0:24:43] The AI is very very deep, especially uh
+[0:24:46] technically and and as well.
+[0:24:52] [snorts] Yeah, technically and um
+[0:24:55] how to say that? Uh on the product side.
+[0:24:57] So technically technically
+[0:25:00] uh they will go deep into your
+[0:25:02] integration. Like the AI will go deep
+[0:25:04] into your integration to see if you are
+[0:25:07] lying or not.
+[0:25:08] [laughter]
+[0:25:09] Uh basically
+[0:25:10] and um that that will give us um a
+[0:25:14] scoring
+[0:25:15] while also
+[0:25:17] explaining what was the strains, what's
+[0:25:21] he's to be
+[0:25:23] improved
+[0:25:24] for each project. And at the end of the
+[0:25:26] hackathon, you're going to have like um
+[0:25:28] uh view project report. So we'll be
+[0:25:31] available to understand um
+[0:25:34] what's wrong etc etc.
+[0:25:36] It's very rare when
+[0:25:38] hackathon providing feedback, but you're
+[0:25:40] going to have one um because we are
+[0:25:43] going deep on that.
+[0:25:45] Um
+[0:25:47] okay.
+[0:25:48] So
+[0:25:50] oh yeah
+[0:25:52] yeah.
+[0:25:54] I saw this issue every time into
+[0:25:57] hackathon.
+[0:25:58] And
+[0:25:59] like if you are
+[0:26:01] doing a landing page
+[0:26:04] um
+[0:26:07] it's like
+[0:26:09] eliminatory.
+[0:26:10] [laughter]
+[0:26:11] I don't know how to say that, but for
+[0:26:13] example, let's say
+[0:26:15] Morfo no not Morfo jobs, but like Morfo.
+[0:26:20] Here like basically there is a landing
+[0:26:22] page, okay, that is explaining what is
+[0:26:24] the app what is the the project.
+[0:26:28] And here
+[0:26:30] wait
+[0:26:32] they change the things
+[0:26:43] Yeah, here. Uh this still the landing
+[0:26:45] page.
+[0:26:49] And there
+[0:26:50] uh this is the app.
+[0:26:52] And so the app
+[0:26:54] is like look like this, you know. It's
+[0:26:56] where you are really doing things as you
+[0:26:58] as a user.
+[0:26:59] And so it's what you have to build, not
+[0:27:02] build a landing page. Please, we don't
+[0:27:05] care. [laughter]
+[0:27:06] We need to I mean you will build a
+[0:27:08] landing page later when um
+[0:27:11] you're going to
+[0:27:13] um
+[0:27:14] uh
+[0:27:16] create the startup itself about that. So
+[0:27:19] uh make sure your project your it's like
+[0:27:22] an application,
+[0:27:24] right?
+[0:27:25] Okay.
+[0:27:27] Not just the front end stuff.
+[0:27:29] [laughter]
+[0:27:30] Um
+[0:27:35] uh
+[0:27:36] I can maybe ask for promo codes.
+[0:27:39] Let me ask right now because I will
+[0:27:41] forget it to the right.
+[0:27:50] Oula.
+[0:27:52] Okay, I will not ask right now
+[0:27:54] because
+[0:27:55] I got like a a long message, so I need
+[0:27:58] to open it later.
+[0:27:59] Um all right.
+[0:28:01] But let me put it in my to do.
+[0:28:04] [snorts]
+[0:28:05] Um
+[0:28:09] Okay. So other things
+[0:28:14] you will build the app on Solana.
+[0:28:16] Of course.
+[0:28:18] But you if you want you can also have
+[0:28:20] the external integration. When I say
+[0:28:22] external integration is like fire call
+[0:28:24] 11 last polar byte Solana mobile
+[0:28:28] I mean Superbase is something that you
+[0:28:29] can use anyway. Um but um just make sure
+[0:28:35] if you are integrating a partner
+[0:28:38] to respect
+[0:28:40] like the requirement.
+[0:28:43] Please
+[0:28:44] um what they are really
+[0:28:46] what they really want to see.
+[0:28:49] It's very very important.
+[0:28:52] So submission right now.
+[0:28:54] So for the submission
+[0:28:56] there you have button submit project
+[0:28:59] already put it there um so submit
+[0:29:02] projects uh
+[0:29:04] it's where you will put a lot of
+[0:29:06] information. Um
+[0:29:08] select the track and for each track you
+[0:29:11] will have to
+[0:29:12] to explain how you uh built
+[0:29:16] with this integration.
+[0:29:17] All right?
+[0:29:19] Um
+[0:29:20] and like additionally provide um for
+[0:29:24] example the line uh
+[0:29:26] the specific file that is that is
+[0:29:29] related to that.
+[0:29:38] Uh so you will receive message saying
+[0:29:42] like email saying three things saying to
+[0:29:46] uh do a demo video
+[0:29:48] not more than three minutes.
+[0:29:51] Also saying to put your GitHub project
+[0:29:54] in public mode
+[0:29:56] saying uh
+[0:29:58] to
+[0:29:59] to to deploy your projects on like
+[0:30:02] Vercel, Netlify or whatever. It's like
+[0:30:05] very three things that are key to make
+[0:30:07] sure we can judge your project
+[0:30:09] basically.
+[0:30:10] Um
+[0:30:12] so
+[0:30:13] um
+[0:30:14] yes you are submitting your project here
+[0:30:17] on the platform then uh I always
+[0:30:20] encourage when you submit it like to
+[0:30:22] build in public. That's mean you can tag
+[0:30:24] um different like partners especially
+[0:30:28] Devto Park and Solana
+[0:30:30] uh
+[0:30:30] to
+[0:30:31] uh get amplification uh to see what you
+[0:30:35] you build like for us to see what you
+[0:30:37] build, uh because sometimes
+[0:30:40] that can give a lot of
+[0:30:43] credibility to your project, right?
+[0:30:46] And how they said, deploy your project
+[0:30:48] on Vercel and Netlify or whatever, very
+[0:30:50] very important.
+[0:30:52] Is there a time limit for the As I said,
+[0:30:55] three minutes.
+[0:30:56] I just told you told that.
+[0:30:59] Yeah, I already replied to question
+[0:31:01] about more more than one track too.
+[0:31:05] So yeah, it's possible.
+[0:31:08] So during the submission process, on
+[0:31:10] image there, you will have to also
+[0:31:15] to also create materials such as logo,
+[0:31:17] banner, screenshot of your app
+[0:31:19] itself, etc.
+[0:31:22] And
+[0:31:23] something could you should
+[0:31:25] you can put
+[0:31:27] on your readme
+[0:31:30] for your for your
+[0:31:34] for your project on readme for GitHub
+[0:31:38] is like
+[0:31:39] including
+[0:31:40] a work a workflow, let's say, of of the
+[0:31:43] app
+[0:31:44] because it's helping us to especially
+[0:31:47] look at judges
+[0:31:49] to understand how things will I mean are
+[0:31:52] working
+[0:31:53] because sometimes not everything is
+[0:31:54] working, but at least we understand what
+[0:31:56] you want to build, right?
+[0:31:59] So on my hands, it's like when I'm going
+[0:32:01] to hackathon, it's my stuff, like always
+[0:32:04] explaining stuff like this. So you can
+[0:32:06] use
+[0:32:09] tool like Excalidraw
+[0:32:11] to to do that.
+[0:32:15] Tac
+[0:32:16] to to do some kind of
+[0:32:19] things like this.
+[0:32:23] Very important to create a complete
+[0:32:26] readme. So with AI right now is better.
+[0:32:31] I mean [snorts] you you are doing things
+[0:32:34] nicely.
+[0:32:37] And that give us a lot of context
+[0:32:40] technically how to navigate your repo
+[0:32:44] what's going on etc. And that will help
+[0:32:47] a lot our AI to review your project and
+[0:32:50] judge it properly. So please hard read
+[0:32:53] me.
+[0:32:55] Create the demo video so three minutes
+[0:32:57] max as I said
+[0:32:59] like you can you can talk about the
+[0:33:01] things like
+[0:33:02] description
+[0:33:04] why you want to do this project what you
+[0:33:06] solved all that work like with the demo.
+[0:33:09] And if possible the team background can
+[0:33:12] be nice
+[0:33:13] because it's also we are looking for
+[0:33:17] people who are aligned with their
+[0:33:19] projects.
+[0:33:21] It's our it's on our side a way to to
+[0:33:24] check
+[0:33:26] who can integrate the accelerator or not
+[0:33:28] later.
+[0:33:29] Just a little tips.
+[0:33:32] And then the submission form that I just
+[0:33:35] showcased to you
+[0:33:37] should
+[0:33:39] like will close at 7:00 a.m. UTC on
+[0:33:41] Sunday. So please on your dashboard
+[0:33:45] here
+[0:33:47] this this is like displayed on my
+[0:33:50] with my time zone which is Paris but you
+[0:33:54] you you will have your own time zone
+[0:33:56] there and so you will see the exact
+[0:33:58] hours right?
+[0:34:01] And
+[0:34:03] yeah
+[0:34:05] here
+[0:34:07] when you submit
+[0:34:09] something like here
+[0:34:11] for example
+[0:34:13] as I said being really specific will
+[0:34:15] help a lot of judges all right.
+[0:34:18] And yeah I mean
+[0:34:20] and then the judging parts
+[0:34:24] where you can rebuild in public
+[0:34:26] to make sure to be seen by judges
+[0:34:31] and
+[0:34:32] and by people itself in general.
+[0:34:34] So this like are the basics
+[0:34:38] the basics of
+[0:34:40] doing your first hackathon. It providing
+[0:34:43] a lot of tips.
+[0:34:44] Uh it's not like for
+[0:34:46] um excelling, but like to
+[0:34:49] to meet
+[0:34:51] what it's needed um for your first
+[0:34:53] hackathon.
+[0:34:54] Uh can we go through it? Yes, it's
+[0:34:56] possible. Uh if you have any question,
+[0:34:58] we also have an FAQ. [laughter]
+[0:35:00] So please go go on that. You have all
+[0:35:03] the the question you have it's like on
+[0:35:06] that. So
+[0:35:08] um
+[0:35:10] okay.
+[0:35:11] Okay, okay. Um
+[0:35:14] any question? I think on my end all
+[0:35:16] good.
+[0:35:17] Uh
+[0:35:18] sorry, I it's like a bit rush maybe.
+[0:35:24] What is live video?
+[0:35:27] But I I already said um that is there or
+[0:35:31] it's
+[0:35:36] It's literally there. [laughter]
+[0:35:39] So I will uh put the slide and the video
+[0:35:42] there too.
+[0:35:43] It's on your dashboard. Just navigate
+[0:35:46] when you have question, just navigate
+[0:35:47] your dashboard because every time all
+[0:35:50] the answers are in it to be honest.
+[0:35:52] And
+[0:35:53] and from tomorrow I won't be available
+[0:35:55] to to reply to everyone. Um so just to
+[0:35:59] let you know.
+[0:36:04] Yeah, it's a question I already replied
+[0:36:06] to.
+[0:36:08] So
+[0:36:10] [laughter]
+[0:36:11] like you you asked me like
+[0:36:14] before if you can hack solo, I already
+[0:36:16] said yes and you are asking me again, so
+[0:36:18] I don't know what to say. [laughter]
+[0:36:21] Um
+[0:36:24] yeah, no AI I I actually I don't think
+[0:36:26] they sent yet uh the
+[0:36:29] the
+[0:36:31] all the credits. Um so just to let you
+[0:36:34] know, but they are taking from those who
+[0:36:37] filing the form first.
+[0:36:40] So um I said that the hackathon is
+[0:36:43] starting tomorrow.
+[0:36:44] So just let you know.
+[0:36:53] That's it's the third time you're asking
+[0:36:55] me if you can accelerate. It's the third
+[0:36:57] time I said yes then.
+[0:36:59] Um.
+[0:37:03] I want to build a casino.
+[0:37:05] I mean build whatever you want. Yes, if
+[0:37:07] it's like you like casino, you can
+[0:37:09] defend that
+[0:37:11] uh your project
+[0:37:13] like
+[0:37:14] it's matching you. Yes, of course build
+[0:37:16] a casino.
+[0:37:18] I mean up to you.
+[0:37:20] All right. So are good.
+[0:37:24] Let's see tomorrow. Tomorrow we have the
+[0:37:26] kickoff at 3:00 p.m. UTC so same
+[0:37:29] time time today or like 1 hour after.
+[0:37:33] But yeah.
+[0:37:34] All right. So take care everyone and see
+[0:37:37] you tomorrow for the lunch.
+[0:37:39] To just.
