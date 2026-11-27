@@ -37,6 +37,10 @@ lab/
 │   ├── 02-transacciones-y-cuentas.md       # Quiz 2: Atomicidad, fees, blockhash y commitment
 │   └── 03-solana-kit.md                    # Quiz 3: Tree-shaking, pipe(), simulación y blockhash
 │
+├── requisitos/                             # Reglas oficiales extraídas de las sesiones
+│   ├── 01-certificado-bootcamp.md          # Requisitos para el certificado del Rust Bootcamp
+│   └── 02-reglas-y-requisitos-hackathon.md # Reglas, entregables y evaluación del Hackathon
+│
 ├── .gitignore
 └── README.md
 ```
@@ -70,3 +74,7 @@ lab/
 * 📝 **[Quiz 01 - Arquitectura y Wallets](./quizzes/01-arquitectura-y-wallets.md):** Respuestas justificadas con enlaces a los resúmenes.
 * 📝 **[Quiz 02 - Transacciones y Cuentas](./quizzes/02-transacciones-y-cuentas.md):** Atomicidad, comisiones, *blockhash*, *commitment* e instrucciones.
 * 📝 **[Quiz 03 - Solana Kit](./quizzes/03-solana-kit.md):** *Tree-shaking*, patrón `pipe()`, simulación (`unitsConsumed`) y expiración de *blockhash*.
+
+### 4. Requisitos Oficiales (Bootcamp vs. Hackathon)
+* 🎓 **[Requisitos del Certificado del Rust Bootcamp](./requisitos/01-certificado-bootcamp.md):** Quizzes (40%+), ejercicios de Rust y despliegue *capstone* en Devnet.
+* 🏆 **[Reglas y Requisitos del Hackathon](./requisitos/02-reglas-y-requisitos-hackathon.md):** Programa on-chain obligatorio, errores eliminatorios, checklist de entrega y evaluación.
