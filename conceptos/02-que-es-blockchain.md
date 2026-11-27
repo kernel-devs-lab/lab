@@ -31,9 +31,10 @@ Cada bloque de información contiene:
 * El **Hash del bloque inmediatamente anterior**.
 
 ```mermaid
+%%{init: {'themeVariables': {'fontSize': '12px', 'fontFamily': 'arial'}}}%%
 flowchart TD
-    B1["Bloque #100<br/>Hash: abc123 | Previo: 000000<br/>[Transacciones...]"] --> B2["Bloque #101<br/>Hash: def456 | Previo: abc123<br/>[Transacciones...]"]
-    B2 --> B3["Bloque #102<br/>Hash: ghi789 | Previo: def456<br/>[Transacciones...]"]
+    B1["Bloque #100<br/>Hash: abc123<br/>Prev: 000000"] --> B2["Bloque #101<br/>Hash: def456<br/>Prev: abc123"]
+    B2 --> B3["Bloque #102<br/>Hash: ghi789<br/>Prev: def456"]
 ```
 
 > **¿Por qué es inmutable?**  

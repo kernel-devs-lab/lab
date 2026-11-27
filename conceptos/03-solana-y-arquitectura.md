@@ -15,24 +15,25 @@ Para interactuar con esta red desde tu frontend o tu backend tradicional, **sí 
 ## 🏗️ La Arquitectura de Solana Dividida en 3 Capas
 
 ```mermaid
+%%{init: {'themeVariables': {'fontSize': '12px', 'fontFamily': 'arial'}}}%%
 flowchart TD
-    subgraph Capa1["1. Capa de Aplicación (Off-Chain)"]
-        UI["🖥️ Frontend (React / Next.js)"]
-        Back["⚙️ Backend Tradicional (Node.js / Python)"]
-        SDK["🔌 SDKs Clientes (@solana/web3.js / solana-py)"]
+    subgraph Capa1["1. Aplicación (Off-Chain)"]
+        UI["Frontend<br/>(React / Next.js)"]
+        Back["Backend<br/>(Node / Python)"]
+        SDK["SDKs Cliente<br/>(@solana/web3.js)"]
         UI --- SDK
         Back --- SDK
     end
 
-    subgraph Capa2["2. Capa de Red y Nodos RPC"]
-        RPC["🚪 Nodos RPC (Endpoints HTTP / WebSockets)"]
-        SDK -->|"Llamadas JSON-RPC (getBalance, sendTransaction)"| RPC
+    subgraph Capa2["2. Red y RPC"]
+        RPC["Nodos RPC<br/>(HTTP / WS)"]
+        SDK -->|"JSON-RPC"| RPC
     end
 
-    subgraph Capa3["3. Capa On-Chain (Red de Solana)"]
-        Validators["🌐 Red de Nodos Validadores (Consenso PoH + Tower BFT)"]
-        Programs["📜 Programas On-Chain (Smart Contracts en Rust)"]
-        Accounts[("📦 Cuentas y Estado (Balances, Tokens, NFTs, Datos)")]
+    subgraph Capa3["3. On-Chain (Solana)"]
+        Validators["Validadores<br/>(PoH + Tower BFT)"]
+        Programs["Programas<br/>(Rust / Anchor)"]
+        Accounts[("Cuentas y Estado<br/>(SOL / Tokens)")]
         
         RPC --> Validators
         Validators --> Programs

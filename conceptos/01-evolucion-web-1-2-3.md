@@ -7,9 +7,10 @@ Para entender el ecosistema de blockchain y Solana en este hackathon, es fundame
 ## ⏳ La Evolución Histórica: De la Lectura a la Propiedad
 
 ```mermaid
+%%{init: {'themeVariables': {'fontSize': '12px', 'fontFamily': 'arial'}}}%%
 flowchart TD
-    W1["Web 1.0 (1990 - 2004)<br/>Read-Only (Solo Lectura)"] --> W2["Web 2.0 (2004 - Actualidad)<br/>Read-Write (Lectura y Escritura)"]
-    W2 --> W3["Web 3.0 (Presente y Futuro)<br/>Read-Write-Own (Propiedad)"]
+    W1["Web 1.0 (1990-2004)<br/>Solo Lectura"] --> W2["Web 2.0 (2004-Hoy)<br/>Lectura y Escritura"]
+    W2 --> W3["Web 3.0 (Actual)<br/>Propiedad (Own)"]
 ```
 
 ---
@@ -38,10 +39,11 @@ flowchart TD
   * **Autenticación e Identidad:** Cuentas centralizadas (Email + Password con hash bcrypt, OAuth con Google/Facebook, Auth0, JWT).
 
 ```mermaid
+%%{init: {'themeVariables': {'fontSize': '12px', 'fontFamily': 'arial'}}}%%
 flowchart TD
-    User["👤 Usuario Web 2.0"] -->|"1. Petición HTTPS"| API["🚪 API REST / Backend\n(AWS / Servidor Privado)"]
-    API -->|"2. Consulta / Modifica"| DB[("🗄️ Base de Datos Centralizada\n(PostgreSQL / Mongo)")]
-    API -->|"3. Valida credenciales"| Auth["🔐 Servidor de Autenticación\n(Email / Password / OAuth)"]
+    User["Usuario Web 2.0"] -->|"1. HTTPS"| API["API REST / Backend<br/>(AWS / Servidor)"]
+    API -->|"2. Query"| DB[("Base de Datos<br/>(Postgres / Mongo)")]
+    API -->|"3. Auth"| Auth["Servidor Auth<br/>(OAuth / JWT)"]
 ```
 
 ### El Gran Problema de la Web 2.0:
@@ -66,11 +68,12 @@ flowchart TD
 | **Gobernanza** | La empresa decide los cambios de términos y condiciones. | **Gobernanza On-Chain / DAOs:** La comunidad o poseedores de tokens votan sobre las reglas y el tesoro del proyecto. |
 
 ```mermaid
+%%{init: {'themeVariables': {'fontSize': '12px', 'fontFamily': 'arial'}}}%%
 flowchart TD
-    User["👤 Usuario Web 3.0\n(Billetera / Firma Digital)"] -->|"1. Transacción firmada"| SDK["🔌 Frontend con SDK\n(@solana/web3.js)"]
-    SDK -->|"2. Envío a red RPC"| Nodes["🌐 Red de Nodos Validadores\n(Solana SVM en Rust)"]
-    Nodes -->|"3. Ejecuta Programa"| Program["📜 Smart Contract\n(Reglas en Rust)"]
-    Program -->|"4. Modifica estado"| Ledger[("📦 Cuentas en la Blockchain\n(Inmutables y Distribuidas)")]
+    User["Usuario Web 3.0<br/>(Wallet / Firma)"] -->|"1. Firma"| SDK["Frontend + SDK<br/>(@solana/web3.js)"]
+    SDK -->|"2. RPC"| Nodes["Nodos Validadores<br/>(Solana SVM)"]
+    Nodes -->|"3. Ejecuta"| Program["Smart Contract<br/>(Rust)"]
+    Program -->|"4. Guarda"| Ledger[("Cuentas On-Chain<br/>(Inmutables)")]
 ```
 
 ---
