@@ -1,0 +1,1958 @@
+# Transcripción: Vibecode your first app on Solana
+URL: https://www.youtube.com/watch?v=cMhjoZOhM0Q
+
+[0:01:00] Jim Jim
+[0:01:08] So let's wait just a bit.
+[0:01:33] Okay.
+[0:01:39] So let's see if Santiago is there. Yeah.
+[0:01:42] Yes, yes, yes.
+[0:01:45] All right.
+[0:01:47] From Costa Rica.
+[0:01:52] We can wait like one two minutes that
+[0:01:54] everyone join before I launching the
+[0:01:56] session. Um so today is about vibe
+[0:01:59] coding on Solana. Let me just send you a
+[0:02:01] link um
+[0:02:03] because everyone we have to claim
+[0:02:05] credits
+[0:02:07] for being able to use
+[0:02:09] like to to build uh
+[0:02:11] using
+[0:02:13] vibe coding on Solana also um oops.
+[0:02:28] I will also put that into um into the
+[0:02:32] the group plus the
+[0:02:35] uh
+[0:02:37] the dashboard.
+[0:02:41] Ta da.
+[0:02:43] Feel free to find in the form. Uh so you
+[0:02:45] gonna receive credits like it will be
+[0:02:48] directly uh added into your uh dashboard
+[0:02:51] on No AI uh for using that. It's like
+[0:02:55] $10 credits
+[0:02:57] and uh what I wanted to say yeah
+[0:03:00] um it will be
+[0:03:03] uh for
+[0:03:05] for starting on on Friday.
+[0:03:11] Um
+[0:03:14] if if I didn't still uh accept you, it
+[0:03:17] can be because
+[0:03:20] um
+[0:03:24] it
+[0:03:25] wait.
+[0:03:27] It's because I sorry I'm receiving
+[0:03:29] DM in the same time. So yeah um if you
+[0:03:32] didn't receive an approval email uh for
+[0:03:34] the hackathon, it's because your uh
+[0:03:37] application is incomplete. Let's say you
+[0:03:39] forgot to mention the university. Uh
+[0:03:42] maybe there is no link especially
+[0:03:45] LinkedIn to verify that you are student
+[0:03:47] or whatever because yeah I'm checking
+[0:03:49] individually.
+[0:03:50] All right. So let's start then.
+[0:04:02] Could you hear us, Santiago?
+[0:04:06] >> [clears throat]
+[0:04:06] >> Yes, I can.
+[0:04:08] You want to start the survey now?
+[0:04:11] >> Yeah, yeah, we can we can start.
+[0:04:12] >> Okay, okay.
+[0:04:15] So, hi everyone, I'm Santiago.
+[0:04:18] Me and Fabian,
+[0:04:20] which is the guy that will be
+[0:04:22] doing the class tomorrow. We are in
+[0:04:24] charge of the Costa Rica I mean the
+[0:04:26] Latin American
+[0:04:28] boot camp
+[0:04:30] in Spanish.
+[0:04:31] And this week we'll be doing it for for
+[0:04:34] both for the English boot camp and the
+[0:04:37] Spanish boot boot camp.
+[0:04:39] So, yeah, basically
+[0:04:41] today we'll see
+[0:04:43] a lot about Noah AI, which is a really
+[0:04:45] great tool to build on Solana.
+[0:04:49] Well, Solana already told you. You
+[0:04:51] you're going to receive credits, which
+[0:04:53] is amazing. You have
+[0:04:55] free AI for hackathons, so that's
+[0:04:58] that's pretty amazing.
+[0:05:01] I see many people
+[0:05:03] in the comments. Let's see.
+[0:05:07] Good morning, everyone.
+[0:05:10] Hope you're doing well.
+[0:05:14] Well, good morning for those who are in
+[0:05:16] Latin America.
+[0:05:17] In my country, Costa Rica, it is 8 a.m.
+[0:05:21] So, yeah.
+[0:05:24] Hey Carlos, nice nice to meet you.
+[0:05:27] Yeah, Colombia is 1 hour from
+[0:05:29] Costa Rica, so it's like 9 a.m., I
+[0:05:32] guess.
+[0:05:34] So, yeah, I I hope
+[0:05:35] you enjoyed the class today because it's
+[0:05:37] a lot of we'll have a lot of fun
+[0:05:39] doing
+[0:05:42] a lot with AI.
+[0:05:43] It's really cool to build with with AI
+[0:05:45] because
+[0:05:46] you you can actually learn by doing, and
+[0:05:49] that's amazing.
+[0:05:51] I think there's a lot of value on doing
+[0:05:53] this, but not just by coding
+[0:05:56] because you can buy code and that's not
+[0:05:58] bad, but if you just buy code to build
+[0:06:01] the product, then then you wouldn't like
+[0:06:05] get some value of what you're doing.
+[0:06:06] If you if you understand what you're
+[0:06:08] doing, then you'll get like a lot of
+[0:06:10] value of of
+[0:06:12] of the hackathon and I mean the
+[0:06:14] hackathon is not only for a prize, but
+[0:06:16] also for you to to learn and and
+[0:06:20] and like gain experience in in the area.
+[0:06:23] So yeah, basically that's what we'll do
+[0:06:25] today.
+[0:06:30] Oh hi to everyone.
+[0:06:33] I'm going to share my screen and
+[0:06:35] you'll start.
+[0:06:52] to hide this.
+[0:06:56] All right.
+[0:06:57] So
+[0:06:59] well basically this is what we have for
+[0:07:01] today.
+[0:07:02] Noah AI we'll see
+[0:07:05] how to prompt it,
+[0:07:06] how I see this tool because you know not
+[0:07:09] all AI tools are the same. So basically
+[0:07:11] Noah AI is more like an executor for me.
+[0:07:15] I think
+[0:07:16] it's really fast. It has a lot of
+[0:07:18] harness to build on Solana. So you can
+[0:07:21] take advantage of that. And as you have
+[0:07:23] the the credits, use it
+[0:07:26] because it's like simpler to do to do it
+[0:07:29] using these credits. You you could also
+[0:07:31] use your your own AI agent such as
+[0:07:33] Codex, Cloud Code or Cursor. There's no
+[0:07:36] problem. They also are really great at
+[0:07:38] coding in Solana.
+[0:07:39] You just got to give them great context,
+[0:07:42] which is what Noah AI is doing right
+[0:07:44] now. So it's like they are simplifying
+[0:07:46] it.
+[0:07:47] So you you can just start building
+[0:07:50] without thinking
+[0:07:51] on the context you got to give them.
+[0:07:53] So for today the idea is we build a full
+[0:07:56] application. I hope it it's fast.
+[0:08:01] We will see the results.
+[0:08:03] So
+[0:08:04] yeah, the the idea is to have four
+[0:08:06] blocks
+[0:08:07] of 15 15 minutes of theory,
+[0:08:10] 30 to five minutes uh for a demo.
+[0:08:13] And the goal is to ship a definite dab
+[0:08:16] today.
+[0:08:17] So yeah, basically um
+[0:08:20] the idea is to ship something today. Uh
+[0:08:22] I mean, if you want to do it at the same
+[0:08:25] time as I'm doing it, that's great. If
+[0:08:28] if not, it is also great. Um because the
+[0:08:31] idea is
+[0:08:32] that you learn how to do it, not
+[0:08:33] necessarily to to to do it
+[0:08:36] uh at the same time. So what we'll cover
+[0:08:39] today is why AI builders, why using AI,
+[0:08:43] how Noah works, uh the demo for an after
+[0:08:46] there's no before because we haven't
+[0:08:47] done anything. Um
+[0:08:50] we'll do like all the all the phases
+[0:08:52] from planning, which I'm not doing it in
+[0:08:55] Noah.
+[0:08:56] Uh that's my preference. You can I mean,
+[0:08:58] this is
+[0:09:00] like mainly preferences. Uh but yeah,
+[0:09:04] if you want to do it in Noah, that's
+[0:09:05] okay too.
+[0:09:07] Um
+[0:09:10] and then your turn. So yeah, I mean, I
+[0:09:12] encourage you to to build something
+[0:09:14] today that's
+[0:09:15] it's something really simple.
+[0:09:17] Uh just uh
+[0:09:19] do the same things as I'm doing it and
+[0:09:21] yeah, you you'll be able to ship to ship
+[0:09:23] something really cool in 30 minutes.
+[0:09:27] Uh
+[0:09:28] I'm going to check the comments.
+[0:09:30] Okay, so everyone agree.
+[0:09:41] Okay, let's continue.
+[0:09:45] So
+[0:09:46] this is the like the 30th part.
+[0:09:49] So the
+[0:09:51] why now? Why using AI?
+[0:09:53] Um so the thing is some years ago the
+[0:09:55] main bottleneck was the development
+[0:09:58] phases
+[0:09:59] uh because it was like
+[0:10:03] it required more um
+[0:10:06] experience and more time because there
+[0:10:09] was no So, basically
+[0:10:11] we needed to to write all the code
+[0:10:14] line by line and that's like not ideal.
+[0:10:18] Today because AI is doing it and it's
+[0:10:22] way better than us doing it.
+[0:10:23] So, the idea is
+[0:10:25] not to replace the developers
+[0:10:28] but to give them tools to make it
+[0:10:29] faster. So, basically that bottleneck
+[0:10:32] that was like the development times is
+[0:10:34] not here anymore.
+[0:10:35] You can build and ship whatever you want
+[0:10:37] in minutes, hours, and yeah, that's it.
+[0:10:42] We I'll like explain the difference
+[0:10:44] between coding and AI engineering AI
+[0:10:50] I call it like like five coding but like
+[0:10:53] with engineering in the middle. So, it's
+[0:10:55] not just five coding but really
+[0:10:59] using engineering practices when you use
+[0:11:01] AI. I see someone with a with a with a
+[0:11:05] hand. If you have any questions, just
+[0:11:07] turn on your your mic and do it.
+[0:11:10] The idea is also to have like a really
+[0:11:15] talkative class. So, yeah, if you want
+[0:11:17] to to to add something, let's do it.
+[0:11:20] So, yeah, I mean we always learn
+[0:11:23] something new. So, yeah, go ahead.
+[0:11:25] >> Are we supposed to submit anything today
+[0:11:28] like a
+[0:11:29] project update or something?
+[0:11:35] >> I'm going to to confirm that. I'm not
+[0:11:38] pretty sure.
+[0:11:39] >> No.
+[0:11:40] >> No, I guess I guess not.
+[0:11:43] >> No.
+[0:11:44] >> And in this app
+[0:11:46] our dev three pack app, where can I get
+[0:11:48] the option to submit the project? I see
+[0:11:52] it starts with
+[0:11:54] project
+[0:11:55] team. Yeah, I can update this but
+[0:12:00] it is currently closed.
+[0:12:02] >> Yeah, yeah, yeah, we can open them. It's
+[0:12:05] open
+[0:12:07] the submission section on Friday.
+[0:12:10] >> Okay, okay. While
+[0:12:13] he was telling about this, he was
+[0:12:14] telling we should do it
+[0:12:16] while he is doing it.
+[0:12:18] So I thought we're supposed to make a
+[0:12:20] submission today.
+[0:12:23] >> No, no, no. You don't have to. I mean,
+[0:12:25] >> Okay.
+[0:12:26] >> I'm encouraging you to ship something if
+[0:12:29] you want,
+[0:12:30] but it's not required. It's just if you
+[0:12:32] want,
+[0:12:33] that's great and that's the way you
+[0:12:35] learned how to use
+[0:12:38] no AI.
+[0:12:40] Uh that's it.
+[0:12:41] You have any other question?
+[0:12:45] >> No.
+[0:12:48] >> Okay.
+[0:12:54] So let's continue. So
+[0:12:56] >> I don't have any other question. I just
+[0:12:58] thought if we are supposed to show the
+[0:12:59] product progress today.
+[0:13:02] >> No, no.
+[0:13:03] >> Sorry, what?
+[0:13:05] >> That's fine.
+[0:13:06] >> I just like we can start the
+[0:13:08] development, but we don't need to show
+[0:13:10] anything.
+[0:13:11] >> Yes, you will do it during the
+[0:13:12] submission.
+[0:13:14] >> Yes.
+[0:13:19] >> Okay.
+[0:13:23] So I wasn't developed. So
+[0:13:26] basically you can
+[0:13:29] go from an idea to dev net prototype in
+[0:13:32] minutes thanks to no AI also to focus
+[0:13:34] because
+[0:13:35] for a hackathon,
+[0:13:37] the main thing is you have limited time
+[0:13:39] and you got to ship the best project you
+[0:13:42] you can because you want to win
+[0:13:44] and also to learn. That's also a great
+[0:13:46] goal to have in a hackathon.
+[0:13:48] So
+[0:13:49] I think
+[0:13:51] for a hackathon, I will spend more time
+[0:13:53] thinking about product problem
+[0:13:56] and
+[0:13:58] not like the technical part a lot
+[0:14:00] because
+[0:14:01] you know, the technical part is not a
+[0:14:02] problem anymore.
+[0:14:04] So you can use whatever AI tool and
+[0:14:06] I mean you
+[0:14:07] will get the technical part done
+[0:14:10] really fast.
+[0:14:11] It depends also because you can
+[0:14:13] build a really technical product and it
+[0:14:16] may require more expertise and more like
+[0:14:19] development understanding, but I mean
+[0:14:23] it's it's
+[0:14:25] it's like not the focus to to ship
+[0:14:27] something that is ready for production
+[0:14:29] in all the countries in the world.
+[0:14:31] Uh the idea is you ship something that
+[0:14:33] judges can prove and that it's that it's
+[0:14:37] really easy to use.
+[0:14:39] And that's it. I think that you
+[0:14:41] shouldn't be building um
+[0:14:43] something super scalable for a hackathon
+[0:14:46] in terms of
+[0:14:47] technical stuff because you know you can
+[0:14:50] just use like tools like Supabase where
+[0:14:52] you can scale whenever you want or
+[0:14:54] Railway and that's it. So yeah, you you
+[0:14:57] don't need to to build like a AWS for
+[0:14:59] instance
+[0:15:00] um system like getting all the services
+[0:15:03] from from AWS because that's not not
+[0:15:06] necessary and we'll
+[0:15:07] I mean you you don't want to spend time
+[0:15:09] on this. You want to spend time on
+[0:15:11] building the best product you you can
+[0:15:13] and
+[0:15:14] I mean the judges and the people who
+[0:15:16] will see your product won't
+[0:15:19] I mean they kind they kind of care but
+[0:15:22] not that much on what you built on the
+[0:15:24] technical side. Let's say if you you if
+[0:15:27] you used Supabase or AWS for for
+[0:15:30] building your database they there's no
+[0:15:33] much difference. Uh so
+[0:15:36] let's spend time uh let let's use the
+[0:15:38] one who
+[0:15:40] let's use the like the product which is
+[0:15:42] faster to implement into your project
+[0:15:44] and that's it because you don't want to
+[0:15:45] spend time on on things that won't uh
+[0:15:48] help you to to to to improve and and
+[0:15:52] like get uh near to win. So yeah, that's
+[0:15:55] it.
+[0:15:56] Uh and also refine so
+[0:15:59] this is really important because
+[0:16:01] when you are vibe coding you need to on
+[0:16:04] like a list to to see like what's going
+[0:16:06] on and why are the changes like why why
+[0:16:10] is the AI agent changing things?
+[0:16:12] So this is like like a requirement uh I
+[0:16:15] have. So basically uh every time I write
+[0:16:19] I pipe code, for instance, for
+[0:16:21] Hackathon,
+[0:16:22] um
+[0:16:23] I always am
+[0:16:24] I have like a second brain this like a
+[0:16:27] like a
+[0:16:27] little
+[0:16:29] um
+[0:16:30] file manager where you store your your
+[0:16:32] context and the AI agent writes like all
+[0:16:35] the all the
+[0:16:36] all the
+[0:16:38] like changes he's been doing. It's like
+[0:16:40] a it's like a ledger for what for
+[0:16:43] but for changes in your code. So yeah,
+[0:16:44] that's it.
+[0:16:46] Um
+[0:16:47] so yeah.
+[0:16:49] Let's continue
+[0:16:52] from prompt to definite. So basically
+[0:16:54] this is the like the most important part
+[0:16:56] because
+[0:16:57] [snorts]
+[0:16:59] you can
+[0:17:02] I mean, what I was telling you about
+[0:17:03] Noah is that Noah is more like an
+[0:17:05] executor.
+[0:17:06] So you don't want to talk about your
+[0:17:08] idea with Noah
+[0:17:10] because
+[0:17:11] Noah has context that's great, but is
+[0:17:13] more like a
+[0:17:14] like a
+[0:17:15] tool for building stuff, not for just
+[0:17:18] thinking for for build for having ideas,
+[0:17:21] thinking on a name or a logo or that
+[0:17:24] stuff. You shouldn't use Noah.
+[0:17:26] That's my personal recommendation. If
+[0:17:27] you like it, then use it, but
+[0:17:30] I would use like a better tool such as
+[0:17:32] Claude, Codex,
+[0:17:34] whatever tool
+[0:17:36] that you like because they are they are
+[0:17:38] like way better in like they have way
+[0:17:41] better harness and you can create like
+[0:17:44] better stuff using
+[0:17:46] these platforms.
+[0:17:48] So today I will do like the planning
+[0:17:50] phase
+[0:17:53] in in ChatGPT.
+[0:17:56] So yeah, basically
+[0:17:57] if you're pipe floating, you can also
+[0:17:59] like
+[0:18:01] like use different tools, not just only
+[0:18:03] one.
+[0:18:04] The idea is you you ship the the best
+[0:18:06] product, but also don't spend a lot of
+[0:18:09] money on on credits.
+[0:18:12] And I think you can like you could
+[0:18:14] consume a lot of tokens in Noah, so you
+[0:18:17] got to be careful
+[0:18:18] because they're giving them
+[0:18:21] for free, I guess, but but yeah, I mean,
+[0:18:24] you you can, I mean, these are not
+[0:18:26] infinite tokens, so you just
+[0:18:28] got to also need to to save tokens and
+[0:18:31] and see
+[0:18:32] how to improve it. So I'm going to check
+[0:18:34] chat.
+[0:18:41] Okay, mostly of them are like first one,
+[0:18:43] I guess.
+[0:18:45] Yep.
+[0:18:47] So um
+[0:18:49] so yeah, this is like the stages. So
+[0:18:51] first
+[0:18:53] like the first phase is the prompt. So I
+[0:18:55] recommend using plain English.
+[0:18:57] Um
+[0:18:59] I mean, most of the of the LLMs can
+[0:19:02] understand a lot of
+[0:19:04] languages, but for
+[0:19:07] for like improving the
+[0:19:11] the amount of of tokens wasted,
+[0:19:13] English is like the best language to use
+[0:19:15] because you waste like less tokens
+[0:19:20] on every prompt.
+[0:19:22] Then the spec,
+[0:19:24] which is like a like a
+[0:19:26] plan before coding, then you actually
+[0:19:29] code and execute and then you deploy. So
+[0:19:32] for today,
+[0:19:33] one and two will be
+[0:19:36] done on ChatGPT because I liked I liked
+[0:19:38] the way ChatGPT works,
+[0:19:41] but I could use Claude or whatever other
+[0:19:43] AI tool.
+[0:19:45] And then code and deploy will be handled
+[0:19:48] in
+[0:19:49] Noah AI.
+[0:19:50] So that's what I'm telling. Noah AI is
+[0:19:53] more like an executor. So yeah, you just
+[0:19:55] got to it's like like having a
+[0:19:58] a
+[0:20:00] a
+[0:20:01] like an you'd have like an architect and
+[0:20:04] a construction worker. So basically, the
+[0:20:06] architect is like the one that that is
+[0:20:07] like building all the infrastructure and
+[0:20:10] and you know, like
+[0:20:12] designing all all the things. And the
+[0:20:15] construction worker is like the one that
+[0:20:17] is like building stuff and you know,
+[0:20:19] like
+[0:20:21] putting everything to work.
+[0:20:23] So that's like main idea. We have like
+[0:20:25] these two roles and basically
+[0:20:28] the executor is like real fast and at
+[0:20:31] coding and he'll do it really good.
+[0:20:34] But it's like you got to see like which
+[0:20:38] tool has better skills in which side. So
+[0:20:40] in this case Noah is better at at coding
+[0:20:44] uh
+[0:20:45] and executing.
+[0:20:46] So for today um
+[0:20:50] I mean I had an idea of
+[0:20:53] what I want to build, but if someone has
+[0:20:55] another idea, let's do it. My idea was
+[0:20:57] to build a prediction market.
+[0:21:01] Uh I don't know if you've seen the ones
+[0:21:02] that are like five minutes up or down
+[0:21:05] Solana or Bitcoin.
+[0:21:08] So this is like a like you
+[0:21:11] you are like gambling on the price of
+[0:21:13] Solana. So you say like Solana is going
+[0:21:15] to go up, so you you put like I don't
+[0:21:18] know whatever money you want.
+[0:21:20] And if it goes up, you win. If it could
+[0:21:22] go if it goes down, you lost.
+[0:21:26] So basically is that is what what I want
+[0:21:28] to build with Noah.
+[0:21:29] Uh if anyone has another idea, let's
+[0:21:31] just put it in the comments or open the
+[0:21:33] mic and we can do it.
+[0:21:34] Uh but if not, let's continue with that
+[0:21:36] one.
+[0:21:36] I'm going to check chat there is
+[0:21:38] someone.
+[0:21:41] Okay.
+[0:21:41] >> About the idea you just pitched you said
+[0:21:44] right now
+[0:21:45] does Solana want like a prediction
+[0:21:47] markets on Solana for the crypto
+[0:21:50] industry?
+[0:21:53] >> Sorry I I couldn't hear the first part.
+[0:21:55] Can you repeat it again?
+[0:21:57] >> The idea which you told now is it
+[0:21:59] something what Solana wants like a
+[0:22:01] prediction market uh for the
+[0:22:04] cryptocurrencies?
+[0:22:06] Like
+[0:22:08] is it which what you're telling to
+[0:22:10] build?
+[0:22:12] >> No no no.
+[0:22:12] >> I I mean that that that's that's my I
+[0:22:15] mean this this is my like we're doing a
+[0:22:17] demo for today. So basically my idea is
+[0:22:20] to build a prediction market. It's not
+[0:22:22] necessarily to that that you need to do
+[0:22:24] this for the hackathon. You just
+[0:22:27] it's it's my idea.
+[0:22:30] But I mean prediction markets are like
+[0:22:31] really common.
+[0:22:33] I I really encourage you to to build
+[0:22:36] like something on top of a problem.
+[0:22:39] So yeah, I mean if you're doing
+[0:22:40] prediction markets, then that's great,
+[0:22:42] but
+[0:22:43] you have to look for a problem and that
+[0:22:45] stuff. Today I'm just like executing
+[0:22:48] so we can see like
+[0:22:50] how No AI works, but I'm not doing like
+[0:22:53] too much research on the products
+[0:22:54] product side because that's not the idea
+[0:22:56] for today.
+[0:22:57] But actually I'll do like some UX and UI
+[0:23:00] research.
+[0:23:02] So yeah, that's it. You don't need to
+[0:23:04] build this and I mean
+[0:23:07] yeah, you you you're free to
+[0:23:10] to to build
+[0:23:12] like whatever project for the hackathon.
+[0:23:14] There's no like
+[0:23:15] limit on that.
+[0:23:18] >> What is No AI providing us?
+[0:23:21] >> No AI provide us a is I mean No AI is
+[0:23:25] literally like having
+[0:23:28] ChatGPT or Claude.
+[0:23:29] But it's like
+[0:23:31] a simpler platform to launch your DApp
+[0:23:35] in minutes. So basically No AI what it
+[0:23:38] does is
+[0:23:41] getting [clears throat] all the tools
+[0:23:42] together in one in one in one
+[0:23:45] website or application.
+[0:23:47] >> Does No AI have a collaboration with
+[0:23:50] Solana this Solana?
+[0:23:53] >> I I think they they they they
+[0:23:55] collaborate with Solana.
+[0:24:01] >> But we can we can take all your question
+[0:24:02] at the end because we we need to
+[0:24:06] >> I'll be getting the access to No AI or
+[0:24:08] is it free for all?
+[0:24:11] >> It's like you have to apply it for
+[0:24:13] credits there.
+[0:24:15] But we're going to reply to all your
+[0:24:17] question at the end because we need to
+[0:24:21] >> Yes yes.
+[0:24:21] >> do the workshop.
+[0:24:23] >> Can you please put the details about how
+[0:24:26] how access to No
+[0:24:27] >> already
+[0:24:28] on the on the chats.
+[0:24:31] >> Okay.
+[0:24:33] Thank you.
+[0:24:34] >> Sorry.
+[0:24:36] I have a question.
+[0:24:38] >> Uh we are taking question at the end
+[0:24:41] because otherwise it's interrupting
+[0:24:43] everything.
+[0:24:45] >> Um
+[0:24:46] the the hackathon require entries to be
+[0:24:49] be with Noah.
+[0:24:51] >> No no but um could you please ask your
+[0:24:55] question on the chat I will reply or
+[0:24:57] whatever because like there is too many
+[0:24:59] people who are
+[0:25:01] asking things
+[0:25:02] um and it's better to reply at the end.
+[0:25:04] Thank you.
+[0:25:07] >> Um
+[0:25:08] uh
+[0:25:09] if a team use Noah the the generated
+[0:25:13] code
+[0:25:14] belong to the
+[0:25:19] >> Go ahead Santiago.
+[0:25:21] >> Okay.
+[0:25:23] Uh okay so
+[0:25:24] yeah just to clarify
+[0:25:26] yes I mean what Noah AI give us is a
+[0:25:31] full platform where we can build things
+[0:25:33] on Solana.
+[0:25:34] Uh
+[0:25:35] about the question you did before it's
+[0:25:37] like
+[0:25:38] uh I don't I don't know pretty sure if
+[0:25:40] they have like an official partner with
+[0:25:41] Solana but obviously it's like like the
+[0:25:43] main idea is to build uh
+[0:25:45] like the main focus of Noah AI is to
+[0:25:47] build on Solana. So yeah there here you
+[0:25:50] can see they they they have also Dutch
+[0:25:52] OS so yeah that's it. Uh so here in Noah
+[0:25:56] we have like several like modes of
+[0:25:59] building so we can build the full stack
+[0:26:01] dapps or you're building like a web
+[0:26:03] application
+[0:26:04] uh this is the way to go.
+[0:26:06] Uh if you just want to build your Solana
+[0:26:07] program because you have your front end
+[0:26:10] and back end in another um
+[0:26:12] platform that's great.
+[0:26:14] If you want to build mobile you can do
+[0:26:16] it uh
+[0:26:21] Okay this is exclusive for the highest
+[0:26:23] plan
+[0:26:24] uh the mobile one.
+[0:26:26] If you want to build games then you can
+[0:26:28] do it and also documents.
+[0:26:30] Uh this is more like for yeah like for
+[0:26:33] slides and that stuff. So that's it.
+[0:26:37] Um so let's continue.
+[0:26:40] Okay so uh
+[0:26:48] so
+[0:26:52] yeah we want to build a prediction
+[0:26:53] market so
+[0:26:55] today
+[0:26:58] what I'm doing right now is like doing
+[0:27:00] the planning phase so I'm giving context
+[0:27:02] to ChatGPT so he'll help me to build a
+[0:27:04] .md file and we can start building with
+[0:27:07] Noah so we can optimize like the credits
+[0:27:09] with we're using. So yeah basically
+[0:27:11] that's it. If you want to do everything
+[0:27:13] on Noah that's great but I encourage you
+[0:27:16] to to to do it in another platform
+[0:27:19] because it's like way more efficient.
+[0:27:21] So uh today I want to
+[0:27:42] so when you're doing like this prompt
+[0:27:44] you got to think
+[0:27:45] first like the requirements. So you you
+[0:27:49] got to think about your public. Is your
+[0:27:51] public crypto native? Is your public
+[0:27:53] something that doesn't know nothing
+[0:27:55] about crypto or blockchain?
+[0:27:57] Um
+[0:27:59] so yeah in this case I'll try to do this
+[0:28:01] prediction market for people that don't
+[0:28:03] know everything don't know nothing about
+[0:28:05] uh crypto or blockchain or whatever. So
+[0:28:08] we are not going to use like technical
+[0:28:10] jargon just like up or down buy or sell
+[0:28:13] and that's it.
+[0:28:15] So it needs to be for
+[0:28:18] non
+[0:28:19] crypto consumers.
+[0:28:22] So we got to
+[0:28:25] do it
+[0:28:26] real soon.
+[0:28:30] Um
+[0:28:31] let's see what what's to do.
+[0:28:35] Um
+[0:28:37] And that's it.
+[0:28:39] I mean, you can do like if you want to
+[0:28:42] be more specific that it'd be great, but
+[0:28:45] uh you can also encourage him to ask you
+[0:28:47] things, so.
+[0:29:15] So uh what it says is like uh he would
+[0:29:18] approach it as a consumer first
+[0:29:20] prediction app. So basically
+[0:29:22] like
+[0:29:24] building it so simple that it will feel
+[0:29:26] like a gambling application
+[0:29:29] and not a prediction like not prediction
+[0:29:31] markets as well, but in the end like
+[0:29:35] behind it is like basically the same
+[0:29:36] because there's like
+[0:29:38] like programs running
+[0:29:40] uh
+[0:29:41] behind it. So uh the user should be able
+[0:29:44] to open the app
+[0:29:46] and you show
+[0:29:48] and here uh
+[0:29:49] it recommends what he'll
+[0:29:52] he would
+[0:29:54] dice. So basically it'd be two choices
+[0:29:56] up or down, two minute rounds, simple
+[0:29:58] onboarding with embedded wallets, uh a
+[0:30:01] dollar denominated interface because
+[0:30:03] it's like the the most common currency
+[0:30:05] at least in the Americas,
+[0:30:07] um instant results and mobile first
+[0:30:10] design.
+[0:30:12] So
+[0:30:14] it also built like a an idea of how it
+[0:30:16] would seem.
+[0:30:18] So you just put up or down and your
+[0:30:21] prediction amount and the potential
+[0:30:23] return. So if you win it you will say
+[0:30:26] like you would win
+[0:30:28] uh $10 or you will last
+[0:30:31] like the the $5 you you bet.
+[0:30:35] So um
+[0:30:37] yes, it.
+[0:30:38] So
+[0:30:40] here I have
+[0:30:41] a markdown file.
+[0:30:44] We can open it and this is
+[0:30:47] I always say that this is like the most
+[0:30:48] important part because when your wife
+[0:30:50] coding
+[0:30:52] if you just give a slop to your AI then
+[0:30:55] you just build like you
+[0:30:57] you'll be building more slop so we don't
+[0:31:00] want slop because you know it's like
+[0:31:03] really I don't like it and when you see
+[0:31:05] like a lot of a lot of dashes and that
+[0:31:08] stuff
+[0:31:10] this is not like quality products. So I
+[0:31:13] really prefer to spend time
+[0:31:15] on thinking about the like the product
+[0:31:18] part and then the executor will do
+[0:31:21] whatever we tell them. So yeah that's
+[0:31:23] it.
+[0:31:25] So yeah
+[0:31:26] here we have our down product
+[0:31:28] specification
+[0:31:30] instructions for no AI so build a
+[0:31:32] function in responsive MVP not just a
+[0:31:34] landing page
+[0:31:35] start with similar credits and at
+[0:31:37] deterministic mark market fit.
+[0:31:40] Then integrate a real sol USD price fit
+[0:31:44] to the service site adapter.
+[0:31:46] So you see here he he's talking about
+[0:31:48] product but also technical the technical
+[0:31:51] side
+[0:31:52] that's it we have a product vision
+[0:31:55] predict where Solana goes next find out
+[0:31:57] in two minutes.
+[0:31:59] Target audiences
+[0:32:01] mobile first consumers who are familiar
+[0:32:03] with crypto adults interested in shared
+[0:32:05] interactive trading experiences and
+[0:32:07] users who prefer a familiar account and
+[0:32:09] simple dollar style amounts over wallets
+[0:32:11] and token balances.
+[0:32:14] The design principles which is like yeah
+[0:32:17] really
+[0:32:19] great UX for non-crypto
+[0:32:21] native users
+[0:32:22] the issues decisions and assumptions
+[0:32:24] this is a really important part you
+[0:32:26] should check every time you're doing
+[0:32:27] this because
+[0:32:30] if there's an assumption and it's not
+[0:32:32] like accurate then the the product will
+[0:32:35] be built with a bad assumption
+[0:32:38] and then you have to
+[0:32:41] to redo it and
+[0:32:42] like
+[0:32:43] for this kind of life coding, the most
+[0:32:46] recommended thing is that you spend like
+[0:32:50] mail like
+[0:32:51] 50% of time
+[0:32:53] planning it
+[0:32:54] and the other 50
+[0:32:56] executing.
+[0:32:57] But
+[0:32:58] that you like it's idea that you try to
+[0:33:01] to
+[0:33:03] to do everything
+[0:33:04] in the first like in the first two to
+[0:33:07] three prompts
+[0:33:08] because if not you will start losing
+[0:33:10] context. So the idea is this is this
+[0:33:12] document this data MD document is really
+[0:33:15] accurate
+[0:33:16] and then you'll do
+[0:33:18] the execution which should be great if
+[0:33:21] you
+[0:33:22] if you like did
+[0:33:24] this and like
+[0:33:26] the other prompts I was talking about
+[0:33:27] would be like if you want to change
+[0:33:29] something in the front end and not like
+[0:33:31] technical stuff because
+[0:33:33] then you have to build on top of that or
+[0:33:35] even change for instance the programs
+[0:33:38] which is not ideal.
+[0:33:39] Uh so yeah.
+[0:33:41] >> Uh they're asking like for the link uh
+[0:33:43] of the prompt.
+[0:33:46] >> Link of the prompt.
+[0:33:48] Uh
+[0:33:49] I mean
+[0:33:50] this is like a prompt.
+[0:33:52] >> Like or maybe just to the chats
+[0:33:54] like sharing.
+[0:33:55] >> Yeah I'll write the chat.
+[0:33:58] Okay.
+[0:34:01] Okay. So this was my first prompt
+[0:34:05] but we're kind of building a prompt for
+[0:34:08] Noah AI.
+[0:34:09] So basically this was my prompt to
+[0:34:10] ChatGPT and then I'm saying I'm going to
+[0:34:12] send you the data MD file which is like
+[0:34:15] the official prompt for Noah AI which is
+[0:34:18] the one building.
+[0:34:20] Um these are the proposed defaults not
+[0:34:22] confirmed founder requirements.
+[0:34:25] Um
+[0:34:28] okay core interface it's great.
+[0:34:31] Require UI states.
+[0:34:35] Visual direction market rules and
+[0:34:38] settlement that's it.
+[0:34:40] Amazing.
+[0:34:43] Data model,
+[0:34:45] uh AP API contract,
+[0:34:49] worked on reliability.
+[0:34:52] And yeah.
+[0:34:54] Okay.
+[0:34:55] So
+[0:34:56] uh
+[0:34:57] when you're building your product,
+[0:34:59] uh just remember to check every single
+[0:35:02] part
+[0:35:03] so
+[0:35:05] that you when you start building, it
+[0:35:07] will be like a faster development
+[0:35:09] because you like the the AI know like
+[0:35:12] what
+[0:35:13] it needs to be achieved and and they are
+[0:35:16] like really good at at achieving goals.
+[0:35:19] So if you put like goals and a really
+[0:35:21] great description,
+[0:35:22] they they are going to to do like a
+[0:35:24] really great job.
+[0:35:26] So we have now our official like
+[0:35:29] prompt for I'm going to share it in the
+[0:35:32] in the chat.
+[0:35:34] So this is a like our official prompt.
+[0:35:54] Here we have it. So we're going to
+[0:35:57] enter Noah
+[0:35:59] and then for this I will do a full stack
+[0:36:04] dab of
+[0:36:06] I didn't confirm.
+[0:36:12] Yeah.
+[0:36:13] So it also gives me like a prompt to um
+[0:36:17] describe the document.
+[0:36:19] So we're going to
+[0:36:24] paste this here and
+[0:36:26] then just
+[0:36:30] pasting this.
+[0:36:40] And there you go.
+[0:36:42] So um
+[0:36:45] you like you paste the prompt.
+[0:36:47] And why I will start uh
+[0:36:50] doing everything.
+[0:36:51] They will do like some validations.
+[0:36:55] And uh
+[0:37:01] says
+[0:37:02] workspace was paused
+[0:37:04] then I
+[0:37:07] resumed it.
+[0:37:09] Uh
+[0:37:10] okay.
+[0:37:30] They also have like a like a
+[0:37:33] like a
+[0:37:34] like connectors so you can basically
+[0:37:36] connect your Supabase and like bring
+[0:37:39] your PostgreSQL
+[0:37:41] database. Uh they edge functions and
+[0:37:43] also the S3 cloud file search.
+[0:37:47] Uh but let me see.
+[0:37:55] Yeah this is like your sandbox so you
+[0:37:57] can test here but
+[0:38:00] I think
+[0:38:01] it didn't the prompt didn't
+[0:38:05] get into to the chat.
+[0:38:07] So I'm going to just type it.
+[0:38:34] So we're going to enable it.
+[0:39:07] >> which authorize Noah AI so they can
+[0:39:10] build like projects
+[0:39:12] and and do the
+[0:39:15] like a Superbase project so we are going
+[0:39:17] to create one.
+[0:39:19] Noah test
+[0:39:22] type the database password. I'm just
+[0:39:24] going to use this one.
+[0:39:25] No, I need to change it.
+[0:39:28] Uh
+[0:39:28] but this is not like a
+[0:39:32] this is not like a
+[0:39:34] important uh database password because
+[0:39:36] I'm this is just testing. I'm going to
+[0:39:39] delete it. But when you put your
+[0:39:41] database password, please be careful
+[0:39:45] and use like a really strong password. I
+[0:39:47] always encourage people to to use like
+[0:39:50] um
+[0:39:51] generated passwords. This is like more a
+[0:39:53] cybersecurity thing but
+[0:39:55] uh I also like that side.
+[0:39:57] Uh so yeah, we are going to create a new
+[0:39:59] project with
+[0:40:05] Yes, save.
+[0:40:10] You can just select and connect the
+[0:40:12] Superbase project.
+[0:40:14] So um we can go back to Noah AI linked
+[0:40:17] successfully.
+[0:40:19] I already enabled the cloud.
+[0:40:23] Uh
+[0:40:27] so
+[0:40:29] it's not working so we'll see what's
+[0:40:31] going on.
+[0:40:40] Superbase is necessary or I can use my
+[0:40:41] own TV provider. You can use whatever TV
+[0:40:43] provider.
+[0:40:45] Uh this is just like an example of
+[0:40:47] how you can do it like faster because
+[0:40:49] you know it's like just clicking
+[0:40:50] buttons. But yeah, you can use whatever
+[0:40:52] other uh tool.
+[0:40:59] So we're going to
+[0:41:02] place Noah here and
+[0:41:05] wait for it.
+[0:41:27] For instance, you can also publish it
+[0:41:29] into Netlify or Vercel just by clicking.
+[0:41:32] This is amazing because
+[0:41:34] uh it's like way faster. You can make a
+[0:41:37] repository.
+[0:41:38] You can launch a token
+[0:41:40] that's if you want like to
+[0:41:43] to launch a token like a like whatever
+[0:41:46] token on this network.
+[0:41:48] Uh
+[0:41:50] I mean I I don't know how
+[0:41:53] you would use this, but
+[0:41:54] there's like a fit for your product,
+[0:41:56] then use it because amazing.
+[0:41:59] Um
+[0:42:13] Okay, so we're checking what's breaking
+[0:42:15] the preview.
+[0:42:17] Um
+[0:42:20] here. Oh, we also have this like view
+[0:42:22] for the database. So you'll be able to
+[0:42:25] see all your users,
+[0:42:27] the storage used, the edge functions,
+[0:42:29] and the secrets.
+[0:42:31] Um
+[0:42:34] so let's wait and see
+[0:42:36] what Noah is doing.
+[0:42:38] Uh you can also change here like the
+[0:42:40] model. You can use
+[0:42:42] OpenAI models and Entropic ones and I
+[0:42:45] think they also have
+[0:42:47] this Ultra which I don't know like
+[0:42:48] specifically
+[0:42:50] which model it is, but going to
+[0:42:53] check it out.
+[0:42:54] Try no other AI.
+[0:42:57] So there's ultra,
+[0:43:00] which is for highest quality,
+[0:43:02] highest quality for complex
+[0:43:05] at premium cost,
+[0:43:06] core
+[0:43:08] and Fable and GPT-6 Astra.
+[0:43:11] So um
+[0:43:14] yeah, that's like the most we have here.
+[0:43:17] Um
+[0:43:18] I mean
+[0:43:20] there are like really strong
+[0:43:21] models
+[0:43:23] and yeah, I mean if you can use Fable or
+[0:43:26] GPT-6 Astra, they are like
+[0:43:28] frontier models.
+[0:43:30] Uh really great. So yeah, this is
+[0:43:32] amazing to have like these models here.
+[0:43:34] Um
+[0:43:37] so let's see if it
+[0:43:38] finished yet.
+[0:43:41] No, it's still thinking.
+[0:43:44] Okay, so yeah, we will keep expanding.
+[0:43:47] Um
+[0:43:50] what else? Okay. So
+[0:43:52] okay, this is not this is not available
+[0:43:54] yet, but in I think
+[0:43:57] in some time they'll let you bring your
+[0:44:00] Figma
+[0:44:01] mockups and you just turn it into code
+[0:44:03] like
+[0:44:04] in
+[0:44:06] in one prompt. That's amazing. You can
+[0:44:08] use app themes. So you have like a
+[0:44:11] design guide style.
+[0:44:13] That's amazing because
+[0:44:15] it won't be like
+[0:44:17] like
+[0:44:18] I call it UI slop because you know,
+[0:44:20] always the the AI generate code
+[0:44:23] for a UI is like always the same.
+[0:44:25] And you know when it's built by an AI
+[0:44:28] tool. So if you have like your own style
+[0:44:30] and it doesn't seem like something that
+[0:44:32] was
+[0:44:33] by coded, it's amazing because you have
+[0:44:35] like your a strong identity and that's
+[0:44:38] also great.
+[0:44:40] Uh you can scan a website. So basically
+[0:44:42] you can say like I want to clone uh
+[0:44:45] pump.fun.
+[0:44:46] Uh you just paste the the link here. You
+[0:44:49] just put pump.fun
+[0:44:51] under you
+[0:44:53] you got put the whole
+[0:44:56] link and you can do
+[0:44:59] And this case we won't do it because
+[0:45:00] we're doing the prediction market.
+[0:45:03] Um
+[0:45:06] you can see all the projects. In this
+[0:45:07] case we have the Solana price
+[0:45:08] prediction.
+[0:45:10] Uh all the hackathons.
+[0:45:12] Uh
+[0:45:13] so actually this is like Noia is hosting
+[0:45:15] hackathons so that you can you can do
+[0:45:17] like
+[0:45:19] uh
+[0:45:19] their hackathons.
+[0:45:21] There is this Noia ID which is like uh
+[0:45:24] like for claiming it in X and I think
+[0:45:27] they have like some points.
+[0:45:29] There is like quests.
+[0:45:31] So it's like connecting your accounts uh
+[0:45:34] and doing some other stuff like
+[0:45:35] following Noia AI
+[0:45:38] uh following the founder and yeah.
+[0:45:41] And you have this quest which is a build
+[0:45:44] and deploy a website so
+[0:45:46] that's amazing because we are that's
+[0:45:48] what we're going to do today.
+[0:45:50] Uh then we have the design system. You
+[0:45:53] can
+[0:45:54] this is amazing because you can like
+[0:45:56] uh set every color uh
+[0:46:00] and yeah.
+[0:46:02] If you're a designer then you'll love
+[0:46:04] this like this uh
+[0:46:07] section because
+[0:46:08] uh
+[0:46:09] the
+[0:46:10] the like the project will be achieve
+[0:46:13] like the project will have like a strong
+[0:46:15] identity.
+[0:46:16] Um
+[0:46:27] okay so we're waiting so in the
+[0:46:28] meanwhile I can answer some questions
+[0:46:30] from the chat.
+[0:46:32] Uh
+[0:46:33] okay so let's see.
+[0:46:35] Wow which says
+[0:46:37] the core strength of Noia. So I think
+[0:46:40] the core strength be like
+[0:46:43] it's real simple to use.
+[0:46:46] Uh there's no like
+[0:46:49] developing or programming. It's like
+[0:46:51] lovable like little lovable for Solana.
+[0:46:55] And this is like the core strength that
+[0:46:57] you don't need to know nothing about
+[0:46:59] coding and nothing about Solana and you
+[0:47:02] can just build something.
+[0:47:05] Um
+[0:47:15] Yeah, when when when you build the the
+[0:47:18] the Solana program, you can like
+[0:47:20] export everything. They have like deploy
+[0:47:22] section, so you you'll see that.
+[0:47:24] Um
+[0:47:26] I think today we are not we are not
+[0:47:28] doing any programs because it will take
+[0:47:30] like a lot of time.
+[0:47:32] But uh
+[0:47:34] yeah, I mean
+[0:47:35] there is this this is specific section
+[0:47:38] where you can build the Solana program.
+[0:47:41] Uh
+[0:47:42] I'll see
+[0:47:44] this building
+[0:47:45] because I don't remember if it was
+[0:47:47] just marked or not.
+[0:47:50] Um
+[0:47:58] Okay.
+[0:48:01] Yes, we we got we got to wait. Hasn't
+[0:48:03] finished.
+[0:48:04] Uh it can take a little bit of time
+[0:48:05] because you know it's like building a
+[0:48:07] full stack application
+[0:48:09] uh and that's that's like what it takes.
+[0:48:14] Um
+[0:48:16] And then also when it's like writing the
+[0:48:18] code
+[0:48:19] you're not able to check
+[0:48:21] to check it. So yeah, you just got to
+[0:48:23] wait until finish it.
+[0:48:26] Um what else can we do here in the
+[0:48:29] Solana
+[0:48:30] in the new AI?
+[0:48:31] Yeah.
+[0:48:32] Um recent projects, templates. Okay, so
+[0:48:37] this template thing is it's great. I
+[0:48:39] like it because
+[0:48:41] I I mean if you have like an idea where
+[0:48:43] you're going to focus like in a specific
+[0:48:45] market, you could just like use template
+[0:48:48] uh
+[0:48:49] and bring like your own identity. But
+[0:48:51] you already have like a template, so
+[0:48:53] yeah, it's like you don't need to build
+[0:48:54] like all the stuff. You just need to
+[0:48:56] build like
+[0:48:57] your identity and like the
+[0:49:00] use cases.
+[0:49:01] And that's it.
+[0:49:03] Um.
+[0:49:09] Yeah, we got a patient because
+[0:49:20] it keeps right code.
+[0:49:32] So yeah, let's keep
+[0:49:34] checking Noah AI and all its sections.
+[0:49:38] Um.
+[0:49:41] Well, you can see it like the credits
+[0:49:42] you've wasted here.
+[0:49:45] The billing and documentation, my
+[0:49:46] tokens.
+[0:49:50] This was what I was telling you about.
+[0:49:52] You can just launch token on
+[0:49:54] on
+[0:49:57] Um.
+[0:50:00] So basically you just can
+[0:50:03] the ticker uh
+[0:50:04] token name
+[0:50:08] Name ticker will be SNT.
+[0:50:11] Uh token description
+[0:50:19] Yeah, let's put name. This is just a
+[0:50:20] random description.
+[0:50:24] Agent name
+[0:50:30] And the token image. Oh, I don't know. I
+[0:50:33] don't have any images here.
+[0:50:35] Uh let's
+[0:50:45] Oh, I need to
+[0:50:47] to connect a
+[0:50:49] wallet. So
+[0:51:01] right
+[0:51:06] There is no
+[0:51:11] Okay.
+[0:51:15] I guess
+[0:51:16] toys man be right.
+[0:51:42] So there we have a wallet.
+[0:51:44] So we just
+[0:51:46] refresh and retry.
+[0:51:49] Save it.
+[0:51:52] Hm.
+[0:51:55] This case
+[0:51:56] I think we are not able to launch the
+[0:51:58] token. I'm going to see why is
+[0:52:00] that but
+[0:52:02] I mean
+[0:52:03] this is not necessary for the hackathon.
+[0:52:04] This is like just like an
+[0:52:06] an on that they have
+[0:52:08] and it just
+[0:52:10] uh
+[0:52:11] finished.
+[0:52:13] So let's see what it built.
+[0:52:59] Yeah, try that.
+[0:53:07] Now it's not that.
+[0:53:17] I'll create a repository so
+[0:53:19] we can have it on our own. So, just
+[0:53:23] connect to GitHub
+[0:53:25] uh
+[0:53:27] use your profile.
+[0:53:32] Uh so authorize
+[0:53:34] we go
+[0:53:37] pass key
+[0:53:41] and
+[0:53:42] let's see.
+[0:53:46] Okay.
+[0:53:49] So, the repository was created I guess.
+[0:53:57] Okay, so we need to create the
+[0:53:59] repository.
+[0:54:05] So, what what I'm doing is like you can
+[0:54:08] export all the code to GitHub and you
+[0:54:10] don't depend just to know what AI so if
+[0:54:13] you want to
+[0:54:14] change to Codex or Cloud Code you then
+[0:54:17] you can just
+[0:54:18] do it because it's on your repo.
+[0:54:21] So, you just clone your repo and you'll
+[0:54:23] see it.
+[0:54:24] Uh
+[0:54:29] it's not working again.
+[0:54:33] Okay.
+[0:54:35] I've wasted like two million tokens.
+[0:54:37] This is like too expensive.
+[0:54:39] Uh
+[0:54:40] I'm going to
+[0:54:41] chat and
+[0:54:46] let's check the code so we can see which
+[0:54:52] >> Is Is it better Is it because sorry um
+[0:54:56] some I mean there is still some token
+[0:54:59] but is it enough?
+[0:55:05] >> Let's try
+[0:55:10] Wait.
+[0:55:11] The connection was Oh, I see why.
+[0:55:14] Uh,
+[0:55:15] [clears throat]
+[0:55:18] Okay. Solana I'm going to to need to
+[0:55:23] change my Wi-Fi network because I think
+[0:55:25] it's blocking
+[0:55:26] the the website. So I'll be back in a
+[0:55:28] minute.
+[0:55:29] >> Sure, sure. All good.
+[0:55:34] Um,
+[0:55:36] so I saw
+[0:55:37] a couple of question.
+[0:55:42] >> So am I back?
+[0:55:43] Can you hear me?
+[0:55:44] >> Uh, yes, we can.
+[0:55:46] >> Okay. Let's do it.
+[0:56:00] Okay, that's it.
+[0:56:02] So this is more like a like a demo.
+[0:56:05] But there you can see wheels when I go
+[0:56:07] up, down.
+[0:56:09] And uh you can see like the pricing
+[0:56:12] uh the entries uh Well,
+[0:56:15] this kind of markets uh they they close.
+[0:56:18] So
+[0:56:19] uh once the
+[0:56:20] like the round start starts, you can't
+[0:56:23] enter. So basically if you didn't
+[0:56:26] uh buy a up or down, you can enter.
+[0:56:30] You will will be able to enter whenever
+[0:56:32] the the round is up again. So yeah, for
+[0:56:35] signing in is like
+[0:56:36] uh
+[0:56:38] just your email. So just put here
+[0:56:41] and name.
+[0:56:46] Continue email. So I right now have 100
+[0:56:48] credits.
+[0:56:49] Um,
+[0:56:51] not predictions yet.
+[0:56:54] These markets too closed. So we we'll
+[0:56:56] wait for
+[0:56:58] we'll wait
+[0:56:59] for it
+[0:57:00] when it opens.
+[0:57:02] Uh, obviously this is not the real price
+[0:57:04] uh because Solana is not 143.
+[0:57:08] Uh,
+[0:57:10] but uh
+[0:57:12] we'll going to ask because the first
+[0:57:14] phase as I told you it was just like to
+[0:57:17] build the
+[0:57:18] UI
+[0:57:20] so then um
+[0:57:24] please close
+[0:57:26] okay so right now we can enter so I'm
+[0:57:28] going to I have 18 credits so I'm going
+[0:57:31] to go up with
+[0:57:33] 10 credits
+[0:57:35] and
+[0:57:36] confirm
+[0:57:37] so
+[0:57:38] um
+[0:57:39] right now with 10 credits
+[0:57:42] and entries will close in
+[0:57:46] seven seconds
+[0:57:48] and the round will end
+[0:57:50] soon
+[0:57:58] so if if what I said was correct so if
+[0:58:01] the price goes up then I'll be I'll be
+[0:58:03] winning 18 credits
+[0:58:05] then if not I'll lose it
+[0:58:08] uh so yeah let's see
+[0:58:10] >> Santiago they're asking like on the
+[0:58:12] smart contract parts um how you can how
+[0:58:15] they can build that I know there's like
+[0:58:17] Solana program tab right
+[0:58:18] >> yeah
+[0:58:19] yeah yeah yeah yeah
+[0:58:20] you can just
+[0:58:23] use the Solana program so
+[0:58:29] here in this Solana program you can just
+[0:58:31] build it and I mean
+[0:58:34] uh I don't know I don't know if we have
+[0:58:36] enough time to build the program but um
+[0:58:38] we just gonna
+[0:58:40] >> up to you like maybe a good tool to
+[0:58:42] showcase
+[0:58:42] >> yeah
+[0:58:44] yeah
+[0:59:07] so
+[0:59:09] uh yeah I mean it's also like really
+[0:59:12] recommended that you use like the same
+[0:59:14] context for the program, so everything
+[0:59:16] will match.
+[0:59:18] And there will be like no mismatches
+[0:59:21] between the UI and the
+[0:59:24] and the program.
+[0:59:27] So in this case, I think it's not
+[0:59:29] necessary to build a program because
+[0:59:31] there are like many
+[0:59:33] infrastructures
+[0:59:35] that are doing this right now. But yeah,
+[0:59:37] I mean, if you want to do it custom by
+[0:59:40] your own, then it's also a possibility.
+[0:59:44] We'll wait.
+[0:59:47] I think I'm going to run out of tokens.
+[0:59:50] So if I run out of tokens, we'll
+[1:00:32] Okay, so that's how how you can
+[1:00:35] check it out.
+[1:00:37] Uh for the solar program, there are like
+[1:00:39] other tools. So you have a faucet, you
+[1:00:42] have an audit,
+[1:00:43] and well, also the repository one. So um
+[1:00:47] you can build the whole program here and
+[1:00:49] you just can follow all the
+[1:00:52] all the modules we did uh
+[1:00:54] in the in the classes. So basically, if
+[1:00:57] you want, for instance, to to like build
+[1:01:01] your program and deploy it from your
+[1:01:03] terminal, you can do it using the Solana
+[1:01:05] CLI
+[1:01:06] and Anchor. Um
+[1:01:09] you have faucet, so you just It's like
+[1:01:11] just a link to the Solana faucet. You
+[1:01:13] can just put the address here and then
+[1:01:16] you'll
+[1:01:17] be able to receive Solana
+[1:01:19] for testing.
+[1:01:21] Um,
+[1:01:23] yeah, and that's it.
+[1:01:24] So
+[1:01:27] just I I think there's like a
+[1:01:29] little bug on Noah's
+[1:01:33] front end because
+[1:01:34] it doesn't I'm going to reload it so
+[1:01:36] let's see. That's it.
+[1:01:39] But
+[1:01:40] it's like
+[1:01:41] yeah.
+[1:01:43] You just you got to like re-enter the
+[1:01:45] prompt so
+[1:01:46] it starts working.
+[1:01:51] We're going to see how my bet did
+[1:01:54] perform.
+[1:01:55] Uh, I I actually
+[1:01:58] I I won
+[1:01:59] because I had 100 credits. Now I have
+[1:02:02] 108 credits. That's
+[1:02:04] great.
+[1:02:06] Um,
+[1:02:07] so yeah, that's like like the first part
+[1:02:11] which everything is like simulated.
+[1:02:14] But then you can keep building till it's
+[1:02:16] everything working. So right now we can
+[1:02:18] have for instance a Superbase database
+[1:02:22] and that's amazing.
+[1:02:24] And you can just build the program and
+[1:02:27] integrate it with Noah.
+[1:02:29] Uh, I mean the integration is really
+[1:02:30] simple because it's like really used to
+[1:02:33] to do that.
+[1:02:34] Uh, I'm going to check the questions.
+[1:02:36] Could you show a deploy number or or
+[1:02:37] similar?
+[1:02:38] Yep, I can.
+[1:02:40] Um,
+[1:02:42] so you just have to go to publish
+[1:02:45] and click deploy.
+[1:02:50] Connect Versal connect here.
+[1:02:53] Uh,
+[1:02:54] Noah
+[1:02:56] add integration
+[1:02:58] personal account
+[1:03:06] Um,
+[1:03:07] specific points.
+[1:03:12] I'm just
+[1:03:15] Okay.
+[1:03:35] >> Okay, how to pull a dot MD file on Noah
+[1:03:38] and which you can
+[1:03:40] I I I actually didn't
+[1:03:42] uh
+[1:03:43] like uploaded the file because I think
+[1:03:45] there is no option for that, but you can
+[1:03:47] just paste your prompt and that's it.
+[1:03:50] Um
+[1:03:52] because yeah, I don't see like any
+[1:03:53] option.
+[1:03:54] Uh you can also use this which is visual
+[1:03:56] edit so you can just like click the for
+[1:03:59] instance the footer and tell
+[1:04:01] Noah that you don't like it. So I don't
+[1:04:03] like
+[1:04:05] footer.
+[1:04:07] Please change it.
+[1:04:13] And we'll see how the program is doing.
+[1:04:18] So uh
+[1:04:20] >> Just like someone is asking what is the
+[1:04:23] the IDB on the projects?
+[1:04:25] It's just about betting on a fact.
+[1:04:28] Let's say what you will know is Trump
+[1:04:31] will be elected for the next election.
+[1:04:35] Yes or not. You are like just um betting
+[1:04:39] on on one decision,
+[1:04:42] one option and after you are taking
+[1:04:44] money or not.
+[1:04:46] >> Yep.
+[1:04:48] Uh
+[1:04:49] yeah, that that's the the idea. So uh
+[1:04:53] oh in the problem side
+[1:04:55] uh we have contract deployments where
+[1:04:57] you'll be able to manage all the smart
+[1:04:59] contracts that you deployed across all
+[1:05:01] the networks. So if you're using
+[1:05:03] Tabnet
+[1:05:04] or if you're trying to main it, that's
+[1:05:07] also a possibility. How did you connect
+[1:05:09] your prompt and chat with Noah? I know
+[1:05:11] you also saw you using some additional
+[1:05:13] things.
+[1:05:14] Uh Noah, I'm I'm not I'm just using
+[1:05:16] chat. I just
+[1:05:18] copy to the clipboard and use
+[1:05:21] put
+[1:05:22] That's it.
+[1:05:23] Um,
+[1:05:24] but yeah, I mean, what else did you see?
+[1:05:27] So I can explain you.
+[1:05:29] Um, because yeah, I don't remember using
+[1:05:31] any other tools.
+[1:05:43] >> Um,
+[1:05:44] just like please
+[1:05:46] regarding claiming
+[1:05:49] the AI credits.
+[1:05:52] Just now AI sent me a message like
+[1:05:54] someone is farming. So we actually have
+[1:05:57] two
+[1:05:58] 2000 um
+[1:06:01] answers
+[1:06:02] into the form
+[1:06:04] which is like not great. So please don't
+[1:06:06] do that because anyway we gonna match
+[1:06:10] [laughter]
+[1:06:10] we gonna whitelist the email
+[1:06:13] from the hackathon platform
+[1:06:15] to
+[1:06:16] the Noah AI form. So like the person who
+[1:06:21] who just did that basically I will just
+[1:06:23] exclude this person from the hackathon.
+[1:06:26] So just to let you know don't spam the
+[1:06:29] the form. It's useless.
+[1:06:33] >> Okay.
+[1:06:34] So for the one who was asking about
+[1:06:38] the deployment
+[1:06:39] here we have it so you can just check it
+[1:06:41] up.
+[1:06:44] [snorts]
+[1:06:45] Uh,
+[1:06:47] it's like the like the
+[1:06:50] first phase which is just the UI.
+[1:06:53] But we have right now a deployed
+[1:06:58] like the a deployed interface for your
+[1:07:01] for your like for the project.
+[1:07:02] So that's how you can use Noah for the
+[1:07:05] front end and
+[1:07:06] waiting for Noah to finish the program.
+[1:07:10] Um,
+[1:07:12] so yeah, that's
+[1:07:16] that's basically
+[1:07:18] what you can build with Noah.
+[1:07:22] Um,
+[1:07:23] oh, you can also deploy it here. So you
+[1:07:25] can just deploy the contract.
+[1:07:27] Um,
+[1:07:31] but there we have problem. So that I
+[1:07:33] think there's like a
+[1:07:35] there's some
+[1:07:36] problems with their programs that OAI is
+[1:07:38] building right now, so we just got to
+[1:07:40] wait.
+[1:07:53] Oh, checking it.
+[1:08:51] Okay, I'm checking it.
+[1:08:56] Is there a doc for this AI? Yeah, it I
+[1:08:58] they they have like documentation
+[1:09:01] on AI.
+[1:09:08] So this is the
+[1:09:26] That's
+[1:09:27] documentation. So we can just
+[1:09:30] use it and and check
+[1:09:33] like all the
+[1:09:35] all the features.
+[1:09:36] Um
+[1:09:40] I'll check the program and see if it's
+[1:09:42] developed or not.
+[1:09:44] Um
+[1:09:48] No, it's not.
+[1:09:50] So
+[1:09:51] yeah, I think you will be
+[1:09:54] like you will take more much time.
+[1:09:57] Um
+[1:09:59] I don't know so if we have time for that
+[1:10:01] because like the program is
+[1:10:03] is like
+[1:10:05] a lot.
+[1:10:06] And I think we'll we'll have
+[1:10:09] to to wait like
+[1:10:10] at least 10 minutes.
+[1:10:12] So no, I finished it.
+[1:10:14] So if you want me to
+[1:10:18] to do it, we can do it, but I don't know
+[1:10:19] if we have time.
+[1:10:21] So yeah, just let me know. Um
+[1:10:29] Okay.
+[1:10:30] For the for the
+[1:10:32] feature I told you
+[1:10:34] that is like selecting this, it already
+[1:10:36] changed it. The the footer was
+[1:10:39] um
+[1:10:41] like a plain footer and right now we
+[1:10:42] have like a peel which is like I I I
+[1:10:45] like it.
+[1:10:46] Uh it's like a more usable
+[1:10:49] UI. It's like easier to understand. So
+[1:10:51] yeah.
+[1:10:53] Um
+[1:10:59] Yeah, it keeps lasting a lot.
+[1:11:20] So for using it with your Solana
+[1:11:22] account, you should like do your own
+[1:11:25] repository. So basically here
+[1:11:28] you just your own repository and you
+[1:11:30] like you do the same thing you did for
+[1:11:34] for deploying the programs.
+[1:11:36] So basically you like you clone the
+[1:11:39] the repository on your machine
+[1:11:43] and basically you just um follow the
+[1:11:45] steps to to deploy it which uh which
+[1:11:48] those steps are like
+[1:11:50] like creating the wallet in the your
+[1:11:52] terminal
+[1:11:53] and simply like deploying it.
+[1:11:55] Um
+[1:11:56] but I think Noah is
+[1:11:59] yeah.
+[1:12:06] Back to dashboard.
+[1:12:36] Okay, thank you Tevo. But now how is it
+[1:12:39] the cards on the project because we use
+[1:12:41] ChatGPT and Noah AI? How is it
+[1:12:43] connected? So I mean
+[1:12:46] they are not connected.
+[1:12:48] I'm just using one tool.
+[1:12:51] Uh I'm just using ChatGPT
+[1:12:53] uh
+[1:12:54] getting the prompt and pasting it into
+[1:12:56] Noah AI.
+[1:12:57] Uh so basically all the
+[1:13:00] all the stuff being built on Solana
+[1:13:03] is on
+[1:13:06] on Noah AI.
+[1:13:08] So yeah, I mean Noah AI handles the
+[1:13:10] program, the front end and also if you
+[1:13:12] want the back end.
+[1:13:14] Uh but we got to wait because it's
+[1:13:17] um it's lasting a lot. I don't know.
+[1:13:20] There's a problem with their servers or
+[1:13:21] something because
+[1:13:23] it's not showing even the
+[1:13:26] chat history.
+[1:13:45] >> I'm also loan credits.
+[1:13:47] As you can see, you you got to see how
+[1:13:49] you
+[1:13:50] you manage your tokens because I'm
+[1:13:52] wasting a lot of tokens.
+[1:13:54] Uh
+[1:13:56] So yeah, it's like
+[1:13:59] use it in why I just for building and
+[1:14:02] for thinking I mean for for planning
+[1:14:05] just use
+[1:14:07] any other tool
+[1:14:08] because it's real expensive.
+[1:14:13] Uh
+[1:14:15] No, I taught but it's not giving me
+[1:14:17] giving me an answer. So that's weird.
+[1:14:21] Uh
+[1:14:27] After the dot md file, what is next
+[1:14:30] step? So after the dot md file, the next
+[1:14:32] step is just
+[1:14:34] you need to
+[1:14:37] get in the dashboard and just paste your
+[1:14:38] prompt.
+[1:14:40] First, you got to select
+[1:14:42] the sections of your
+[1:14:44] You choose prompt, you're doing like
+[1:14:46] full application and just just
+[1:14:49] full application. You paste the prompt
+[1:14:51] and you just
+[1:14:52] enter it and you'll start uh
+[1:14:56] like building
+[1:14:58] like we did for the
+[1:15:01] So um
+[1:15:04] here we have this this one.
+[1:15:06] Uh
+[1:15:07] previous running. So yeah,
+[1:15:11] Yeah, the the thing we we know is that
+[1:15:13] you can like if you
+[1:15:15] don't
+[1:15:17] keep testing, it will be like resumed.
+[1:15:19] So it will be like stop the the server.
+[1:15:22] So um yeah, when testing and that stuff,
+[1:15:25] you you got to be careful because
+[1:15:28] you can like
+[1:15:30] uh
+[1:15:31] like the the server will be
+[1:15:33] um
+[1:15:35] will shut down.
+[1:15:37] Um
+[1:15:42] So yeah, I I I think
+[1:15:44] that's it. Uh
+[1:15:46] I really wanted that
+[1:15:48] the program worked, but I think
+[1:15:50] it's not working.
+[1:15:51] Oh, I see like new stuff.
+[1:15:54] Let's check it out.
+[1:15:56] No.
+[1:16:00] It's the same.
+[1:16:02] Uh
+[1:16:05] Well, for for the deployment, which is
+[1:16:07] the part that was more interested in,
+[1:16:10] uh
+[1:16:11] you can just
+[1:16:13] Okay.
+[1:16:14] There we go.
+[1:16:15] It you know
+[1:16:18] Somehow it worked. I don't know. Uh I'm
+[1:16:21] I I think
+[1:16:23] this is outdated. I'm going to refresh
+[1:16:25] it because it's pretty weird.
+[1:16:28] Uh
+[1:16:46] Yeah.
+[1:16:47] So the deploy was already done.
+[1:16:49] Um
+[1:16:51] we can check it out here.
+[1:16:52] I'm going to open toll scan so we can
+[1:16:55] check it out.
+[1:17:00] Uh
+[1:17:00] for one that was asking about the IDL,
+[1:17:03] here we have it. Uh we have the keeper
+[1:17:05] here. So if you need the keeper and you
+[1:17:07] want to to test locally, you can just
+[1:17:10] download the keeper. You got to be
+[1:17:12] careful because this keeper is the one
+[1:17:14] that is like the the administrator for
+[1:17:16] the program ID, so yeah.
+[1:17:18] Um
+[1:17:23] So um yeah.
+[1:17:26] Once you click here, you can select
+[1:17:28] mainnet or devnet
+[1:17:31] uh
+[1:17:32] and click deploy.
+[1:17:34] So it's deploying via remote server and
+[1:17:37] it'll be like deployed and I think we'll
+[1:17:39] be able to check it here. This is
+[1:17:45] go
+[1:17:46] and it doesn't appear because it hasn't
+[1:17:49] been deployed yet.
+[1:17:54] I think there's missing fonts
+[1:17:58] um but I think it's on their server
+[1:18:00] because it's not on my address.
+[1:18:02] Uh so yeah
+[1:18:09] You can just quick fix with AI but I but
+[1:18:12] I don't know how what AI will fix the
+[1:18:16] the font like the insufficient fonts
+[1:18:18] thing.
+[1:18:19] Um
+[1:18:21] Oh
+[1:18:23] Okay.
+[1:18:24] Um I'm just going to check my
+[1:18:26] talisman wad.
+[1:18:33] It says it should work but I'm not
+[1:18:35] pretty sure about that.
+[1:18:57] I don't think it's my account but anyway
+[1:18:59] I will just try it.
+[1:19:14] Um
+[1:19:17] We have it. Let's check the
+[1:19:26] It's not the same count.
+[1:19:29] Um
+[1:19:31] but we can just
+[1:19:33] Yep.
+[1:19:34] We can just use the faucet and simply
+[1:19:37] airdrop some So yeah.
+[1:19:42] the amount be
+[1:19:43] two point five.
+[1:19:45] So we'll confirm we'll confirm the
+[1:19:46] airdrop
+[1:19:48] to the the plot for confirmation.
+[1:19:52] Uh which way
+[1:19:54] it dropped successfully so
+[1:19:57] I think should work now.
+[1:20:06] So it should deploy now.
+[1:20:08] Uh yeah that's it. You just got to add
+[1:20:10] some
+[1:20:12] some soul
+[1:20:14] from the faucet.
+[1:20:16] Um
+[1:20:18] just got to wait
+[1:20:20] and it's now deployed. So this is the
+[1:20:22] contract address. We just paste it and
+[1:20:24] we have also the transaction transaction
+[1:20:27] hash
+[1:20:28] hash. So here we have the contract
+[1:20:31] um
+[1:20:34] we have the fees. Uh we have the program
+[1:20:36] ID
+[1:20:38] it's not public so yeah it's not able
+[1:20:41] for everyone.
+[1:20:43] Uh
+[1:20:43] so yeah that's it. That's how you deploy
+[1:20:45] a program. Uh also using Noah AI. I
+[1:20:49] think this is not the actual program
+[1:20:50] that we were looking for. We just
+[1:20:53] like deploy the
+[1:20:55] the
+[1:20:56] basic program they have
+[1:20:58] uh but yeah it's just like asking
+[1:21:02] like Noah to to to keep building. In
+[1:21:04] this case I won't be able to build like
+[1:21:07] the whole program because I don't have
+[1:21:09] like
+[1:21:10] enough credits for building the program
+[1:21:12] but uh
+[1:21:14] yeah that's how you do it. It's just
+[1:21:15] like adding more prompts like asking it
+[1:21:18] asking Noah to to build
+[1:21:20] the whole program.
+[1:21:22] Um
+[1:21:22] so yeah I mean that that that's it.
+[1:21:24] That's how you
+[1:21:25] do it and whenever you have like the
+[1:21:27] program ID
+[1:21:29] you just got to paste it into the front
+[1:21:32] end and it will it will be like
+[1:21:34] integrated with it. In this case this is
+[1:21:36] not like the actual program that will
+[1:21:39] like that would fit with the front end
+[1:21:41] so we won't be connecting it.
+[1:21:43] >> And question so simple. Yeah.
+[1:21:45] >> And question like
+[1:21:46] because I saw that as well.
+[1:21:49] When someone is running out of credits,
+[1:21:52] basically of token, like
+[1:21:55] what
+[1:21:56] they can do? Like if they don't want to
+[1:21:58] buy more,
+[1:22:00] basically
+[1:22:03] like I I know normally they can
+[1:22:06] just to use after a cloud or whatever
+[1:22:11] to make sure they can continue the
+[1:22:12] project, right?
+[1:22:14] >> Yep.
+[1:22:15] So basically what you can do is just
+[1:22:18] use your report like put it into your
+[1:22:20] GitHub repository
+[1:22:22] and then you can just clone it. So
+[1:22:27] So this is the repository.
+[1:22:31] Um
+[1:22:41] So yeah, you can just clone it into your
+[1:22:43] into your machine
+[1:22:45] and
+[1:22:46] and simply like start working on it with
+[1:22:48] whatever other AI tool you want.
+[1:22:52] I think
+[1:22:53] so
+[1:22:54] I don't know if you have any
+[1:22:55] any
+[1:22:57] tutorials for this, but
+[1:22:59] Fabi did like a tutorial for using
+[1:23:02] free AI
+[1:23:04] with open code.
+[1:23:05] So if you want us to share it,
+[1:23:08] we can do it.
+[1:23:09] It's so simple.
+[1:23:11] And yeah, you can just put harness to
+[1:23:14] build with Solana and add some MCPs for
+[1:23:16] context. And it'll be like
+[1:23:18] it will be like easy building and you
+[1:23:21] won't be paying for it
+[1:23:23] because it's really like it's really
+[1:23:25] probable that you run out of tokens in
+[1:23:27] Noah
+[1:23:28] because it's like really expensive and
+[1:23:31] it wastes a lot of tokens.
+[1:23:35] Can we go over the simple steps on the
+[1:23:37] structure to follow? Yep, we can go over
+[1:23:39] it.
+[1:23:39] So
+[1:23:42] this is it.
+[1:23:43] You go into whatever AI tool you you
+[1:23:47] use, Claude, ChatGPT, whatever.
+[1:23:51] Uh this for for planning. So we are
+[1:23:52] planning how we're going to build this.
+[1:23:55] So it's like designing
+[1:23:57] a house before
+[1:23:58] an actual construction. So we design it.
+[1:24:02] Uh so once we design it, we have this
+[1:24:04] .md file which I will call it like
+[1:24:06] like the
+[1:24:08] like the design.
+[1:24:09] So here you you cut up
+[1:24:11] paste it. You you want to copy it.
+[1:24:13] So
+[1:24:16] copy it here.
+[1:24:17] You go into Noah AI. This is the the
+[1:24:20] main like the main page. You paste the
+[1:24:24] the prompt here and you just enter it.
+[1:24:26] So
+[1:24:28] I mean that's it and then Noah AI will
+[1:24:30] start working.
+[1:24:31] Sometimes it can
+[1:24:33] like stay bugged. So you just simple re
+[1:24:37] uh
+[1:24:38] enter the the prompt, but that's it.
+[1:24:41] So yeah. I don't know if anyone has any
+[1:24:43] other questions. Um
+[1:24:46] in this case this is like Noah AI. Um
+[1:24:51] and yeah, be careful with the token with
+[1:24:53] the tokens because they are like
+[1:24:55] really easy to waste.
+[1:25:27] I don't want you
+[1:25:29] at Noah.
+[1:25:31] Uh
+[1:25:32] so I don't know if you want me to answer
+[1:25:33] them or or you can do it.
+[1:25:36] Like they they are like
+[1:25:51] >> Is the front end right is it only is it
+[1:25:53] only front right or the back?
+[1:26:02] So basically Noah is like a great
+[1:26:04] executor so
+[1:26:09] So yeah it's it's like great for for a
+[1:26:13] showcase and a demo
+[1:26:14] and I mean you can you can also build
+[1:26:17] like a full working dab using Noah
+[1:26:20] just that you
+[1:26:21] like you need to
+[1:26:25] I mean you should do like a full
+[1:26:26] implement you should try to do a full
+[1:26:28] implementation I mean if you can do if
+[1:26:30] you can do like programs and also
+[1:26:33] front end
+[1:26:34] that's great because that's like a full
+[1:26:36] product and that's like
+[1:26:38] also something they they
+[1:26:42] like I mean for judging they they
+[1:26:44] probably see
+[1:26:45] like therefore you put on on building
+[1:26:47] great stuff but but yeah I I don't know
+[1:26:50] if if if you have any requirements for a
+[1:26:52] hackathon like like for deploying
+[1:26:54] programs so then
+[1:26:56] if you could clarify on that
+[1:26:58] but yeah I mean that's that's mainly the
+[1:27:01] thing
+[1:27:02] building their front end and connecting
+[1:27:04] it with with the contract.
+[1:27:06] >> Yeah actually like every submission
+[1:27:09] should
+[1:27:11] integrate the Solana program to to be
+[1:27:14] qualified.
+[1:27:15] >> Yep.
+[1:27:16] So
+[1:27:17] you see you need to to to to use Solana
+[1:27:21] program.
+[1:27:22] So basically
+[1:27:24] yeah I mean
+[1:27:26] if you're doing Solana programs you can
+[1:27:27] do it by yourself or you can do it with
+[1:27:29] Noah
+[1:27:30] these are just tools you're not required
+[1:27:32] to do it with with Noah but if you can
+[1:27:35] use it that's great you have like free
+[1:27:37] credits.
+[1:27:40] What other problem can we use aside Noah
+[1:27:43] I mean you can use you can just use
+[1:27:45] ChatGPT or
+[1:27:46] or Codex or Codex or Cloud
+[1:27:50] code. Both of them are great.
+[1:27:52] Um.
+[1:27:54] So yeah.
+[1:27:57] You can use whatever AI
+[1:27:59] and give some context. That's it because
+[1:28:01] mainly of them already understands how
+[1:28:04] to build on Solana.
+[1:28:06] And also if you can like give them the
+[1:28:09] documentation, that's fair enough. I
+[1:28:11] think there's also like MCPs for it, so
+[1:28:14] I I can check for MCPs and and send send
+[1:28:17] the the links through the chat.
+[1:28:19] Uh
+[1:28:20] um okay, so you're asking for my
+[1:28:24] next is it one?
+[1:28:37] So um
+[1:28:39] yeah, I think we're done for today.
+[1:28:42] I'm going to check if there's any
+[1:28:43] question.
+[1:28:51] So someone's asking me if
+[1:28:53] when they submit, is it mandatory to
+[1:28:55] record a demo video?
+[1:28:57] Um I think everything is in I mean
+[1:29:00] like the requirements for submitting are
+[1:29:02] on the platform, so yeah, just check on
+[1:29:05] the platform. I'm pretty sure about
+[1:29:07] that.
+[1:29:07] >> Yeah, on the platform in itself
+[1:29:10] I mean I can I can show be briefly.
+[1:29:13] Uh
+[1:29:15] let me share my screen just a minute and
+[1:29:18] like this
+[1:29:19] that will answer all your question.
+[1:29:21] Um
+[1:29:24] so here
+[1:29:26] here you can enter everything
+[1:29:29] etc etc then continue and at the moment
+[1:29:32] you have like link and video and it's
+[1:29:34] where you have to to do your demo video
+[1:29:37] etc.
+[1:29:41] All right.
+[1:29:43] So I think overall it's all good. Thanks
+[1:29:45] a lot Santiago for this session.
+[1:29:48] I will like if you can send me your
+[1:29:50] slide as well, I will I will add them
+[1:29:53] on the dashboard.
+[1:29:55] And and yeah, perfect. The recording
+[1:29:57] will be available on the dashboard too.
+[1:30:00] Take care, everyone.
+[1:30:01] Thanks again, Santiago.
+[1:30:03] >> See you.
+[1:30:04] >> To just

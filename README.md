@@ -18,11 +18,13 @@ lab/
 │   ├── resumen/
 │   │   ├── 01-product-ideation.md          # Cómo encontrar ideas reales y validarlas (Dev3pack)
 │   │   ├── 02-best-tips-hackathon.md       # Checklist ganador, errores eliminatorios y entrega
-│   │   └── 03-x402-micropagos-solana.md    # Protocolo HTTP 402 para micropagos e IA en Solana
+│   │   ├── 03-x402-micropagos-solana.md    # Protocolo HTTP 402 para micropagos e IA en Solana
+│   │   └── 04-vibecode-solana.md           # Flujo de AI Engineering, Noah AI y requisito on-chain
 │   └── transcripciones/
 │       ├── transcripcion_product_ideation.txt # Transcripción completa con marcas de tiempo
 │       ├── transcripcion_best_tips_hackathon.txt # Transcripción completa con marcas de tiempo
-│       └── transcripcion_x402_solana.txt   # Transcripción completa con marcas de tiempo
+│       ├── transcripcion_x402_solana.txt   # Transcripción completa con marcas de tiempo
+│       └── transcripcion_vibecode_solana.txt # Transcripción completa con marcas de tiempo
 │
 ├── rust bootcamp/                          # Bootcamp oficial de Solana en Español
 │   ├── resumen/
@@ -48,9 +50,11 @@ lab/
 * 💡 **[Ideación de Producto: Cómo encontrar ideas reales](./hackaton/resumen/01-product-ideation.md):** Consejos de los organizadores, validación con proyectos de Colosseum y oportunidades para LATAM/Argentina.
 * 🏆 **[Mejores Consejos para tu Primer Hackathon](./hackaton/resumen/02-best-tips-hackathon.md):** Errores eliminatorios, preparación previa (Devnet/wallets) y checklist de entrega.
 * ⚡ **[Micropagos con x402 en Solana](./hackaton/resumen/03-x402-micropagos-solana.md):** Monetización de APIs, herramientas MCP pagas y pagos autónomos para Agentes de IA.
+* 🤖 **[Vibecoding en Solana](./hackaton/resumen/04-vibecode-solana.md):** Estrategia 50/50 de *AI Engineering*, uso de Noah AI y requisito obligatorio de *Solana Program*.
 * 📄 **[Transcripción - Product Ideation](./hackaton/transcripciones/transcripcion_product_ideation.txt):** Transcripción íntegra en inglés con timestamps.
 * 📄 **[Transcripción - Best Tips for your First Hackathon](./hackaton/transcripciones/transcripcion_best_tips_hackathon.txt):** Transcripción íntegra en inglés con timestamps.
 * 📄 **[Transcripción - x402 Micro-payments on Solana](./hackaton/transcripciones/transcripcion_x402_solana.txt):** Transcripción íntegra en inglés con timestamps.
+* 📄 **[Transcripción - Vibecode your first app on Solana](./hackaton/transcripciones/transcripcion_vibecode_solana.txt):** Transcripción íntegra en inglés con timestamps.
 
 ### 3. Bootcamp de Rust para Solana
 * 📘 **[Resumen Técnico - Sesión 1](./rust%20bootcamp/resumen/01-rust-basics-solana.md):** Variables, mutabilidad, ownership, borrowing, `Option` y `Result`.
