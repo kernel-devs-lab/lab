@@ -14,18 +14,13 @@
 
 ## 1. Resumen ejecutivo
 
-NortePass es una propuesta de plataforma global de emisión, venta, adquisición, transferencia y reventa de entradas digitales para eventos masivos, utilizando Solana como infraestructura blockchain.
+NortePass propone una plataforma global para comprar, transferir, revender y verificar entradas de eventos de alta demanda. El organizador define cómo se distribuyen las entradas, cuántas puede adquirir cada asistente y en qué condiciones se pueden revender. Si una persona ya no puede asistir, podría ofrecer su entrada en el mercado autorizado. El comprador podría verificar su titularidad y vigencia antes de presentarse en el recinto.
 
-El proyecto busca solucionar problemáticas presentes en el ecosistema tradicional del ticketing, especialmente durante eventos de alta demanda, como conciertos internacionales, partidos de fútbol, competencias deportivas y festivales.
+El proyecto combina cuatro objetivos: reducir las esperas durante la venta, distribuir el cupo de manera equitativa, dar al asistente una titularidad digital verificable y ofrecer una reventa con precios y condiciones transparentes. Solana serviría como registro compartido de emisión, transferencias y uso. Las mejoras en tiempos de compra y prevención del acaparamiento deberán medirse en el piloto.
 
-La propuesta se fundamenta en cuatro pilares:
+NortePass podría operar con su propia plataforma o integrarse bajo la marca de una ticketera existente. Jujuy es un posible entorno piloto para evaluar la propuesta con organizadores y asistentes antes de expandirse a otros mercados.
 
-- Velocidad y escalabilidad en la comercialización de entradas.
-- Distribución equitativa y prevención del acaparamiento.
-- Propiedad digital descentralizada de las entradas.
-- Ecosistema de reventa legítima, transparente y segura.
-
-El objetivo no consiste simplemente en incorporar criptomonedas a la venta de entradas, sino en utilizar las capacidades de blockchain para transformar la manera en que las entradas se distribuyen, poseen, comercializan y validan.
+[Leer el resumen corto de NortePass](resumen-nortepass.md)
 
 ## 2. Problemática identificada
 
